@@ -1,0 +1,45 @@
+{
+  "checkedAt": "2026-10-27T13:26:38.577Z",
+  "scene": "reference-storage.blend",
+  "sceneSha256": "dc44890a374cec716c7459352899aa80b0a4c0ed5ee8ba40ef03085c4ff2f262",
+  "userApproved": false,
+  "exactConceptMatch": false,
+  "unrealSceneBuilt": false,
+  "websitePublished": false,
+  "chosenManifestChanged": false,
+  "ownerOrderWritten": false,
+  "inspection": "Assistant visually inspected both Blender renders and the local browser comparison.",
+  "images": [
+    {
+      "file": "reference-storage.png",
+      "sha256": "ebabe9ebf0d5c82db93bde8558f130aadbfc709d58c60da89734694bda866d20"
+    },
+    {
+      "file": "storage-workbench.png",
+      "sha256": "c14592524dc736719151aaef1de28eebc2c563dba122b00c7703236813adfe73"
+    },
+    {
+      "file": "storage-comparison-proof.png",
+      "sha256": "3661332bc7a3998d646780c66cca215a1f400e34e1b9ac55d588fc1881528821"
+    }
+  ],
+  "browser": {
+    "url": "http://127.0.0.1:4282/vergelijking.html",
+    "allTwelveImagesLoaded": true,
+    "deliveryTabId": "21"
+  },
+  "improvements": [
+    "Selected crates placed beside the floor plant and on the table lower shelf.",
+    "Wood/leather stool candidates and Persian rug restore foreground objects.",
+    "Repaired trailing foliage retained; warmer light and darker concrete trial."
+  ],
+  "remaining": [
+    "Table frame and slab thickness differ.",
+    "Cabinet remains an undetailed shape with missing storage cases.",
+    "Plant leaf shapes/species and density differ.",
+    "Stool proportions are adapted and rug pattern differs.",
+    "Motorcycle is too dark; light distribution and reflections differ.",
+    "Wall art, pipes, jacket and small storage props missing.",
+    "Unreal installation, saved level and final review remain open."
+  ]
+}

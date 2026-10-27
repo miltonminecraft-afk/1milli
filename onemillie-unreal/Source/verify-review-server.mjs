@@ -5,6 +5,8 @@ const checks=[];
 for(const [method,url,status] of [['GET','/health',200],['HEAD','/',200],['HEAD','/reference-records.glb',200],
   ['HEAD','/Reference/original-workshop.png',200],['HEAD','/reference-surfaces.png',200],
   ['HEAD','/surfaces-workbench.png',200],['HEAD','/reference-atmosphere.png',200],['HEAD','/atmosphere-verification.json',200],
+  ['HEAD','/reference-storage.png',200],['HEAD','/storage-workbench.png',200],['HEAD','/storage-verification.json',200],
+  ['HEAD','/storage-record-clearance.json',200],['HEAD','/reference-storage.blend',200],
   ['HEAD','/github-source/docs/werkplan.txt',404],['POST','/',405]]){
   const response=await fetch('http://127.0.0.1:4282'+url,{method,signal:AbortSignal.timeout(5000)});
   if(response.status!==status)throw Error(`${method} ${url}: ${response.status}, wanted ${status}`);

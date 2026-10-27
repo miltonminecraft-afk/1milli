@@ -57,11 +57,18 @@ alle gekozen objecten in beeld wanneer dat de referentie-indeling verandert.
 
 HUIDIGE STAND
 - Laatste lokale WERKBESTAND voor vervolgwerk:
-  onemillie-unreal/Review/reference-foliage-clearance.blend (709 meshes).
-  Dit bouwt voort op reference-atmosphere.blend en herstelt de hangende planten.
-  De laatst aan de gebruiker getoonde vergelijkingspagina toont nog de eerdere
-  atmosphere-proef; deze aanvullende herstelstap blijft lokaal tot een volgende
-  inhoudelijke visuele beoordeling. Geen Unreal-scène of goedgekeurde eindomgeving.
+  onemillie-unreal/Review/reference-storage.blend (720 meshes, 136 ingepakte beelden).
+  Dit bouwt voort op reference-foliage-clearance.blend; de plantenreparatie blijft.
+  C2-krat bij de vloerplant, C3 onder de tafel, twee kandidaat-krukken en een
+  kandidaat-kleed toegevoegd. Beton, tafelhout en licht opnieuw afgestemd.
+  Vergelijkingspagina op 127.0.0.1:4282/vergelijking.html toont deze nieuwste proef.
+  Nog duidelijk andere tafel-/kastdetails, plantvormen, krukproporties, kleedpatroon,
+  ontbrekende wand-/opbergdetails en te donkere motor. Geen exacte of goedgekeurde
+  kopie. Geen Unreal-scène; niets als definitieve omgeving op GitHub gepubliceerd.
+  Vervolg: eerst het zware tafelframe, de bladdikte en kaststaanders beter laten
+  aansluiten op het concept met geschikte bestaande brongeometrie. Daarna gericht
+  het warme tafellicht en koel reflecterend achterlicht afstemmen. Behoud de LP-
+  en tafelcontacten en de herstelde planten; niet teruggaan naar de oudere proef.
 - GitHub-broncode staat in https://github.com/miltonminecraft-afk/1milli.
   Eerste upload: commit 3aec88c2f02903668f545d2f1e1d5302d05e6280.
 - Websitepreview bestaat: foto met beperkte diepte, echte 3D-platen en GLB-objecten.
@@ -253,6 +260,31 @@ BEWIJS EN BELANGRIJKE BESTANDEN
 - previews/: bestaande website- en assetpreviews, nadrukkelijk geen Unreal-renders.
 
 WERKLOG
+2026-10-27 Heartbeat 13:02 UTC, vervolg tot 13:25 UTC: vanuit de gerepareerde
+plantenproef de gekozen kratten geplaatst. C2 bevat meerdere kratten; één volledig
+losstaand krat zonder doorgesneden bronvlakken gebruikt. C3 rust 0,3 mm boven de
+onderplank, volledig binnen de plankvoetafdruk; brontextuur donkerder gemaakt.
+Gratis bestaande Poly Haven-krukken 01/02 en Fine Persian Heriz Carpet van mfb64
+gedownload als kandidaten, met bron/licentie/checksums. Krukverhoudingen aangepast;
+kleed uniform geschaald en aan twee afgelezen vloerpunten gericht. Deze kandidaten
+wijzigen de opgeslagen gebruikerskeuzes niet. Eerste proef gecorrigeerd: voorste
+kruk stond buiten beeld, houten krat te groot. Twee nieuwe beelden gerenderd en
+visueel naast het concept bekeken. Beton donkerder, tafelhout en warm licht bijgesteld.
+720 meshes; 136 ingepakte beelden. 1238 behouden objecten op vier frames vergeleken,
+matrixverschil 0. Krukvoeten op kleed gecontroleerd (0,3–2,27 mm in de bemonsterde
+onderste 2 mm), kratten op vloer/plank; drie relevante statische meshparen zonder
+snijdende driehoeken. Alle tien LP-routes: 289 momenten, 38 detailmeshes/865.830
+driehoeken, 178.600 grove controles, 353.320 driehoekcontroles, nul botsingssamples.
+Dit bewijst bemonsterde plaatsing/routevrijheid, geen exacte sfeer of continue fysica.
+Lokale vergelijkingspagina toont nu deze proef; twaalf afbeeldingen laden, vijftien
+serverchecks geslaagd. Bronattributie inclusief aangepaste onderdelen erbij.
+Bewijs: docs/storage-verification.json, docs/storage-record-clearance.json,
+docs/storage-visual-review.json, docs/storage-detail-sources.json en lokale
+Review/storage-comparison-proof.png. Scripts en voortgang naar GitHub; nieuwe
+scène/renders blijven lokaal. Website op 4270 en eigenaarvolgorde niet aangepast.
+Geen installer gestart; Unreal blijft open. Heartbeat-configuratie gecontroleerd:
+ACTIVE, elke dertig minuten. Eerstvolgende visuele taak: correct zwaar tafelframe,
+kaststaanders en bladprofiel, daarna resterende lichtverdeling en opbergdetails.
 2026-10-27 Heartbeat 12:32 UTC: nieuwe planten/tafels/armaturen op LP-doorkruising
 gecontroleerd. De oorspronkelijke detailproef had 127 overlappende steekproeven:
 rankdelen door de eerste en zesde hoes, ook al bij hun beginstand. Vier rankdelen

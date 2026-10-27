@@ -1,0 +1,138 @@
+{
+  "checkedAt": "2026-10-27T13:20:31.691971+00:00",
+  "scene": "reference-storage.blend",
+  "passed": true,
+  "unrealSceneBuilt": false,
+  "userApproved": false,
+  "comparedOriginalObjects": 1238,
+  "sampledFrames": [
+    1,
+    109,
+    289,
+    577
+  ],
+  "maximumRetainedMatrixError": 0,
+  "geometryBounds": [
+    {
+      "role": "rear wooden crate",
+      "bounds": [
+        [
+          -1.7190635204315186,
+          8.444524765014648,
+          0.0
+        ],
+        [
+          -1.0609365701675415,
+          8.855474472045898,
+          0.2799999713897705
+        ]
+      ],
+      "insideRoomAndAboveFloor": true
+    },
+    {
+      "role": "under-table plastic crate",
+      "bounds": [
+        [
+          -2.281449317932129,
+          5.041215419769287,
+          0.1777999997138977
+        ],
+        [
+          -1.7985506057739258,
+          5.358784198760986,
+          0.444472074508667
+        ]
+      ],
+      "insideRoomAndAboveFloor": true
+    },
+    {
+      "role": "foreground Persian rug",
+      "bounds": [
+        [
+          -2.7168586254119873,
+          1.3971089124679565,
+          0.0
+        ],
+        [
+          -0.09134992212057114,
+          4.979394912719727,
+          0.020263411104679108
+        ]
+      ],
+      "insideRoomAndAboveFloor": true
+    },
+    {
+      "role": "middle padded stool",
+      "bounds": [
+        [
+          -2.3172202110290527,
+          4.24129581451416,
+          0.010844368487596512
+        ],
+        [
+          -1.8972201347351074,
+          4.664373397827148,
+          0.6608443856239319
+        ]
+      ],
+      "insideRoomAndAboveFloor": true
+    },
+    {
+      "role": "foreground wooden stool",
+      "bounds": [
+        [
+          -2.6020188331604004,
+          2.3000171184539795,
+          0.010844368487596512
+        ],
+        [
+          -2.2020187377929688,
+          2.722325086593628,
+          0.7458443641662598
+        ]
+      ],
+      "insideRoomAndAboveFloor": true
+    }
+  ],
+  "plasticCrateSupport": {
+    "gap": 0.00030000507831573486,
+    "footprintInsideDeck": true
+  },
+  "stoolContacts": [
+    {
+      "role": "middle padded stool",
+      "footVertices": 268,
+      "minimumGap": 0.0003000004217028618,
+      "maximumGap": 0.001636771485209465
+    },
+    {
+      "role": "foreground wooden stool",
+      "footVertices": 87,
+      "minimumGap": 0.00029999949038028717,
+      "maximumGap": 0.002262943424284458
+    }
+  ],
+  "staticMeshIntersectionChecks": [
+    {
+      "a": "wooden crate",
+      "b": "floor plant",
+      "intersectingTrianglePairs": 0
+    },
+    {
+      "a": "wooden crate",
+      "b": "motorcycle",
+      "intersectingTrianglePairs": 0
+    },
+    {
+      "a": "foreground wooden stool",
+      "b": "shelf geometry",
+      "intersectingTrianglePairs": 0
+    }
+  ],
+  "packedImages": 136,
+  "limitations": [
+    "Static BVH tests check triangle intersections, not general solid containment.",
+    "This does not establish appearance fidelity or Unreal compatibility.",
+    "All ten LP routes require the separate sampled route audit."
+  ]
+}

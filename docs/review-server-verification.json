@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-27T12:28:17.552Z",
+  "checkedAt": "2026-10-27T13:24:20.705Z",
   "passed": true,
   "scope": "Loopback-only read-only review server",
   "checks": [
@@ -41,6 +41,31 @@
     {
       "method": "HEAD",
       "url": "/atmosphere-verification.json",
+      "status": 200
+    },
+    {
+      "method": "HEAD",
+      "url": "/reference-storage.png",
+      "status": 200
+    },
+    {
+      "method": "HEAD",
+      "url": "/storage-workbench.png",
+      "status": 200
+    },
+    {
+      "method": "HEAD",
+      "url": "/storage-verification.json",
+      "status": 200
+    },
+    {
+      "method": "HEAD",
+      "url": "/storage-record-clearance.json",
+      "status": 200
+    },
+    {
+      "method": "HEAD",
+      "url": "/reference-storage.blend",
       "status": 200
     },
     {

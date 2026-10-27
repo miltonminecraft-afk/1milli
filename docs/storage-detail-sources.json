@@ -1,0 +1,132 @@
+{
+  "checkedAt": "2026-10-27T13:26:38.576Z",
+  "status": "Candidates for local visual comparison; not user approved or added to the chosen manifest",
+  "newCandidates": [
+    {
+      "id": "metal_stool_01",
+      "name": "Metal Stool 01",
+      "authors": {
+        "Ulan Cabanilla": "All"
+      },
+      "source": "https://polyhaven.com/a/metal_stool_01",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://polyhaven.com/license",
+      "status": "Local comparison candidate; not user approved",
+      "files": [
+        {
+          "file": "metal_stool_01_2k.gltf",
+          "bytes": 2790,
+          "md5": "0b3b88d247e4852524f11df003ed7677",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/2k/metal_stool_01/metal_stool_01_2k.gltf"
+        },
+        {
+          "file": "textures/metal_stool_01_nor_gl_2k.jpg",
+          "bytes": 2770643,
+          "md5": "0afd5832eb035154ed603b61df761bb0",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/metal_stool_01/metal_stool_01_nor_gl_2k.jpg"
+        },
+        {
+          "file": "textures/metal_stool_01_diff_2k.jpg",
+          "bytes": 2422250,
+          "md5": "e1ad0ce57b929658f0d647c61868f5f5",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/metal_stool_01/metal_stool_01_diff_2k.jpg"
+        },
+        {
+          "file": "textures/metal_stool_01_arm_2k.jpg",
+          "bytes": 3046040,
+          "md5": "0c8c40c0a123d5341530d2e4100ad316",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/metal_stool_01/metal_stool_01_arm_2k.jpg"
+        },
+        {
+          "file": "metal_stool_01.bin",
+          "bytes": 216340,
+          "md5": "5e6178cf61b8f10a733a28d8f57bbb99",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/metal_stool_01/metal_stool_01.bin"
+        }
+      ]
+    },
+    {
+      "id": "metal_stool_02",
+      "name": "Metal Stool 02",
+      "authors": {
+        "Ulan Cabanilla": "All"
+      },
+      "source": "https://polyhaven.com/a/metal_stool_02",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://polyhaven.com/license",
+      "status": "Local comparison candidate; not user approved",
+      "files": [
+        {
+          "file": "metal_stool_02_2k.gltf",
+          "bytes": 2897,
+          "md5": "682310ea2ae87c64a60d6e7bd7e0d023",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/2k/metal_stool_02/metal_stool_02_2k.gltf"
+        },
+        {
+          "file": "textures/metal_stool_02_nor_gl_2k.jpg",
+          "bytes": 3292853,
+          "md5": "07aae7cf5d08a612bcd86fc29d395b5e",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/metal_stool_02/metal_stool_02_nor_gl_2k.jpg"
+        },
+        {
+          "file": "textures/metal_stool_02_diff_2k.jpg",
+          "bytes": 3009886,
+          "md5": "42cab92762a3e8f2ccb122faa88b784c",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/metal_stool_02/metal_stool_02_diff_2k.jpg"
+        },
+        {
+          "file": "textures/metal_stool_02_arm_2k.jpg",
+          "bytes": 3249581,
+          "md5": "665673219ae80e7ef4ee0f1934a59d3b",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/metal_stool_02/metal_stool_02_arm_2k.jpg"
+        },
+        {
+          "file": "metal_stool_02.bin",
+          "bytes": 182872,
+          "md5": "e2e2cc4b51e8311ac936430e5f51afc2",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/metal_stool_02/metal_stool_02.bin"
+        }
+      ]
+    },
+    {
+      "id": "e198f1099ac34274ae2c867226adde79",
+      "title": "Fine Persian Heriz Carpet",
+      "author": "mfb64",
+      "source": "https://sketchfab.com/3d-models/fine-persian-heriz-carpet-e198f1099ac34274ae2c867226adde79",
+      "license": {
+        "uri": "https://api.sketchfab.com/v3/licenses/322a749bcfa841b29dff1e8a1bb74b0b",
+        "label": "CC Attribution",
+        "fullName": "Creative Commons Attribution",
+        "requirements": "Author must be credited. Commercial use is allowed.",
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "slug": "by"
+      },
+      "url": "https://huggingface.co/datasets/allenai/objaverse/resolve/main/glbs/000-069/e198f1099ac34274ae2c867226adde79.glb",
+      "file": "persian-heriz.glb",
+      "bytes": 19694104,
+      "sha256": "21f9ea85d41c9475c0051a39c2191185aa19f9ac4ccf692be5b8990852e83ce7",
+      "status": "Candidate for matching the reference, pending visual approval",
+      "usage": "Traditional mesh import and rendering only; not used for generative AI or training."
+    }
+  ],
+  "selectedSources": [
+    {
+      "code": "C2",
+      "title": "Houten melkkratten",
+      "author": "CurlyFryWhy",
+      "source": "https://sketchfab.com/3d-models/antique-wooden-milk-crates-489a6f095dc44bb1b279ed58e5bb3571",
+      "license": "CC-BY-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "adaptation": "One complete isolated crate from the source set, uniformly scaled."
+    },
+    {
+      "code": "C3",
+      "title": "Kunststof krat",
+      "author": "Denisse Rodriguez",
+      "source": "https://sketchfab.com/3d-models/plastic-crate-5f7103bfb5974eab85bb1a4ab8a8595e",
+      "license": "CC-BY-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "adaptation": "One crate, uniformly scaled; texture desaturated and darkened."
+    }
+  ]
+}

@@ -18,7 +18,7 @@ bewerkbare Blender-bestand voor die laatste proef. De realtime animatie gebruikt
 nog reference-records.glb met eenvoudige reviewverlichting; de materiaalproef
 vervangt die animatie niet automatisch.
 
-De nieuwste vergelijking toont reference-atmosphere.blend met gratis bronmodellen
+De eerdere planten-/tafelvergelijking gebruikt reference-atmosphere.blend met bronmodellen
 voor tafelonderstellen, pothosplanten, een kandidaat-vloerplant, een plafondarmatuur
 en de verstelbare werklamp. Licenties en aanpassingen staan bij de vergelijking.
 De gebruiker wil dezelfde tafel, planten en verlichting als het concept. De
@@ -28,8 +28,20 @@ De gehele ruimte, details, materialen en verlichting zijn nog niet goedgekeurd.
 Unreal-installatie en een echte .umap blijven eveneens open.
 Gebruik de verificatierapporten voor de geteste onderdelen en hun beperkingen.
 
-Vervolgwerkbestand: reference-foliage-clearance.blend (lokaal). De hangende ranken
+Vorige herstelproef: reference-foliage-clearance.blend (lokaal). De hangende ranken
 zijn buiten de LP-vakken geplaatst. De eerder getoonde atmosphere-proef had
 doorsnijdingen met twee hoezen; alle tien routes zijn in het vervolg gecontroleerd.
 check_detail_record_clearance.py gebruikt Blender-BVH en driehoek/volume-controles.
 Deze herstelproef en zijn twee renderbeelden zijn nog geen nieuwe websiteversie.
+
+HUIDIG VERVOLGWERKBESTAND: reference-storage.blend (lokaal, 720 meshes).
+De nieuwste vergelijking toont reference-storage.png en storage-workbench.png.
+Deze proef behoudt de gerepareerde planten en voegt C2/C3-kratten, twee kandidaat-
+krukken en een kandidaat-kleed toe. Krukverhoudingen, kratkleur en licht zijn
+aangepast. Deze kandidaten veranderen de vastgelegde gebruikerskeuzes niet.
+Tafel-/kastprofiel, plantvormen, aankleding en lichtverdeling blijven onvoltooid.
+storage-verification.json controleert behouden poses, ondersteuning en drie
+relevante statische meshparen. storage-record-clearance.json controleert alle
+tien LP-routes in steekproeven tegen de toegevoegde details. Bronlicenties en
+aanpassingen staan op de vergelijking. De scène is geen Unreal-level en blijft
+lokaal tot de gebruiker de omgeving beoordeeld heeft.
