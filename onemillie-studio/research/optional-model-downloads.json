@@ -1,0 +1,361 @@
+[
+  {
+    "code": "R1",
+    "title": "Gescande betonnen garage",
+    "model": "98f7bc75350f4fb7ad36830f58fc99be.glb",
+    "source": "https://sketchfab.com/3d-models/parking-garage-98f7bc75350f4fb7ad36830f58fc99be",
+    "license": {
+      "slug": "by",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "download": {
+      "status": "no-login",
+      "url": "https://huggingface.co/datasets/allenai/objaverse/resolve/main/glbs/000-081/98f7bc75350f4fb7ad36830f58fc99be.glb",
+      "note": "Gratis download beschikbaar zonder inloggen."
+    }
+  },
+  {
+    "code": "R2",
+    "title": "Gescande balkenloods",
+    "model": "c2d7164e11544537b68a46e1afd1e9bf.glb",
+    "source": "https://sketchfab.com/3d-models/barn-interior-and-exterior-c2d7164e11544537b68a46e1afd1e9bf",
+    "license": {
+      "slug": "by",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "download": {
+      "status": "no-login",
+      "url": "https://huggingface.co/datasets/allenai/objaverse/resolve/main/glbs/000-084/c2d7164e11544537b68a46e1afd1e9bf.glb",
+      "note": "Gratis download beschikbaar zonder inloggen."
+    }
+  },
+  {
+    "code": "R3",
+    "title": "Bakstenen magazijn",
+    "model": "1a4c399c0fed41119a4bf5ee9837550c.glb",
+    "source": "https://sketchfab.com/3d-models/warehouse-building-1a4c399c0fed41119a4bf5ee9837550c",
+    "license": {
+      "slug": "by",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "download": {
+      "status": "no-login",
+      "url": "https://huggingface.co/datasets/allenai/objaverse/resolve/main/glbs/000-039/1a4c399c0fed41119a4bf5ee9837550c.glb",
+      "note": "Gratis download beschikbaar zonder inloggen."
+    }
+  },
+  {
+    "code": "R4",
+    "title": "Loods met stalen spanten",
+    "model": "316c4f801e274662a61e74e1cb25ea52.glb",
+    "source": "https://sketchfab.com/3d-models/garage-warehouse-316c4f801e274662a61e74e1cb25ea52",
+    "license": {
+      "slug": "by",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "download": {
+      "status": "no-login",
+      "url": "https://huggingface.co/datasets/allenai/objaverse/resolve/main/glbs/000-020/316c4f801e274662a61e74e1cb25ea52.glb",
+      "note": "Gratis download beschikbaar zonder inloggen."
+    }
+  },
+  {
+    "code": "R6",
+    "title": "Moderne werkstudio",
+    "model": "8a43d357b98b4f7aadba6946d812869a.glb",
+    "source": "https://sketchfab.com/3d-models/studio-office-interior-8a43d357b98b4f7aadba6946d812869a",
+    "license": {
+      "slug": "by",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "download": {
+      "status": "no-login",
+      "url": "https://huggingface.co/datasets/allenai/objaverse/resolve/main/glbs/000-143/8a43d357b98b4f7aadba6946d812869a.glb",
+      "note": "Gratis download beschikbaar zonder inloggen."
+    }
+  },
+  {
+    "code": "R9",
+    "title": "Fabriek met galerijen",
+    "model": "e510537c72a848879171cbbb1ec2f648.glb",
+    "source": "https://sketchfab.com/3d-models/abandoned-factory-e510537c72a848879171cbbb1ec2f648",
+    "license": {
+      "slug": "by",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "download": {
+      "status": "no-login",
+      "url": "https://huggingface.co/datasets/allenai/objaverse/resolve/main/glbs/000-072/e510537c72a848879171cbbb1ec2f648.glb",
+      "note": "Gratis download beschikbaar zonder inloggen."
+    }
+  },
+  {
+    "code": "R10",
+    "title": "Jaren-tachtig clubloods",
+    "model": "a05aff011ef04f1797013781437c18cf.glb",
+    "source": "https://sketchfab.com/3d-models/80s-warehouse-a05aff011ef04f1797013781437c18cf",
+    "license": {
+      "slug": "by",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "download": {
+      "status": "no-login",
+      "url": "https://huggingface.co/datasets/allenai/objaverse/resolve/main/glbs/000-106/a05aff011ef04f1797013781437c18cf.glb",
+      "note": "Gratis download beschikbaar zonder inloggen."
+    }
+  },
+  {
+    "code": "R13",
+    "title": "Houten robotwerkplaats",
+    "model": "0bee3f9f3c8c4ecd8fda8ba84985d03c.glb",
+    "source": "https://sketchfab.com/3d-models/workshop-0bee3f9f3c8c4ecd8fda8ba84985d03c",
+    "license": {
+      "slug": "by",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "download": {
+      "status": "no-login",
+      "url": "https://huggingface.co/datasets/allenai/objaverse/resolve/main/glbs/000-044/0bee3f9f3c8c4ecd8fda8ba84985d03c.glb",
+      "note": "Gratis download beschikbaar zonder inloggen."
+    }
+  },
+  {
+    "code": "R16",
+    "title": "Gescande expositieruimte",
+    "model": "f4aced8a7be34f87a8ac96d85ee7f6dc.glb",
+    "source": "https://sketchfab.com/3d-models/exebition-hall-f4aced8a7be34f87a8ac96d85ee7f6dc",
+    "license": {
+      "slug": "by",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "download": {
+      "status": "no-login",
+      "url": "https://huggingface.co/datasets/allenai/objaverse/resolve/main/glbs/000-001/f4aced8a7be34f87a8ac96d85ee7f6dc.glb",
+      "note": "Gratis download beschikbaar zonder inloggen."
+    }
+  },
+  {
+    "code": "R18",
+    "title": "Lege ruimte met tussenniveau",
+    "model": "9c1dad0cc26a4d2fa16d59d067c8f871.glb",
+    "source": "https://sketchfab.com/3d-models/interior-building-scene-9c1dad0cc26a4d2fa16d59d067c8f871",
+    "license": {
+      "slug": "by",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "download": {
+      "status": "no-login",
+      "url": "https://huggingface.co/datasets/allenai/objaverse/resolve/main/glbs/000-075/9c1dad0cc26a4d2fa16d59d067c8f871.glb",
+      "note": "Gratis download beschikbaar zonder inloggen."
+    }
+  },
+  {
+    "code": "R19",
+    "title": "Café met vide en glas",
+    "model": "419c3293b0e54313be4b1f02845d606a.glb",
+    "source": "https://sketchfab.com/3d-models/cafe-misti-419c3293b0e54313be4b1f02845d606a",
+    "license": {
+      "slug": "by",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "download": {
+      "status": "no-login",
+      "url": "https://huggingface.co/datasets/allenai/objaverse/resolve/main/glbs/000-057/419c3293b0e54313be4b1f02845d606a.glb",
+      "note": "Gratis download beschikbaar zonder inloggen."
+    }
+  },
+  {
+    "code": "R20",
+    "title": "Houten café met hoge ramen",
+    "model": "a6534141c33343b382dd23d519c3de73.glb",
+    "source": "https://sketchfab.com/3d-models/pub-interior-a6534141c33343b382dd23d519c3de73",
+    "license": {
+      "slug": "by",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "download": {
+      "status": "no-login",
+      "url": "https://huggingface.co/datasets/allenai/objaverse/resolve/main/glbs/000-147/a6534141c33343b382dd23d519c3de73.glb",
+      "note": "Gratis download beschikbaar zonder inloggen."
+    }
+  },
+  {
+    "code": "R22",
+    "title": "Werkstudio met houten wanden",
+    "model": "8126c477682049018070a08879cc8416.glb",
+    "source": "https://sketchfab.com/3d-models/meeting-room-interior-design-8126c477682049018070a08879cc8416",
+    "license": {
+      "slug": "by",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "download": {
+      "status": "no-login",
+      "url": "https://huggingface.co/datasets/allenai/objaverse/resolve/main/glbs/000-150/8126c477682049018070a08879cc8416.glb",
+      "note": "Gratis download beschikbaar zonder inloggen."
+    }
+  },
+  {
+    "code": "R23",
+    "title": "Betonnen loft met vide",
+    "model": "e291067c353a492c8b84ddf4b20637a8.glb",
+    "source": "https://sketchfab.com/3d-models/brutalist-loft-e291067c353a492c8b84ddf4b20637a8",
+    "license": {
+      "slug": "by",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "download": {
+      "status": "no-login",
+      "url": "https://huggingface.co/datasets/allenai/objaverse/resolve/main/glbs/000-020/e291067c353a492c8b84ddf4b20637a8.glb",
+      "note": "Gratis download beschikbaar zonder inloggen."
+    }
+  },
+  {
+    "code": "R24",
+    "title": "Compacte loft met glas",
+    "model": "c3e93ccf0cca41a787ba582e16568210.glb",
+    "source": "https://sketchfab.com/3d-models/loft-winkler-c3e93ccf0cca41a787ba582e16568210",
+    "license": {
+      "slug": "by",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "download": {
+      "status": "no-login",
+      "url": "https://huggingface.co/datasets/allenai/objaverse/resolve/main/glbs/000-005/c3e93ccf0cca41a787ba582e16568210.glb",
+      "note": "Gratis download beschikbaar zonder inloggen."
+    }
+  },
+  {
+    "code": "R25",
+    "title": "Ronde galerij",
+    "model": "3af1b679f52042fc9c40c901a6fed81b.glb",
+    "source": "https://sketchfab.com/3d-models/vr-round-art-gallery-3af1b679f52042fc9c40c901a6fed81b",
+    "license": {
+      "slug": "by",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "download": {
+      "status": "no-login",
+      "url": "https://huggingface.co/datasets/allenai/objaverse/resolve/main/glbs/000-112/3af1b679f52042fc9c40c901a6fed81b.glb",
+      "note": "Gratis download beschikbaar zonder inloggen."
+    }
+  },
+  {
+    "code": "R28",
+    "title": "Showroom met niveauverschillen",
+    "model": "22b427f9480d4e31b9bfe26f19b746e1.glb",
+    "source": "https://sketchfab.com/3d-models/gallery-showroom-22b427f9480d4e31b9bfe26f19b746e1",
+    "license": {
+      "slug": "by",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "download": {
+      "status": "no-login",
+      "url": "https://huggingface.co/datasets/allenai/objaverse/resolve/main/glbs/000-060/22b427f9480d4e31b9bfe26f19b746e1.glb",
+      "note": "Gratis download beschikbaar zonder inloggen."
+    }
+  },
+  {
+    "code": "R29",
+    "title": "Hoge blauwe galerij",
+    "model": "499f13ada6234cb8a914a072c3013e82.glb",
+    "source": "https://sketchfab.com/3d-models/vr-modern-gallery-room-499f13ada6234cb8a914a072c3013e82",
+    "license": {
+      "slug": "by",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "download": {
+      "status": "no-login",
+      "url": "https://huggingface.co/datasets/allenai/objaverse/resolve/main/glbs/000-075/499f13ada6234cb8a914a072c3013e82.glb",
+      "note": "Gratis download beschikbaar zonder inloggen."
+    }
+  },
+  {
+    "code": "R30",
+    "title": "Restaurant met baksteen en glas",
+    "model": "ca9ed87062694ff2a2521c44484f1a9a.glb",
+    "source": "https://sketchfab.com/3d-models/restaurant-building-corner-booth-ca9ed87062694ff2a2521c44484f1a9a",
+    "license": {
+      "slug": "by",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "download": {
+      "status": "no-login",
+      "url": "https://huggingface.co/datasets/allenai/objaverse/resolve/main/glbs/000-077/ca9ed87062694ff2a2521c44484f1a9a.glb",
+      "note": "Gratis download beschikbaar zonder inloggen."
+    }
+  },
+  {
+    "code": "E2",
+    "title": "Oude fabriekshal",
+    "model": "1d5285f2e0fd4211a27c8042496d5959.glb",
+    "source": "https://sketchfab.com/3d-models/abandoned-warehouse-interior-scene-1d5285f2e0fd4211a27c8042496d5959",
+    "license": {
+      "slug": "by",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "download": {
+      "status": "no-login",
+      "url": "https://huggingface.co/datasets/allenai/objaverse/resolve/main/glbs/000-016/1d5285f2e0fd4211a27c8042496d5959.glb",
+      "note": "Gratis download beschikbaar zonder inloggen."
+    }
+  },
+  {
+    "code": "E3",
+    "title": "Gescande bedrijfsruimte",
+    "model": "scanned-workshop.glb",
+    "source": "https://sketchfab.com/3d-models/building-scan-no-1-interior-6c6d15c2d3ec423b854c3623b9122c0d",
+    "license": {
+      "slug": "by",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "download": {
+      "status": "ready",
+      "note": "Dit exacte model is al gedownload."
+    }
+  },
+  {
+    "code": "E5",
+    "title": "Lichte loft",
+    "model": "54bc929a26094b6cb36f977903fbcd97.glb",
+    "source": "https://sketchfab.com/3d-models/vr-apartment-loft-interior-baked-54bc929a26094b6cb36f977903fbcd97",
+    "license": {
+      "slug": "by",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "download": {
+      "status": "no-login",
+      "url": "https://huggingface.co/datasets/allenai/objaverse/resolve/main/glbs/000-007/54bc929a26094b6cb36f977903fbcd97.glb",
+      "note": "Gratis download beschikbaar zonder inloggen."
+    }
+  },
+  {
+    "code": "E7",
+    "title": "Historische garage",
+    "model": "workshop-garage.glb",
+    "source": "https://sketchfab.com/3d-models/garage-de7a8dd4309e461cbc99be85f928b480",
+    "license": {
+      "slug": "by",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "download": {
+      "status": "ready",
+      "url": "https://huggingface.co/datasets/allenai/objaverse/resolve/main/glbs/000-033/de7a8dd4309e461cbc99be85f928b480.glb",
+      "note": "Dit exacte model is al gedownload."
+    }
+  },
+  {
+    "code": "E8",
+    "title": "Lege oude garage",
+    "model": "empty-garage.glb",
+    "source": "https://sketchfab.com/3d-models/empty-old-garage-room-778f5663b0c244508342bdc0f7a1db38",
+    "license": {
+      "slug": "by",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "download": {
+      "status": "ready",
+      "url": "https://huggingface.co/datasets/allenai/objaverse/resolve/main/glbs/000-156/778f5663b0c244508342bdc0f7a1db38.glb",
+      "note": "Dit exacte model is al gedownload."
+    }
+  }
+]

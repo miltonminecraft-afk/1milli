@@ -1,0 +1,6 @@
+const {test}=require('node:test'),assert=require('node:assert/strict'),{validateScene}=require('../state.cjs');
+const item=(id,parentId=null,assetId='model')=>({id,parentId,assetId,name:id,position:[1,2,3],rotation:[0,90,0],scale:[1,1,1]});
+test('nested groups round-trip with independent instance transforms',()=>{const state={version:1,name:'Mijn inrichting',items:[item('group',null,null),item('a','group'),{...item('b','group'),rotation:[0,-45,0]}]};assert.deepEqual(validateScene(JSON.parse(JSON.stringify(state))),state);});
+test('rejects cycles, dangling parents and object-as-parent before save',()=>{for(const items of [[item('a','b',null),item('b','a',null)],[item('a','missing')],[item('a'),item('b','a')]])assert.throws(()=>validateScene({version:1,items}));});
+test('rejects duplicate identities and non-finite/zero transforms',()=>{for(const items of [[item('a'),item('a')],[{...item('a'),position:[NaN,0,0]}],[{...item('a'),scale:[0,1,1]}]])assert.throws(()=>validateScene({version:1,items}));});
+test('allows empty project after removal, without mutating caller data',()=>{const input={version:1,name:'Leeg',items:[]};assert.deepEqual(validateScene(input),input);const obj={version:1,items:[item('a')]};validateScene(obj).items[0].position[0]=22;assert.equal(obj.items[0].position[0],1);});

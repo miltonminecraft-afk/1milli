@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="nl">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Inrichting kiezen · onemillie</title><link rel="stylesheet" href="./assets.css"></head>
+<body>
+<main>
+  <header><div><p class="eyebrow">ONEMILLIE / INRICHTING</p><h1>Zelf de onderdelen kiezen</h1><p>Kies meerdere modellen en stel de aantallen in. Je eerdere keuzes blijven bewaard.</p></div><button class="room-choice" id="show-room"><img src="../room-options/images/6c6d15c2d3ec423b854c3623b9122c0d.jpg" alt=""><span><small>GEKOZEN RUIMTE</small>Gescande bedrijfsruimte<span>Bekijk in 3D ↗</span></span></button></header>
+  <nav class="categories" aria-label="Onderdelen"><a href="#draaitafel">Draaitafel</a><a href="#kast">Kast</a><a href="#werkbank">Werkbank</a><a href="#brommer">Brommer / motor</a><a href="#speakers">Speakers</a><a href="#kratten">Kratten</a><a href="#verlichting">Verlichting</a><a href="#search">Meer zoeken</a><a href="#selection" id="choice-count">Jouw keuzes</a></nav>
+  <div id="options"></div>
+  <section class="search-section category" id="search" aria-label="Meer modellen zoeken"><h2>Meer modellen zoeken</h2><p>Zoek in de gratis Sketchfab-modellen of plak een Sketchfab-modellink. Alleen downloadbare modellen met CC BY of CC0 verschijnen hier.</p><form id="search-form"><label>Onderdeel<select id="search-category"></select></label><label class="search-query">Zoekterm of modellink<input id="search-query" required minlength="2" maxlength="240" placeholder="Bijvoorbeeld: speaker, crate, tool cart…"></label><button type="submit" id="search-submit">Zoeken</button></form><p id="search-status" role="status"></p><div class="grid" id="search-results"></div></section>
+  <section class="selection" id="selection" aria-label="Jouw keuzes"><div><h2>Jouw keuzes</h2><p id="selection-text" aria-live="polite">Nog geen onderdelen gekozen.</p><small>Voorstel op dit apparaat. Je kunt aantallen later verder aanpassen bij het plaatsen.</small></div><button id="copy" disabled>Kopieer keuzes</button></section>
+  <footer>Voorbeelden van de oorspronkelijke makers. Licht en materialen kunnen bij import afwijken. Downloads via Sketchfab kunnen om inloggen vragen. <a href="./sources.json" target="_blank">Bronnen en licenties</a></footer>
+</main>
+<dialog id="viewer" aria-labelledby="viewer-title"><div class="viewer-bar"><div><h2 id="viewer-title"></h2><p id="viewer-note"></p></div><button id="close-viewer">Sluiten ×</button></div><div id="viewer-stage"></div><div class="viewer-footer"><span>Sleep om rond te kijken · scroll om te zoomen</span><a id="original" target="_blank" rel="noopener noreferrer">Open bij de maker ↗</a></div></dialog>
+<script type="module" src="./asset-picker.js"></script>
+</body></html>

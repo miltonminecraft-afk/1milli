@@ -1,0 +1,19 @@
+W2 — Arsen Ismailov
+https://sketchfab.com/3d-models/garage-desk-c260327b93114d56933bdd9e3b0454b7
+CC Attribution 4.0: https://creativecommons.org/licenses/by/4.0/
+Repacked as GLB; no mesh or texture reduction.
+
+C2 — CurlyFryWhy
+https://sketchfab.com/3d-models/antique-wooden-milk-crates-489a6f095dc44bb1b279ed58e5bb3571
+CC Attribution 4.0: https://creativecommons.org/licenses/by/4.0/
+Repacked as GLB; no mesh or texture reduction.
+
+C3 — Denisse Rodriguez
+https://sketchfab.com/3d-models/plastic-crate-5f7103bfb5974eab85bb1a4ab8a8595e
+CC Attribution 4.0: https://creativecommons.org/licenses/by/4.0/
+Repacked as GLB; no mesh or texture reduction.
+
+L2 — Mad_Lobster_Workshop
+https://sketchfab.com/3d-models/1930s-heavy-industrial-wall-lamps-b63c31b9c6a04284b665af8a0a93d456
+CC Attribution 4.0: https://creativecommons.org/licenses/by/4.0/
+One rusty variant extracted; unused resources pruned.

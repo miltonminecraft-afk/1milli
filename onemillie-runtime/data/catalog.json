@@ -1,0 +1,139 @@
+{
+  "artist": {
+    "name": "1milli.prod",
+    "spotifyUrl": "https://open.spotify.com/artist/6T18x57eJMgD4j9q7GIULd"
+  },
+  "soundcloudUrl": "https://on.soundcloud.com/9azu30FIHogaoJxPvx",
+  "releases": [
+    {
+      "id": "7mIaDeCbSxt3w1vNnxGvdL",
+      "title": "I Dont Want to Calm Down",
+      "type": "release",
+      "date": "",
+      "coverUrl": "/assets/covers/7mIaDeCbSxt3w1vNnxGvdL.jpg",
+      "artist": "1milli.prod",
+      "spotifyUri": "spotify:album:7mIaDeCbSxt3w1vNnxGvdL",
+      "spotifyUrl": "https://open.spotify.com/album/7mIaDeCbSxt3w1vNnxGvdL?utm_source=openai&utm_medium=chatgpt&go=1&nap_web=1&request_id=bfec8270-fc58-408d-84d4-777ac44b02c1",
+      "embedUrl": "https://open.spotify.com/embed/album/7mIaDeCbSxt3w1vNnxGvdL?utm_source=generator&theme=0",
+      "tracks": [],
+      "coverSourceUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02ec1eac3f006c64b6e6533f26"
+    },
+    {
+      "id": "4IMPKeI0X4ro6hxomnyVwE",
+      "title": "Siting Alone Again",
+      "type": "release",
+      "date": "",
+      "coverUrl": "/assets/covers/4IMPKeI0X4ro6hxomnyVwE.jpg",
+      "artist": "1milli.prod",
+      "spotifyUri": "spotify:album:4IMPKeI0X4ro6hxomnyVwE",
+      "spotifyUrl": "https://open.spotify.com/album/4IMPKeI0X4ro6hxomnyVwE?utm_source=openai&utm_medium=chatgpt&go=1&nap_web=1&request_id=bfec8270-fc58-408d-84d4-777ac44b02c1",
+      "embedUrl": "https://open.spotify.com/embed/album/4IMPKeI0X4ro6hxomnyVwE?utm_source=generator&theme=0",
+      "tracks": [],
+      "coverSourceUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0297d3167fb0068f5583a449e0"
+    },
+    {
+      "id": "61vipIlEN9ZKxU6JKd1sWR",
+      "title": "Free Fall",
+      "type": "release",
+      "date": "",
+      "coverUrl": "/assets/covers/61vipIlEN9ZKxU6JKd1sWR.jpg",
+      "artist": "1milli.prod",
+      "spotifyUri": "spotify:album:61vipIlEN9ZKxU6JKd1sWR",
+      "spotifyUrl": "https://open.spotify.com/album/61vipIlEN9ZKxU6JKd1sWR?utm_source=openai&utm_medium=chatgpt&go=1&nap_web=1&request_id=bfec8270-fc58-408d-84d4-777ac44b02c1",
+      "embedUrl": "https://open.spotify.com/embed/album/61vipIlEN9ZKxU6JKd1sWR?utm_source=generator&theme=0",
+      "tracks": [],
+      "coverSourceUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02af87eb162bb76cafbd329bf0"
+    },
+    {
+      "id": "0ZjRYK6GnHpxbu7DVY9y7y",
+      "title": "Can We Do Better",
+      "type": "release",
+      "date": "",
+      "coverUrl": "/assets/covers/0ZjRYK6GnHpxbu7DVY9y7y.jpg",
+      "artist": "1milli.prod, Faces",
+      "spotifyUri": "spotify:album:0ZjRYK6GnHpxbu7DVY9y7y",
+      "spotifyUrl": "https://open.spotify.com/album/0ZjRYK6GnHpxbu7DVY9y7y?utm_source=openai&utm_medium=chatgpt&go=1&nap_web=1&request_id=bfec8270-fc58-408d-84d4-777ac44b02c1",
+      "embedUrl": "https://open.spotify.com/embed/album/0ZjRYK6GnHpxbu7DVY9y7y?utm_source=generator&theme=0",
+      "tracks": [],
+      "coverSourceUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e023e8efc494b78d677a8479835"
+    },
+    {
+      "id": "5JujPl7KL3wQwdbuxT55b5",
+      "title": "Me Gustas",
+      "type": "release",
+      "date": "",
+      "coverUrl": "/assets/covers/5JujPl7KL3wQwdbuxT55b5.jpg",
+      "artist": "1milli.prod",
+      "spotifyUri": "spotify:album:5JujPl7KL3wQwdbuxT55b5",
+      "spotifyUrl": "https://open.spotify.com/album/5JujPl7KL3wQwdbuxT55b5?utm_source=openai&utm_medium=chatgpt&go=1&nap_web=1&request_id=bfec8270-fc58-408d-84d4-777ac44b02c1",
+      "embedUrl": "https://open.spotify.com/embed/album/5JujPl7KL3wQwdbuxT55b5?utm_source=generator&theme=0",
+      "tracks": [],
+      "coverSourceUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e027ebbb6adcfc6da99d22d6c9b"
+    },
+    {
+      "id": "65Jluwq3nWaSFET27wrFbY",
+      "title": "All I Need",
+      "type": "release",
+      "date": "",
+      "coverUrl": "/assets/covers/65Jluwq3nWaSFET27wrFbY.jpg",
+      "artist": "1milli.prod",
+      "spotifyUri": "spotify:album:65Jluwq3nWaSFET27wrFbY",
+      "spotifyUrl": "https://open.spotify.com/album/65Jluwq3nWaSFET27wrFbY?utm_source=openai&utm_medium=chatgpt&go=1&nap_web=1&request_id=bfec8270-fc58-408d-84d4-777ac44b02c1",
+      "embedUrl": "https://open.spotify.com/embed/album/65Jluwq3nWaSFET27wrFbY?utm_source=generator&theme=0",
+      "tracks": [],
+      "coverSourceUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e029da4eaf110de2a9ec7827e06"
+    },
+    {
+      "id": "1zizXaxfjawxEwl0SqlmmV",
+      "title": "Mediterranean",
+      "type": "release",
+      "date": "",
+      "coverUrl": "/assets/covers/1zizXaxfjawxEwl0SqlmmV.jpg",
+      "artist": "1milli.prod",
+      "spotifyUri": "spotify:album:1zizXaxfjawxEwl0SqlmmV",
+      "spotifyUrl": "https://open.spotify.com/album/1zizXaxfjawxEwl0SqlmmV?utm_source=openai&utm_medium=chatgpt&go=1&nap_web=1&request_id=bfec8270-fc58-408d-84d4-777ac44b02c1",
+      "embedUrl": "https://open.spotify.com/embed/album/1zizXaxfjawxEwl0SqlmmV?utm_source=generator&theme=0",
+      "tracks": [],
+      "coverSourceUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02b8a468664be707e7156199c7"
+    },
+    {
+      "id": "75bime2u7c3goWks6vI5NY",
+      "title": "Afterparty",
+      "type": "release",
+      "date": "",
+      "coverUrl": "/assets/covers/75bime2u7c3goWks6vI5NY.jpg",
+      "artist": "1milli.prod",
+      "spotifyUri": "spotify:album:75bime2u7c3goWks6vI5NY",
+      "spotifyUrl": "https://open.spotify.com/album/75bime2u7c3goWks6vI5NY?utm_source=openai&utm_medium=chatgpt&go=1&nap_web=1&request_id=bfec8270-fc58-408d-84d4-777ac44b02c1",
+      "embedUrl": "https://open.spotify.com/embed/album/75bime2u7c3goWks6vI5NY?utm_source=generator&theme=0",
+      "tracks": [],
+      "coverSourceUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02117d16ff22098603135f2467"
+    },
+    {
+      "id": "5TD1wB1zNqPrMFk5GuZZbd",
+      "title": "Free",
+      "type": "release",
+      "date": "",
+      "coverUrl": "/assets/covers/5TD1wB1zNqPrMFk5GuZZbd.jpg",
+      "artist": "1milli.prod",
+      "spotifyUri": "spotify:album:5TD1wB1zNqPrMFk5GuZZbd",
+      "spotifyUrl": "https://open.spotify.com/album/5TD1wB1zNqPrMFk5GuZZbd?utm_source=openai&utm_medium=chatgpt&go=1&nap_web=1&request_id=bfec8270-fc58-408d-84d4-777ac44b02c1",
+      "embedUrl": "https://open.spotify.com/embed/album/5TD1wB1zNqPrMFk5GuZZbd?utm_source=generator&theme=0",
+      "tracks": [],
+      "coverSourceUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e020b6f177ed938337307f0af27"
+    },
+    {
+      "id": "1GPVB3uv8DcXRw5a4tZQ5m",
+      "title": "Coffee Cold",
+      "type": "release",
+      "date": "",
+      "coverUrl": "/assets/covers/1GPVB3uv8DcXRw5a4tZQ5m.jpg",
+      "artist": "1milli.prod",
+      "spotifyUri": "spotify:album:1GPVB3uv8DcXRw5a4tZQ5m",
+      "spotifyUrl": "https://open.spotify.com/album/1GPVB3uv8DcXRw5a4tZQ5m?utm_source=openai&utm_medium=chatgpt&go=1&nap_web=1&request_id=bfec8270-fc58-408d-84d4-777ac44b02c1",
+      "embedUrl": "https://open.spotify.com/embed/album/1GPVB3uv8DcXRw5a4tZQ5m?utm_source=generator&theme=0",
+      "tracks": [],
+      "coverSourceUrl": "https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0251e033dad8e44e6dcb0ff73a"
+    }
+  ]
+}

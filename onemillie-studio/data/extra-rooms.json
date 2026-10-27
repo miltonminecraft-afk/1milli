@@ -1,0 +1,450 @@
+[
+  {
+    "id": "b7866279b7224c48a31b85fe7cedae59",
+    "code": "R31",
+    "title": "Gescande fabriekshal in Berlijn",
+    "name": "Abandoned Factory Hall Scan",
+    "kind": "room",
+    "category": "Ruimtes",
+    "subcategory": "Industrieel",
+    "scan": true,
+    "description": "Interior of an abandoned factory hall in Berlin",
+    "notes": "Gescande omgeving; bestaande spullen kunnen onderdeel van de scan zijn.",
+    "author": "Pers Scans",
+    "source": "https://sketchfab.com/3d-models/abandoned-factory-hall-scan-b7866279b7224c48a31b85fe7cedae59",
+    "license": {
+      "slug": "by",
+      "url": "http://creativecommons.org/licenses/by/4.0/"
+    },
+    "image": "images/b7866279b7224c48a31b85fe7cedae59.jpg",
+    "download": {
+      "status": "no-login",
+      "url": "https://huggingface.co/datasets/allenai/objaverse/resolve/main/glbs/000-000/b7866279b7224c48a31b85fe7cedae59.glb",
+      "note": "Gratis download zonder inloggen.",
+      "bytes": 7800620
+    },
+    "model": null,
+    "modelScale": null,
+    "addedAt": "2026-10-26"
+  },
+  {
+    "id": "41ffced19ad44ba58b3ab8bd99f69ab7",
+    "code": "R32",
+    "title": "Verlaten koelopslag",
+    "name": "Urbex Derelict Industrial Interior",
+    "kind": "room",
+    "category": "Ruimtes",
+    "subcategory": "Industrieel",
+    "scan": false,
+    "description": "Single raw capture with a Nikon D3100, post processed with Photoshop CS6 and photo match modelled with Sketchup. This interior is in the derelict grader cool stores in Patea, Taranaki, New Zealand. Featured on: http://edition.cnn.com/2014/02/12/travel/abandoned-buildings-irpt/\n\nGoogle Street View iPhone 360 degree capture: \nhttps://goo.gl/UJ8Lpu\n\nStereoscopic 3D anaglyph capture:\nhttps://flic.kr/p/o3NXkP\n![](https://flic.kr/p/o3NXkP)",
+    "notes": "Bestaande 3D-omgeving van de vermelde maker.",
+    "author": "Aaron Openshaw",
+    "source": "https://sketchfab.com/3d-models/urbex-derelict-industrial-interior-41ffced19ad44ba58b3ab8bd99f69ab7",
+    "license": {
+      "slug": "by",
+      "url": "http://creativecommons.org/licenses/by/4.0/"
+    },
+    "image": "images/41ffced19ad44ba58b3ab8bd99f69ab7.jpg",
+    "download": {
+      "status": "no-login",
+      "url": "https://huggingface.co/datasets/allenai/objaverse/resolve/main/glbs/000-011/41ffced19ad44ba58b3ab8bd99f69ab7.glb",
+      "note": "Gratis download zonder inloggen.",
+      "bytes": 135708
+    },
+    "model": null,
+    "modelScale": null,
+    "addedAt": "2026-10-26"
+  },
+  {
+    "id": "ff29e81ff1564d73bad71d0042f96a28",
+    "code": "R33",
+    "title": "Garage met voertuigen",
+    "name": "Workshop (Render Scene)",
+    "kind": "room",
+    "category": "Ruimtes",
+    "subcategory": "Werkplaats",
+    "scan": false,
+    "description": "A render scene i made 2012.\nJust wanted to see how it looks on sketchfab:)\nI used the new PBR Render. \n\nCycles Render Image:\nhttp://dennish2010.deviantart.com/art/Workshop-Reworked-296740523?q=gallery%3ADennisH2010%2F24342707&qo=109",
+    "notes": "Bestaande 3D-omgeving van de vermelde maker.",
+    "author": "3DHaupt",
+    "source": "https://sketchfab.com/3d-models/workshop-render-scene-ff29e81ff1564d73bad71d0042f96a28",
+    "license": {
+      "slug": "by",
+      "url": "http://creativecommons.org/licenses/by/4.0/"
+    },
+    "image": "images/ff29e81ff1564d73bad71d0042f96a28.jpg",
+    "download": {
+      "status": "no-login",
+      "url": "https://huggingface.co/datasets/allenai/objaverse/resolve/main/glbs/000-026/ff29e81ff1564d73bad71d0042f96a28.glb",
+      "note": "Gratis download zonder inloggen.",
+      "bytes": 75791576
+    },
+    "model": null,
+    "modelScale": null,
+    "addedAt": "2026-10-26"
+  },
+  {
+    "id": "c8d0782400e44efca89cd7192d1b59e9",
+    "code": "R34",
+    "title": "Werkstudio in de tuin",
+    "name": "Workshop • Studio-in-the-Garden",
+    "kind": "room",
+    "category": "Ruimtes",
+    "subcategory": "Studio",
+    "scan": false,
+    "description": "Hi!\nThis is a project of mine consisting in a small shed-like-workshop/studio placed in our garden, in the countryside.\nEnjoy!",
+    "notes": "Bestaande 3D-omgeving van de vermelde maker.",
+    "author": "Cristian Brustur",
+    "source": "https://sketchfab.com/3d-models/workshop-studio-in-the-garden-c8d0782400e44efca89cd7192d1b59e9",
+    "license": {
+      "slug": "by",
+      "url": "http://creativecommons.org/licenses/by/4.0/"
+    },
+    "image": "images/c8d0782400e44efca89cd7192d1b59e9.jpg",
+    "download": {
+      "status": "no-login",
+      "url": "https://huggingface.co/datasets/allenai/objaverse/resolve/main/glbs/000-047/c8d0782400e44efca89cd7192d1b59e9.glb",
+      "note": "Gratis download zonder inloggen.",
+      "bytes": 3093660
+    },
+    "model": null,
+    "modelScale": null,
+    "addedAt": "2026-10-26"
+  },
+  {
+    "id": "71d191aabc5e4b979ceee3c19526fd54",
+    "code": "R35",
+    "title": "Gescande oude winkelhal",
+    "name": "Forgoten soviet shop hall interior at Kapotnya",
+    "kind": "room",
+    "category": "Ruimtes",
+    "subcategory": "Winkel",
+    "scan": true,
+    "description": "Located in Kapotnya public center, Moscow. This is a very far district, so hall interior still untouch from USSR times.\nVideo at 7.5 fisheye lens, Realtycapture",
+    "notes": "Gescande omgeving; bestaande spullen kunnen onderdeel van de scan zijn.",
+    "author": "trolleway",
+    "source": "https://sketchfab.com/3d-models/forgoten-soviet-shop-hall-interior-at-kapotnya-71d191aabc5e4b979ceee3c19526fd54",
+    "license": {
+      "slug": "by",
+      "url": "http://creativecommons.org/licenses/by/4.0/"
+    },
+    "image": "images/71d191aabc5e4b979ceee3c19526fd54.jpg",
+    "download": {
+      "status": "no-login",
+      "url": "https://huggingface.co/datasets/allenai/objaverse/resolve/main/glbs/000-061/71d191aabc5e4b979ceee3c19526fd54.glb",
+      "note": "Gratis download zonder inloggen.",
+      "bytes": 33357444
+    },
+    "model": null,
+    "modelScale": null,
+    "addedAt": "2026-10-26"
+  },
+  {
+    "id": "34090cc0cef74099a4d48c1e7541ffcb",
+    "code": "R36",
+    "title": "Gescand leeg vervallen pand",
+    "name": "Empty Building Interior [3rd June 2020]",
+    "kind": "room",
+    "category": "Ruimtes",
+    "subcategory": "Industrieel",
+    "scan": true,
+    "description": "Interior scan of an empty ruined building.",
+    "notes": "Gescande omgeving; bestaande spullen kunnen onderdeel van de scan zijn.",
+    "author": "Mehmet Kozal",
+    "source": "https://sketchfab.com/3d-models/empty-building-interior-3rd-june-2020-34090cc0cef74099a4d48c1e7541ffcb",
+    "license": {
+      "slug": "by",
+      "url": "http://creativecommons.org/licenses/by/4.0/"
+    },
+    "image": "images/34090cc0cef74099a4d48c1e7541ffcb.jpg",
+    "download": {
+      "status": "no-login",
+      "url": "https://huggingface.co/datasets/allenai/objaverse/resolve/main/glbs/000-064/34090cc0cef74099a4d48c1e7541ffcb.glb",
+      "note": "Gratis download zonder inloggen.",
+      "bytes": 16806024
+    },
+    "model": null,
+    "modelScale": null,
+    "addedAt": "2026-10-26"
+  },
+  {
+    "id": "a0c0ac7dbbea4e1cbf3d7beaa164a239",
+    "code": "R37",
+    "title": "Kleine muziekstudio",
+    "name": "Music studio",
+    "kind": "room",
+    "category": "Ruimtes",
+    "subcategory": "Studio",
+    "scan": false,
+    "description": "A little music studio",
+    "notes": "Bestaande 3D-omgeving van de vermelde maker.",
+    "author": "JuliaIce",
+    "source": "https://sketchfab.com/3d-models/music-studio-a0c0ac7dbbea4e1cbf3d7beaa164a239",
+    "license": {
+      "slug": "by",
+      "url": "http://creativecommons.org/licenses/by/4.0/"
+    },
+    "image": "images/a0c0ac7dbbea4e1cbf3d7beaa164a239.jpg",
+    "download": {
+      "status": "no-login",
+      "url": "https://huggingface.co/datasets/allenai/objaverse/resolve/main/glbs/000-086/a0c0ac7dbbea4e1cbf3d7beaa164a239.glb",
+      "note": "Gratis download zonder inloggen.",
+      "bytes": 4970468
+    },
+    "model": null,
+    "modelScale": null,
+    "addedAt": "2026-10-26"
+  },
+  {
+    "id": "3304add0c13f416597dd393a76867f96",
+    "code": "R38",
+    "title": "Opnamestudio met piano",
+    "name": "Recording Studio",
+    "kind": "room",
+    "category": "Ruimtes",
+    "subcategory": "Studio",
+    "scan": false,
+    "description": "Recording studio with a piano and full mixer.  I made this in Autodesk Maya!",
+    "notes": "Bestaande 3D-omgeving van de vermelde maker.",
+    "author": "Noah Lupowitz",
+    "source": "https://sketchfab.com/3d-models/recording-studio-3304add0c13f416597dd393a76867f96",
+    "license": {
+      "slug": "by",
+      "url": "http://creativecommons.org/licenses/by/4.0/"
+    },
+    "image": "images/3304add0c13f416597dd393a76867f96.jpg",
+    "download": {
+      "status": "no-login",
+      "url": "https://huggingface.co/datasets/allenai/objaverse/resolve/main/glbs/000-109/3304add0c13f416597dd393a76867f96.glb",
+      "note": "Gratis download zonder inloggen.",
+      "bytes": 8715784
+    },
+    "model": null,
+    "modelScale": null,
+    "addedAt": "2026-10-26"
+  },
+  {
+    "id": "fdd57e783d744886bc37cdfb76cf9475",
+    "code": "R39",
+    "title": "Kleine kunststudio",
+    "name": "Small Art Studio",
+    "kind": "room",
+    "category": "Ruimtes",
+    "subcategory": "Studio",
+    "scan": false,
+    "description": "This is a small Art studio where is located in Hong Kong. Hong Kong ’s excellent geographical location and unique cultural background, coupled with the ability to receive first-hand information from all over the world. It allows local art creators to integrate Chinese and Western culture and life experience to create unique local features.\n\nThis small art studio is for two British couple, who had have taught western art history and context in Hong Kong University for 20 years. They both like small environment which can make them feel all the art surround their emotion body. The Design idea is basic, which they would like to show their fanatic and passion artwork in that room.",
+    "notes": "Bestaande 3D-omgeving van de vermelde maker.",
+    "author": "Arts and Materials Lab",
+    "source": "https://sketchfab.com/3d-models/small-art-studio-fdd57e783d744886bc37cdfb76cf9475",
+    "license": {
+      "slug": "by",
+      "url": "http://creativecommons.org/licenses/by/4.0/"
+    },
+    "image": "images/fdd57e783d744886bc37cdfb76cf9475.jpg",
+    "download": {
+      "status": "no-login",
+      "url": "https://huggingface.co/datasets/allenai/objaverse/resolve/main/glbs/000-102/fdd57e783d744886bc37cdfb76cf9475.glb",
+      "note": "Gratis download zonder inloggen.",
+      "bytes": 40461684
+    },
+    "model": null,
+    "modelScale": null,
+    "addedAt": "2026-10-26"
+  },
+  {
+    "id": "7a561f3f9ff94dc49a8d2ba0d2873eb6",
+    "code": "R40",
+    "title": "Bakstenen winkelruimte",
+    "name": "Empty Bakery Interior",
+    "kind": "room",
+    "category": "Ruimtes",
+    "subcategory": "Winkel",
+    "scan": false,
+    "description": "This is a basic, empty Bakery interior that I created for my Final major Project. It was for an animation idea that I had for a character to start a small home business which grows as they buy their own bakery.\n\nThis model was made using blender.\n\nThe doors are rigged so that they can open and close.\n\nThe design is for the interior only so the outside is blank.",
+    "notes": "Bestaande 3D-omgeving van de vermelde maker.",
+    "author": "RachelC04",
+    "source": "https://sketchfab.com/3d-models/empty-bakery-interior-7a561f3f9ff94dc49a8d2ba0d2873eb6",
+    "license": {
+      "slug": "by",
+      "url": "http://creativecommons.org/licenses/by/4.0/"
+    },
+    "image": "images/7a561f3f9ff94dc49a8d2ba0d2873eb6.jpg",
+    "download": {
+      "status": "no-login",
+      "url": "https://huggingface.co/datasets/allenai/objaverse/resolve/main/glbs/000-031/7a561f3f9ff94dc49a8d2ba0d2873eb6.glb",
+      "note": "Gratis download zonder inloggen.",
+      "bytes": 5565960
+    },
+    "model": null,
+    "modelScale": null,
+    "addedAt": "2026-10-26"
+  },
+  {
+    "id": "1e40d433ed6f48fb880a0d2172aff7ca",
+    "code": "R41",
+    "title": "Verlaten magazijn met PBR-materialen",
+    "name": "Abandoned Warehouse",
+    "kind": "room",
+    "category": "Ruimtes",
+    "subcategory": "Industrieel",
+    "scan": false,
+    "description": "Reskin of https://skfb.ly/QQuJ by @aurelien_martel. Other models are also originating from sketchfab. All textures (PBR, 4K) were retextured in Substance Painter. The model is not really optimized for games (I warned you).",
+    "notes": "Bestaande 3D-omgeving van de vermelde maker.",
+    "author": "denis_cliofas",
+    "source": "https://sketchfab.com/3d-models/abandoned-warehouse-1e40d433ed6f48fb880a0d2172aff7ca",
+    "license": {
+      "slug": "by",
+      "url": "http://creativecommons.org/licenses/by/4.0/"
+    },
+    "image": "images/1e40d433ed6f48fb880a0d2172aff7ca.jpg",
+    "download": {
+      "status": "no-login",
+      "url": "https://huggingface.co/datasets/allenai/objaverse/resolve/main/glbs/000-079/1e40d433ed6f48fb880a0d2172aff7ca.glb",
+      "note": "Gratis download zonder inloggen.",
+      "bytes": 109332812
+    },
+    "model": null,
+    "modelScale": null,
+    "addedAt": "2026-10-26"
+  },
+  {
+    "id": "a22de7c45a974834b840c65561934681",
+    "code": "R42",
+    "title": "Gescande garage met inventaris",
+    "name": "Garage Scan - Display.Land",
+    "kind": "room",
+    "category": "Ruimtes",
+    "subcategory": "Garage",
+    "scan": true,
+    "description": "3D scan of a garage captured with the display.land app on the iPad Pro.",
+    "notes": "Gescande omgeving; bestaande spullen kunnen onderdeel van de scan zijn.",
+    "author": "Andy",
+    "source": "https://sketchfab.com/3d-models/garage-scan-displayland-a22de7c45a974834b840c65561934681",
+    "license": {
+      "slug": "by",
+      "url": "http://creativecommons.org/licenses/by/4.0/"
+    },
+    "image": "images/a22de7c45a974834b840c65561934681.jpg",
+    "download": {
+      "status": "no-login",
+      "url": "https://huggingface.co/datasets/allenai/objaverse/resolve/main/glbs/000-073/a22de7c45a974834b840c65561934681.glb",
+      "note": "Gratis download zonder inloggen.",
+      "bytes": 7295308
+    },
+    "model": null,
+    "modelScale": null,
+    "addedAt": "2026-10-26"
+  },
+  {
+    "id": "e402f04b81c748299c692cb5f12f5249",
+    "code": "R43",
+    "title": "Winkel met schappen",
+    "name": "Food Store",
+    "kind": "room",
+    "category": "Ruimtes",
+    "subcategory": "Winkel",
+    "scan": false,
+    "description": "This model conten a food store with furniture, cameras, lights and materials\nwas created in revit and 3dsmax",
+    "notes": "Bestaande 3D-omgeving van de vermelde maker.",
+    "author": "3d Artist",
+    "source": "https://sketchfab.com/3d-models/food-store-e402f04b81c748299c692cb5f12f5249",
+    "license": {
+      "slug": "by",
+      "url": "http://creativecommons.org/licenses/by/4.0/"
+    },
+    "image": "images/e402f04b81c748299c692cb5f12f5249.jpg",
+    "download": {
+      "status": "no-login",
+      "url": "https://huggingface.co/datasets/allenai/objaverse/resolve/main/glbs/000-022/e402f04b81c748299c692cb5f12f5249.glb",
+      "note": "Gratis download zonder inloggen.",
+      "bytes": 28133936
+    },
+    "model": null,
+    "modelScale": null,
+    "addedAt": "2026-10-26"
+  },
+  {
+    "id": "c5cfa3d5c7e74db78691147798b8b872",
+    "code": "R44",
+    "title": "Historisch winkelinterieur in Nevada",
+    "name": "Eureka Nevada Store Interior",
+    "kind": "room",
+    "category": "Ruimtes",
+    "subcategory": "Winkel",
+    "scan": true,
+    "description": "Everything you needed could be had here for more than a centruy, until a year ago.  The new store is on the outside of town and only shelves remain and the heads of elk and deer.   Created in Capturing Reality from 29 images",
+    "notes": "Gescande omgeving; bestaande spullen kunnen onderdeel van de scan zijn.",
+    "author": "John Toeppen",
+    "source": "https://sketchfab.com/3d-models/eureka-nevada-store-interior-c5cfa3d5c7e74db78691147798b8b872",
+    "license": {
+      "slug": "by",
+      "url": "http://creativecommons.org/licenses/by/4.0/"
+    },
+    "image": "images/c5cfa3d5c7e74db78691147798b8b872.jpg",
+    "download": {
+      "status": "no-login",
+      "url": "https://huggingface.co/datasets/allenai/objaverse/resolve/main/glbs/000-044/c5cfa3d5c7e74db78691147798b8b872.glb",
+      "note": "Gratis download zonder inloggen.",
+      "bytes": 2451048
+    },
+    "model": null,
+    "modelScale": null,
+    "addedAt": "2026-10-26"
+  },
+  {
+    "id": "3f295d678fdd40e09b8249b53c88f8f0",
+    "code": "R45",
+    "title": "Grote fabriekshal",
+    "name": "Factory Hall",
+    "kind": "room",
+    "category": "Ruimtes",
+    "subcategory": "Industrieel",
+    "scan": false,
+    "description": "Factory Hall",
+    "notes": "Bestaande 3D-omgeving van de vermelde maker.",
+    "author": "Kevin.Yudi.Utama",
+    "source": "https://sketchfab.com/3d-models/factory-hall-3f295d678fdd40e09b8249b53c88f8f0",
+    "license": {
+      "slug": "by",
+      "url": "http://creativecommons.org/licenses/by/4.0/"
+    },
+    "image": "images/3f295d678fdd40e09b8249b53c88f8f0.jpg",
+    "download": {
+      "status": "no-login",
+      "url": "https://huggingface.co/datasets/allenai/objaverse/resolve/main/glbs/000-033/3f295d678fdd40e09b8249b53c88f8f0.glb",
+      "note": "Gratis download zonder inloggen.",
+      "bytes": 8519052
+    },
+    "model": null,
+    "modelScale": null,
+    "addedAt": "2026-10-26"
+  },
+  {
+    "id": "12d2dfd3d2cb4c8e80f3f223c649be32",
+    "code": "R46",
+    "title": "Gescande magazijnruïne in Finland",
+    "name": "Destroyed Warehouse In Kaarina, Finland",
+    "kind": "room",
+    "category": "Ruimtes",
+    "subcategory": "Industrieel",
+    "scan": true,
+    "description": "A warehouse that used to store bricks about a decade ago.\n\nPhotos taken with A7RIV + Sony 20mm + Parrot Anafi.\n\nProcessed with Metashape + Blender",
+    "notes": "Gescande omgeving; bestaande spullen kunnen onderdeel van de scan zijn.",
+    "author": "Lassi Kaukonen",
+    "source": "https://sketchfab.com/3d-models/destroyed-warehouse-in-kaarina-finland-12d2dfd3d2cb4c8e80f3f223c649be32",
+    "license": {
+      "slug": "by",
+      "url": "http://creativecommons.org/licenses/by/4.0/"
+    },
+    "image": "images/12d2dfd3d2cb4c8e80f3f223c649be32.jpg",
+    "download": {
+      "status": "no-login",
+      "url": "https://huggingface.co/datasets/allenai/objaverse/resolve/main/glbs/000-003/12d2dfd3d2cb4c8e80f3f223c649be32.glb",
+      "note": "Gratis download zonder inloggen.",
+      "bytes": 43480500
+    },
+    "model": null,
+    "modelScale": null,
+    "addedAt": "2026-10-26"
+  }
+]

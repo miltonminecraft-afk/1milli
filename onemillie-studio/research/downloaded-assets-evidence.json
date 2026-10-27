@@ -1,0 +1,102 @@
+[
+  {
+    "code": "W2",
+    "author": "Arsen Ismailov",
+    "source": "https://sketchfab.com/3d-models/garage-desk-c260327b93114d56933bdd9e3b0454b7",
+    "license": {
+      "slug": "by",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "model": "c260327b93114d56933bdd9e3b0454b7.glb",
+    "modelScale": 1,
+    "bounds": {
+      "min": [
+        -1.8672432511645762,
+        -0.017845636699348688,
+        -1.6979691088199615
+      ],
+      "max": [
+        1.766224205493927,
+        2.427788100401699,
+        2.1137000282867318
+      ]
+    },
+    "bytes": 38853980,
+    "changes": "Repacked as GLB; no mesh or texture reduction."
+  },
+  {
+    "code": "C2",
+    "author": "CurlyFryWhy",
+    "source": "https://sketchfab.com/3d-models/antique-wooden-milk-crates-489a6f095dc44bb1b279ed58e5bb3571",
+    "license": {
+      "slug": "by",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "model": "489a6f095dc44bb1b279ed58e5bb3571.glb",
+    "modelScale": 0.05,
+    "bounds": {
+      "min": [
+        -9.727034568786621,
+        -0.028519999235867344,
+        -6.627358913421631
+      ],
+      "max": [
+        17.67474937438965,
+        14.550350189208986,
+        6.33946990966797
+      ]
+    },
+    "bytes": 14389284,
+    "changes": "Repacked as GLB; no mesh or texture reduction."
+  },
+  {
+    "code": "C3",
+    "author": "Denisse Rodriguez",
+    "source": "https://sketchfab.com/3d-models/plastic-crate-5f7103bfb5974eab85bb1a4ab8a8595e",
+    "license": {
+      "slug": "by",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "model": "5f7103bfb5974eab85bb1a4ab8a8595e.glb",
+    "modelScale": 1,
+    "bounds": {
+      "min": [
+        -0.3449276342948754,
+        -0.020598533090260787,
+        -0.22683494043294958
+      ],
+      "max": [
+        0.3449276342948754,
+        0.36036144871872633,
+        0.22683494043294958
+      ]
+    },
+    "bytes": 9007768,
+    "changes": "Repacked as GLB; no mesh or texture reduction."
+  },
+  {
+    "code": "L2",
+    "author": "Mad_Lobster_Workshop",
+    "source": "https://sketchfab.com/3d-models/1930s-heavy-industrial-wall-lamps-b63c31b9c6a04284b665af8a0a93d456",
+    "license": {
+      "slug": "by",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "model": "b63c31b9c6a04284b665af8a0a93d456.glb",
+    "modelScale": 1,
+    "bounds": {
+      "min": [
+        -0.7844277322292328,
+        -0.16077886521816254,
+        -0.0009001269936561584
+      ],
+      "max": [
+        -0.42467907071113586,
+        0.1627223640680313,
+        0.157542422413826
+      ]
+    },
+    "bytes": 73972148,
+    "changes": "One rusty variant extracted; unused resources pruned."
+  }
+]

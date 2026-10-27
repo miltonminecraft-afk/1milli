@@ -1,0 +1,12 @@
+{
+  "FileVersion": 3,
+  "EngineAssociation": "5.8",
+  "Category": "Visualization",
+  "Description": "Original onemillie workshop reconstructed with selected licensed assets.",
+  "Plugins": [
+    { "Name": "ModelContextProtocol", "Enabled": true },
+    { "Name": "AllToolsets", "Enabled": true },
+    { "Name": "PythonScriptPlugin", "Enabled": true },
+    { "Name": "EditorScriptingUtilities", "Enabled": true }
+  ]
+}

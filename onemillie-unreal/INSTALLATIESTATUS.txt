@@ -1,0 +1,17 @@
+Voorbereiding, nog niet als werkende Unreal-scène gevalideerd.
+
+Unreal Engine 5.8 is de beoogde versie voor de officiële Unreal MCP-plug-in.
+Het project schakelt de door Epic geleverde MCP- en editor-toolsets in.
+Geen eigen MCP-brug, geen betaald generatiesysteem en geen automatisch
+gestarte server. Start de lokale koppeling pas vanuit de Unreal Editor.
+
+Lumen indirect licht, Lumen reflecties, distance fields en virtual shadow
+maps zijn als projectinstellingen voorbereid. De scène moet nog worden
+opgebouwd en visueel gecontroleerd in Unreal zodra installatie is voltooid.
+
+Reference/original-workshop.png bevat de oorspronkelijke goedgekeurde stijl.
+Import/chosen-assets.json verwijst naar de twaalf gekozen modellen, met
+aantallen en bronvermelding. S3 wordt tweemaal gebruikt.
+
+Installatiebesluit gebruiker: Unreal installeren zoals in de videoreferentie.
+Voorkeurslocatie voor launcher en engine: H:\exe\Epic Games.

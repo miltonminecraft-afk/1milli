@@ -1,0 +1,195 @@
+{
+  "version": 1,
+  "name": "Mijn inrichting",
+  "items": [
+    {
+      "id": "start-0",
+      "assetId": "477dd3a75ae64426a979ef3c57f10239",
+      "name": "Kallax 77 × 147",
+      "parentId": null,
+      "position": [
+        -1.4,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "start-1",
+      "assetId": "147cd49228e24746a6a2b3c45440d989",
+      "name": "Pioneer PLX-1000",
+      "parentId": null,
+      "position": [
+        -1.4,
+        0.765,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "start-2",
+      "assetId": "5c03f6b1082a4decb33ae7511209271a",
+      "name": "KRK Classic 5",
+      "parentId": null,
+      "position": [
+        -1.94,
+        0.765,
+        0
+      ],
+      "rotation": [
+        0,
+        10,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "start-3",
+      "assetId": "5c03f6b1082a4decb33ae7511209271a",
+      "name": "KRK Classic 5",
+      "parentId": null,
+      "position": [
+        -0.86,
+        0.765,
+        0
+      ],
+      "rotation": [
+        0,
+        -10,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "start-4",
+      "assetId": "d7cc67be8b474cc5bfe0a60c8afab13b",
+      "name": "Hout en metaal",
+      "parentId": null,
+      "position": [
+        0.5,
+        0,
+        -0.2
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "start-5",
+      "assetId": "9fbc30ba31a546fe9370e6de2dcc0707",
+      "name": "Oude werkbank",
+      "parentId": null,
+      "position": [
+        -3.1,
+        0,
+        -1.9
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "start-6",
+      "assetId": "dddd830af69a486fbf5e79c8e6515b4f",
+      "name": "Café racer",
+      "parentId": null,
+      "position": [
+        1.7,
+        0,
+        1.3
+      ],
+      "rotation": [
+        0,
+        -25,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "start-7",
+      "assetId": "b6c212a12d85425bb166f43cd3d70248",
+      "name": "Puch — 1978",
+      "parentId": null,
+      "position": [
+        3.1,
+        0,
+        -0.7
+      ],
+      "rotation": [
+        0,
+        -20,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "id": "start-8",
+      "assetId": "ad87a1e1da604bfea9b1276aa33f7952",
+      "name": "Industriële lamp",
+      "parentId": null,
+      "position": [
+        -1.3,
+        2.5,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  ]
+}

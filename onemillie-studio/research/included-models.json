@@ -1,0 +1,197 @@
+[
+  {
+    "code": "D2",
+    "title": "Pioneer PLX-1000",
+    "author": "Mateusz Kołakowski",
+    "source": "https://sketchfab.com/3d-models/pioneer-plx-1000-turntable-ltd-remastered-147cd49228e24746a6a2b3c45440d989",
+    "license": {
+      "slug": "by",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "model": "models/dj-turntable.glb",
+    "changes": "Imported GLB: scale, orientation or materials may have been adjusted; see website credits and downloaded-assets-evidence.json.",
+    "sha256": "52c9b0fa5042c2b180b9e71015555cf203581c61878b95c9e42e15fc48229b41"
+  },
+  {
+    "code": "K1",
+    "title": "Kallax 77 × 147",
+    "author": "Erik Blaho",
+    "source": "https://sketchfab.com/3d-models/kallax-77x147-477dd3a75ae64426a979ef3c57f10239",
+    "license": {
+      "slug": "by",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "model": "models/kallax-selected-ready.glb",
+    "changes": "Imported GLB: scale, orientation or materials may have been adjusted; see website credits and downloaded-assets-evidence.json.",
+    "sha256": "3de99779da965741d577896b9fac7696c0e86cd44d9305a579573dc52c78a918"
+  },
+  {
+    "code": "K3",
+    "title": "Hout en metaal",
+    "author": "beeclark",
+    "source": "https://sketchfab.com/3d-models/industrial-wood-and-metal-shelf-d7cc67be8b474cc5bfe0a60c8afab13b",
+    "license": {
+      "slug": "by",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "model": "models/industrial-shelf-ready.glb",
+    "changes": "Imported GLB: scale, orientation or materials may have been adjusted; see website credits and downloaded-assets-evidence.json.",
+    "sha256": "b4d9058a0ada7e902ec1a1011dd38544197143f1fe6f15bf7aed381d3f4bb2d0"
+  },
+  {
+    "code": "W1",
+    "title": "Oude werkbank",
+    "author": "Oliver Triplett",
+    "source": "https://sketchfab.com/3d-models/old-work-bench-9fbc30ba31a546fe9370e6de2dcc0707",
+    "license": {
+      "slug": "by",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "model": "models/old-workbench-ready.glb",
+    "changes": "Imported GLB: scale, orientation or materials may have been adjusted; see website credits and downloaded-assets-evidence.json.",
+    "sha256": "0e572919a537962b537a8137c5d766c11db349b35c523a3cdbc6cd25213d18f2"
+  },
+  {
+    "code": "W2",
+    "title": "Garagewerkbank",
+    "author": "Arsen Ismailov",
+    "source": "https://sketchfab.com/3d-models/garage-desk-c260327b93114d56933bdd9e3b0454b7",
+    "license": {
+      "slug": "by",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "model": "models/c260327b93114d56933bdd9e3b0454b7.glb",
+    "changes": "Imported GLB: scale, orientation or materials may have been adjusted; see website credits and downloaded-assets-evidence.json.",
+    "sha256": "4fe12f939ca04d58fa9d638b6f47f91725576a60342c5168a09aa8fe2ff8d33f"
+  },
+  {
+    "code": "B1",
+    "title": "Café racer",
+    "author": "oscarherry3d",
+    "source": "https://sketchfab.com/3d-models/cafe-racer-motorcycle-dddd830af69a486fbf5e79c8e6515b4f",
+    "license": {
+      "slug": "by",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "model": "models/cafe-racer.glb",
+    "changes": "Imported GLB: scale, orientation or materials may have been adjusted; see website credits and downloaded-assets-evidence.json.",
+    "sha256": "7c6859d3c93eb3317522833b1f700304f235fa37a5a23b6ad15d6f74b21aab40"
+  },
+  {
+    "code": "B3",
+    "title": "Puch — 1978",
+    "author": "Scanamatics",
+    "source": "https://sketchfab.com/3d-models/moped-1978-puch-moped-hero-b6c212a12d85425bb166f43cd3d70248",
+    "license": {
+      "slug": "by",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "model": "models/puch-moped-ready.glb",
+    "changes": "Imported GLB: scale, orientation or materials may have been adjusted; see website credits and downloaded-assets-evidence.json.",
+    "sha256": "03f780739f7865450619f29426fb659dcdb4272b818470e44a442abbce030cc2"
+  },
+  {
+    "code": "S3",
+    "title": "KRK Classic 5",
+    "author": "TheGiwi",
+    "source": "https://sketchfab.com/3d-models/krk-classic-5-studio-monitor-speaker-5c03f6b1082a4decb33ae7511209271a",
+    "license": {
+      "slug": "by",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "model": "models/krk-classic5-ready.glb",
+    "changes": "Imported GLB: scale, orientation or materials may have been adjusted; see website credits and downloaded-assets-evidence.json.",
+    "sha256": "48cdfb6f7af3f294bb742b5a6203794f6cc5fe1b03f8059c282ed9967c73c30f"
+  },
+  {
+    "code": "C2",
+    "title": "Houten melkkratten",
+    "author": "CurlyFryWhy",
+    "source": "https://sketchfab.com/3d-models/antique-wooden-milk-crates-489a6f095dc44bb1b279ed58e5bb3571",
+    "license": {
+      "slug": "by",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "model": "models/489a6f095dc44bb1b279ed58e5bb3571.glb",
+    "changes": "Imported GLB: scale, orientation or materials may have been adjusted; see website credits and downloaded-assets-evidence.json.",
+    "sha256": "9d13c81bdcc6db8c104f1963f58aced6cb17ad39f808248df710c732a65f1799"
+  },
+  {
+    "code": "C3",
+    "title": "Kunststof krat",
+    "author": "Denisse Rodriguez",
+    "source": "https://sketchfab.com/3d-models/plastic-crate-5f7103bfb5974eab85bb1a4ab8a8595e",
+    "license": {
+      "slug": "by",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "model": "models/5f7103bfb5974eab85bb1a4ab8a8595e.glb",
+    "changes": "Imported GLB: scale, orientation or materials may have been adjusted; see website credits and downloaded-assets-evidence.json.",
+    "sha256": "4ba0fabd110d69f4e54fbe6b47621003c11495b2765af1a405de5494604c981f"
+  },
+  {
+    "code": "L2",
+    "title": "Industriële wandlamp",
+    "author": "Mad_Lobster_Workshop",
+    "source": "https://sketchfab.com/3d-models/1930s-heavy-industrial-wall-lamps-b63c31b9c6a04284b665af8a0a93d456",
+    "license": {
+      "slug": "by",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "model": "models/b63c31b9c6a04284b665af8a0a93d456.glb",
+    "changes": "Imported GLB: scale, orientation or materials may have been adjusted; see website credits and downloaded-assets-evidence.json.",
+    "sha256": "074922e7514933fe7926b77f4ff448d6fad4cce23636d7fef0386d7ed03b56cd"
+  },
+  {
+    "code": "L3",
+    "title": "Industriële lamp",
+    "author": "Helsingr",
+    "source": "https://sketchfab.com/3d-models/industrial-lamp-ad87a1e1da604bfea9b1276aa33f7952",
+    "license": {
+      "slug": "by",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "model": "models/industrial-lamp-ready.glb",
+    "changes": "Imported GLB: scale, orientation or materials may have been adjusted; see website credits and downloaded-assets-evidence.json.",
+    "sha256": "586d097555e101f3a4aa2e38692e6d86039b16c6a217ababc669eb5895dbcce6"
+  },
+  {
+    "code": "D4",
+    "title": "Kofferplatenspeler",
+    "author": "drewetkorobkin",
+    "source": "https://sketchfab.com/3d-models/vinyl-record-player-bd082df3848d4cf39bfc9f60820e6d30",
+    "license": {
+      "slug": "by",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "model": "models/record-player.glb",
+    "changes": "Imported GLB: scale, orientation or materials may have been adjusted; see website credits and downloaded-assets-evidence.json.",
+    "sha256": "a25e9d79a4188ef3f338eefa61ddc151c272448f7d8d8173ac31a1c98767a316"
+  },
+  {
+    "code": "K4",
+    "title": "Kallax 2 × 4 — eerdere versie",
+    "author": "Nova",
+    "source": "https://sketchfab.com/3d-models/ikea-kallax-2x4-c5d2789603fd48b9851261e8c37587f7",
+    "license": {
+      "slug": "by",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "model": "models/record-cabinet-ready.glb",
+    "changes": "Imported GLB: scale, orientation or materials may have been adjusted; see website credits and downloaded-assets-evidence.json.",
+    "sha256": "c95e717855c9fa2429719711602f9cfd350ded6159ecce43ffc5f6215fefeda2"
+  },
+  {
+    "code": "V1",
+    "title": "12-inch vinylplaat",
+    "author": "AleixoAlonso",
+    "source": "https://sketchfab.com/3d-models/12-vinyl-record-dd27284e8c1a4622b3a0433c7cc8ee72",
+    "license": {
+      "slug": "by",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "model": "models/vinyl-record-ready.glb",
+    "changes": "Imported GLB: scale, orientation or materials may have been adjusted; see website credits and downloaded-assets-evidence.json.",
+    "sha256": "4063e649ee10f5378eebe3b263e7658019308418bf5c5de4a4489c0bb73940e5"
+  }
+]

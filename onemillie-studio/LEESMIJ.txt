@@ -1,0 +1,57 @@
+ONEMILLIE STUDIO
+
+Start: Programma/onemillie Studio.exe. Geen login nodig.
+
+1. Klik links op een model en daarna op de gewenste plek op de vloer.
+   Of sleep het model vanuit de bibliotheek naar de 3D-weergave.
+2. Sleep een geplaatst object om het te verplaatsen. Draaien: knop Draaien
+   of de schuif rechts. De pijlen kunnen ook de hoogte veranderen.
+   Schalen (S): sleep het middelste blokje om alle verhoudingen gelijk te houden,
+   of een gekleurd blokje voor één richting. Rechts kun je de schuif, +/− of
+   een percentage gebruiken. Dit werkt ook voor een geselecteerde groep.
+3. Shift + klik op meerdere objecten, dan Groeperen. Met Losmaken maak
+   je er weer losse objecten van. Alt + klik kiest een object binnen een groep.
+4. Verwijderen haalt een object of groep weg. Ctrl+Z zet het terug.
+5. Opslaan bewaart de inrichting op deze pc. Opslaan als maakt een ander project.
+   Ctrl+S = opslaan. Ctrl+Shift+Z = opnieuw. R = draaien. V = verplaatsen.
+
+Rondkijken: rechtermuisknop slepen rond de selectie (bij meerdere objecten
+rond het gezamenlijke midden). Zoomen: scrollen naar de selectie. Schuiven:
+middelste muisknop of Shift + rechts slepen. Overzicht herstelt de camera.
+
+BIBLIOTHEEK
+54 ruimtes en 24 objectmodellen. De 16 extra omgevingen staan vooraan bij
+Ruimtes en hebben gratis directe downloads zonder login. Gebruik Categorie
+om bijvoorbeeld garages, werkplaatsen, studio's of industriële ruimtes te zien.
+Nog niet gedownloade modellen worden op aanvraag opgehaald.
+Modellen zonder vrij bestand zijn herkenbaar en niet automatisch vervangen.
+Je kunt een eigen GLB, PLY of SOG toevoegen met Importeren.
+De werkvloer is alleen een neutrale plaatsingshulp; er is nog geen ruimte gekozen.
+Nieuwe ruimtes komen gecentreerd op de vloer. Bij een bestaande ruimte kun je
+Ruimte centreren gebruiken. Breedte, hoogte en diepte staan in meters en zijn
+instelbaar; aanpassen van één maat behoudt de verhoudingen. De oude vaste
+12-meterverkleining is verwijderd. Broneenheden van scans kunnen onbekend zijn;
+controleer de maat met een bekende afmeting. Je gekozen schaal wordt opgeslagen.
+
+SPLAT MAKEN
+Dit tabblad gebruikt de bestaande lokale video/splatpipeline van de andere chat.
+Resultaten staan op H:/AI/Studio-Splats. De knop Naar bibliotheek importeert
+een echte Gaussian splat in deze editor. Een verwerking loopt door als je
+van tabblad wisselt. Geen nieuwe GPU-training is nodig om bestaande resultaten te zien.
+
+BESTANDEN
+data/Mijn inrichting.onemillie = standaard project (na opslaan)
+exports/inrichting.json = leesbare kopie voor verdere verwerking door Codex
+models/ = modellen en geïmporteerde splats
+images/ = voorbeeldafbeeldingen
+library/ = eerder voorbereide Blender-assets; niet vereist om dit programma te gebruiken
+
+De live website wordt door opslaan in dit programma niet gepubliceerd.
+Dit programma gebruikt de bestaande Lee Mobero PlayCanvas-renderer en native
+PlayCanvas-bediening voor transformeren. Electron verzorgt het pc-venster.
+Rechten op de modellen blijven bij de makers; zie data/catalog.json en library/ATTRIBUTION.txt.
+Extra ruimtes: data/extra-rooms.json en research/extra-rooms-attribution.txt.
+
+Controle: rendererbediening, groeperen, draaien, verwijderen/ongedaan maken
+en opslaan/heropenen zijn in de geïsoleerde browser-QA getest. Native
+Windows-vensterbediening bleef onbevestigd na verlopen Computer Use-toestemming.

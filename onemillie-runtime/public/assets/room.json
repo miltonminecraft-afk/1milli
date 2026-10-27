@@ -1,0 +1,417 @@
+{
+  "schemaVersion": 1,
+  "environment": {
+    "url": "/assets/models/scanned-workshop.glb",
+    "type": "glb",
+    "transform": {
+      "scale": 0.05
+    }
+  },
+  "views": {
+    "overview": {
+      "position": [
+        0,
+        1.75,
+        3.25
+      ],
+      "target": [
+        -0.1,
+        1.15,
+        -1.9
+      ]
+    },
+    "records": {
+      "position": [
+        -0.8,
+        1.48,
+        -2.7
+      ],
+      "target": [
+        -0.75,
+        0.68,
+        -4.15
+      ]
+    },
+    "turntable": {
+      "position": [
+        -1.05,
+        1.42,
+        -3.35
+      ],
+      "target": [
+        -1.1,
+        0.91,
+        -4.25
+      ]
+    },
+    "recordAction": {
+      "position": [
+        -1.15,
+        1.62,
+        -2.85
+      ],
+      "target": [
+        -1.15,
+        1.09,
+        -4.05
+      ]
+    },
+    "workbenches": {
+      "position": [
+        -0.15,
+        1.7,
+        -0.6
+      ],
+      "target": [
+        -2,
+        1.2,
+        -1.5
+      ]
+    },
+    "vehicles": {
+      "position": [
+        -0.2,
+        1.6,
+        0.8
+      ],
+      "target": [
+        1.5,
+        0.7,
+        -0.9
+      ]
+    },
+    "projects": {
+      "position": [
+        -0.15,
+        1.7,
+        -0.6
+      ],
+      "target": [
+        -2,
+        1.2,
+        -1.5
+      ]
+    }
+  },
+  "walkBounds": {
+    "min": [
+      -2.2,
+      -3.45
+    ],
+    "max": [
+      2.15,
+      4.2
+    ]
+  },
+  "obstacles": [
+    {
+      "min": [
+        -2.47,
+        -2.83
+      ],
+      "max": [
+        -1.65,
+        -0.27
+      ]
+    },
+    {
+      "min": [
+        0.8,
+        -3.04
+      ],
+      "max": [
+        2.1,
+        -0.69
+      ]
+    },
+    {
+      "min": [
+        1.14,
+        -0.28
+      ],
+      "max": [
+        2.17,
+        1.68
+      ]
+    },
+    {
+      "min": [
+        -0.19,
+        -4.48
+      ],
+      "max": [
+        0.89,
+        -3.38
+      ]
+    },
+    {
+      "min": [
+        -1.86,
+        -4.46
+      ],
+      "max": [
+        -0.34,
+        -4.04
+      ]
+    }
+  ],
+  "lights": [
+    {
+      "name": "Industriële hanglamp",
+      "position": [
+        0,
+        3.35,
+        -2
+      ],
+      "intensity": 0.45,
+      "color": [
+        1,
+        0.88,
+        0.7
+      ],
+      "range": 7
+    },
+    {
+      "name": "Werkbankverlichting",
+      "position": [
+        -1.8,
+        1.7,
+        -1.2
+      ],
+      "intensity": 0.18,
+      "color": [
+        0.95,
+        0.98,
+        1
+      ],
+      "range": 3
+    }
+  ],
+  "anchors": {
+    "records": [
+      {
+        "x": -1.69,
+        "y": 0.634620148409183,
+        "z": -4.244,
+        "ry": 74,
+        "rz": -2.5,
+        "scale": 0.315
+      },
+      {
+        "x": -1.56,
+        "y": 0.634620148409183,
+        "z": -4.244,
+        "ry": 74,
+        "rz": -2.5,
+        "scale": 0.315
+      },
+      {
+        "x": -1.34,
+        "y": 0.634620148409183,
+        "z": -4.244,
+        "ry": 74,
+        "rz": -2.5,
+        "scale": 0.315
+      },
+      {
+        "x": -1.2100000000000002,
+        "y": 0.634620148409183,
+        "z": -4.244,
+        "ry": 74,
+        "rz": -2.5,
+        "scale": 0.315
+      },
+      {
+        "x": -0.925,
+        "y": 0.634620148409183,
+        "z": -4.244,
+        "ry": 74,
+        "rz": -2.5,
+        "scale": 0.315
+      },
+      {
+        "x": -0.5750000000000001,
+        "y": 0.634620148409183,
+        "z": -4.244,
+        "ry": 74,
+        "rz": -2.5,
+        "scale": 0.315
+      },
+      {
+        "x": -1.625,
+        "y": 0.280820148409183,
+        "z": -4.244,
+        "ry": 74,
+        "rz": -2.5,
+        "scale": 0.315
+      },
+      {
+        "x": -1.2750000000000001,
+        "y": 0.280820148409183,
+        "z": -4.244,
+        "ry": 74,
+        "rz": -2.5,
+        "scale": 0.315
+      },
+      {
+        "x": -0.925,
+        "y": 0.280820148409183,
+        "z": -4.244,
+        "ry": 74,
+        "rz": -2.5,
+        "scale": 0.315
+      },
+      {
+        "x": -0.5750000000000001,
+        "y": 0.280820148409183,
+        "z": -4.244,
+        "ry": 74,
+        "rz": -2.5,
+        "scale": 0.315
+      }
+    ],
+    "sleeveAtDeck": {
+      "x": 0.35,
+      "y": 1.2303,
+      "z": -4.03,
+      "ry": -12,
+      "scale": 0.315
+    }
+  },
+  "props": [
+    {
+      "id": "base-kallax",
+      "choice": "K1",
+      "name": "Kallax 77 × 147",
+      "transform": {
+        "x": -1.1,
+        "y": 0.08,
+        "z": -4.25
+      },
+      "url": "/assets/models/kallax-selected-ready.glb"
+    },
+    {
+      "id": "base-industrial-shelf",
+      "choice": "K3",
+      "name": "Hout en metaal",
+      "transform": {
+        "x": 0.35,
+        "y": 0.08,
+        "z": -3.93,
+        "ry": 90
+      },
+      "url": "/assets/models/industrial-shelf-ready.glb"
+    },
+    {
+      "id": "base-turntable",
+      "choice": "D2",
+      "name": "Pioneer PLX-1000",
+      "transform": {
+        "x": -1.1,
+        "y": 0.8434999999999999,
+        "z": -4.25
+      },
+      "url": "/assets/models/dj-turntable.glb"
+    },
+    {
+      "id": "base-vinyl",
+      "name": "12-inch vinyl",
+      "transform": {
+        "x": -1.1454475000000002,
+        "y": 0.9451749999999999,
+        "z": -4.2502205
+      },
+      "url": "/assets/models/vinyl-record-ready.glb"
+    },
+    {
+      "id": "base-speaker-left",
+      "choice": "S3",
+      "name": "KRK Classic 5 links",
+      "transform": {
+        "x": -1.6,
+        "y": 0.8434999999999999,
+        "z": -4.25,
+        "ry": 10
+      },
+      "url": "/assets/models/krk-classic5-ready.glb"
+    },
+    {
+      "id": "base-speaker-right",
+      "choice": "S3",
+      "name": "KRK Classic 5 rechts",
+      "transform": {
+        "x": -0.6000000000000001,
+        "y": 0.8434999999999999,
+        "z": -4.25,
+        "ry": -10
+      },
+      "url": "/assets/models/krk-classic5-ready.glb"
+    },
+    {
+      "id": "base-workbench-one",
+      "choice": "W1",
+      "name": "Oude werkbank",
+      "transform": {
+        "x": -2.05,
+        "y": 0.055,
+        "z": -1.55,
+        "ry": 90
+      },
+      "url": "/assets/models/old-workbench-ready.glb"
+    },
+    {
+      "id": "base-motorcycle",
+      "choice": "B1",
+      "name": "Café racer",
+      "transform": {
+        "x": 1.5,
+        "y": 0.56,
+        "z": -1.9,
+        "ry": -12,
+        "scale": 0.68
+      },
+      "url": "/assets/models/cafe-racer.glb"
+    },
+    {
+      "id": "base-puch",
+      "choice": "B3",
+      "name": "Puch 1978",
+      "transform": {
+        "x": 1.65,
+        "y": 0.025,
+        "z": 0.7,
+        "ry": -12
+      },
+      "url": "/assets/models/puch-moped-ready.glb"
+    },
+    {
+      "id": "base-pendant",
+      "choice": "L3",
+      "name": "Industriële lamp",
+      "transform": {
+        "x": 0,
+        "y": 3.20215,
+        "z": -2
+      },
+      "url": "/assets/models/industrial-lamp-ready.glb"
+    }
+  ],
+  "pendingAssets": [
+    {
+      "choice": "W2",
+      "name": "Garagewerkbank"
+    },
+    {
+      "choice": "C2",
+      "name": "Houten melkkratten"
+    },
+    {
+      "choice": "C3",
+      "name": "Kunststof krat"
+    },
+    {
+      "choice": "L2",
+      "name": "Industriële wandlamp"
+    }
+  ]
+}

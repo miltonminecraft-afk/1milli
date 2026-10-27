@@ -1,0 +1,22 @@
+{
+  "c260327b93114d56933bdd9e3b0454b7": {
+    "model": "c260327b93114d56933bdd9e3b0454b7.glb",
+    "modelScale": 1,
+    "notes": "Originele werkbank met bijbehorend gereedschap."
+  },
+  "489a6f095dc44bb1b279ed58e5bb3571": {
+    "model": "489a6f095dc44bb1b279ed58e5bb3571.glb",
+    "modelScale": 0.05,
+    "notes": "Hele set houten kratten; geschatte startschaal, zelf aanpasbaar."
+  },
+  "5f7103bfb5974eab85bb1a4ab8a8595e": {
+    "model": "5f7103bfb5974eab85bb1a4ab8a8595e.glb",
+    "modelScale": 1,
+    "notes": "Originele schaal: circa 69 × 38 × 45 cm buitenmaat."
+  },
+  "b63c31b9c6a04284b665af8a0a93d456": {
+    "model": "b63c31b9c6a04284b665af8a0a93d456.glb",
+    "modelScale": 1,
+    "notes": "Eén roestige wandlamp uit de oorspronkelijke set. Alle varianten blijven in de bron-GLB."
+  }
+}

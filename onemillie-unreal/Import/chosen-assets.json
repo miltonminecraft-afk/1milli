@@ -1,0 +1,146 @@
+[
+  {
+    "code": "D2",
+    "title": "Pioneer PLX-1000",
+    "count": 1,
+    "model": "../../onemillie-studio/models/dj-turntable.glb",
+    "source": "https://sketchfab.com/3d-models/pioneer-plx-1000-turntable-ltd-remastered-147cd49228e24746a6a2b3c45440d989",
+    "license": {
+      "slug": "by",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "modelScale": 1
+  },
+  {
+    "code": "K1",
+    "title": "Kallax 77 × 147",
+    "count": 1,
+    "model": "../../onemillie-studio/models/kallax-selected-ready.glb",
+    "source": "https://sketchfab.com/3d-models/kallax-77x147-477dd3a75ae64426a979ef3c57f10239",
+    "license": {
+      "slug": "by",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "modelScale": 1
+  },
+  {
+    "code": "K3",
+    "title": "Hout en metaal",
+    "count": 1,
+    "model": "../../onemillie-studio/models/industrial-shelf-ready.glb",
+    "source": "https://sketchfab.com/3d-models/industrial-wood-and-metal-shelf-d7cc67be8b474cc5bfe0a60c8afab13b",
+    "license": {
+      "slug": "by",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "modelScale": 1
+  },
+  {
+    "code": "W1",
+    "title": "Oude werkbank",
+    "count": 1,
+    "model": "../../onemillie-studio/models/old-workbench-ready.glb",
+    "source": "https://sketchfab.com/3d-models/old-work-bench-9fbc30ba31a546fe9370e6de2dcc0707",
+    "license": {
+      "slug": "by",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "modelScale": 1
+  },
+  {
+    "code": "W2",
+    "title": "Garagewerkbank",
+    "count": 1,
+    "model": "../../onemillie-studio/models/c260327b93114d56933bdd9e3b0454b7.glb",
+    "source": "https://sketchfab.com/3d-models/garage-desk-c260327b93114d56933bdd9e3b0454b7",
+    "license": {
+      "slug": "by",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "modelScale": 1
+  },
+  {
+    "code": "B1",
+    "title": "Café racer",
+    "count": 1,
+    "model": "../../onemillie-studio/models/cafe-racer.glb",
+    "source": "https://sketchfab.com/3d-models/cafe-racer-motorcycle-dddd830af69a486fbf5e79c8e6515b4f",
+    "license": {
+      "slug": "by",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "modelScale": 0.68
+  },
+  {
+    "code": "B3",
+    "title": "Puch — 1978",
+    "count": 1,
+    "model": "../../onemillie-studio/models/puch-moped-ready.glb",
+    "source": "https://sketchfab.com/3d-models/moped-1978-puch-moped-hero-b6c212a12d85425bb166f43cd3d70248",
+    "license": {
+      "slug": "by",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "modelScale": 1
+  },
+  {
+    "code": "S3",
+    "title": "KRK Classic 5",
+    "count": 2,
+    "model": "../../onemillie-studio/models/krk-classic5-ready.glb",
+    "source": "https://sketchfab.com/3d-models/krk-classic-5-studio-monitor-speaker-5c03f6b1082a4decb33ae7511209271a",
+    "license": {
+      "slug": "by",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "modelScale": 1
+  },
+  {
+    "code": "C2",
+    "title": "Houten melkkratten",
+    "count": 1,
+    "model": "../../onemillie-studio/models/489a6f095dc44bb1b279ed58e5bb3571.glb",
+    "source": "https://sketchfab.com/3d-models/antique-wooden-milk-crates-489a6f095dc44bb1b279ed58e5bb3571",
+    "license": {
+      "slug": "by",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "modelScale": 0.05
+  },
+  {
+    "code": "C3",
+    "title": "Kunststof krat",
+    "count": 1,
+    "model": "../../onemillie-studio/models/5f7103bfb5974eab85bb1a4ab8a8595e.glb",
+    "source": "https://sketchfab.com/3d-models/plastic-crate-5f7103bfb5974eab85bb1a4ab8a8595e",
+    "license": {
+      "slug": "by",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "modelScale": 1
+  },
+  {
+    "code": "L2",
+    "title": "Industriële wandlamp",
+    "count": 1,
+    "model": "../../onemillie-studio/models/b63c31b9c6a04284b665af8a0a93d456.glb",
+    "source": "https://sketchfab.com/3d-models/1930s-heavy-industrial-wall-lamps-b63c31b9c6a04284b665af8a0a93d456",
+    "license": {
+      "slug": "by",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "modelScale": 1
+  },
+  {
+    "code": "L3",
+    "title": "Industriële lamp",
+    "count": 1,
+    "model": "../../onemillie-studio/models/industrial-lamp-ready.glb",
+    "source": "https://sketchfab.com/3d-models/industrial-lamp-ad87a1e1da604bfea9b1276aa33f7952",
+    "license": {
+      "slug": "by",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "modelScale": 1
+  }
+]

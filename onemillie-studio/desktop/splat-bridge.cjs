@@ -1,0 +1,6 @@
+const {spawn}=require('node:child_process');
+const SERVICE=process.env.ONEMILLIE_SPLAT_SERVICE;
+const PYTHON=process.env.ONEMILLIE_PYTHON||'python';
+const actions=new Set(['capabilities','start','list','status','cancel','results','folder','viewer','preview']);
+function request(message){if(!SERVICE)return Promise.resolve({ok:false,error:'De optionele lokale splatmaker is niet geconfigureerd.'});if(!message||!actions.has(message.action))return Promise.resolve({ok:false,error:'Onbekende opdracht.'});return new Promise(resolve=>{let out='',err='',done=false;const child=spawn(PYTHON,[SERVICE],{shell:false,windowsHide:true,stdio:['pipe','pipe','pipe']});const finish=value=>{if(done)return;done=true;clearTimeout(timer);resolve(value);};const timer=setTimeout(()=>{child.kill();finish({ok:false,error:'Geen antwoord van de lokale splatmaker.'});},30000);child.stdout.on('data',data=>out+=data);child.stderr.on('data',data=>err+=data);child.on('error',e=>finish({ok:false,error:e.message}));child.on('close',()=>{try{finish(JSON.parse(out));}catch{finish({ok:false,error:err.slice(-1200)||'De splatmaker gaf geen geldig antwoord.'});}});child.stdin.end(JSON.stringify(message)+'\n');});}
+module.exports={request};

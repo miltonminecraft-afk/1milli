@@ -1,0 +1,4210 @@
+{
+  "evidence": [
+    {
+      "animationCount": 0,
+      "categories": [
+        {
+          "uid": "f825c721edb541dbbc8cd210123616c7",
+          "name": "Architecture",
+          "slug": "architecture",
+          "uri": "https://api.sketchfab.com/v3/categories/f825c721edb541dbbc8cd210123616c7",
+          "icon": "https://static.sketchfab.com/static/builds/web/dist/static/assets/images/icons/categories/0d6c3fa023a12c3d7aa493c542afd1b8-v2.svg",
+          "thumbnails": [
+            {
+              "width": "512",
+              "height": "288",
+              "url": "https://static.sketchfab.com/categories/f825c721edb541dbbc8cd210123616c7/512x288.png"
+            },
+            {
+              "width": "800",
+              "height": "450",
+              "url": "https://static.sketchfab.com/categories/f825c721edb541dbbc8cd210123616c7/800x450.png"
+            }
+          ]
+        },
+        {
+          "uid": "17d20ca7b35243d4a45171838b50704c",
+          "name": "Science & Technology",
+          "slug": "science-technology",
+          "uri": "https://api.sketchfab.com/v3/categories/17d20ca7b35243d4a45171838b50704c",
+          "icon": "https://static.sketchfab.com/static/builds/web/dist/static/assets/images/icons/categories/86b1bae49e0ed3f43b2d59b26700234e-v2.svg",
+          "thumbnails": [
+            {
+              "width": "512",
+              "height": "288",
+              "url": "https://static.sketchfab.com/categories/17d20ca7b35243d4a45171838b50704c/512x288.png"
+            },
+            {
+              "width": "800",
+              "height": "450",
+              "url": "https://static.sketchfab.com/categories/17d20ca7b35243d4a45171838b50704c/800x450.png"
+            }
+          ]
+        }
+      ],
+      "commentCount": 3,
+      "createdAt": "2016-03-02T03:29:39.491066",
+      "embedUrl": "https://sketchfab.com/models/41ffced19ad44ba58b3ab8bd99f69ab7/embed",
+      "faceCount": 2576,
+      "isAgeRestricted": false,
+      "license": {
+        "uri": "https://api.sketchfab.com/v3/licenses/322a749bcfa841b29dff1e8a1bb74b0b",
+        "label": "CC Attribution",
+        "fullName": "Creative Commons Attribution",
+        "requirements": "Author must be credited. Commercial use is allowed.",
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "slug": "by"
+      },
+      "likeCount": 362,
+      "name": "Urbex Derelict Industrial Interior",
+      "publishedAt": "2016-03-02T03:46:10.719295",
+      "soundCount": 0,
+      "staffpickedAt": null,
+      "tags": [
+        {
+          "name": "wheel",
+          "slug": "wheel",
+          "uri": "https://api.sketchfab.com/v3/tags/wheel"
+        },
+        {
+          "name": "photo",
+          "slug": "photo",
+          "uri": "https://api.sketchfab.com/v3/tags/photo"
+        },
+        {
+          "name": "abandoned",
+          "slug": "abandoned",
+          "uri": "https://api.sketchfab.com/v3/tags/abandoned"
+        },
+        {
+          "name": "red",
+          "slug": "red",
+          "uri": "https://api.sketchfab.com/v3/tags/red"
+        },
+        {
+          "name": "textures",
+          "slug": "textures",
+          "uri": "https://api.sketchfab.com/v3/tags/textures"
+        },
+        {
+          "name": "warehouse",
+          "slug": "warehouse",
+          "uri": "https://api.sketchfab.com/v3/tags/warehouse"
+        },
+        {
+          "name": "urban",
+          "slug": "urban",
+          "uri": "https://api.sketchfab.com/v3/tags/urban"
+        },
+        {
+          "name": "post",
+          "slug": "post",
+          "uri": "https://api.sketchfab.com/v3/tags/post"
+        },
+        {
+          "name": "creepy",
+          "slug": "creepy",
+          "uri": "https://api.sketchfab.com/v3/tags/creepy"
+        },
+        {
+          "name": "new",
+          "slug": "new",
+          "uri": "https://api.sketchfab.com/v3/tags/new"
+        },
+        {
+          "name": "dslr",
+          "slug": "dslr",
+          "uri": "https://api.sketchfab.com/v3/tags/dslr"
+        },
+        {
+          "name": "nikon",
+          "slug": "nikon",
+          "uri": "https://api.sketchfab.com/v3/tags/nikon"
+        },
+        {
+          "name": "baked",
+          "slug": "baked",
+          "uri": "https://api.sketchfab.com/v3/tags/baked"
+        },
+        {
+          "name": "zealand",
+          "slug": "zealand",
+          "uri": "https://api.sketchfab.com/v3/tags/zealand"
+        },
+        {
+          "name": "old",
+          "slug": "old",
+          "uri": "https://api.sketchfab.com/v3/tags/old"
+        },
+        {
+          "name": "Aaron",
+          "slug": "aaron",
+          "uri": "https://api.sketchfab.com/v3/tags/aaron"
+        },
+        {
+          "name": "mould",
+          "slug": "mould",
+          "uri": "https://api.sketchfab.com/v3/tags/mould"
+        },
+        {
+          "name": "wellington",
+          "slug": "wellington",
+          "uri": "https://api.sketchfab.com/v3/tags/wellington"
+        },
+        {
+          "name": "Derelict",
+          "slug": "derelict",
+          "uri": "https://api.sketchfab.com/v3/tags/derelict"
+        },
+        {
+          "name": "grader",
+          "slug": "grader",
+          "uri": "https://api.sketchfab.com/v3/tags/grader"
+        },
+        {
+          "name": "abandoned-building",
+          "slug": "abandoned-building",
+          "uri": "https://api.sketchfab.com/v3/tags/abandoned-building"
+        },
+        {
+          "name": "openshaw",
+          "slug": "openshaw",
+          "uri": "https://api.sketchfab.com/v3/tags/openshaw"
+        },
+        {
+          "name": "d3100",
+          "slug": "d3100",
+          "uri": "https://api.sketchfab.com/v3/tags/d3100"
+        },
+        {
+          "name": "cs5",
+          "slug": "cs5",
+          "uri": "https://api.sketchfab.com/v3/tags/cs5"
+        },
+        {
+          "name": "patea",
+          "slug": "patea",
+          "uri": "https://api.sketchfab.com/v3/tags/patea"
+        },
+        {
+          "name": "taranaki",
+          "slug": "taranaki",
+          "uri": "https://api.sketchfab.com/v3/tags/taranaki"
+        },
+        {
+          "name": "urbex",
+          "slug": "urbex",
+          "uri": "https://api.sketchfab.com/v3/tags/urbex"
+        },
+        {
+          "name": "cnn",
+          "slug": "cnn",
+          "uri": "https://api.sketchfab.com/v3/tags/cnn"
+        },
+        {
+          "name": "stores",
+          "slug": "stores",
+          "uri": "https://api.sketchfab.com/v3/tags/stores"
+        },
+        {
+          "name": "projected",
+          "slug": "projected",
+          "uri": "https://api.sketchfab.com/v3/tags/projected"
+        },
+        {
+          "name": "eerie",
+          "slug": "eerie",
+          "uri": "https://api.sketchfab.com/v3/tags/eerie"
+        },
+        {
+          "name": "sketchup",
+          "slug": "sketchup",
+          "uri": "https://api.sketchfab.com/v3/tags/sketchup"
+        },
+        {
+          "name": "photoshop",
+          "slug": "photoshop",
+          "uri": "https://api.sketchfab.com/v3/tags/photoshop"
+        },
+        {
+          "name": "cool",
+          "slug": "cool",
+          "uri": "https://api.sketchfab.com/v3/tags/cool"
+        },
+        {
+          "name": "design",
+          "slug": "design",
+          "uri": "https://api.sketchfab.com/v3/tags/design"
+        },
+        {
+          "name": "building",
+          "slug": "building",
+          "uri": "https://api.sketchfab.com/v3/tags/building"
+        },
+        {
+          "name": "interior",
+          "slug": "interior",
+          "uri": "https://api.sketchfab.com/v3/tags/interior"
+        },
+        {
+          "name": "space",
+          "slug": "space",
+          "uri": "https://api.sketchfab.com/v3/tags/space"
+        },
+        {
+          "name": "industrial",
+          "slug": "industrial",
+          "uri": "https://api.sketchfab.com/v3/tags/industrial"
+        },
+        {
+          "name": "light",
+          "slug": "light",
+          "uri": "https://api.sketchfab.com/v3/tags/light"
+        },
+        {
+          "name": "horror",
+          "slug": "horror",
+          "uri": "https://api.sketchfab.com/v3/tags/horror"
+        }
+      ],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "89f0d1d0d14b40128c42dd817b2e4a40",
+            "width": 1920,
+            "height": 1080,
+            "size": 333181,
+            "url": "https://media.sketchfab.com/models/41ffced19ad44ba58b3ab8bd99f69ab7/thumbnails/be613b0fcf2244f28bbd5c09c545e01b/9620b54643624f0a9813869710548c79.jpeg"
+          },
+          {
+            "uid": "2ccc6350d25448f2b4d285f58e6bb5b7",
+            "width": 1024,
+            "height": 576,
+            "size": 42516,
+            "url": "https://media.sketchfab.com/models/41ffced19ad44ba58b3ab8bd99f69ab7/thumbnails/be613b0fcf2244f28bbd5c09c545e01b/671cd3bdcba7420dbdca9e3a6f6511dc.jpeg"
+          },
+          {
+            "uid": "16c2ef939b4741debdbc178f6f9f9839",
+            "width": 720,
+            "height": 405,
+            "size": 24686,
+            "url": "https://media.sketchfab.com/models/41ffced19ad44ba58b3ab8bd99f69ab7/thumbnails/be613b0fcf2244f28bbd5c09c545e01b/aebda269e8b84878b3deef5b52c2d863.jpeg"
+          },
+          {
+            "uid": "7659bd6bc22c439e89c0098b5b94ea34",
+            "width": 256,
+            "height": 144,
+            "size": 5525,
+            "url": "https://media.sketchfab.com/models/41ffced19ad44ba58b3ab8bd99f69ab7/thumbnails/be613b0fcf2244f28bbd5c09c545e01b/941776a96f47414b9d4616d5172c246b.jpeg"
+          },
+          {
+            "uid": "30e4abd0d92b4155bf63c392b3295311",
+            "width": 64,
+            "height": 36,
+            "size": 980,
+            "url": "https://media.sketchfab.com/models/41ffced19ad44ba58b3ab8bd99f69ab7/thumbnails/be613b0fcf2244f28bbd5c09c545e01b/399c15a7218a4d5c86628f3f887f1ebc.jpeg"
+          }
+        ]
+      },
+      "uid": "41ffced19ad44ba58b3ab8bd99f69ab7",
+      "uri": "https://api.sketchfab.com/v3/models/41ffced19ad44ba58b3ab8bd99f69ab7",
+      "user": {
+        "uid": "4e5cea92a6c44117b721e77b3c4a10e0",
+        "username": "aaronopenshaw",
+        "displayName": "Aaron Openshaw",
+        "account": "basic",
+        "profileUrl": "https://sketchfab.com/aaronopenshaw",
+        "avatar": {
+          "uid": "0a578b08ad10464eb7f8df5faa7af737",
+          "uri": "https://api.sketchfab.com/v3/avatars/0a578b08ad10464eb7f8df5faa7af737",
+          "images": [
+            {
+              "width": 100,
+              "height": 100,
+              "size": 4630,
+              "url": "https://media.sketchfab.com/avatars/0a578b08ad10464eb7f8df5faa7af737/624ba57b456440568a437a54f6484ad2.jpeg"
+            },
+            {
+              "width": 90,
+              "height": 90,
+              "size": 3888,
+              "url": "https://media.sketchfab.com/avatars/0a578b08ad10464eb7f8df5faa7af737/26eced88245e4b4ea51e09882d61a5b1.jpeg"
+            },
+            {
+              "width": 48,
+              "height": 48,
+              "size": 1403,
+              "url": "https://media.sketchfab.com/avatars/0a578b08ad10464eb7f8df5faa7af737/beb3932c46e44da9b3c16c98c4b89631.jpeg"
+            },
+            {
+              "width": 32,
+              "height": 32,
+              "size": 814,
+              "url": "https://media.sketchfab.com/avatars/0a578b08ad10464eb7f8df5faa7af737/61da052319bc405694901406f8ab862b.jpeg"
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/4e5cea92a6c44117b721e77b3c4a10e0"
+      },
+      "vertexCount": 2040,
+      "viewCount": 18959,
+      "viewerUrl": "https://sketchfab.com/3d-models/urbex-derelict-industrial-interior-41ffced19ad44ba58b3ab8bd99f69ab7",
+      "isDownloadable": true,
+      "isProtected": false,
+      "description": "Single raw capture with a Nikon D3100, post processed with Photoshop CS6 and photo match modelled with Sketchup. This interior is in the derelict grader cool stores in Patea, Taranaki, New Zealand. Featured on: http://edition.cnn.com/2014/02/12/travel/abandoned-buildings-irpt/\n\nGoogle Street View iPhone 360 degree capture: \nhttps://goo.gl/UJ8Lpu\n\nStereoscopic 3D anaglyph capture:\nhttps://flic.kr/p/o3NXkP\n![](https://flic.kr/p/o3NXkP)",
+      "price": null,
+      "downloadCount": 2192,
+      "editorUrl": "https://sketchfab.com/models/41ffced19ad44ba58b3ab8bd99f69ab7/edit",
+      "status": {
+        "warning": {},
+        "processing": "SUCCEEDED"
+      },
+      "source": "website",
+      "hasCommentsDisabled": false,
+      "updatedAt": "2022-07-19T15:14:04.213376",
+      "pbrType": null,
+      "textureCount": 0,
+      "materialCount": 1,
+      "objaversePath": "glbs/000-011/41ffced19ad44ba58b3ab8bd99f69ab7.glb",
+      "downloadBytes": 135708,
+      "checkedAt": "2026-10-26T20:08:10.391Z"
+    },
+    {
+      "animationCount": 0,
+      "categories": [
+        {
+          "uid": "f825c721edb541dbbc8cd210123616c7",
+          "name": "Architecture",
+          "slug": "architecture",
+          "uri": "https://api.sketchfab.com/v3/categories/f825c721edb541dbbc8cd210123616c7",
+          "icon": "https://static.sketchfab.com/static/builds/web/dist/static/assets/images/icons/categories/0d6c3fa023a12c3d7aa493c542afd1b8-v2.svg",
+          "thumbnails": [
+            {
+              "width": "512",
+              "height": "288",
+              "url": "https://static.sketchfab.com/categories/f825c721edb541dbbc8cd210123616c7/512x288.png"
+            },
+            {
+              "width": "800",
+              "height": "450",
+              "url": "https://static.sketchfab.com/categories/f825c721edb541dbbc8cd210123616c7/800x450.png"
+            }
+          ]
+        },
+        {
+          "uid": "e56c5de1e9344241909de76c5886f551",
+          "name": "Art & Abstract",
+          "slug": "art-abstract",
+          "uri": "https://api.sketchfab.com/v3/categories/e56c5de1e9344241909de76c5886f551",
+          "icon": "https://static.sketchfab.com/static/builds/web/dist/static/assets/images/icons/categories/876106eddb2a54aa1391eb2f4db0acb2-v2.svg",
+          "thumbnails": [
+            {
+              "width": "512",
+              "height": "288",
+              "url": "https://static.sketchfab.com/categories/e56c5de1e9344241909de76c5886f551/512x288.png"
+            },
+            {
+              "width": "800",
+              "height": "450",
+              "url": "https://static.sketchfab.com/categories/e56c5de1e9344241909de76c5886f551/800x450.png"
+            }
+          ]
+        }
+      ],
+      "commentCount": 0,
+      "createdAt": "2022-05-05T14:32:07.215282",
+      "embedUrl": "https://sketchfab.com/models/c8d0782400e44efca89cd7192d1b59e9/embed",
+      "faceCount": 109310,
+      "isAgeRestricted": false,
+      "license": {
+        "uri": "https://api.sketchfab.com/v3/licenses/322a749bcfa841b29dff1e8a1bb74b0b",
+        "label": "CC Attribution",
+        "fullName": "Creative Commons Attribution",
+        "requirements": "Author must be credited. Commercial use is allowed.",
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "slug": "by"
+      },
+      "likeCount": 46,
+      "name": "Workshop • Studio-in-the-Garden",
+      "publishedAt": "2022-05-05T14:52:43.517636",
+      "soundCount": 0,
+      "staffpickedAt": null,
+      "tags": [
+        {
+          "name": "garden",
+          "slug": "garden",
+          "uri": "https://api.sketchfab.com/v3/tags/garden"
+        },
+        {
+          "name": "studio",
+          "slug": "studio",
+          "uri": "https://api.sketchfab.com/v3/tags/studio"
+        },
+        {
+          "name": "countryside",
+          "slug": "countryside",
+          "uri": "https://api.sketchfab.com/v3/tags/countryside"
+        },
+        {
+          "name": "workshop",
+          "slug": "workshop",
+          "uri": "https://api.sketchfab.com/v3/tags/workshop"
+        }
+      ],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "7492153878294796ac4fae141ba90ee5",
+            "width": 1920,
+            "height": 1080,
+            "size": 623822,
+            "url": "https://media.sketchfab.com/models/c8d0782400e44efca89cd7192d1b59e9/thumbnails/47d72192ebd84d91893d0727d03957af/44c9ea6afd76445684147db2b75903bc.jpeg"
+          },
+          {
+            "uid": "a96130dde83b4307911264ee5e2de0f7",
+            "width": 1024,
+            "height": 576,
+            "size": 104098,
+            "url": "https://media.sketchfab.com/models/c8d0782400e44efca89cd7192d1b59e9/thumbnails/47d72192ebd84d91893d0727d03957af/fd4b716eb8674b0db54f26ab4f366e44.jpeg"
+          },
+          {
+            "uid": "cd241cc0708e47cf86b3b318fe87e968",
+            "width": 720,
+            "height": 405,
+            "size": 51800,
+            "url": "https://media.sketchfab.com/models/c8d0782400e44efca89cd7192d1b59e9/thumbnails/47d72192ebd84d91893d0727d03957af/067985bd80a44b8f8260389a28ce243f.jpeg"
+          },
+          {
+            "uid": "c1102e9b25634e178256dd65cd7bcf53",
+            "width": 256,
+            "height": 144,
+            "size": 8960,
+            "url": "https://media.sketchfab.com/models/c8d0782400e44efca89cd7192d1b59e9/thumbnails/47d72192ebd84d91893d0727d03957af/eff20d8939424262888945de3f57ccbe.jpeg"
+          },
+          {
+            "uid": "1583d1b5564c40f3801a65426c54184d",
+            "width": 64,
+            "height": 36,
+            "size": 1573,
+            "url": "https://media.sketchfab.com/models/c8d0782400e44efca89cd7192d1b59e9/thumbnails/47d72192ebd84d91893d0727d03957af/0e30d614195f4d729c94ee23da3afc7b.jpeg"
+          }
+        ]
+      },
+      "uid": "c8d0782400e44efca89cd7192d1b59e9",
+      "uri": "https://api.sketchfab.com/v3/models/c8d0782400e44efca89cd7192d1b59e9",
+      "user": {
+        "uid": "57ea04edd0da47f49f67ee83570bfbef",
+        "username": "cristianbrustur",
+        "displayName": "Cristian Brustur",
+        "account": "basic",
+        "profileUrl": "https://sketchfab.com/cristianbrustur",
+        "avatar": {
+          "uid": "36b9e13c5d264c06904e43f7f51d24b6",
+          "uri": "https://api.sketchfab.com/v3/avatars/36b9e13c5d264c06904e43f7f51d24b6",
+          "images": [
+            {
+              "width": 32,
+              "height": 32,
+              "size": 1035,
+              "url": "https://media.sketchfab.com/avatars/36b9e13c5d264c06904e43f7f51d24b6/73de704666aa44eeae0f1c88a298a04e.jpeg"
+            },
+            {
+              "width": 48,
+              "height": 48,
+              "size": 1403,
+              "url": "https://media.sketchfab.com/avatars/36b9e13c5d264c06904e43f7f51d24b6/b6319103d1b54bfdafb32a0961d09210.jpeg"
+            },
+            {
+              "width": 90,
+              "height": 90,
+              "size": 2755,
+              "url": "https://media.sketchfab.com/avatars/36b9e13c5d264c06904e43f7f51d24b6/db5268b2e56e4a5893636ec6138df05d.jpeg"
+            },
+            {
+              "width": 100,
+              "height": 100,
+              "size": 3160,
+              "url": "https://media.sketchfab.com/avatars/36b9e13c5d264c06904e43f7f51d24b6/46155a8bf7b34d01af829149a8271d90.jpeg"
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/57ea04edd0da47f49f67ee83570bfbef"
+      },
+      "vertexCount": 55205,
+      "viewCount": 834,
+      "viewerUrl": "https://sketchfab.com/3d-models/workshop-studio-in-the-garden-c8d0782400e44efca89cd7192d1b59e9",
+      "isDownloadable": true,
+      "isProtected": false,
+      "description": "Hi!\nThis is a project of mine consisting in a small shed-like-workshop/studio placed in our garden, in the countryside.\nEnjoy!",
+      "price": null,
+      "downloadCount": 160,
+      "editorUrl": "https://sketchfab.com/models/c8d0782400e44efca89cd7192d1b59e9/edit",
+      "status": {
+        "warning": {},
+        "processing": "SUCCEEDED"
+      },
+      "source": "website",
+      "hasCommentsDisabled": false,
+      "updatedAt": "2022-07-11T10:23:39.316891",
+      "pbrType": null,
+      "textureCount": 0,
+      "materialCount": 1,
+      "objaversePath": "glbs/000-047/c8d0782400e44efca89cd7192d1b59e9.glb",
+      "downloadBytes": 3093660,
+      "checkedAt": "2026-10-26T20:08:10.414Z"
+    },
+    {
+      "animationCount": 0,
+      "categories": [
+        {
+          "uid": "22a2f677efad4d7bbca5ad45f9b5868e",
+          "name": "Cars & Vehicles",
+          "slug": "cars-vehicles",
+          "uri": "https://api.sketchfab.com/v3/categories/22a2f677efad4d7bbca5ad45f9b5868e",
+          "icon": "https://static.sketchfab.com/static/builds/web/dist/static/assets/images/icons/categories/45dd0cc0860ac57fcd63bde1cc3f2b7c-v2.svg",
+          "thumbnails": [
+            {
+              "width": "512",
+              "height": "288",
+              "url": "https://static.sketchfab.com/categories/22a2f677efad4d7bbca5ad45f9b5868e/512x288.png"
+            },
+            {
+              "width": "800",
+              "height": "450",
+              "url": "https://static.sketchfab.com/categories/22a2f677efad4d7bbca5ad45f9b5868e/800x450.png"
+            }
+          ]
+        },
+        {
+          "uid": "2d643ff5ed03405b9c34ecdffff9d8d8",
+          "name": "Characters & Creatures",
+          "slug": "characters-creatures",
+          "uri": "https://api.sketchfab.com/v3/categories/2d643ff5ed03405b9c34ecdffff9d8d8",
+          "icon": "https://static.sketchfab.com/static/builds/web/dist/static/assets/images/icons/categories/f778c3dbe6efa00a06c257762c0e27ef-v2.svg",
+          "thumbnails": [
+            {
+              "width": "512",
+              "height": "288",
+              "url": "https://static.sketchfab.com/categories/2d643ff5ed03405b9c34ecdffff9d8d8/512x288.png"
+            },
+            {
+              "width": "800",
+              "height": "450",
+              "url": "https://static.sketchfab.com/categories/2d643ff5ed03405b9c34ecdffff9d8d8/800x450.png"
+            }
+          ]
+        }
+      ],
+      "commentCount": 10,
+      "createdAt": "2015-04-13T03:45:05",
+      "embedUrl": "https://sketchfab.com/models/ff29e81ff1564d73bad71d0042f96a28/embed",
+      "faceCount": 531343,
+      "isAgeRestricted": false,
+      "license": {
+        "uri": "https://api.sketchfab.com/v3/licenses/322a749bcfa841b29dff1e8a1bb74b0b",
+        "label": "CC Attribution",
+        "fullName": "Creative Commons Attribution",
+        "requirements": "Author must be credited. Commercial use is allowed.",
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "slug": "by"
+      },
+      "likeCount": 239,
+      "name": "Workshop (Render Scene)",
+      "publishedAt": "2015-04-13T05:17:24",
+      "soundCount": 0,
+      "staffpickedAt": "2015-04-13T13:37:00",
+      "tags": [
+        {
+          "name": "wheels",
+          "slug": "wheels",
+          "uri": "https://api.sketchfab.com/v3/tags/wheels"
+        },
+        {
+          "name": "gears",
+          "slug": "gears",
+          "uri": "https://api.sketchfab.com/v3/tags/gears"
+        },
+        {
+          "name": "worker",
+          "slug": "worker",
+          "uri": "https://api.sketchfab.com/v3/tags/worker"
+        },
+        {
+          "name": "soldiers",
+          "slug": "soldiers",
+          "uri": "https://api.sketchfab.com/v3/tags/soldiers"
+        },
+        {
+          "name": "Refraction",
+          "slug": "refraction",
+          "uri": "https://api.sketchfab.com/v3/tags/refraction"
+        },
+        {
+          "name": "troops",
+          "slug": "troops",
+          "uri": "https://api.sketchfab.com/v3/tags/troops"
+        },
+        {
+          "name": "downloadable",
+          "slug": "downloadable",
+          "uri": "https://api.sketchfab.com/v3/tags/downloadable"
+        },
+        {
+          "name": "components",
+          "slug": "components",
+          "uri": "https://api.sketchfab.com/v3/tags/components"
+        },
+        {
+          "name": "render-scene",
+          "slug": "render-scene",
+          "uri": "https://api.sketchfab.com/v3/tags/render-scene"
+        },
+        {
+          "name": "future-car",
+          "slug": "future-car",
+          "uri": "https://api.sketchfab.com/v3/tags/future-car"
+        },
+        {
+          "name": "car-repair",
+          "slug": "car-repair",
+          "uri": "https://api.sketchfab.com/v3/tags/car-repair"
+        },
+        {
+          "name": "3dhaupt",
+          "slug": "3dhaupt",
+          "uri": "https://api.sketchfab.com/v3/tags/3dhaupt"
+        },
+        {
+          "name": "blender",
+          "slug": "blender",
+          "uri": "https://api.sketchfab.com/v3/tags/blender"
+        },
+        {
+          "name": "blender3d",
+          "slug": "blender3d",
+          "uri": "https://api.sketchfab.com/v3/tags/blender3d"
+        },
+        {
+          "name": "sci-fi",
+          "slug": "sci-fi",
+          "uri": "https://api.sketchfab.com/v3/tags/sci-fi"
+        },
+        {
+          "name": "car",
+          "slug": "car",
+          "uri": "https://api.sketchfab.com/v3/tags/car"
+        },
+        {
+          "name": "workshop",
+          "slug": "workshop",
+          "uri": "https://api.sketchfab.com/v3/tags/workshop"
+        },
+        {
+          "name": "concept",
+          "slug": "concept",
+          "uri": "https://api.sketchfab.com/v3/tags/concept"
+        },
+        {
+          "name": "noai",
+          "slug": "noai",
+          "uri": "https://api.sketchfab.com/v3/tags/noai"
+        }
+      ],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "b1cef12bf1544691920ee5437c6b0ba5",
+            "width": 1920,
+            "height": 1080,
+            "size": 416830,
+            "url": "https://media.sketchfab.com/models/ff29e81ff1564d73bad71d0042f96a28/thumbnails/8c1269af47bb4db0b31d36a1113e58b2/725321dd8dd9416281984401fa14138b.jpeg"
+          },
+          {
+            "uid": "3f34872b717748d8a7408cc921ac227d",
+            "width": 1024,
+            "height": 576,
+            "size": 108227,
+            "url": "https://media.sketchfab.com/models/ff29e81ff1564d73bad71d0042f96a28/thumbnails/8c1269af47bb4db0b31d36a1113e58b2/6e168d6825f54a3d80be6d9d1247fff2.jpeg"
+          },
+          {
+            "uid": "c75c932112254944bee3cd8ac2c959b6",
+            "width": 720,
+            "height": 405,
+            "size": 59454,
+            "url": "https://media.sketchfab.com/models/ff29e81ff1564d73bad71d0042f96a28/thumbnails/8c1269af47bb4db0b31d36a1113e58b2/ac8e06b3ed0547fdab447c02e5863dd6.jpeg"
+          },
+          {
+            "uid": "db2f69be8f6549bcb62f8bcc4cc8d00f",
+            "width": 256,
+            "height": 144,
+            "size": 9493,
+            "url": "https://media.sketchfab.com/models/ff29e81ff1564d73bad71d0042f96a28/thumbnails/8c1269af47bb4db0b31d36a1113e58b2/e56ff14baf134de08d415bea14a695df.jpeg"
+          },
+          {
+            "uid": "f77a8787806d4a8083dafd4b7b6ddb65",
+            "width": 64,
+            "height": 36,
+            "size": 1164,
+            "url": "https://media.sketchfab.com/models/ff29e81ff1564d73bad71d0042f96a28/thumbnails/8c1269af47bb4db0b31d36a1113e58b2/e412d7fc91ab49f29cadd5e3c5bc2ae1.jpeg"
+          }
+        ]
+      },
+      "uid": "ff29e81ff1564d73bad71d0042f96a28",
+      "uri": "https://api.sketchfab.com/v3/models/ff29e81ff1564d73bad71d0042f96a28",
+      "user": {
+        "uid": "83382125ae65434cab541af2ed626ac4",
+        "username": "dennish2010",
+        "displayName": "3DHaupt",
+        "account": "basic",
+        "profileUrl": "https://sketchfab.com/dennish2010",
+        "avatar": {
+          "uid": "550dce884cec49bb9e90987e7353463d",
+          "uri": "https://api.sketchfab.com/v3/avatars/550dce884cec49bb9e90987e7353463d",
+          "images": [
+            {
+              "width": 100,
+              "height": 100,
+              "size": 3634,
+              "url": "https://media.sketchfab.com/avatars/550dce884cec49bb9e90987e7353463d/e8a39f0af97144f4a9a2bc537d5a866d.jpeg"
+            },
+            {
+              "width": 90,
+              "height": 90,
+              "size": 3180,
+              "url": "https://media.sketchfab.com/avatars/550dce884cec49bb9e90987e7353463d/c7c33c5b0ace4e5e9747ba3ef89544d3.jpeg"
+            },
+            {
+              "width": 48,
+              "height": 48,
+              "size": 1340,
+              "url": "https://media.sketchfab.com/avatars/550dce884cec49bb9e90987e7353463d/063ef703f82b4c5796590f6188828449.jpeg"
+            },
+            {
+              "width": 32,
+              "height": 32,
+              "size": 850,
+              "url": "https://media.sketchfab.com/avatars/550dce884cec49bb9e90987e7353463d/546d89ba90d341dfa0983131daf77294.jpeg"
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/83382125ae65434cab541af2ed626ac4"
+      },
+      "vertexCount": 257629,
+      "viewCount": 13108,
+      "viewerUrl": "https://sketchfab.com/3d-models/workshop-render-scene-ff29e81ff1564d73bad71d0042f96a28",
+      "isDownloadable": true,
+      "isProtected": false,
+      "description": "A render scene i made 2012.\nJust wanted to see how it looks on sketchfab:)\nI used the new PBR Render. \n\nCycles Render Image:\nhttp://dennish2010.deviantart.com/art/Workshop-Reworked-296740523?q=gallery%3ADennisH2010%2F24342707&qo=109",
+      "price": null,
+      "downloadCount": 1980,
+      "editorUrl": "https://sketchfab.com/models/ff29e81ff1564d73bad71d0042f96a28/edit",
+      "status": {
+        "warning": {},
+        "processing": "SUCCEEDED"
+      },
+      "source": "website",
+      "hasCommentsDisabled": false,
+      "updatedAt": "2023-02-21T17:44:38.707002",
+      "pbrType": "metalness",
+      "textureCount": 27,
+      "materialCount": 31,
+      "objaversePath": "glbs/000-026/ff29e81ff1564d73bad71d0042f96a28.glb",
+      "downloadBytes": 75791576,
+      "checkedAt": "2026-10-26T20:08:10.420Z"
+    },
+    {
+      "animationCount": 0,
+      "categories": [
+        {
+          "uid": "f825c721edb541dbbc8cd210123616c7",
+          "name": "Architecture",
+          "slug": "architecture",
+          "uri": "https://api.sketchfab.com/v3/categories/f825c721edb541dbbc8cd210123616c7",
+          "icon": "https://static.sketchfab.com/static/builds/web/dist/static/assets/images/icons/categories/0d6c3fa023a12c3d7aa493c542afd1b8-v2.svg",
+          "thumbnails": [
+            {
+              "width": "512",
+              "height": "288",
+              "url": "https://static.sketchfab.com/categories/f825c721edb541dbbc8cd210123616c7/512x288.png"
+            },
+            {
+              "width": "800",
+              "height": "450",
+              "url": "https://static.sketchfab.com/categories/f825c721edb541dbbc8cd210123616c7/800x450.png"
+            }
+          ]
+        },
+        {
+          "uid": "c51b29706d4e4e93a82e5eea7cbe6f91",
+          "name": "Places & Travel",
+          "slug": "places-travel",
+          "uri": "https://api.sketchfab.com/v3/categories/c51b29706d4e4e93a82e5eea7cbe6f91",
+          "icon": "https://static.sketchfab.com/static/builds/web/dist/static/assets/images/icons/categories/49547fe422db0fdef3c06c199f367b2a-v2.svg",
+          "thumbnails": [
+            {
+              "width": "512",
+              "height": "288",
+              "url": "https://static.sketchfab.com/categories/c51b29706d4e4e93a82e5eea7cbe6f91/512x288.png"
+            },
+            {
+              "width": "800",
+              "height": "450",
+              "url": "https://static.sketchfab.com/categories/c51b29706d4e4e93a82e5eea7cbe6f91/800x450.png"
+            }
+          ]
+        }
+      ],
+      "commentCount": 0,
+      "createdAt": "2021-09-08T19:00:05.044233",
+      "embedUrl": "https://sketchfab.com/models/b7866279b7224c48a31b85fe7cedae59/embed",
+      "faceCount": 96134,
+      "isAgeRestricted": false,
+      "license": {
+        "uri": "https://api.sketchfab.com/v3/licenses/322a749bcfa841b29dff1e8a1bb74b0b",
+        "label": "CC Attribution",
+        "fullName": "Creative Commons Attribution",
+        "requirements": "Author must be credited. Commercial use is allowed.",
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "slug": "by"
+      },
+      "likeCount": 137,
+      "name": "Abandoned Factory Hall Scan",
+      "publishedAt": "2021-09-08T19:05:54.961540",
+      "soundCount": 0,
+      "staffpickedAt": null,
+      "tags": [
+        {
+          "name": "ruin",
+          "slug": "ruin",
+          "uri": "https://api.sketchfab.com/v3/tags/ruin"
+        },
+        {
+          "name": "lost",
+          "slug": "lost",
+          "uri": "https://api.sketchfab.com/v3/tags/lost"
+        },
+        {
+          "name": "big",
+          "slug": "big",
+          "uri": "https://api.sketchfab.com/v3/tags/big"
+        },
+        {
+          "name": "huge",
+          "slug": "huge",
+          "uri": "https://api.sketchfab.com/v3/tags/huge"
+        },
+        {
+          "name": "hall",
+          "slug": "hall",
+          "uri": "https://api.sketchfab.com/v3/tags/hall"
+        },
+        {
+          "name": "Place",
+          "slug": "place",
+          "uri": "https://api.sketchfab.com/v3/tags/place"
+        },
+        {
+          "name": "overgrown",
+          "slug": "overgrown",
+          "uri": "https://api.sketchfab.com/v3/tags/overgrown"
+        },
+        {
+          "name": "photoscan",
+          "slug": "photoscan",
+          "uri": "https://api.sketchfab.com/v3/tags/photoscan"
+        },
+        {
+          "name": "factory",
+          "slug": "factory",
+          "uri": "https://api.sketchfab.com/v3/tags/factory"
+        }
+      ],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "c1ca1b436ac94253a285dc11c649dbc6",
+            "width": 1920,
+            "height": 1080,
+            "size": 540871,
+            "url": "https://media.sketchfab.com/models/b7866279b7224c48a31b85fe7cedae59/thumbnails/d50600f4f2c443baa87c08afb9ed2c3a/e7e2f018a4694f50b90da233b8de1a75.jpeg"
+          },
+          {
+            "uid": "7fa300c5d67c45c5a80f6b17efb96653",
+            "width": 1024,
+            "height": 576,
+            "size": 142487,
+            "url": "https://media.sketchfab.com/models/b7866279b7224c48a31b85fe7cedae59/thumbnails/d50600f4f2c443baa87c08afb9ed2c3a/d4d995f29e1146e096168d0cd83e89d4.jpeg"
+          },
+          {
+            "uid": "061372b85e4a4b3bab5c1f371cf999c3",
+            "width": 720,
+            "height": 405,
+            "size": 76218,
+            "url": "https://media.sketchfab.com/models/b7866279b7224c48a31b85fe7cedae59/thumbnails/d50600f4f2c443baa87c08afb9ed2c3a/eaca41140bb34600b2bad3d41d8f89be.jpeg"
+          },
+          {
+            "uid": "9302c8e3138e4c9a8660e93a94af9068",
+            "width": 256,
+            "height": 144,
+            "size": 12783,
+            "url": "https://media.sketchfab.com/models/b7866279b7224c48a31b85fe7cedae59/thumbnails/d50600f4f2c443baa87c08afb9ed2c3a/cb163019512542a2a602128a4c758f46.jpeg"
+          },
+          {
+            "uid": "d85e9e8ea7164d289babf4a2f4cdac32",
+            "width": 64,
+            "height": 36,
+            "size": 1675,
+            "url": "https://media.sketchfab.com/models/b7866279b7224c48a31b85fe7cedae59/thumbnails/d50600f4f2c443baa87c08afb9ed2c3a/8f71e3c2dbee45318b0f56a346e8acfb.jpeg"
+          }
+        ]
+      },
+      "uid": "b7866279b7224c48a31b85fe7cedae59",
+      "uri": "https://api.sketchfab.com/v3/models/b7866279b7224c48a31b85fe7cedae59",
+      "user": {
+        "uid": "11a8adff3f7b4ee89b6fdf74ef2b3dd2",
+        "username": "perz_scans",
+        "displayName": "Pers Scans",
+        "account": "basic",
+        "profileUrl": "https://sketchfab.com/perz_scans",
+        "avatar": {
+          "uid": "5a779817ff7c4c2286b4b3c907465d50",
+          "uri": "https://api.sketchfab.com/v3/avatars/5a779817ff7c4c2286b4b3c907465d50",
+          "images": [
+            {
+              "width": 32,
+              "height": 32,
+              "size": 1008,
+              "url": "https://media.sketchfab.com/avatars/5a779817ff7c4c2286b4b3c907465d50/d2002bc824fa4e7c91c0291662d09185.jpeg"
+            },
+            {
+              "width": 48,
+              "height": 48,
+              "size": 1203,
+              "url": "https://media.sketchfab.com/avatars/5a779817ff7c4c2286b4b3c907465d50/27e66297906742638800649bb7c049d2.jpeg"
+            },
+            {
+              "width": 90,
+              "height": 90,
+              "size": 2518,
+              "url": "https://media.sketchfab.com/avatars/5a779817ff7c4c2286b4b3c907465d50/13aec34f8e7b4cf28c24d9bd677a2c88.jpeg"
+            },
+            {
+              "width": 100,
+              "height": 100,
+              "size": 2821,
+              "url": "https://media.sketchfab.com/avatars/5a779817ff7c4c2286b4b3c907465d50/98c2551936a64378889260936b93335d.jpeg"
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/11a8adff3f7b4ee89b6fdf74ef2b3dd2"
+      },
+      "vertexCount": 50801,
+      "viewCount": 6638,
+      "viewerUrl": "https://sketchfab.com/3d-models/abandoned-factory-hall-scan-b7866279b7224c48a31b85fe7cedae59",
+      "isDownloadable": true,
+      "isProtected": false,
+      "description": "Interior of an abandoned factory hall in Berlin",
+      "price": null,
+      "downloadCount": 1135,
+      "editorUrl": "https://sketchfab.com/models/b7866279b7224c48a31b85fe7cedae59/edit",
+      "status": {
+        "warning": {},
+        "processing": "SUCCEEDED"
+      },
+      "source": "blender-exporter",
+      "hasCommentsDisabled": false,
+      "updatedAt": "2022-07-20T11:47:41.726262",
+      "pbrType": null,
+      "textureCount": 2,
+      "materialCount": 2,
+      "objaversePath": "glbs/000-000/b7866279b7224c48a31b85fe7cedae59.glb",
+      "downloadBytes": 7800620,
+      "checkedAt": "2026-10-26T20:08:10.437Z"
+    },
+    {
+      "animationCount": 0,
+      "categories": [
+        {
+          "uid": "357487fbb30a44ee8a0adf9b24829919",
+          "name": "Music",
+          "slug": "music",
+          "uri": "https://api.sketchfab.com/v3/categories/357487fbb30a44ee8a0adf9b24829919",
+          "icon": "https://static.sketchfab.com/static/builds/web/dist/static/assets/images/icons/categories/e46cf538674d8594fad0292580efcf5b-v2.svg",
+          "thumbnails": [
+            {
+              "width": "512",
+              "height": "288",
+              "url": "https://static.sketchfab.com/categories/357487fbb30a44ee8a0adf9b24829919/512x288.png"
+            },
+            {
+              "width": "800",
+              "height": "450",
+              "url": "https://static.sketchfab.com/categories/357487fbb30a44ee8a0adf9b24829919/800x450.png"
+            }
+          ]
+        }
+      ],
+      "commentCount": 1,
+      "createdAt": "2020-03-10T09:26:27.263297",
+      "embedUrl": "https://sketchfab.com/models/a0c0ac7dbbea4e1cbf3d7beaa164a239/embed",
+      "faceCount": 62141,
+      "isAgeRestricted": false,
+      "license": {
+        "uri": "https://api.sketchfab.com/v3/licenses/322a749bcfa841b29dff1e8a1bb74b0b",
+        "label": "CC Attribution",
+        "fullName": "Creative Commons Attribution",
+        "requirements": "Author must be credited. Commercial use is allowed.",
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "slug": "by"
+      },
+      "likeCount": 118,
+      "name": "Music studio",
+      "publishedAt": "2020-03-10T09:31:11.662669",
+      "soundCount": 0,
+      "staffpickedAt": null,
+      "tags": [
+        {
+          "name": "music",
+          "slug": "music",
+          "uri": "https://api.sketchfab.com/v3/tags/music"
+        },
+        {
+          "name": "studio",
+          "slug": "studio",
+          "uri": "https://api.sketchfab.com/v3/tags/studio"
+        },
+        {
+          "name": "draft",
+          "slug": "draft",
+          "uri": "https://api.sketchfab.com/v3/tags/draft"
+        },
+        {
+          "name": "amplifier",
+          "slug": "amplifier",
+          "uri": "https://api.sketchfab.com/v3/tags/amplifier"
+        },
+        {
+          "name": "musical_instruments",
+          "slug": "musical_instruments",
+          "uri": "https://api.sketchfab.com/v3/tags/musical_instruments"
+        },
+        {
+          "name": "gitar",
+          "slug": "gitar",
+          "uri": "https://api.sketchfab.com/v3/tags/gitar"
+        },
+        {
+          "name": "blender",
+          "slug": "blender",
+          "uri": "https://api.sketchfab.com/v3/tags/blender"
+        },
+        {
+          "name": "lowpoly",
+          "slug": "lowpoly",
+          "uri": "https://api.sketchfab.com/v3/tags/lowpoly"
+        },
+        {
+          "name": "piano",
+          "slug": "piano",
+          "uri": "https://api.sketchfab.com/v3/tags/piano"
+        },
+        {
+          "name": "tube-amplifier",
+          "slug": "tube-amplifier",
+          "uri": "https://api.sketchfab.com/v3/tags/tube-amplifier"
+        },
+        {
+          "name": "lamphead",
+          "slug": "lamphead",
+          "uri": "https://api.sketchfab.com/v3/tags/lamphead"
+        }
+      ],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "ccba6c0beb834807a8ecb49a3aece44f",
+            "width": 1920,
+            "height": 1080,
+            "size": 128921,
+            "url": "https://media.sketchfab.com/models/a0c0ac7dbbea4e1cbf3d7beaa164a239/thumbnails/a7cfc7b7d84448c98220cef4c72b330f/ff4c1ebeb0da4a9996d19fcd49bc3e71.jpeg"
+          },
+          {
+            "uid": "209ffb19332542e184a27131a459a4a9",
+            "width": 1024,
+            "height": 576,
+            "size": 37863,
+            "url": "https://media.sketchfab.com/models/a0c0ac7dbbea4e1cbf3d7beaa164a239/thumbnails/a7cfc7b7d84448c98220cef4c72b330f/c98d9a9c0e7b469a89ab1f9ef2a613f8.jpeg"
+          },
+          {
+            "uid": "130812d216964042b14eeee6e7e11f0a",
+            "width": 720,
+            "height": 405,
+            "size": 22267,
+            "url": "https://media.sketchfab.com/models/a0c0ac7dbbea4e1cbf3d7beaa164a239/thumbnails/a7cfc7b7d84448c98220cef4c72b330f/9861eb42bf9641c18f9b9d8d9bf4ffff.jpeg"
+          },
+          {
+            "uid": "e051362fd89e412591e9ab3162a0571f",
+            "width": 256,
+            "height": 144,
+            "size": 5174,
+            "url": "https://media.sketchfab.com/models/a0c0ac7dbbea4e1cbf3d7beaa164a239/thumbnails/a7cfc7b7d84448c98220cef4c72b330f/da4ea030058d4238a1e02a8b0a21554b.jpeg"
+          },
+          {
+            "uid": "d75186f29b4447bd803952f860074868",
+            "width": 64,
+            "height": 36,
+            "size": 1202,
+            "url": "https://media.sketchfab.com/models/a0c0ac7dbbea4e1cbf3d7beaa164a239/thumbnails/a7cfc7b7d84448c98220cef4c72b330f/71c7e55a522b4b94bcd07005e2b42633.jpeg"
+          }
+        ]
+      },
+      "uid": "a0c0ac7dbbea4e1cbf3d7beaa164a239",
+      "uri": "https://api.sketchfab.com/v3/models/a0c0ac7dbbea4e1cbf3d7beaa164a239",
+      "user": {
+        "uid": "6d51dbc147e54d7788dda581432f3204",
+        "username": "juliaice",
+        "displayName": "JuliaIce",
+        "account": "basic",
+        "profileUrl": "https://sketchfab.com/juliaice",
+        "avatar": {
+          "uid": "eebeea42dc394defaa23bb98f3322ff4",
+          "uri": "https://api.sketchfab.com/v3/avatars/eebeea42dc394defaa23bb98f3322ff4",
+          "images": [
+            {
+              "width": 32,
+              "height": 32,
+              "size": 821,
+              "url": "https://media.sketchfab.com/avatars/eebeea42dc394defaa23bb98f3322ff4/1212485dcd394b66812c34ea4a2f7bdb.jpeg"
+            },
+            {
+              "width": 48,
+              "height": 48,
+              "size": 1314,
+              "url": "https://media.sketchfab.com/avatars/eebeea42dc394defaa23bb98f3322ff4/ef890cb6fc6f4b239a8b340f744f9138.jpeg"
+            },
+            {
+              "width": 90,
+              "height": 90,
+              "size": 3341,
+              "url": "https://media.sketchfab.com/avatars/eebeea42dc394defaa23bb98f3322ff4/ea574f4f79784c42b976e2fe4174f349.jpeg"
+            },
+            {
+              "width": 100,
+              "height": 100,
+              "size": 3896,
+              "url": "https://media.sketchfab.com/avatars/eebeea42dc394defaa23bb98f3322ff4/41f1a558482540289cfef0b82d43cf2d.jpeg"
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/6d51dbc147e54d7788dda581432f3204"
+      },
+      "vertexCount": 24218,
+      "viewCount": 8054,
+      "viewerUrl": "https://sketchfab.com/3d-models/music-studio-a0c0ac7dbbea4e1cbf3d7beaa164a239",
+      "isDownloadable": true,
+      "isProtected": false,
+      "description": "A little music studio",
+      "price": null,
+      "downloadCount": 2603,
+      "editorUrl": "https://sketchfab.com/models/a0c0ac7dbbea4e1cbf3d7beaa164a239/edit",
+      "status": {
+        "warning": {},
+        "processing": "SUCCEEDED"
+      },
+      "source": "website",
+      "hasCommentsDisabled": false,
+      "updatedAt": "2023-09-16T10:07:59.221495",
+      "pbrType": null,
+      "textureCount": 2,
+      "materialCount": 24,
+      "objaversePath": "glbs/000-086/a0c0ac7dbbea4e1cbf3d7beaa164a239.glb",
+      "downloadBytes": 4970468,
+      "checkedAt": "2026-10-26T20:08:10.962Z"
+    },
+    {
+      "animationCount": 0,
+      "categories": [
+        {
+          "uid": "d7cebaeca8604ebab1480e413404b679",
+          "name": "Electronics & Gadgets",
+          "slug": "electronics-gadgets",
+          "uri": "https://api.sketchfab.com/v3/categories/d7cebaeca8604ebab1480e413404b679",
+          "icon": "https://static.sketchfab.com/static/builds/web/dist/static/assets/images/icons/categories/336c224334b7e53e277d236a8355e90a-v2.svg",
+          "thumbnails": [
+            {
+              "width": "512",
+              "height": "288",
+              "url": "https://static.sketchfab.com/categories/d7cebaeca8604ebab1480e413404b679/512x288.png"
+            },
+            {
+              "width": "800",
+              "height": "450",
+              "url": "https://static.sketchfab.com/categories/d7cebaeca8604ebab1480e413404b679/800x450.png"
+            }
+          ]
+        },
+        {
+          "uid": "17d20ca7b35243d4a45171838b50704c",
+          "name": "Science & Technology",
+          "slug": "science-technology",
+          "uri": "https://api.sketchfab.com/v3/categories/17d20ca7b35243d4a45171838b50704c",
+          "icon": "https://static.sketchfab.com/static/builds/web/dist/static/assets/images/icons/categories/86b1bae49e0ed3f43b2d59b26700234e-v2.svg",
+          "thumbnails": [
+            {
+              "width": "512",
+              "height": "288",
+              "url": "https://static.sketchfab.com/categories/17d20ca7b35243d4a45171838b50704c/512x288.png"
+            },
+            {
+              "width": "800",
+              "height": "450",
+              "url": "https://static.sketchfab.com/categories/17d20ca7b35243d4a45171838b50704c/800x450.png"
+            }
+          ]
+        }
+      ],
+      "commentCount": 1,
+      "createdAt": "2021-05-06T14:17:19.060423",
+      "embedUrl": "https://sketchfab.com/models/3304add0c13f416597dd393a76867f96/embed",
+      "faceCount": 95802,
+      "isAgeRestricted": false,
+      "license": {
+        "uri": "https://api.sketchfab.com/v3/licenses/322a749bcfa841b29dff1e8a1bb74b0b",
+        "label": "CC Attribution",
+        "fullName": "Creative Commons Attribution",
+        "requirements": "Author must be credited. Commercial use is allowed.",
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "slug": "by"
+      },
+      "likeCount": 131,
+      "name": "Recording Studio",
+      "publishedAt": "2021-05-06T14:29:43.145240",
+      "soundCount": 0,
+      "staffpickedAt": null,
+      "tags": [
+        {
+          "name": "music",
+          "slug": "music",
+          "uri": "https://api.sketchfab.com/v3/tags/music"
+        },
+        {
+          "name": "studio",
+          "slug": "studio",
+          "uri": "https://api.sketchfab.com/v3/tags/studio"
+        },
+        {
+          "name": "recording",
+          "slug": "recording",
+          "uri": "https://api.sketchfab.com/v3/tags/recording"
+        },
+        {
+          "name": "rap",
+          "slug": "rap",
+          "uri": "https://api.sketchfab.com/v3/tags/rap"
+        },
+        {
+          "name": "rapper",
+          "slug": "rapper",
+          "uri": "https://api.sketchfab.com/v3/tags/rapper"
+        },
+        {
+          "name": "art",
+          "slug": "art",
+          "uri": "https://api.sketchfab.com/v3/tags/art"
+        },
+        {
+          "name": "model",
+          "slug": "model",
+          "uri": "https://api.sketchfab.com/v3/tags/model"
+        },
+        {
+          "name": "piano",
+          "slug": "piano",
+          "uri": "https://api.sketchfab.com/v3/tags/piano"
+        },
+        {
+          "name": "free",
+          "slug": "free",
+          "uri": "https://api.sketchfab.com/v3/tags/free"
+        },
+        {
+          "name": "download",
+          "slug": "download",
+          "uri": "https://api.sketchfab.com/v3/tags/download"
+        }
+      ],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "98b12d676d7346c8b9f7f3385bf20280",
+            "width": 1920,
+            "height": 1080,
+            "size": 153789,
+            "url": "https://media.sketchfab.com/models/3304add0c13f416597dd393a76867f96/thumbnails/41d49b73d5ea4250a9daf2795ffff077/a9f7f2e91e504be896fc80aa5596d17c.jpeg"
+          },
+          {
+            "uid": "9e97fff77e7e4e839dd9d172f973a63f",
+            "width": 1024,
+            "height": 576,
+            "size": 49692,
+            "url": "https://media.sketchfab.com/models/3304add0c13f416597dd393a76867f96/thumbnails/41d49b73d5ea4250a9daf2795ffff077/cf3cfc1e77e943c1a20aa123604fe430.jpeg"
+          },
+          {
+            "uid": "a2520b65a97f4081bc8ed1fdf14443f2",
+            "width": 720,
+            "height": 405,
+            "size": 27972,
+            "url": "https://media.sketchfab.com/models/3304add0c13f416597dd393a76867f96/thumbnails/41d49b73d5ea4250a9daf2795ffff077/d6b89c06f5bb48869c0c78d4b32b651a.jpeg"
+          },
+          {
+            "uid": "8d28b8c1c6b54e73876bb630c9f005b0",
+            "width": 256,
+            "height": 144,
+            "size": 5263,
+            "url": "https://media.sketchfab.com/models/3304add0c13f416597dd393a76867f96/thumbnails/41d49b73d5ea4250a9daf2795ffff077/9a74420a01c6424d82be2ea02c883d05.jpeg"
+          },
+          {
+            "uid": "864be506c76a44c8a7dbe102c2aae026",
+            "width": 64,
+            "height": 36,
+            "size": 886,
+            "url": "https://media.sketchfab.com/models/3304add0c13f416597dd393a76867f96/thumbnails/41d49b73d5ea4250a9daf2795ffff077/0367f4de700d42ab97516576f18c7da4.jpeg"
+          }
+        ]
+      },
+      "uid": "3304add0c13f416597dd393a76867f96",
+      "uri": "https://api.sketchfab.com/v3/models/3304add0c13f416597dd393a76867f96",
+      "user": {
+        "uid": "3809155de9f24c749710002c6d039ff9",
+        "username": "noahlupowitz",
+        "displayName": "Noah Lupowitz",
+        "account": "basic",
+        "profileUrl": "https://sketchfab.com/noahlupowitz",
+        "avatar": {
+          "uid": "a0d279fe1ff24e40bbc72d67b7d58405",
+          "uri": "https://api.sketchfab.com/v3/avatars/a0d279fe1ff24e40bbc72d67b7d58405",
+          "images": [
+            {
+              "width": 32,
+              "height": 32,
+              "size": 2858,
+              "url": "https://media.sketchfab.com/avatars/a0d279fe1ff24e40bbc72d67b7d58405/b5e1d5aa1c784251869fa5cf18b1d1d8.png"
+            },
+            {
+              "width": 48,
+              "height": 48,
+              "size": 6015,
+              "url": "https://media.sketchfab.com/avatars/a0d279fe1ff24e40bbc72d67b7d58405/4a6ba80384594081b2bd12013c75cf19.png"
+            },
+            {
+              "width": 90,
+              "height": 90,
+              "size": 18977,
+              "url": "https://media.sketchfab.com/avatars/a0d279fe1ff24e40bbc72d67b7d58405/b3197df8b09f4777a59e3205ac50f65c.png"
+            },
+            {
+              "width": 100,
+              "height": 100,
+              "size": 23094,
+              "url": "https://media.sketchfab.com/avatars/a0d279fe1ff24e40bbc72d67b7d58405/0fa6313df0dc499e88e312413021aef6.png"
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/3809155de9f24c749710002c6d039ff9"
+      },
+      "vertexCount": 80045,
+      "viewCount": 13154,
+      "viewerUrl": "https://sketchfab.com/3d-models/recording-studio-3304add0c13f416597dd393a76867f96",
+      "isDownloadable": true,
+      "isProtected": false,
+      "description": "Recording studio with a piano and full mixer.  I made this in Autodesk Maya!",
+      "price": null,
+      "downloadCount": 3191,
+      "editorUrl": "https://sketchfab.com/models/3304add0c13f416597dd393a76867f96/edit",
+      "status": {
+        "warning": {},
+        "processing": "SUCCEEDED"
+      },
+      "source": "website",
+      "hasCommentsDisabled": false,
+      "updatedAt": "2022-07-20T10:03:33.242122",
+      "pbrType": null,
+      "textureCount": 15,
+      "materialCount": 60,
+      "objaversePath": "glbs/000-109/3304add0c13f416597dd393a76867f96.glb",
+      "downloadBytes": 8715784,
+      "checkedAt": "2026-10-26T20:08:10.979Z"
+    },
+    {
+      "animationCount": 0,
+      "categories": [
+        {
+          "uid": "f825c721edb541dbbc8cd210123616c7",
+          "name": "Architecture",
+          "slug": "architecture",
+          "uri": "https://api.sketchfab.com/v3/categories/f825c721edb541dbbc8cd210123616c7",
+          "icon": "https://static.sketchfab.com/static/builds/web/dist/static/assets/images/icons/categories/0d6c3fa023a12c3d7aa493c542afd1b8-v2.svg",
+          "thumbnails": [
+            {
+              "width": "512",
+              "height": "288",
+              "url": "https://static.sketchfab.com/categories/f825c721edb541dbbc8cd210123616c7/512x288.png"
+            },
+            {
+              "width": "800",
+              "height": "450",
+              "url": "https://static.sketchfab.com/categories/f825c721edb541dbbc8cd210123616c7/800x450.png"
+            }
+          ]
+        },
+        {
+          "uid": "86f23935367b4a1f9647c8a20e03d716",
+          "name": "Cultural Heritage & History",
+          "slug": "cultural-heritage-history",
+          "uri": "https://api.sketchfab.com/v3/categories/86f23935367b4a1f9647c8a20e03d716",
+          "icon": "https://static.sketchfab.com/static/builds/web/dist/static/assets/images/icons/categories/bb22d75450272105e64c47756c323f1f-v2.svg",
+          "thumbnails": [
+            {
+              "width": "512",
+              "height": "288",
+              "url": "https://static.sketchfab.com/categories/86f23935367b4a1f9647c8a20e03d716/512x288.png"
+            },
+            {
+              "width": "800",
+              "height": "450",
+              "url": "https://static.sketchfab.com/categories/86f23935367b4a1f9647c8a20e03d716/800x450.png"
+            }
+          ]
+        }
+      ],
+      "commentCount": 0,
+      "createdAt": "2018-02-23T10:54:18.626399",
+      "embedUrl": "https://sketchfab.com/models/71d191aabc5e4b979ceee3c19526fd54/embed",
+      "faceCount": 843012,
+      "isAgeRestricted": false,
+      "license": {
+        "uri": "https://api.sketchfab.com/v3/licenses/322a749bcfa841b29dff1e8a1bb74b0b",
+        "label": "CC Attribution",
+        "fullName": "Creative Commons Attribution",
+        "requirements": "Author must be credited. Commercial use is allowed.",
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "slug": "by"
+      },
+      "likeCount": 3,
+      "name": "Forgoten soviet shop hall interior at Kapotnya",
+      "publishedAt": "2018-02-23T11:02:00.568074",
+      "soundCount": 0,
+      "staffpickedAt": null,
+      "tags": [
+        {
+          "name": "moscow",
+          "slug": "moscow",
+          "uri": "https://api.sketchfab.com/v3/tags/moscow"
+        },
+        {
+          "name": "realitycapture",
+          "slug": "realitycapture",
+          "uri": "https://api.sketchfab.com/v3/tags/realitycapture"
+        }
+      ],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "352c5aa2a608481489ed0bd882bfc619",
+            "width": 1920,
+            "height": 1080,
+            "size": 306657,
+            "url": "https://media.sketchfab.com/models/71d191aabc5e4b979ceee3c19526fd54/thumbnails/869102c2dbb54f4791f804972f958029/73e2bb206a664fa9bc09d21218c59512.jpeg"
+          },
+          {
+            "uid": "87a6ecff968f465e95ce9d2cd34073c7",
+            "width": 1024,
+            "height": 576,
+            "size": 80337,
+            "url": "https://media.sketchfab.com/models/71d191aabc5e4b979ceee3c19526fd54/thumbnails/869102c2dbb54f4791f804972f958029/2d35903d4ed1407eb6c5d587dae5b777.jpeg"
+          },
+          {
+            "uid": "088abeb836b24c50b713e41733163c6f",
+            "width": 720,
+            "height": 405,
+            "size": 43318,
+            "url": "https://media.sketchfab.com/models/71d191aabc5e4b979ceee3c19526fd54/thumbnails/869102c2dbb54f4791f804972f958029/eb08f8907d4d4c0fb6cddd2c6a395c82.jpeg"
+          },
+          {
+            "uid": "5a0a07ae2895409aa81c0197fcc8926b",
+            "width": 256,
+            "height": 144,
+            "size": 7777,
+            "url": "https://media.sketchfab.com/models/71d191aabc5e4b979ceee3c19526fd54/thumbnails/869102c2dbb54f4791f804972f958029/54753ae049b24b7eb0e83759c7d11cb0.jpeg"
+          },
+          {
+            "uid": "5bebc8dd079243eb911a0a241de8d5fe",
+            "width": 64,
+            "height": 36,
+            "size": 1159,
+            "url": "https://media.sketchfab.com/models/71d191aabc5e4b979ceee3c19526fd54/thumbnails/869102c2dbb54f4791f804972f958029/70c60184d1a84731bf0e05c2c9174432.jpeg"
+          }
+        ]
+      },
+      "uid": "71d191aabc5e4b979ceee3c19526fd54",
+      "uri": "https://api.sketchfab.com/v3/models/71d191aabc5e4b979ceee3c19526fd54",
+      "user": {
+        "uid": "12c25eca8f6a4ea3bf5f960191c4137b",
+        "username": "trolleway",
+        "displayName": "trolleway",
+        "account": "basic",
+        "profileUrl": "https://sketchfab.com/trolleway",
+        "avatar": {
+          "uid": "3ef1bd11d3eb4b57a0b353e8f2e5fc3e",
+          "uri": "https://api.sketchfab.com/v3/avatars/3ef1bd11d3eb4b57a0b353e8f2e5fc3e",
+          "images": [
+            {
+              "width": 32,
+              "height": 32,
+              "size": 680,
+              "url": "https://media.sketchfab.com/avatars/3ef1bd11d3eb4b57a0b353e8f2e5fc3e/116042a0854e40538adab302b593683d.jpeg"
+            },
+            {
+              "width": 48,
+              "height": 48,
+              "size": 1253,
+              "url": "https://media.sketchfab.com/avatars/3ef1bd11d3eb4b57a0b353e8f2e5fc3e/efea16be51d04eb7a00cb9ea0b43b87f.jpeg"
+            },
+            {
+              "width": 90,
+              "height": 90,
+              "size": 2797,
+              "url": "https://media.sketchfab.com/avatars/3ef1bd11d3eb4b57a0b353e8f2e5fc3e/ac9b469ccec74caf923a81fb2f0be3ed.jpeg"
+            },
+            {
+              "width": 100,
+              "height": 100,
+              "size": 3215,
+              "url": "https://media.sketchfab.com/avatars/3ef1bd11d3eb4b57a0b353e8f2e5fc3e/a075e1d43d2f446c949b5967b470c757.jpeg"
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/12c25eca8f6a4ea3bf5f960191c4137b"
+      },
+      "vertexCount": 421647,
+      "viewCount": 352,
+      "viewerUrl": "https://sketchfab.com/3d-models/forgoten-soviet-shop-hall-interior-at-kapotnya-71d191aabc5e4b979ceee3c19526fd54",
+      "isDownloadable": true,
+      "isProtected": false,
+      "description": "Located in Kapotnya public center, Moscow. This is a very far district, so hall interior still untouch from USSR times.\nVideo at 7.5 fisheye lens, Realtycapture",
+      "price": null,
+      "downloadCount": 55,
+      "editorUrl": "https://sketchfab.com/models/71d191aabc5e4b979ceee3c19526fd54/edit",
+      "status": {
+        "warning": {},
+        "processing": "SUCCEEDED"
+      },
+      "source": "website",
+      "hasCommentsDisabled": false,
+      "updatedAt": "2022-07-14T21:58:17.940940",
+      "pbrType": null,
+      "textureCount": 0,
+      "materialCount": 1,
+      "objaversePath": "glbs/000-061/71d191aabc5e4b979ceee3c19526fd54.glb",
+      "downloadBytes": 33357444,
+      "checkedAt": "2026-10-26T20:08:11.040Z"
+    },
+    {
+      "animationCount": 0,
+      "categories": [
+        {
+          "uid": "f825c721edb541dbbc8cd210123616c7",
+          "name": "Architecture",
+          "slug": "architecture",
+          "uri": "https://api.sketchfab.com/v3/categories/f825c721edb541dbbc8cd210123616c7",
+          "icon": "https://static.sketchfab.com/static/builds/web/dist/static/assets/images/icons/categories/0d6c3fa023a12c3d7aa493c542afd1b8-v2.svg",
+          "thumbnails": [
+            {
+              "width": "512",
+              "height": "288",
+              "url": "https://static.sketchfab.com/categories/f825c721edb541dbbc8cd210123616c7/512x288.png"
+            },
+            {
+              "width": "800",
+              "height": "450",
+              "url": "https://static.sketchfab.com/categories/f825c721edb541dbbc8cd210123616c7/800x450.png"
+            }
+          ]
+        }
+      ],
+      "commentCount": 0,
+      "createdAt": "2020-06-11T20:28:57.940427",
+      "embedUrl": "https://sketchfab.com/models/34090cc0cef74099a4d48c1e7541ffcb/embed",
+      "faceCount": 399999,
+      "isAgeRestricted": false,
+      "license": {
+        "uri": "https://api.sketchfab.com/v3/licenses/322a749bcfa841b29dff1e8a1bb74b0b",
+        "label": "CC Attribution",
+        "fullName": "Creative Commons Attribution",
+        "requirements": "Author must be credited. Commercial use is allowed.",
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "slug": "by"
+      },
+      "likeCount": 43,
+      "name": "Empty Building Interior [3rd June 2020]",
+      "publishedAt": "2020-06-11T20:42:39.835656",
+      "soundCount": 0,
+      "staffpickedAt": null,
+      "tags": [
+        {
+          "name": "room",
+          "slug": "room",
+          "uri": "https://api.sketchfab.com/v3/tags/room"
+        },
+        {
+          "name": "empty",
+          "slug": "empty",
+          "uri": "https://api.sketchfab.com/v3/tags/empty"
+        },
+        {
+          "name": "empire",
+          "slug": "empire",
+          "uri": "https://api.sketchfab.com/v3/tags/empire"
+        },
+        {
+          "name": "indoor",
+          "slug": "indoor",
+          "uri": "https://api.sketchfab.com/v3/tags/indoor"
+        },
+        {
+          "name": "ruined",
+          "slug": "ruined",
+          "uri": "https://api.sketchfab.com/v3/tags/ruined"
+        },
+        {
+          "name": "3dscanning",
+          "slug": "3dscanning",
+          "uri": "https://api.sketchfab.com/v3/tags/3dscanning"
+        },
+        {
+          "name": "messy",
+          "slug": "messy",
+          "uri": "https://api.sketchfab.com/v3/tags/messy"
+        },
+        {
+          "name": "trashed",
+          "slug": "trashed",
+          "uri": "https://api.sketchfab.com/v3/tags/trashed"
+        },
+        {
+          "name": "photogrammetry",
+          "slug": "photogrammetry",
+          "uri": "https://api.sketchfab.com/v3/tags/photogrammetry"
+        },
+        {
+          "name": "building",
+          "slug": "building",
+          "uri": "https://api.sketchfab.com/v3/tags/building"
+        },
+        {
+          "name": "interior",
+          "slug": "interior",
+          "uri": "https://api.sketchfab.com/v3/tags/interior"
+        }
+      ],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "8271b42919c44fb4ac58d9df4cf58471",
+            "width": 1920,
+            "height": 1080,
+            "size": 460319,
+            "url": "https://media.sketchfab.com/models/34090cc0cef74099a4d48c1e7541ffcb/thumbnails/b1b3f7bb771c4e7086a944f44aaf2e18/2b5d1ad097ab488eaae01ea8e6fce538.jpeg"
+          },
+          {
+            "uid": "6150610c51864e679ecfb3c5fb7ccd05",
+            "width": 1024,
+            "height": 576,
+            "size": 86705,
+            "url": "https://media.sketchfab.com/models/34090cc0cef74099a4d48c1e7541ffcb/thumbnails/b1b3f7bb771c4e7086a944f44aaf2e18/9f78d0297081499091014f39cdf8d934.jpeg"
+          },
+          {
+            "uid": "8da7011426144e378b55b2ca8c68ca96",
+            "width": 720,
+            "height": 405,
+            "size": 41707,
+            "url": "https://media.sketchfab.com/models/34090cc0cef74099a4d48c1e7541ffcb/thumbnails/b1b3f7bb771c4e7086a944f44aaf2e18/b747aca0b4c44939be8a679f9e527631.jpeg"
+          },
+          {
+            "uid": "00e3872f4e6e4e67b786e3f27fa071c1",
+            "width": 256,
+            "height": 144,
+            "size": 5935,
+            "url": "https://media.sketchfab.com/models/34090cc0cef74099a4d48c1e7541ffcb/thumbnails/b1b3f7bb771c4e7086a944f44aaf2e18/f4f4dc9016d84284bd046b53c1c929cf.jpeg"
+          },
+          {
+            "uid": "a4d4dc939c7644d5b0920a306a8d1b67",
+            "width": 64,
+            "height": 36,
+            "size": 873,
+            "url": "https://media.sketchfab.com/models/34090cc0cef74099a4d48c1e7541ffcb/thumbnails/b1b3f7bb771c4e7086a944f44aaf2e18/fdc21b28c1b14472899b23de39271b00.jpeg"
+          }
+        ]
+      },
+      "uid": "34090cc0cef74099a4d48c1e7541ffcb",
+      "uri": "https://api.sketchfab.com/v3/models/34090cc0cef74099a4d48c1e7541ffcb",
+      "user": {
+        "uid": "088f07064ce34981986ab10a882dec0e",
+        "username": "mkozal",
+        "displayName": "Mehmet Kozal",
+        "account": "basic",
+        "profileUrl": "https://sketchfab.com/mkozal",
+        "avatar": {
+          "uid": "7f9940b70a954003a946ee3c0f4c0d19",
+          "uri": "https://api.sketchfab.com/v3/avatars/7f9940b70a954003a946ee3c0f4c0d19",
+          "images": [
+            {
+              "width": 32,
+              "height": 32,
+              "size": 857,
+              "url": "https://media.sketchfab.com/avatars/7f9940b70a954003a946ee3c0f4c0d19/e96d1926187c4dba858526646dde50ae.jpeg"
+            },
+            {
+              "width": 48,
+              "height": 48,
+              "size": 1430,
+              "url": "https://media.sketchfab.com/avatars/7f9940b70a954003a946ee3c0f4c0d19/3f6b5d135fe6418aa73f707864c46c62.jpeg"
+            },
+            {
+              "width": 90,
+              "height": 90,
+              "size": 3617,
+              "url": "https://media.sketchfab.com/avatars/7f9940b70a954003a946ee3c0f4c0d19/044f19920b964074a6960fcfda6ab027.jpeg"
+            },
+            {
+              "width": 100,
+              "height": 100,
+              "size": 4253,
+              "url": "https://media.sketchfab.com/avatars/7f9940b70a954003a946ee3c0f4c0d19/f4ca30b3096441b5886fa5fa8dbeed12.jpeg"
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/088f07064ce34981986ab10a882dec0e"
+      },
+      "vertexCount": 201488,
+      "viewCount": 1965,
+      "viewerUrl": "https://sketchfab.com/3d-models/empty-building-interior-3rd-june-2020-34090cc0cef74099a4d48c1e7541ffcb",
+      "isDownloadable": true,
+      "isProtected": false,
+      "description": "Interior scan of an empty ruined building.",
+      "price": null,
+      "downloadCount": 470,
+      "editorUrl": "https://sketchfab.com/models/34090cc0cef74099a4d48c1e7541ffcb/edit",
+      "status": {
+        "warning": {},
+        "processing": "SUCCEEDED"
+      },
+      "source": "website",
+      "hasCommentsDisabled": false,
+      "updatedAt": "2022-07-08T10:19:55.537232",
+      "pbrType": null,
+      "textureCount": 1,
+      "materialCount": 1,
+      "objaversePath": "glbs/000-064/34090cc0cef74099a4d48c1e7541ffcb.glb",
+      "downloadBytes": 16806024,
+      "checkedAt": "2026-10-26T20:08:11.046Z"
+    },
+    {
+      "animationCount": 0,
+      "categories": [
+        {
+          "uid": "b3631aefd82b4eeba37aa5fc0b73b05a",
+          "name": "Food & Drink",
+          "slug": "food-drink",
+          "uri": "https://api.sketchfab.com/v3/categories/b3631aefd82b4eeba37aa5fc0b73b05a",
+          "icon": "https://static.sketchfab.com/static/builds/web/dist/static/assets/images/icons/categories/dac08ea5b8779b2cef7a4c81327df721-v2.svg",
+          "thumbnails": [
+            {
+              "width": "512",
+              "height": "288",
+              "url": "https://static.sketchfab.com/categories/b3631aefd82b4eeba37aa5fc0b73b05a/512x288.png"
+            },
+            {
+              "width": "800",
+              "height": "450",
+              "url": "https://static.sketchfab.com/categories/b3631aefd82b4eeba37aa5fc0b73b05a/800x450.png"
+            }
+          ]
+        },
+        {
+          "uid": "606f202e5a3c4e62bf9aab1cd9f63e1b",
+          "name": "Furniture & Home",
+          "slug": "furniture-home",
+          "uri": "https://api.sketchfab.com/v3/categories/606f202e5a3c4e62bf9aab1cd9f63e1b",
+          "icon": "https://static.sketchfab.com/static/builds/web/dist/static/assets/images/icons/categories/c999ae9e0525ccfb8fd8953190d5307d-v2.svg",
+          "thumbnails": [
+            {
+              "width": "512",
+              "height": "288",
+              "url": "https://static.sketchfab.com/categories/606f202e5a3c4e62bf9aab1cd9f63e1b/512x288.png"
+            },
+            {
+              "width": "800",
+              "height": "450",
+              "url": "https://static.sketchfab.com/categories/606f202e5a3c4e62bf9aab1cd9f63e1b/800x450.png"
+            }
+          ]
+        }
+      ],
+      "commentCount": 0,
+      "createdAt": "2022-05-13T14:15:27.098051",
+      "embedUrl": "https://sketchfab.com/models/7a561f3f9ff94dc49a8d2ba0d2873eb6/embed",
+      "faceCount": 158292,
+      "isAgeRestricted": false,
+      "license": {
+        "uri": "https://api.sketchfab.com/v3/licenses/322a749bcfa841b29dff1e8a1bb74b0b",
+        "label": "CC Attribution",
+        "fullName": "Creative Commons Attribution",
+        "requirements": "Author must be credited. Commercial use is allowed.",
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "slug": "by"
+      },
+      "likeCount": 47,
+      "name": "Empty Bakery Interior",
+      "publishedAt": "2022-05-13T14:24:28.792118",
+      "soundCount": 0,
+      "staffpickedAt": null,
+      "tags": [
+        {
+          "name": "room",
+          "slug": "room",
+          "uri": "https://api.sketchfab.com/v3/tags/room"
+        },
+        {
+          "name": "Bakery",
+          "slug": "bakery",
+          "uri": "https://api.sketchfab.com/v3/tags/bakery"
+        },
+        {
+          "name": "blender",
+          "slug": "blender",
+          "uri": "https://api.sketchfab.com/v3/tags/blender"
+        },
+        {
+          "name": "interior",
+          "slug": "interior",
+          "uri": "https://api.sketchfab.com/v3/tags/interior"
+        },
+        {
+          "name": "simple",
+          "slug": "simple",
+          "uri": "https://api.sketchfab.com/v3/tags/simple"
+        },
+        {
+          "name": "rigged",
+          "slug": "rigged",
+          "uri": "https://api.sketchfab.com/v3/tags/rigged"
+        }
+      ],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "e64e237786544a859face85134c4359b",
+            "width": 1920,
+            "height": 1080,
+            "size": 212232,
+            "url": "https://media.sketchfab.com/models/7a561f3f9ff94dc49a8d2ba0d2873eb6/thumbnails/8d7935d9b45f41deaf79f577bc98ec15/77b3dc2f2f0c456eaaf870b54343c94b.jpeg"
+          },
+          {
+            "uid": "3e53691bef4e4e868108d491dfb08a44",
+            "width": 1024,
+            "height": 576,
+            "size": 74596,
+            "url": "https://media.sketchfab.com/models/7a561f3f9ff94dc49a8d2ba0d2873eb6/thumbnails/8d7935d9b45f41deaf79f577bc98ec15/c663992201224ac58f954d155500bfb1.jpeg"
+          },
+          {
+            "uid": "379b7f83611b4cd489ab6f37c6c9d25c",
+            "width": 720,
+            "height": 405,
+            "size": 45190,
+            "url": "https://media.sketchfab.com/models/7a561f3f9ff94dc49a8d2ba0d2873eb6/thumbnails/8d7935d9b45f41deaf79f577bc98ec15/dc92b90ed4c54b208bb5968e9901ec0e.jpeg"
+          },
+          {
+            "uid": "34b89b9810644546aeacacc8e21f700b",
+            "width": 256,
+            "height": 144,
+            "size": 8246,
+            "url": "https://media.sketchfab.com/models/7a561f3f9ff94dc49a8d2ba0d2873eb6/thumbnails/8d7935d9b45f41deaf79f577bc98ec15/7be3b743698b418483f6b6a28a5568ef.jpeg"
+          },
+          {
+            "uid": "36ef3306719044929f1b41eaddad8f5d",
+            "width": 64,
+            "height": 36,
+            "size": 1365,
+            "url": "https://media.sketchfab.com/models/7a561f3f9ff94dc49a8d2ba0d2873eb6/thumbnails/8d7935d9b45f41deaf79f577bc98ec15/8875dc96a97d4439acd4564acef0c513.jpeg"
+          }
+        ]
+      },
+      "uid": "7a561f3f9ff94dc49a8d2ba0d2873eb6",
+      "uri": "https://api.sketchfab.com/v3/models/7a561f3f9ff94dc49a8d2ba0d2873eb6",
+      "user": {
+        "uid": "4cba2db87efa472a8a43c7f9653a31c5",
+        "username": "RachelC04",
+        "displayName": "RachelC04",
+        "account": "basic",
+        "profileUrl": "https://sketchfab.com/RachelC04",
+        "avatar": {
+          "uid": "def6610c120041cc8ba59df01c9b0e76",
+          "uri": "https://api.sketchfab.com/v3/avatars/def6610c120041cc8ba59df01c9b0e76",
+          "images": [
+            {
+              "width": 32,
+              "height": 32,
+              "size": 959,
+              "url": "https://media.sketchfab.com/avatars/def6610c120041cc8ba59df01c9b0e76/ccdbadfc21bb40a5b3a4f340eeb9381b.jpeg"
+            },
+            {
+              "width": 48,
+              "height": 48,
+              "size": 1649,
+              "url": "https://media.sketchfab.com/avatars/def6610c120041cc8ba59df01c9b0e76/179ba23477444a4db95ac2251b4d4356.jpeg"
+            },
+            {
+              "width": 90,
+              "height": 90,
+              "size": 4546,
+              "url": "https://media.sketchfab.com/avatars/def6610c120041cc8ba59df01c9b0e76/40ff8c829cfd492da7a3ddb4e5c790f3.jpeg"
+            },
+            {
+              "width": 100,
+              "height": 100,
+              "size": 5427,
+              "url": "https://media.sketchfab.com/avatars/def6610c120041cc8ba59df01c9b0e76/9196a4fdb21541528b4e444e526ae95c.jpeg"
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/4cba2db87efa472a8a43c7f9653a31c5"
+      },
+      "vertexCount": 85773,
+      "viewCount": 1527,
+      "viewerUrl": "https://sketchfab.com/3d-models/empty-bakery-interior-7a561f3f9ff94dc49a8d2ba0d2873eb6",
+      "isDownloadable": true,
+      "isProtected": false,
+      "description": "This is a basic, empty Bakery interior that I created for my Final major Project. It was for an animation idea that I had for a character to start a small home business which grows as they buy their own bakery.\n\nThis model was made using blender.\n\nThe doors are rigged so that they can open and close.\n\nThe design is for the interior only so the outside is blank.",
+      "price": null,
+      "downloadCount": 398,
+      "editorUrl": "https://sketchfab.com/models/7a561f3f9ff94dc49a8d2ba0d2873eb6/edit",
+      "status": {
+        "warning": {},
+        "processing": "SUCCEEDED"
+      },
+      "source": "website",
+      "hasCommentsDisabled": false,
+      "updatedAt": "2022-07-09T11:31:27.151094",
+      "pbrType": null,
+      "textureCount": 1,
+      "materialCount": 15,
+      "objaversePath": "glbs/000-031/7a561f3f9ff94dc49a8d2ba0d2873eb6.glb",
+      "downloadBytes": 5565960,
+      "checkedAt": "2026-10-26T20:08:11.643Z"
+    },
+    {
+      "animationCount": 0,
+      "categories": [
+        {
+          "uid": "f825c721edb541dbbc8cd210123616c7",
+          "name": "Architecture",
+          "slug": "architecture",
+          "uri": "https://api.sketchfab.com/v3/categories/f825c721edb541dbbc8cd210123616c7",
+          "icon": "https://static.sketchfab.com/static/builds/web/dist/static/assets/images/icons/categories/0d6c3fa023a12c3d7aa493c542afd1b8-v2.svg",
+          "thumbnails": [
+            {
+              "width": "512",
+              "height": "288",
+              "url": "https://static.sketchfab.com/categories/f825c721edb541dbbc8cd210123616c7/512x288.png"
+            },
+            {
+              "width": "800",
+              "height": "450",
+              "url": "https://static.sketchfab.com/categories/f825c721edb541dbbc8cd210123616c7/800x450.png"
+            }
+          ]
+        },
+        {
+          "uid": "e56c5de1e9344241909de76c5886f551",
+          "name": "Art & Abstract",
+          "slug": "art-abstract",
+          "uri": "https://api.sketchfab.com/v3/categories/e56c5de1e9344241909de76c5886f551",
+          "icon": "https://static.sketchfab.com/static/builds/web/dist/static/assets/images/icons/categories/876106eddb2a54aa1391eb2f4db0acb2-v2.svg",
+          "thumbnails": [
+            {
+              "width": "512",
+              "height": "288",
+              "url": "https://static.sketchfab.com/categories/e56c5de1e9344241909de76c5886f551/512x288.png"
+            },
+            {
+              "width": "800",
+              "height": "450",
+              "url": "https://static.sketchfab.com/categories/e56c5de1e9344241909de76c5886f551/800x450.png"
+            }
+          ]
+        }
+      ],
+      "commentCount": 34,
+      "createdAt": "2021-03-29T20:23:11.027678",
+      "embedUrl": "https://sketchfab.com/models/1e40d433ed6f48fb880a0d2172aff7ca/embed",
+      "faceCount": 350729,
+      "isAgeRestricted": false,
+      "license": {
+        "uri": "https://api.sketchfab.com/v3/licenses/322a749bcfa841b29dff1e8a1bb74b0b",
+        "label": "CC Attribution",
+        "fullName": "Creative Commons Attribution",
+        "requirements": "Author must be credited. Commercial use is allowed.",
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "slug": "by"
+      },
+      "likeCount": 2278,
+      "name": "Abandoned Warehouse",
+      "publishedAt": "2021-03-29T21:17:00.034841",
+      "soundCount": 0,
+      "staffpickedAt": null,
+      "tags": [
+        {
+          "name": "abandoned",
+          "slug": "abandoned",
+          "uri": "https://api.sketchfab.com/v3/tags/abandoned"
+        },
+        {
+          "name": "apocalyptic",
+          "slug": "apocalyptic",
+          "uri": "https://api.sketchfab.com/v3/tags/apocalyptic"
+        },
+        {
+          "name": "warehouse",
+          "slug": "warehouse",
+          "uri": "https://api.sketchfab.com/v3/tags/warehouse"
+        },
+        {
+          "name": "post-apocalyptic",
+          "slug": "post-apocalyptic",
+          "uri": "https://api.sketchfab.com/v3/tags/post-apocalyptic"
+        },
+        {
+          "name": "debris",
+          "slug": "debris",
+          "uri": "https://api.sketchfab.com/v3/tags/debris"
+        },
+        {
+          "name": "old",
+          "slug": "old",
+          "uri": "https://api.sketchfab.com/v3/tags/old"
+        },
+        {
+          "name": "destroyed",
+          "slug": "destroyed",
+          "uri": "https://api.sketchfab.com/v3/tags/destroyed"
+        },
+        {
+          "name": "substancepainter",
+          "slug": "substancepainter",
+          "uri": "https://api.sketchfab.com/v3/tags/substancepainter"
+        },
+        {
+          "name": "blender",
+          "slug": "blender",
+          "uri": "https://api.sketchfab.com/v3/tags/blender"
+        },
+        {
+          "name": "factory",
+          "slug": "factory",
+          "uri": "https://api.sketchfab.com/v3/tags/factory"
+        }
+      ],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "d421fdcfd9804c62a86ed853041d1e44",
+            "width": 1920,
+            "height": 1080,
+            "size": 516726,
+            "url": "https://media.sketchfab.com/models/1e40d433ed6f48fb880a0d2172aff7ca/thumbnails/3dcccdc4a7c04402a105fa74aaede98a/2aa3faf732f645bf8723b0b3f53a7f54.jpeg"
+          },
+          {
+            "uid": "ed1c43aaaacb470faa1d1c83a23b0be3",
+            "width": 1024,
+            "height": 576,
+            "size": 117397,
+            "url": "https://media.sketchfab.com/models/1e40d433ed6f48fb880a0d2172aff7ca/thumbnails/3dcccdc4a7c04402a105fa74aaede98a/2f93712b7b6f415292bd7c4d2584783e.jpeg"
+          },
+          {
+            "uid": "a5366aaff0cc4c8ba18b51482c961d07",
+            "width": 720,
+            "height": 405,
+            "size": 59596,
+            "url": "https://media.sketchfab.com/models/1e40d433ed6f48fb880a0d2172aff7ca/thumbnails/3dcccdc4a7c04402a105fa74aaede98a/60d235d369684485b3f84e760af66ee8.jpeg"
+          },
+          {
+            "uid": "f3b5680ee9274982802a14ecaf810110",
+            "width": 256,
+            "height": 144,
+            "size": 8887,
+            "url": "https://media.sketchfab.com/models/1e40d433ed6f48fb880a0d2172aff7ca/thumbnails/3dcccdc4a7c04402a105fa74aaede98a/2f4122065e0b4d31b8b111ef973bbd02.jpeg"
+          },
+          {
+            "uid": "6b7ee04e9f934f32a1662981cd33c3f3",
+            "width": 64,
+            "height": 36,
+            "size": 1341,
+            "url": "https://media.sketchfab.com/models/1e40d433ed6f48fb880a0d2172aff7ca/thumbnails/3dcccdc4a7c04402a105fa74aaede98a/a75c3be276fc45508bad39a9e68e2445.jpeg"
+          }
+        ]
+      },
+      "uid": "1e40d433ed6f48fb880a0d2172aff7ca",
+      "uri": "https://api.sketchfab.com/v3/models/1e40d433ed6f48fb880a0d2172aff7ca",
+      "user": {
+        "uid": "dc7c68af518f4c9a8bb6c57f323bcf97",
+        "username": "denis_cliofas",
+        "displayName": "denis_cliofas",
+        "account": "basic",
+        "profileUrl": "https://sketchfab.com/denis_cliofas",
+        "avatar": {
+          "uid": "60614ce58eb44aaea4bf0b3ed1f0c8c0",
+          "uri": "https://api.sketchfab.com/v3/avatars/60614ce58eb44aaea4bf0b3ed1f0c8c0",
+          "images": [
+            {
+              "width": 32,
+              "height": 32,
+              "size": 680,
+              "url": "https://media.sketchfab.com/avatars/60614ce58eb44aaea4bf0b3ed1f0c8c0/42c6df35d0974a88b1da027c75dedbf0.jpeg"
+            },
+            {
+              "width": 48,
+              "height": 48,
+              "size": 1058,
+              "url": "https://media.sketchfab.com/avatars/60614ce58eb44aaea4bf0b3ed1f0c8c0/a50024af7b0f43cd84783bb99e284d45.jpeg"
+            },
+            {
+              "width": 90,
+              "height": 90,
+              "size": 2323,
+              "url": "https://media.sketchfab.com/avatars/60614ce58eb44aaea4bf0b3ed1f0c8c0/63a1ae902a1c496288152d717952fb10.jpeg"
+            },
+            {
+              "width": 100,
+              "height": 100,
+              "size": 2683,
+              "url": "https://media.sketchfab.com/avatars/60614ce58eb44aaea4bf0b3ed1f0c8c0/cd4c18cfc3b14967be9f4e965420dfe3.jpeg"
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/dc7c68af518f4c9a8bb6c57f323bcf97"
+      },
+      "vertexCount": 194657,
+      "viewCount": 87217,
+      "viewerUrl": "https://sketchfab.com/3d-models/abandoned-warehouse-1e40d433ed6f48fb880a0d2172aff7ca",
+      "isDownloadable": true,
+      "isProtected": false,
+      "description": "Reskin of https://skfb.ly/QQuJ by @aurelien_martel. Other models are also originating from sketchfab. All textures (PBR, 4K) were retextured in Substance Painter. The model is not really optimized for games (I warned you).",
+      "price": null,
+      "downloadCount": 21813,
+      "editorUrl": "https://sketchfab.com/models/1e40d433ed6f48fb880a0d2172aff7ca/edit",
+      "status": {
+        "warning": {},
+        "processing": "SUCCEEDED"
+      },
+      "source": "website",
+      "hasCommentsDisabled": false,
+      "updatedAt": "2022-07-21T10:28:05.240114",
+      "pbrType": "metalness",
+      "textureCount": 61,
+      "materialCount": 22,
+      "objaversePath": "glbs/000-079/1e40d433ed6f48fb880a0d2172aff7ca.glb",
+      "downloadBytes": 109332812,
+      "checkedAt": "2026-10-26T20:08:11.661Z"
+    },
+    {
+      "animationCount": 0,
+      "categories": [
+        {
+          "uid": "f825c721edb541dbbc8cd210123616c7",
+          "name": "Architecture",
+          "slug": "architecture",
+          "uri": "https://api.sketchfab.com/v3/categories/f825c721edb541dbbc8cd210123616c7",
+          "icon": "https://static.sketchfab.com/static/builds/web/dist/static/assets/images/icons/categories/0d6c3fa023a12c3d7aa493c542afd1b8-v2.svg",
+          "thumbnails": [
+            {
+              "width": "512",
+              "height": "288",
+              "url": "https://static.sketchfab.com/categories/f825c721edb541dbbc8cd210123616c7/512x288.png"
+            },
+            {
+              "width": "800",
+              "height": "450",
+              "url": "https://static.sketchfab.com/categories/f825c721edb541dbbc8cd210123616c7/800x450.png"
+            }
+          ]
+        },
+        {
+          "uid": "e56c5de1e9344241909de76c5886f551",
+          "name": "Art & Abstract",
+          "slug": "art-abstract",
+          "uri": "https://api.sketchfab.com/v3/categories/e56c5de1e9344241909de76c5886f551",
+          "icon": "https://static.sketchfab.com/static/builds/web/dist/static/assets/images/icons/categories/876106eddb2a54aa1391eb2f4db0acb2-v2.svg",
+          "thumbnails": [
+            {
+              "width": "512",
+              "height": "288",
+              "url": "https://static.sketchfab.com/categories/e56c5de1e9344241909de76c5886f551/512x288.png"
+            },
+            {
+              "width": "800",
+              "height": "450",
+              "url": "https://static.sketchfab.com/categories/e56c5de1e9344241909de76c5886f551/800x450.png"
+            }
+          ]
+        }
+      ],
+      "commentCount": 0,
+      "createdAt": "2020-05-08T08:02:09.321128",
+      "embedUrl": "https://sketchfab.com/models/fdd57e783d744886bc37cdfb76cf9475/embed",
+      "faceCount": 412538,
+      "isAgeRestricted": false,
+      "license": {
+        "uri": "https://api.sketchfab.com/v3/licenses/322a749bcfa841b29dff1e8a1bb74b0b",
+        "label": "CC Attribution",
+        "fullName": "Creative Commons Attribution",
+        "requirements": "Author must be credited. Commercial use is allowed.",
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "slug": "by"
+      },
+      "likeCount": 54,
+      "name": "Small Art Studio",
+      "publishedAt": "2020-05-08T09:02:57.425687",
+      "soundCount": 1,
+      "staffpickedAt": null,
+      "tags": [
+        {
+          "name": "arts",
+          "slug": "arts",
+          "uri": "https://api.sketchfab.com/v3/tags/arts"
+        },
+        {
+          "name": "creative",
+          "slug": "creative",
+          "uri": "https://api.sketchfab.com/v3/tags/creative"
+        },
+        {
+          "name": "scuplture",
+          "slug": "scuplture",
+          "uri": "https://api.sketchfab.com/v3/tags/scuplture"
+        },
+        {
+          "name": "hongkong",
+          "slug": "hongkong",
+          "uri": "https://api.sketchfab.com/v3/tags/hongkong"
+        },
+        {
+          "name": "artist",
+          "slug": "artist",
+          "uri": "https://api.sketchfab.com/v3/tags/artist"
+        },
+        {
+          "name": "Creativity",
+          "slug": "creativity",
+          "uri": "https://api.sketchfab.com/v3/tags/creativity"
+        },
+        {
+          "name": "interior-design",
+          "slug": "interior-design",
+          "uri": "https://api.sketchfab.com/v3/tags/interior-design"
+        },
+        {
+          "name": "cultural-heritage",
+          "slug": "cultural-heritage",
+          "uri": "https://api.sketchfab.com/v3/tags/cultural-heritage"
+        },
+        {
+          "name": "artwork-museum",
+          "slug": "artwork-museum",
+          "uri": "https://api.sketchfab.com/v3/tags/artwork-museum"
+        },
+        {
+          "name": "artgallery",
+          "slug": "artgallery",
+          "uri": "https://api.sketchfab.com/v3/tags/artgallery"
+        },
+        {
+          "name": "architectural-design",
+          "slug": "architectural-design",
+          "uri": "https://api.sketchfab.com/v3/tags/architectural-design"
+        },
+        {
+          "name": "artschool",
+          "slug": "artschool",
+          "uri": "https://api.sketchfab.com/v3/tags/artschool"
+        },
+        {
+          "name": "artworks",
+          "slug": "artworks",
+          "uri": "https://api.sketchfab.com/v3/tags/artworks"
+        },
+        {
+          "name": "art",
+          "slug": "art",
+          "uri": "https://api.sketchfab.com/v3/tags/art"
+        },
+        {
+          "name": "workshop",
+          "slug": "workshop",
+          "uri": "https://api.sketchfab.com/v3/tags/workshop"
+        },
+        {
+          "name": "artstudio",
+          "slug": "artstudio",
+          "uri": "https://api.sketchfab.com/v3/tags/artstudio"
+        },
+        {
+          "name": "localart",
+          "slug": "localart",
+          "uri": "https://api.sketchfab.com/v3/tags/localart"
+        }
+      ],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "30ede4742cf1429fa2f5518d853c9f6f",
+            "width": 1920,
+            "height": 1080,
+            "size": 163713,
+            "url": "https://media.sketchfab.com/models/fdd57e783d744886bc37cdfb76cf9475/thumbnails/775ddb396d2049b4826ad7355262c7fa/5414474551b949a88b421b13a2ce8030.jpeg"
+          },
+          {
+            "uid": "1be7caf0d43942258ade512af0798106",
+            "width": 1024,
+            "height": 576,
+            "size": 57961,
+            "url": "https://media.sketchfab.com/models/fdd57e783d744886bc37cdfb76cf9475/thumbnails/775ddb396d2049b4826ad7355262c7fa/0ab8b8756aa045c58357fc8ac4acef0b.jpeg"
+          },
+          {
+            "uid": "d7b9b546c86a4a14a71ababa6212da53",
+            "width": 720,
+            "height": 405,
+            "size": 34295,
+            "url": "https://media.sketchfab.com/models/fdd57e783d744886bc37cdfb76cf9475/thumbnails/775ddb396d2049b4826ad7355262c7fa/8be26483166b4431baa9e12cae9404b5.jpeg"
+          },
+          {
+            "uid": "c17cd2e6703e4642a89693c2b355595a",
+            "width": 256,
+            "height": 144,
+            "size": 6919,
+            "url": "https://media.sketchfab.com/models/fdd57e783d744886bc37cdfb76cf9475/thumbnails/775ddb396d2049b4826ad7355262c7fa/59a6ab0e20b44ab7a0ed4d7aac8a99b4.jpeg"
+          },
+          {
+            "uid": "69cbf9d6dc4248708f442c7786917e1a",
+            "width": 64,
+            "height": 36,
+            "size": 1012,
+            "url": "https://media.sketchfab.com/models/fdd57e783d744886bc37cdfb76cf9475/thumbnails/775ddb396d2049b4826ad7355262c7fa/23eca3b93ad846d48ab8f0f337a28843.jpeg"
+          }
+        ]
+      },
+      "uid": "fdd57e783d744886bc37cdfb76cf9475",
+      "uri": "https://api.sketchfab.com/v3/models/fdd57e783d744886bc37cdfb76cf9475",
+      "user": {
+        "uid": "816363daaa9a44c7bbdc33777bdab113",
+        "username": "artsandmaterials",
+        "displayName": "Arts and Materials Lab",
+        "account": "basic",
+        "profileUrl": "https://sketchfab.com/artsandmaterials",
+        "avatar": {
+          "uid": "8f1552b948ad4a93872a89c5646b96f1",
+          "uri": "https://api.sketchfab.com/v3/avatars/8f1552b948ad4a93872a89c5646b96f1",
+          "images": [
+            {
+              "width": 32,
+              "height": 32,
+              "size": 975,
+              "url": "https://media.sketchfab.com/avatars/8f1552b948ad4a93872a89c5646b96f1/834fe057415346568931839d9dff2ca5.jpeg"
+            },
+            {
+              "width": 48,
+              "height": 48,
+              "size": 1320,
+              "url": "https://media.sketchfab.com/avatars/8f1552b948ad4a93872a89c5646b96f1/128bae26f2d1415baa498903240e8785.jpeg"
+            },
+            {
+              "width": 90,
+              "height": 90,
+              "size": 2204,
+              "url": "https://media.sketchfab.com/avatars/8f1552b948ad4a93872a89c5646b96f1/6af7bba749e14346b1ecdd9004440097.jpeg"
+            },
+            {
+              "width": 100,
+              "height": 100,
+              "size": 2542,
+              "url": "https://media.sketchfab.com/avatars/8f1552b948ad4a93872a89c5646b96f1/e0abc8c11f5b49f8a37fd78f15b93deb.jpeg"
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/816363daaa9a44c7bbdc33777bdab113"
+      },
+      "vertexCount": 269042,
+      "viewCount": 2798,
+      "viewerUrl": "https://sketchfab.com/3d-models/small-art-studio-fdd57e783d744886bc37cdfb76cf9475",
+      "isDownloadable": true,
+      "isProtected": false,
+      "description": "This is a small Art studio where is located in Hong Kong. Hong Kong ’s excellent geographical location and unique cultural background, coupled with the ability to receive first-hand information from all over the world. It allows local art creators to integrate Chinese and Western culture and life experience to create unique local features.\n\nThis small art studio is for two British couple, who had have taught western art history and context in Hong Kong University for 20 years. They both like small environment which can make them feel all the art surround their emotion body. The Design idea is basic, which they would like to show their fanatic and passion artwork in that room.",
+      "price": null,
+      "downloadCount": 582,
+      "editorUrl": "https://sketchfab.com/models/fdd57e783d744886bc37cdfb76cf9475/edit",
+      "status": {
+        "warning": {},
+        "processing": "SUCCEEDED"
+      },
+      "source": "website",
+      "hasCommentsDisabled": false,
+      "updatedAt": "2022-07-20T11:20:02.348184",
+      "pbrType": null,
+      "textureCount": 40,
+      "materialCount": 98,
+      "objaversePath": "glbs/000-102/fdd57e783d744886bc37cdfb76cf9475.glb",
+      "downloadBytes": 40461684,
+      "checkedAt": "2026-10-26T20:08:11.664Z"
+    },
+    {
+      "animationCount": 0,
+      "categories": [
+        {
+          "uid": "606f202e5a3c4e62bf9aab1cd9f63e1b",
+          "name": "Furniture & Home",
+          "slug": "furniture-home",
+          "uri": "https://api.sketchfab.com/v3/categories/606f202e5a3c4e62bf9aab1cd9f63e1b",
+          "icon": "https://static.sketchfab.com/static/builds/web/dist/static/assets/images/icons/categories/c999ae9e0525ccfb8fd8953190d5307d-v2.svg",
+          "thumbnails": [
+            {
+              "width": "512",
+              "height": "288",
+              "url": "https://static.sketchfab.com/categories/606f202e5a3c4e62bf9aab1cd9f63e1b/512x288.png"
+            },
+            {
+              "width": "800",
+              "height": "450",
+              "url": "https://static.sketchfab.com/categories/606f202e5a3c4e62bf9aab1cd9f63e1b/800x450.png"
+            }
+          ]
+        }
+      ],
+      "commentCount": 1,
+      "createdAt": "2020-06-26T17:53:41.104387",
+      "embedUrl": "https://sketchfab.com/models/a22de7c45a974834b840c65561934681/embed",
+      "faceCount": 181993,
+      "isAgeRestricted": false,
+      "license": {
+        "uri": "https://api.sketchfab.com/v3/licenses/322a749bcfa841b29dff1e8a1bb74b0b",
+        "label": "CC Attribution",
+        "fullName": "Creative Commons Attribution",
+        "requirements": "Author must be credited. Commercial use is allowed.",
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "slug": "by"
+      },
+      "likeCount": 11,
+      "name": "Garage Scan - Display.Land",
+      "publishedAt": "2020-06-26T17:59:32.265378",
+      "soundCount": 0,
+      "staffpickedAt": null,
+      "tags": [
+        {
+          "name": "photogrammetry",
+          "slug": "photogrammetry",
+          "uri": "https://api.sketchfab.com/v3/tags/photogrammetry"
+        },
+        {
+          "name": "3dscan",
+          "slug": "3dscan",
+          "uri": "https://api.sketchfab.com/v3/tags/3dscan"
+        },
+        {
+          "name": "displayland",
+          "slug": "displayland",
+          "uri": "https://api.sketchfab.com/v3/tags/displayland"
+        }
+      ],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "4dd935082845443fb060c27550780a60",
+            "width": 1920,
+            "height": 1080,
+            "size": 419213,
+            "url": "https://media.sketchfab.com/models/a22de7c45a974834b840c65561934681/thumbnails/c59afb9069d34d5c9e2feae64ac96517/df4d58f6b46340de9bc564ec23340e00.jpeg"
+          },
+          {
+            "uid": "6e368b39873c423fbc481cc807ca3729",
+            "width": 1024,
+            "height": 576,
+            "size": 137720,
+            "url": "https://media.sketchfab.com/models/a22de7c45a974834b840c65561934681/thumbnails/c59afb9069d34d5c9e2feae64ac96517/c65cb2b34a204665a153cb252ae69c09.jpeg"
+          },
+          {
+            "uid": "1463b96000c943c79817d6177d30e844",
+            "width": 720,
+            "height": 405,
+            "size": 79212,
+            "url": "https://media.sketchfab.com/models/a22de7c45a974834b840c65561934681/thumbnails/c59afb9069d34d5c9e2feae64ac96517/51cc41af0ca94967b9e49da5647a4e2f.jpeg"
+          },
+          {
+            "uid": "aed75bc7558d4b9a8d1395390ad504ed",
+            "width": 256,
+            "height": 144,
+            "size": 13503,
+            "url": "https://media.sketchfab.com/models/a22de7c45a974834b840c65561934681/thumbnails/c59afb9069d34d5c9e2feae64ac96517/57e9d840f6634b62ae4f2785d10b69f9.jpeg"
+          },
+          {
+            "uid": "58890a55293941eb852e3330418aacdd",
+            "width": 64,
+            "height": 36,
+            "size": 1390,
+            "url": "https://media.sketchfab.com/models/a22de7c45a974834b840c65561934681/thumbnails/c59afb9069d34d5c9e2feae64ac96517/8a4f44a967864a70b2c037b4ca831e4d.jpeg"
+          }
+        ]
+      },
+      "uid": "a22de7c45a974834b840c65561934681",
+      "uri": "https://api.sketchfab.com/v3/models/a22de7c45a974834b840c65561934681",
+      "user": {
+        "uid": "fb2262309f744fb18d919839f1317982",
+        "username": "putch",
+        "displayName": "Andy",
+        "account": "basic",
+        "profileUrl": "https://sketchfab.com/putch",
+        "avatar": {
+          "uid": "1f0a39420f8248aa9f2697e965af1327",
+          "uri": "https://api.sketchfab.com/v3/avatars/1f0a39420f8248aa9f2697e965af1327",
+          "images": [
+            {
+              "width": 32,
+              "height": 32,
+              "size": 563,
+              "url": "https://media.sketchfab.com/avatars/1f0a39420f8248aa9f2697e965af1327/1d1fb35b729b43dd921ebba74ae88b7d.jpeg"
+            },
+            {
+              "width": 48,
+              "height": 48,
+              "size": 813,
+              "url": "https://media.sketchfab.com/avatars/1f0a39420f8248aa9f2697e965af1327/4eb74be5c71049469f4ed467a403d321.jpeg"
+            },
+            {
+              "width": 90,
+              "height": 90,
+              "size": 1891,
+              "url": "https://media.sketchfab.com/avatars/1f0a39420f8248aa9f2697e965af1327/7777d94fa1b649a1882a3782adab0e73.jpeg"
+            },
+            {
+              "width": 100,
+              "height": 100,
+              "size": 2288,
+              "url": "https://media.sketchfab.com/avatars/1f0a39420f8248aa9f2697e965af1327/bdd3190f16af4436a9d89b87b749f81d.jpeg"
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/fb2262309f744fb18d919839f1317982"
+      },
+      "vertexCount": 90568,
+      "viewCount": 668,
+      "viewerUrl": "https://sketchfab.com/3d-models/garage-scan-displayland-a22de7c45a974834b840c65561934681",
+      "isDownloadable": true,
+      "isProtected": false,
+      "description": "3D scan of a garage captured with the display.land app on the iPad Pro.",
+      "price": null,
+      "downloadCount": 87,
+      "editorUrl": "https://sketchfab.com/models/a22de7c45a974834b840c65561934681/edit",
+      "status": {
+        "warning": {},
+        "processing": "SUCCEEDED"
+      },
+      "source": "website",
+      "hasCommentsDisabled": false,
+      "updatedAt": "2022-06-30T04:30:02.163753",
+      "pbrType": null,
+      "textureCount": 1,
+      "materialCount": 1,
+      "objaversePath": "glbs/000-073/a22de7c45a974834b840c65561934681.glb",
+      "downloadBytes": 7295308,
+      "checkedAt": "2026-10-26T20:08:11.694Z"
+    },
+    {
+      "animationCount": 0,
+      "categories": [
+        {
+          "uid": "f825c721edb541dbbc8cd210123616c7",
+          "name": "Architecture",
+          "slug": "architecture",
+          "uri": "https://api.sketchfab.com/v3/categories/f825c721edb541dbbc8cd210123616c7",
+          "icon": "https://static.sketchfab.com/static/builds/web/dist/static/assets/images/icons/categories/0d6c3fa023a12c3d7aa493c542afd1b8-v2.svg",
+          "thumbnails": [
+            {
+              "width": "512",
+              "height": "288",
+              "url": "https://static.sketchfab.com/categories/f825c721edb541dbbc8cd210123616c7/512x288.png"
+            },
+            {
+              "width": "800",
+              "height": "450",
+              "url": "https://static.sketchfab.com/categories/f825c721edb541dbbc8cd210123616c7/800x450.png"
+            }
+          ]
+        }
+      ],
+      "commentCount": 0,
+      "createdAt": "2021-07-21T03:27:31.841438",
+      "embedUrl": "https://sketchfab.com/models/e402f04b81c748299c692cb5f12f5249/embed",
+      "faceCount": 297119,
+      "isAgeRestricted": false,
+      "license": {
+        "uri": "https://api.sketchfab.com/v3/licenses/322a749bcfa841b29dff1e8a1bb74b0b",
+        "label": "CC Attribution",
+        "fullName": "Creative Commons Attribution",
+        "requirements": "Author must be credited. Commercial use is allowed.",
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "slug": "by"
+      },
+      "likeCount": 50,
+      "name": "Food Store",
+      "publishedAt": "2021-07-21T03:31:38.417884",
+      "soundCount": 0,
+      "staffpickedAt": null,
+      "tags": [
+        {
+          "name": "food",
+          "slug": "food",
+          "uri": "https://api.sketchfab.com/v3/tags/food"
+        },
+        {
+          "name": "store",
+          "slug": "store",
+          "uri": "https://api.sketchfab.com/v3/tags/store"
+        },
+        {
+          "name": "interior-design",
+          "slug": "interior-design",
+          "uri": "https://api.sketchfab.com/v3/tags/interior-design"
+        },
+        {
+          "name": "interiorarchitecture",
+          "slug": "interiorarchitecture",
+          "uri": "https://api.sketchfab.com/v3/tags/interiorarchitecture"
+        }
+      ],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "f2e8a8d7565343ad8f787f29fff62aba",
+            "width": 1920,
+            "height": 1080,
+            "size": 139727,
+            "url": "https://media.sketchfab.com/models/e402f04b81c748299c692cb5f12f5249/thumbnails/cc99c1adda5d438590cb15a538906db6/d67df499bbdc4fa98341a2a42b3911b6.jpeg"
+          },
+          {
+            "uid": "e682c59fd85b4b5a813affad3c2ac037",
+            "width": 1024,
+            "height": 576,
+            "size": 52623,
+            "url": "https://media.sketchfab.com/models/e402f04b81c748299c692cb5f12f5249/thumbnails/cc99c1adda5d438590cb15a538906db6/141273d47aa04e86a7b1b1958a197a6f.jpeg"
+          },
+          {
+            "uid": "5181cf607bad471cba4599e1023a7115",
+            "width": 720,
+            "height": 405,
+            "size": 32585,
+            "url": "https://media.sketchfab.com/models/e402f04b81c748299c692cb5f12f5249/thumbnails/cc99c1adda5d438590cb15a538906db6/b0a0019b96a54c4685704ffd437a34c7.jpeg"
+          },
+          {
+            "uid": "29149318a01249559ef3b91fd72c70bf",
+            "width": 256,
+            "height": 144,
+            "size": 7465,
+            "url": "https://media.sketchfab.com/models/e402f04b81c748299c692cb5f12f5249/thumbnails/cc99c1adda5d438590cb15a538906db6/105923f6263d44a3aacd1c7a47729560.jpeg"
+          },
+          {
+            "uid": "a9e6b95531074493a379b3e9f22c7d68",
+            "width": 64,
+            "height": 36,
+            "size": 1468,
+            "url": "https://media.sketchfab.com/models/e402f04b81c748299c692cb5f12f5249/thumbnails/cc99c1adda5d438590cb15a538906db6/a996bbff40424f5dad222f2f7ed04387.jpeg"
+          }
+        ]
+      },
+      "uid": "e402f04b81c748299c692cb5f12f5249",
+      "uri": "https://api.sketchfab.com/v3/models/e402f04b81c748299c692cb5f12f5249",
+      "user": {
+        "uid": "6db7ce41832848edb9fa74419f8e955f",
+        "username": "EstabanJCG",
+        "displayName": "3d Artist",
+        "account": "basic",
+        "profileUrl": "https://sketchfab.com/EstabanJCG",
+        "avatar": {
+          "uid": "78fa317e46024a5283765aa34df5e508",
+          "uri": "https://api.sketchfab.com/v3/avatars/78fa317e46024a5283765aa34df5e508",
+          "images": [
+            {
+              "width": 100,
+              "height": 100,
+              "size": 6421,
+              "url": "https://media.sketchfab.com/avatars/78fa317e46024a5283765aa34df5e508/aec92fe9a74e499c98d759362cd7f02f.jpeg"
+            },
+            {
+              "width": 48,
+              "height": 48,
+              "size": 2518,
+              "url": "https://media.sketchfab.com/avatars/78fa317e46024a5283765aa34df5e508/17fa177ffaa344a2b2fc8e78efd40fbb.jpeg"
+            },
+            {
+              "width": 90,
+              "height": 90,
+              "size": 5653,
+              "url": "https://media.sketchfab.com/avatars/78fa317e46024a5283765aa34df5e508/02162695bdc840faa3bcb2d418309c5e.jpeg"
+            },
+            {
+              "width": 32,
+              "height": 32,
+              "size": 1350,
+              "url": "https://media.sketchfab.com/avatars/78fa317e46024a5283765aa34df5e508/6fde876cbded4cd48d36a76029e3aa02.jpeg"
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/6db7ce41832848edb9fa74419f8e955f"
+      },
+      "vertexCount": 169868,
+      "viewCount": 2073,
+      "viewerUrl": "https://sketchfab.com/3d-models/food-store-e402f04b81c748299c692cb5f12f5249",
+      "isDownloadable": true,
+      "isProtected": false,
+      "description": "This model conten a food store with furniture, cameras, lights and materials\nwas created in revit and 3dsmax",
+      "price": null,
+      "downloadCount": 364,
+      "editorUrl": "https://sketchfab.com/models/e402f04b81c748299c692cb5f12f5249/edit",
+      "status": {
+        "warning": {},
+        "processing": "SUCCEEDED"
+      },
+      "source": "website",
+      "hasCommentsDisabled": false,
+      "updatedAt": "2022-07-08T07:49:35.274361",
+      "pbrType": null,
+      "textureCount": 2,
+      "materialCount": 3,
+      "objaversePath": "glbs/000-022/e402f04b81c748299c692cb5f12f5249.glb",
+      "downloadBytes": 28133936,
+      "checkedAt": "2026-10-26T20:08:12.301Z"
+    },
+    {
+      "animationCount": 0,
+      "categories": [
+        {
+          "uid": "c51b29706d4e4e93a82e5eea7cbe6f91",
+          "name": "Places & Travel",
+          "slug": "places-travel",
+          "uri": "https://api.sketchfab.com/v3/categories/c51b29706d4e4e93a82e5eea7cbe6f91",
+          "icon": "https://static.sketchfab.com/static/builds/web/dist/static/assets/images/icons/categories/49547fe422db0fdef3c06c199f367b2a-v2.svg",
+          "thumbnails": [
+            {
+              "width": "512",
+              "height": "288",
+              "url": "https://static.sketchfab.com/categories/c51b29706d4e4e93a82e5eea7cbe6f91/512x288.png"
+            },
+            {
+              "width": "800",
+              "height": "450",
+              "url": "https://static.sketchfab.com/categories/c51b29706d4e4e93a82e5eea7cbe6f91/800x450.png"
+            }
+          ]
+        }
+      ],
+      "commentCount": 12,
+      "createdAt": "2017-01-15T04:33:18.433403",
+      "embedUrl": "https://sketchfab.com/models/d1ef16175d29422b9bdc0b71dec7d26d/embed",
+      "faceCount": 8120,
+      "isAgeRestricted": false,
+      "license": {
+        "uri": "https://api.sketchfab.com/v3/licenses/322a749bcfa841b29dff1e8a1bb74b0b",
+        "label": "CC Attribution",
+        "fullName": "Creative Commons Attribution",
+        "requirements": "Author must be credited. Commercial use is allowed.",
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "slug": "by"
+      },
+      "likeCount": 69,
+      "name": "Interior study",
+      "publishedAt": "2017-01-16T20:36:41.756522",
+      "soundCount": 0,
+      "staffpickedAt": null,
+      "tags": [
+        {
+          "name": "voxel",
+          "slug": "voxel",
+          "uri": "https://api.sketchfab.com/v3/tags/voxel"
+        },
+        {
+          "name": "interior",
+          "slug": "interior",
+          "uri": "https://api.sketchfab.com/v3/tags/interior"
+        },
+        {
+          "name": "magicavoxel",
+          "slug": "magicavoxel",
+          "uri": "https://api.sketchfab.com/v3/tags/magicavoxel"
+        }
+      ],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "8fcc1e0c4b614dbd8777cc2bc447923e",
+            "width": 864,
+            "height": 486,
+            "size": 55649,
+            "url": "https://media.sketchfab.com/models/d1ef16175d29422b9bdc0b71dec7d26d/thumbnails/13d4bb88747e40f0be6023dea0578424/864x486.jpeg"
+          },
+          {
+            "uid": "d3ec4eb4290f433e95e2f867327d79b1",
+            "width": 640,
+            "height": 360,
+            "size": 34376,
+            "url": "https://media.sketchfab.com/models/d1ef16175d29422b9bdc0b71dec7d26d/thumbnails/13d4bb88747e40f0be6023dea0578424/640x360.jpeg"
+          },
+          {
+            "uid": "b5987e3737b64b7ba7e0bc139acbfc7d",
+            "width": 50,
+            "height": 50,
+            "size": 1426,
+            "url": "https://media.sketchfab.com/models/d1ef16175d29422b9bdc0b71dec7d26d/thumbnails/13d4bb88747e40f0be6023dea0578424/50x50.jpeg"
+          },
+          {
+            "uid": "0d10b6c8ec6d4b8b9d31c3351df5ed6d",
+            "width": 100,
+            "height": 100,
+            "size": 3471,
+            "url": "https://media.sketchfab.com/models/d1ef16175d29422b9bdc0b71dec7d26d/thumbnails/13d4bb88747e40f0be6023dea0578424/100x100.jpeg"
+          },
+          {
+            "uid": "59f113fb98d947d2827233d00f152b98",
+            "width": 200,
+            "height": 200,
+            "size": 8603,
+            "url": "https://media.sketchfab.com/models/d1ef16175d29422b9bdc0b71dec7d26d/thumbnails/13d4bb88747e40f0be6023dea0578424/200x200.jpeg"
+          },
+          {
+            "uid": "e25ef9e366a940878f0d9c4dc1fd29ab",
+            "width": 448,
+            "height": 252,
+            "size": 20883,
+            "url": "https://media.sketchfab.com/models/d1ef16175d29422b9bdc0b71dec7d26d/thumbnails/13d4bb88747e40f0be6023dea0578424/448x252.jpeg"
+          }
+        ]
+      },
+      "uid": "d1ef16175d29422b9bdc0b71dec7d26d",
+      "uri": "https://api.sketchfab.com/v3/models/d1ef16175d29422b9bdc0b71dec7d26d",
+      "user": {
+        "uid": "f13bc119a94a40aa8808829c5050db1a",
+        "username": "sundai",
+        "displayName": "sundai",
+        "account": "basic",
+        "profileUrl": "https://sketchfab.com/sundai",
+        "avatar": {
+          "uid": "3bb4bca98f4f4075897222a79cf474a4",
+          "uri": "https://api.sketchfab.com/v3/avatars/3bb4bca98f4f4075897222a79cf474a4",
+          "images": [
+            {
+              "width": 100,
+              "height": 100,
+              "size": 3316,
+              "url": "https://media.sketchfab.com/avatars/3bb4bca98f4f4075897222a79cf474a4/22afa41ba60446d48b02822567a2e629.jpeg"
+            },
+            {
+              "width": 90,
+              "height": 90,
+              "size": 2873,
+              "url": "https://media.sketchfab.com/avatars/3bb4bca98f4f4075897222a79cf474a4/7d158c23d20445e493aa99ef0a26548d.jpeg"
+            },
+            {
+              "width": 48,
+              "height": 48,
+              "size": 1182,
+              "url": "https://media.sketchfab.com/avatars/3bb4bca98f4f4075897222a79cf474a4/a54b2eeee9c044eba046c7131f37f4fa.jpeg"
+            },
+            {
+              "width": 32,
+              "height": 32,
+              "size": 751,
+              "url": "https://media.sketchfab.com/avatars/3bb4bca98f4f4075897222a79cf474a4/1493f1a57f4f4ddeaac1d8959314b4ce.jpeg"
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/f13bc119a94a40aa8808829c5050db1a"
+      },
+      "vertexCount": 3941,
+      "viewCount": 1957,
+      "viewerUrl": "https://sketchfab.com/3d-models/interior-study-d1ef16175d29422b9bdc0b71dec7d26d",
+      "isDownloadable": true,
+      "isProtected": false,
+      "description": "Playing with some interior design with voxel. Didn't organize my palette well in magicavoxel, so it was a pain to have the materials work correctly when importing into Sketchfab. There's a lot to learn! Will give mateirals and textures a try here with my next project.\n\nRendered night mode:\n![](http://68.media.tumblr.com/fb189b2809394fc4cd3af38e6bd8f0bd/tumblr_ojt80kDR5c1tmkrego1_1280.png)",
+      "price": null,
+      "downloadCount": 379,
+      "editorUrl": "https://sketchfab.com/models/d1ef16175d29422b9bdc0b71dec7d26d/edit",
+      "status": {
+        "warning": {},
+        "processing": "SUCCEEDED"
+      },
+      "source": "website-deflated",
+      "hasCommentsDisabled": false,
+      "updatedAt": "2022-07-20T00:45:10.794090",
+      "pbrType": null,
+      "textureCount": 3,
+      "materialCount": 1,
+      "objaversePath": "glbs/000-099/d1ef16175d29422b9bdc0b71dec7d26d.glb",
+      "downloadBytes": 458188,
+      "checkedAt": "2026-10-26T20:08:12.440Z"
+    },
+    {
+      "animationCount": 0,
+      "categories": [
+        {
+          "uid": "f825c721edb541dbbc8cd210123616c7",
+          "name": "Architecture",
+          "slug": "architecture",
+          "uri": "https://api.sketchfab.com/v3/categories/f825c721edb541dbbc8cd210123616c7",
+          "icon": "https://static.sketchfab.com/static/builds/web/dist/static/assets/images/icons/categories/0d6c3fa023a12c3d7aa493c542afd1b8-v2.svg",
+          "thumbnails": [
+            {
+              "width": "512",
+              "height": "288",
+              "url": "https://static.sketchfab.com/categories/f825c721edb541dbbc8cd210123616c7/512x288.png"
+            },
+            {
+              "width": "800",
+              "height": "450",
+              "url": "https://static.sketchfab.com/categories/f825c721edb541dbbc8cd210123616c7/800x450.png"
+            }
+          ]
+        },
+        {
+          "uid": "606f202e5a3c4e62bf9aab1cd9f63e1b",
+          "name": "Furniture & Home",
+          "slug": "furniture-home",
+          "uri": "https://api.sketchfab.com/v3/categories/606f202e5a3c4e62bf9aab1cd9f63e1b",
+          "icon": "https://static.sketchfab.com/static/builds/web/dist/static/assets/images/icons/categories/c999ae9e0525ccfb8fd8953190d5307d-v2.svg",
+          "thumbnails": [
+            {
+              "width": "512",
+              "height": "288",
+              "url": "https://static.sketchfab.com/categories/606f202e5a3c4e62bf9aab1cd9f63e1b/512x288.png"
+            },
+            {
+              "width": "800",
+              "height": "450",
+              "url": "https://static.sketchfab.com/categories/606f202e5a3c4e62bf9aab1cd9f63e1b/800x450.png"
+            }
+          ]
+        }
+      ],
+      "commentCount": 12,
+      "createdAt": "2022-06-06T11:23:28.709446",
+      "embedUrl": "https://sketchfab.com/models/54bc929a26094b6cb36f977903fbcd97/embed",
+      "faceCount": 98327,
+      "isAgeRestricted": false,
+      "license": {
+        "uri": "https://api.sketchfab.com/v3/licenses/322a749bcfa841b29dff1e8a1bb74b0b",
+        "label": "CC Attribution",
+        "fullName": "Creative Commons Attribution",
+        "requirements": "Author must be credited. Commercial use is allowed.",
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "slug": "by"
+      },
+      "likeCount": 1224,
+      "name": "VR apartment loft interior | baked",
+      "publishedAt": "2022-06-06T16:21:01.698752",
+      "soundCount": 0,
+      "staffpickedAt": null,
+      "tags": [
+        {
+          "name": "room",
+          "slug": "room",
+          "uri": "https://api.sketchfab.com/v3/tags/room"
+        },
+        {
+          "name": "tea",
+          "slug": "tea",
+          "uri": "https://api.sketchfab.com/v3/tags/tea"
+        },
+        {
+          "name": "sofa",
+          "slug": "sofa",
+          "uri": "https://api.sketchfab.com/v3/tags/sofa"
+        },
+        {
+          "name": "stairs",
+          "slug": "stairs",
+          "uri": "https://api.sketchfab.com/v3/tags/stairs"
+        },
+        {
+          "name": "white",
+          "slug": "white",
+          "uri": "https://api.sketchfab.com/v3/tags/white"
+        },
+        {
+          "name": "loft",
+          "slug": "loft",
+          "uri": "https://api.sketchfab.com/v3/tags/loft"
+        },
+        {
+          "name": "corner",
+          "slug": "corner",
+          "uri": "https://api.sketchfab.com/v3/tags/corner"
+        },
+        {
+          "name": "apartment",
+          "slug": "apartment",
+          "uri": "https://api.sketchfab.com/v3/tags/apartment"
+        },
+        {
+          "name": "morning",
+          "slug": "morning",
+          "uri": "https://api.sketchfab.com/v3/tags/morning"
+        },
+        {
+          "name": "carpet",
+          "slug": "carpet",
+          "uri": "https://api.sketchfab.com/v3/tags/carpet"
+        },
+        {
+          "name": "sunshine",
+          "slug": "sunshine",
+          "uri": "https://api.sketchfab.com/v3/tags/sunshine"
+        },
+        {
+          "name": "afternoon",
+          "slug": "afternoon",
+          "uri": "https://api.sketchfab.com/v3/tags/afternoon"
+        },
+        {
+          "name": "ceilinglamp",
+          "slug": "ceilinglamp",
+          "uri": "https://api.sketchfab.com/v3/tags/ceilinglamp"
+        },
+        {
+          "name": "stair",
+          "slug": "stair",
+          "uri": "https://api.sketchfab.com/v3/tags/stair"
+        },
+        {
+          "name": "staircase",
+          "slug": "staircase",
+          "uri": "https://api.sketchfab.com/v3/tags/staircase"
+        },
+        {
+          "name": "home",
+          "slug": "home",
+          "uri": "https://api.sketchfab.com/v3/tags/home"
+        },
+        {
+          "name": "building",
+          "slug": "building",
+          "uri": "https://api.sketchfab.com/v3/tags/building"
+        },
+        {
+          "name": "interior",
+          "slug": "interior",
+          "uri": "https://api.sketchfab.com/v3/tags/interior"
+        },
+        {
+          "name": "ceilinglights",
+          "slug": "ceilinglights",
+          "uri": "https://api.sketchfab.com/v3/tags/ceilinglights"
+        }
+      ],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "8e9cf0ab842e4b24b39f05816a011ff0",
+            "width": 1920,
+            "height": 1080,
+            "size": 233909,
+            "url": "https://media.sketchfab.com/models/54bc929a26094b6cb36f977903fbcd97/thumbnails/3b44d305a1da477ca5758d222a293af6/da6c3122f80c4334bce5e71a4b5b01d7.jpeg"
+          },
+          {
+            "uid": "600b20f7d7224319bb8bca56140476d3",
+            "width": 1024,
+            "height": 576,
+            "size": 57716,
+            "url": "https://media.sketchfab.com/models/54bc929a26094b6cb36f977903fbcd97/thumbnails/3b44d305a1da477ca5758d222a293af6/c20919defd764c89aeb69b750722171b.jpeg"
+          },
+          {
+            "uid": "b6702092bd834500b61f0a5d455bca4c",
+            "width": 720,
+            "height": 405,
+            "size": 29971,
+            "url": "https://media.sketchfab.com/models/54bc929a26094b6cb36f977903fbcd97/thumbnails/3b44d305a1da477ca5758d222a293af6/8e498c290fa24a4a92bc5558a9d85d00.jpeg"
+          },
+          {
+            "uid": "6131a98aa5234179bcc7928a7595da67",
+            "width": 256,
+            "height": 144,
+            "size": 5592,
+            "url": "https://media.sketchfab.com/models/54bc929a26094b6cb36f977903fbcd97/thumbnails/3b44d305a1da477ca5758d222a293af6/d1e5bf37c1f74eefac2bcd54da75a49f.jpeg"
+          },
+          {
+            "uid": "5883dad6d9f9421d97582ceb15fded6d",
+            "width": 64,
+            "height": 36,
+            "size": 1220,
+            "url": "https://media.sketchfab.com/models/54bc929a26094b6cb36f977903fbcd97/thumbnails/3b44d305a1da477ca5758d222a293af6/4e6cb1b95bd444fb98a206c5b158eebe.jpeg"
+          }
+        ]
+      },
+      "uid": "54bc929a26094b6cb36f977903fbcd97",
+      "uri": "https://api.sketchfab.com/v3/models/54bc929a26094b6cb36f977903fbcd97",
+      "user": {
+        "uid": "307c775e64e84194a185f08e0c117814",
+        "username": "ida61xq",
+        "displayName": "ChristyHsu",
+        "account": "basic",
+        "profileUrl": "https://sketchfab.com/ida61xq",
+        "avatar": {
+          "uid": "ddb8665daf7f4725a340c24c3a8a00ee",
+          "uri": "https://api.sketchfab.com/v3/avatars/ddb8665daf7f4725a340c24c3a8a00ee",
+          "images": [
+            {
+              "width": 32,
+              "height": 32,
+              "size": 1155,
+              "url": "https://media.sketchfab.com/avatars/ddb8665daf7f4725a340c24c3a8a00ee/b453c9078d0d45f8b707e9b461042d97.jpeg"
+            },
+            {
+              "width": 48,
+              "height": 48,
+              "size": 1559,
+              "url": "https://media.sketchfab.com/avatars/ddb8665daf7f4725a340c24c3a8a00ee/0a6e0d6a412c4c6fae6047bf6cfaedff.jpeg"
+            },
+            {
+              "width": 90,
+              "height": 90,
+              "size": 3106,
+              "url": "https://media.sketchfab.com/avatars/ddb8665daf7f4725a340c24c3a8a00ee/bd48864dcc434834847ffb46e5af212b.jpeg"
+            },
+            {
+              "width": 100,
+              "height": 100,
+              "size": 3479,
+              "url": "https://media.sketchfab.com/avatars/ddb8665daf7f4725a340c24c3a8a00ee/ddad34367a4648e3b73abe591d75c558.jpeg"
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/307c775e64e84194a185f08e0c117814"
+      },
+      "vertexCount": 49780,
+      "viewCount": 37824,
+      "viewerUrl": "https://sketchfab.com/3d-models/vr-apartment-loft-interior-baked-54bc929a26094b6cb36f977903fbcd97",
+      "isDownloadable": true,
+      "isProtected": false,
+      "description": "Apartment loft room with stairs and french window.\n\n- Scaled in real world dimensions\n- Albedo textures with lighting and shadows baked\n\n\n\n💡 Tips for lovely downloaders : \nTo give the scene best looking in your project, try apply the albedo textures both to diffuse channel and emissive channel. \n\n💬 Any other issues, just leave message here.",
+      "price": null,
+      "downloadCount": 13495,
+      "editorUrl": "https://sketchfab.com/models/54bc929a26094b6cb36f977903fbcd97/edit",
+      "status": {
+        "warning": {},
+        "processing": "SUCCEEDED"
+      },
+      "source": "website",
+      "hasCommentsDisabled": false,
+      "updatedAt": "2022-07-19T03:07:57.471422",
+      "pbrType": null,
+      "textureCount": 13,
+      "materialCount": 16,
+      "objaversePath": "glbs/000-007/54bc929a26094b6cb36f977903fbcd97.glb",
+      "downloadBytes": 13280016,
+      "checkedAt": "2026-10-26T20:08:13.124Z"
+    },
+    {
+      "animationCount": 1,
+      "categories": [
+        {
+          "uid": "ed9e048550b2478eb1ab2faaba192832",
+          "name": "Animals & Pets",
+          "slug": "animals-pets",
+          "uri": "https://api.sketchfab.com/v3/categories/ed9e048550b2478eb1ab2faaba192832",
+          "icon": "https://static.sketchfab.com/static/builds/web/dist/static/assets/images/icons/categories/926733e187aa5a479aedd2581bffb3ea-v2.svg",
+          "thumbnails": [
+            {
+              "width": "512",
+              "height": "288",
+              "url": "https://static.sketchfab.com/categories/ed9e048550b2478eb1ab2faaba192832/512x288.png"
+            },
+            {
+              "width": "800",
+              "height": "450",
+              "url": "https://static.sketchfab.com/categories/ed9e048550b2478eb1ab2faaba192832/800x450.png"
+            }
+          ]
+        },
+        {
+          "uid": "86f23935367b4a1f9647c8a20e03d716",
+          "name": "Cultural Heritage & History",
+          "slug": "cultural-heritage-history",
+          "uri": "https://api.sketchfab.com/v3/categories/86f23935367b4a1f9647c8a20e03d716",
+          "icon": "https://static.sketchfab.com/static/builds/web/dist/static/assets/images/icons/categories/bb22d75450272105e64c47756c323f1f-v2.svg",
+          "thumbnails": [
+            {
+              "width": "512",
+              "height": "288",
+              "url": "https://static.sketchfab.com/categories/86f23935367b4a1f9647c8a20e03d716/512x288.png"
+            },
+            {
+              "width": "800",
+              "height": "450",
+              "url": "https://static.sketchfab.com/categories/86f23935367b4a1f9647c8a20e03d716/800x450.png"
+            }
+          ]
+        }
+      ],
+      "commentCount": 2,
+      "createdAt": "2016-09-08T14:28:41.334498",
+      "embedUrl": "https://sketchfab.com/models/eeddd4a15da14e2ba43e1e8b2b2850a6/embed",
+      "faceCount": 69035,
+      "isAgeRestricted": false,
+      "license": {
+        "uri": "https://api.sketchfab.com/v3/licenses/322a749bcfa841b29dff1e8a1bb74b0b",
+        "label": "CC Attribution",
+        "fullName": "Creative Commons Attribution",
+        "requirements": "Author must be credited. Commercial use is allowed.",
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "slug": "by"
+      },
+      "likeCount": 9,
+      "name": "Glue Factory",
+      "publishedAt": "2016-09-08T14:31:34.009963",
+      "soundCount": 0,
+      "staffpickedAt": null,
+      "tags": [
+        {
+          "name": "surreal",
+          "slug": "surreal",
+          "uri": "https://api.sketchfab.com/v3/tags/surreal"
+        },
+        {
+          "name": "Grotesque",
+          "slug": "grotesque",
+          "uri": "https://api.sketchfab.com/v3/tags/grotesque"
+        },
+        {
+          "name": "3d",
+          "slug": "3d",
+          "uri": "https://api.sketchfab.com/v3/tags/3d"
+        },
+        {
+          "name": "horse",
+          "slug": "horse",
+          "uri": "https://api.sketchfab.com/v3/tags/horse"
+        },
+        {
+          "name": "model",
+          "slug": "model",
+          "uri": "https://api.sketchfab.com/v3/tags/model"
+        },
+        {
+          "name": "animation",
+          "slug": "animation",
+          "uri": "https://api.sketchfab.com/v3/tags/animation"
+        }
+      ],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "27e8aeb3ff1945b0bb23b6c3db4805cb",
+            "width": 1920,
+            "height": 1080,
+            "size": 87742,
+            "url": "https://media.sketchfab.com/models/eeddd4a15da14e2ba43e1e8b2b2850a6/thumbnails/a449b14db7fe421aa4a34cf476822f5c/a14b1181b4df487284d5da8ccfa0ebd3.jpeg"
+          },
+          {
+            "uid": "4dee2bcf222348928f2417b639eb15ce",
+            "width": 1024,
+            "height": 576,
+            "size": 24840,
+            "url": "https://media.sketchfab.com/models/eeddd4a15da14e2ba43e1e8b2b2850a6/thumbnails/a449b14db7fe421aa4a34cf476822f5c/f1054d0ae14e4710ac1c6d11a870722a.jpeg"
+          },
+          {
+            "uid": "a8f2270a7b044b29b55981c0efe2afae",
+            "width": 720,
+            "height": 405,
+            "size": 13118,
+            "url": "https://media.sketchfab.com/models/eeddd4a15da14e2ba43e1e8b2b2850a6/thumbnails/a449b14db7fe421aa4a34cf476822f5c/f03603edc670439fbb8077fb9a5bcbdc.jpeg"
+          },
+          {
+            "uid": "cecef1777aaf49ffb3c6efeda8515dc9",
+            "width": 256,
+            "height": 144,
+            "size": 2574,
+            "url": "https://media.sketchfab.com/models/eeddd4a15da14e2ba43e1e8b2b2850a6/thumbnails/a449b14db7fe421aa4a34cf476822f5c/8e070cd4ec0d4b439b527759feac3a36.jpeg"
+          },
+          {
+            "uid": "94181232d9f5452898e9ecbef6246beb",
+            "width": 64,
+            "height": 36,
+            "size": 907,
+            "url": "https://media.sketchfab.com/models/eeddd4a15da14e2ba43e1e8b2b2850a6/thumbnails/a449b14db7fe421aa4a34cf476822f5c/cc7a14a1305248f1a943086b72281e92.jpeg"
+          }
+        ]
+      },
+      "uid": "eeddd4a15da14e2ba43e1e8b2b2850a6",
+      "uri": "https://api.sketchfab.com/v3/models/eeddd4a15da14e2ba43e1e8b2b2850a6",
+      "user": {
+        "uid": "9dbe75a51eec49968ee4d8e62349754e",
+        "username": "daxterpiece",
+        "displayName": "daxterpiece",
+        "account": "basic",
+        "profileUrl": "https://sketchfab.com/daxterpiece",
+        "avatar": {
+          "uid": "08ea56e1e4e14f93950f95cadaa8497d",
+          "uri": "https://api.sketchfab.com/v3/avatars/08ea56e1e4e14f93950f95cadaa8497d",
+          "images": [
+            {
+              "width": 32,
+              "height": 32,
+              "size": 3239,
+              "url": "https://media.sketchfab.com/avatars/08ea56e1e4e14f93950f95cadaa8497d/c669a8d914f446be8fb8d97dd0f637b4.png"
+            },
+            {
+              "width": 48,
+              "height": 48,
+              "size": 6660,
+              "url": "https://media.sketchfab.com/avatars/08ea56e1e4e14f93950f95cadaa8497d/ce6eb4918a5347f89e92686b5d5cccbd.png"
+            },
+            {
+              "width": 90,
+              "height": 90,
+              "size": 21032,
+              "url": "https://media.sketchfab.com/avatars/08ea56e1e4e14f93950f95cadaa8497d/bbdc7663b5b54bf6abbdda855495121c.png"
+            },
+            {
+              "width": 100,
+              "height": 100,
+              "size": 25479,
+              "url": "https://media.sketchfab.com/avatars/08ea56e1e4e14f93950f95cadaa8497d/0281bb6a3a8643a1b38d261f81a3407e.png"
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/9dbe75a51eec49968ee4d8e62349754e"
+      },
+      "vertexCount": 16409,
+      "viewCount": 686,
+      "viewerUrl": "https://sketchfab.com/3d-models/glue-factory-eeddd4a15da14e2ba43e1e8b2b2850a6",
+      "isDownloadable": true,
+      "isProtected": false,
+      "description": "horse split in half",
+      "price": null,
+      "downloadCount": 87,
+      "editorUrl": "https://sketchfab.com/models/eeddd4a15da14e2ba43e1e8b2b2850a6/edit",
+      "status": {
+        "warning": {},
+        "processing": "SUCCEEDED"
+      },
+      "source": "website-deflated",
+      "hasCommentsDisabled": false,
+      "updatedAt": "2022-06-29T01:35:35.379090",
+      "pbrType": null,
+      "textureCount": 9,
+      "materialCount": 5,
+      "objaversePath": "glbs/000-024/eeddd4a15da14e2ba43e1e8b2b2850a6.glb",
+      "downloadBytes": 16498656,
+      "checkedAt": "2026-10-26T20:08:13.787Z"
+    },
+    {
+      "animationCount": 0,
+      "categories": [
+        {
+          "uid": "f825c721edb541dbbc8cd210123616c7",
+          "name": "Architecture",
+          "slug": "architecture",
+          "uri": "https://api.sketchfab.com/v3/categories/f825c721edb541dbbc8cd210123616c7",
+          "icon": "https://static.sketchfab.com/static/builds/web/dist/static/assets/images/icons/categories/0d6c3fa023a12c3d7aa493c542afd1b8-v2.svg",
+          "thumbnails": [
+            {
+              "width": "512",
+              "height": "288",
+              "url": "https://static.sketchfab.com/categories/f825c721edb541dbbc8cd210123616c7/512x288.png"
+            },
+            {
+              "width": "800",
+              "height": "450",
+              "url": "https://static.sketchfab.com/categories/f825c721edb541dbbc8cd210123616c7/800x450.png"
+            }
+          ]
+        },
+        {
+          "uid": "86f23935367b4a1f9647c8a20e03d716",
+          "name": "Cultural Heritage & History",
+          "slug": "cultural-heritage-history",
+          "uri": "https://api.sketchfab.com/v3/categories/86f23935367b4a1f9647c8a20e03d716",
+          "icon": "https://static.sketchfab.com/static/builds/web/dist/static/assets/images/icons/categories/bb22d75450272105e64c47756c323f1f-v2.svg",
+          "thumbnails": [
+            {
+              "width": "512",
+              "height": "288",
+              "url": "https://static.sketchfab.com/categories/86f23935367b4a1f9647c8a20e03d716/512x288.png"
+            },
+            {
+              "width": "800",
+              "height": "450",
+              "url": "https://static.sketchfab.com/categories/86f23935367b4a1f9647c8a20e03d716/800x450.png"
+            }
+          ]
+        }
+      ],
+      "commentCount": 0,
+      "createdAt": "2017-01-03T08:40:00.878897",
+      "embedUrl": "https://sketchfab.com/models/c5cfa3d5c7e74db78691147798b8b872/embed",
+      "faceCount": 35998,
+      "isAgeRestricted": false,
+      "license": {
+        "uri": "https://api.sketchfab.com/v3/licenses/322a749bcfa841b29dff1e8a1bb74b0b",
+        "label": "CC Attribution",
+        "fullName": "Creative Commons Attribution",
+        "requirements": "Author must be credited. Commercial use is allowed.",
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "slug": "by"
+      },
+      "likeCount": 5,
+      "name": "Eureka Nevada Store Interior",
+      "publishedAt": "2017-01-03T08:40:23.833425",
+      "soundCount": 0,
+      "staffpickedAt": null,
+      "tags": [
+        {
+          "name": "and",
+          "slug": "and",
+          "uri": "https://api.sketchfab.com/v3/tags/and"
+        },
+        {
+          "name": "good",
+          "slug": "good",
+          "uri": "https://api.sketchfab.com/v3/tags/good"
+        },
+        {
+          "name": "store",
+          "slug": "store",
+          "uri": "https://api.sketchfab.com/v3/tags/store"
+        },
+        {
+          "name": "general",
+          "slug": "general",
+          "uri": "https://api.sketchfab.com/v3/tags/general"
+        },
+        {
+          "name": "dry",
+          "slug": "dry",
+          "uri": "https://api.sketchfab.com/v3/tags/dry"
+        },
+        {
+          "name": "eureka",
+          "slug": "eureka",
+          "uri": "https://api.sketchfab.com/v3/tags/eureka"
+        },
+        {
+          "name": "mercantile",
+          "slug": "mercantile",
+          "uri": "https://api.sketchfab.com/v3/tags/mercantile"
+        },
+        {
+          "name": "navada",
+          "slug": "navada",
+          "uri": "https://api.sketchfab.com/v3/tags/navada"
+        },
+        {
+          "name": "realitycapture",
+          "slug": "realitycapture",
+          "uri": "https://api.sketchfab.com/v3/tags/realitycapture"
+        },
+        {
+          "name": "noai",
+          "slug": "noai",
+          "uri": "https://api.sketchfab.com/v3/tags/noai"
+        }
+      ],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "693b2b2b3c2b4d38a9cf615e540558e3",
+            "width": 864,
+            "height": 486,
+            "size": 123142,
+            "url": "https://media.sketchfab.com/models/c5cfa3d5c7e74db78691147798b8b872/thumbnails/6d7f79dfbab74928928ca6013b255210/864x486.jpeg"
+          },
+          {
+            "uid": "824f3f558f244a78ae759fe1c4d68912",
+            "width": 640,
+            "height": 360,
+            "size": 77030,
+            "url": "https://media.sketchfab.com/models/c5cfa3d5c7e74db78691147798b8b872/thumbnails/6d7f79dfbab74928928ca6013b255210/640x360.jpeg"
+          },
+          {
+            "uid": "6c2bcaa9a31247f0a0f31fd0febc26e8",
+            "width": 448,
+            "height": 252,
+            "size": 43960,
+            "url": "https://media.sketchfab.com/models/c5cfa3d5c7e74db78691147798b8b872/thumbnails/6d7f79dfbab74928928ca6013b255210/448x252.jpeg"
+          },
+          {
+            "uid": "7e043b5f9ee543b89ca3c7f34260310a",
+            "width": 200,
+            "height": 200,
+            "size": 16936,
+            "url": "https://media.sketchfab.com/models/c5cfa3d5c7e74db78691147798b8b872/thumbnails/6d7f79dfbab74928928ca6013b255210/200x200.jpeg"
+          },
+          {
+            "uid": "33800599cfa14c7e987a6c0e1f4d1914",
+            "width": 100,
+            "height": 100,
+            "size": 5615,
+            "url": "https://media.sketchfab.com/models/c5cfa3d5c7e74db78691147798b8b872/thumbnails/6d7f79dfbab74928928ca6013b255210/100x100.jpeg"
+          },
+          {
+            "uid": "4eb78ab1662841c486e3500cb16bcb8c",
+            "width": 50,
+            "height": 50,
+            "size": 1978,
+            "url": "https://media.sketchfab.com/models/c5cfa3d5c7e74db78691147798b8b872/thumbnails/6d7f79dfbab74928928ca6013b255210/50x50.jpeg"
+          }
+        ]
+      },
+      "uid": "c5cfa3d5c7e74db78691147798b8b872",
+      "uri": "https://api.sketchfab.com/v3/models/c5cfa3d5c7e74db78691147798b8b872",
+      "user": {
+        "uid": "5b11b005849e418bb499b683bdbe0321",
+        "username": "toeppen",
+        "displayName": "John Toeppen",
+        "account": "pro",
+        "profileUrl": "https://sketchfab.com/toeppen",
+        "avatar": {
+          "uid": "ee2b7f49487a4d03af0ad8757e9309ce",
+          "uri": "https://api.sketchfab.com/v3/avatars/ee2b7f49487a4d03af0ad8757e9309ce",
+          "images": [
+            {
+              "width": 100,
+              "height": 100,
+              "size": 3635,
+              "url": "https://media.sketchfab.com/avatars/ee2b7f49487a4d03af0ad8757e9309ce/c3e36a39f0be4c7b88d9be08edc1cb06.jpeg"
+            },
+            {
+              "width": 90,
+              "height": 90,
+              "size": 3128,
+              "url": "https://media.sketchfab.com/avatars/ee2b7f49487a4d03af0ad8757e9309ce/115077605f5e4f86abc67343fc125638.jpeg"
+            },
+            {
+              "width": 48,
+              "height": 48,
+              "size": 1186,
+              "url": "https://media.sketchfab.com/avatars/ee2b7f49487a4d03af0ad8757e9309ce/bc1ffb27e7fe4a8882659d29a4765d8d.jpeg"
+            },
+            {
+              "width": 32,
+              "height": 32,
+              "size": 740,
+              "url": "https://media.sketchfab.com/avatars/ee2b7f49487a4d03af0ad8757e9309ce/14bbb8c647db45768341ad069c37e445.jpeg"
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/5b11b005849e418bb499b683bdbe0321"
+      },
+      "vertexCount": 18403,
+      "viewCount": 525,
+      "viewerUrl": "https://sketchfab.com/3d-models/eureka-nevada-store-interior-c5cfa3d5c7e74db78691147798b8b872",
+      "isDownloadable": true,
+      "isProtected": false,
+      "description": "Everything you needed could be had here for more than a centruy, until a year ago.  The new store is on the outside of town and only shelves remain and the heads of elk and deer.   Created in Capturing Reality from 29 images",
+      "price": null,
+      "downloadCount": 66,
+      "editorUrl": "https://sketchfab.com/models/c5cfa3d5c7e74db78691147798b8b872/edit",
+      "status": {
+        "warning": {},
+        "processing": "SUCCEEDED"
+      },
+      "source": "reality-capture",
+      "hasCommentsDisabled": false,
+      "updatedAt": "2023-11-21T16:00:35.543555",
+      "pbrType": null,
+      "textureCount": 1,
+      "materialCount": 1,
+      "objaversePath": "glbs/000-044/c5cfa3d5c7e74db78691147798b8b872.glb",
+      "downloadBytes": 2451048,
+      "checkedAt": "2026-10-26T20:08:13.792Z"
+    },
+    {
+      "animationCount": 0,
+      "categories": [
+        {
+          "uid": "f825c721edb541dbbc8cd210123616c7",
+          "name": "Architecture",
+          "slug": "architecture",
+          "uri": "https://api.sketchfab.com/v3/categories/f825c721edb541dbbc8cd210123616c7",
+          "icon": "https://static.sketchfab.com/static/builds/web/dist/static/assets/images/icons/categories/0d6c3fa023a12c3d7aa493c542afd1b8-v2.svg",
+          "thumbnails": [
+            {
+              "width": "512",
+              "height": "288",
+              "url": "https://static.sketchfab.com/categories/f825c721edb541dbbc8cd210123616c7/512x288.png"
+            },
+            {
+              "width": "800",
+              "height": "450",
+              "url": "https://static.sketchfab.com/categories/f825c721edb541dbbc8cd210123616c7/800x450.png"
+            }
+          ]
+        }
+      ],
+      "commentCount": 0,
+      "createdAt": "2021-07-24T14:11:19.045979",
+      "embedUrl": "https://sketchfab.com/models/cf096a8047cb48ffa66e577d7738ea2a/embed",
+      "faceCount": 1697203,
+      "isAgeRestricted": false,
+      "license": {
+        "uri": "https://api.sketchfab.com/v3/licenses/322a749bcfa841b29dff1e8a1bb74b0b",
+        "label": "CC Attribution",
+        "fullName": "Creative Commons Attribution",
+        "requirements": "Author must be credited. Commercial use is allowed.",
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "slug": "by"
+      },
+      "likeCount": 59,
+      "name": "Old Sugar Factory in Early 20th Century Europe",
+      "publishedAt": "2021-07-24T14:13:41.462189",
+      "soundCount": 0,
+      "staffpickedAt": null,
+      "tags": [
+        {
+          "name": "european",
+          "slug": "european",
+          "uri": "https://api.sketchfab.com/v3/tags/european"
+        },
+        {
+          "name": "century",
+          "slug": "century",
+          "uri": "https://api.sketchfab.com/v3/tags/century"
+        },
+        {
+          "name": "sugar",
+          "slug": "sugar",
+          "uri": "https://api.sketchfab.com/v3/tags/sugar"
+        },
+        {
+          "name": "photogrametry",
+          "slug": "photogrametry",
+          "uri": "https://api.sketchfab.com/v3/tags/photogrametry"
+        },
+        {
+          "name": "early",
+          "slug": "early",
+          "uri": "https://api.sketchfab.com/v3/tags/early"
+        },
+        {
+          "name": "decay",
+          "slug": "decay",
+          "uri": "https://api.sketchfab.com/v3/tags/decay"
+        },
+        {
+          "name": "Europe",
+          "slug": "europe",
+          "uri": "https://api.sketchfab.com/v3/tags/europe"
+        },
+        {
+          "name": "20th",
+          "slug": "20th",
+          "uri": "https://api.sketchfab.com/v3/tags/20th"
+        },
+        {
+          "name": "abandoned-building",
+          "slug": "abandoned-building",
+          "uri": "https://api.sketchfab.com/v3/tags/abandoned-building"
+        },
+        {
+          "name": "industrial-building",
+          "slug": "industrial-building",
+          "uri": "https://api.sketchfab.com/v3/tags/industrial-building"
+        },
+        {
+          "name": "factory-building",
+          "slug": "factory-building",
+          "uri": "https://api.sketchfab.com/v3/tags/factory-building"
+        },
+        {
+          "name": "photogrammetry-historical",
+          "slug": "photogrammetry-historical",
+          "uri": "https://api.sketchfab.com/v3/tags/photogrammetry-historical"
+        },
+        {
+          "name": "architecture-photogrammetry",
+          "slug": "architecture-photogrammetry",
+          "uri": "https://api.sketchfab.com/v3/tags/architecture-photogrammetry"
+        },
+        {
+          "name": "photogrammetry",
+          "slug": "photogrammetry",
+          "uri": "https://api.sketchfab.com/v3/tags/photogrammetry"
+        },
+        {
+          "name": "3dmodel",
+          "slug": "3dmodel",
+          "uri": "https://api.sketchfab.com/v3/tags/3dmodel"
+        },
+        {
+          "name": "factory",
+          "slug": "factory",
+          "uri": "https://api.sketchfab.com/v3/tags/factory"
+        },
+        {
+          "name": "industrial",
+          "slug": "industrial",
+          "uri": "https://api.sketchfab.com/v3/tags/industrial"
+        },
+        {
+          "name": "history",
+          "slug": "history",
+          "uri": "https://api.sketchfab.com/v3/tags/history"
+        },
+        {
+          "name": "factory-models",
+          "slug": "factory-models",
+          "uri": "https://api.sketchfab.com/v3/tags/factory-models"
+        },
+        {
+          "name": "early-20th-century",
+          "slug": "early-20th-century",
+          "uri": "https://api.sketchfab.com/v3/tags/early-20th-century"
+        },
+        {
+          "name": "century-xx",
+          "slug": "century-xx",
+          "uri": "https://api.sketchfab.com/v3/tags/century-xx"
+        },
+        {
+          "name": "noai",
+          "slug": "noai",
+          "uri": "https://api.sketchfab.com/v3/tags/noai"
+        }
+      ],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "8529ef22273342738b30bf71060c59b8",
+            "width": 1920,
+            "height": 1080,
+            "size": 487200,
+            "url": "https://media.sketchfab.com/models/cf096a8047cb48ffa66e577d7738ea2a/thumbnails/b1b3eb06ebab4c9599bbe16ae54f637a/6a2a98a4ce3740be8011e5c0f7503240.jpeg"
+          },
+          {
+            "uid": "ba39096ecae24798b0eeed5c754ee52a",
+            "width": 1024,
+            "height": 576,
+            "size": 134258,
+            "url": "https://media.sketchfab.com/models/cf096a8047cb48ffa66e577d7738ea2a/thumbnails/b1b3eb06ebab4c9599bbe16ae54f637a/852ecaebe7214b499553018f8fdbec1f.jpeg"
+          },
+          {
+            "uid": "e3b668dc049b49a0a381b6201033e1f3",
+            "width": 720,
+            "height": 405,
+            "size": 72189,
+            "url": "https://media.sketchfab.com/models/cf096a8047cb48ffa66e577d7738ea2a/thumbnails/b1b3eb06ebab4c9599bbe16ae54f637a/d8054cd789874d6f8b209b1459fedeab.jpeg"
+          },
+          {
+            "uid": "c61a47809eff4245a33d01a513810dcc",
+            "width": 256,
+            "height": 144,
+            "size": 11534,
+            "url": "https://media.sketchfab.com/models/cf096a8047cb48ffa66e577d7738ea2a/thumbnails/b1b3eb06ebab4c9599bbe16ae54f637a/154d21e17df745fc9b8e4560c99c599c.jpeg"
+          },
+          {
+            "uid": "5da39fee8c4140dbb37d24e125f77ed9",
+            "width": 64,
+            "height": 36,
+            "size": 1675,
+            "url": "https://media.sketchfab.com/models/cf096a8047cb48ffa66e577d7738ea2a/thumbnails/b1b3eb06ebab4c9599bbe16ae54f637a/1c3ee71b6a2b48e8b721282152503784.jpeg"
+          }
+        ]
+      },
+      "uid": "cf096a8047cb48ffa66e577d7738ea2a",
+      "uri": "https://api.sketchfab.com/v3/models/cf096a8047cb48ffa66e577d7738ea2a",
+      "user": {
+        "uid": "f8228ebbd984483e89792656867121ee",
+        "username": "grzes19",
+        "displayName": "grzes19",
+        "account": "basic",
+        "profileUrl": "https://sketchfab.com/grzes19",
+        "avatar": {
+          "uid": "e41d659cc7d444aba54915b98442de4a",
+          "uri": "https://api.sketchfab.com/v3/avatars/e41d659cc7d444aba54915b98442de4a",
+          "images": [
+            {
+              "width": 32,
+              "height": 32,
+              "size": 1074,
+              "url": "https://media.sketchfab.com/avatars/e41d659cc7d444aba54915b98442de4a/07c43b0eb17244d3afbdf9d655feb6e2.jpeg"
+            },
+            {
+              "width": 48,
+              "height": 48,
+              "size": 1531,
+              "url": "https://media.sketchfab.com/avatars/e41d659cc7d444aba54915b98442de4a/4b4b5f8811ed48c78ec575bd99a9c5ca.jpeg"
+            },
+            {
+              "width": 90,
+              "height": 90,
+              "size": 3396,
+              "url": "https://media.sketchfab.com/avatars/e41d659cc7d444aba54915b98442de4a/458dda434e4e4d4ba7bbf7103d25e262.jpeg"
+            },
+            {
+              "width": 100,
+              "height": 100,
+              "size": 3904,
+              "url": "https://media.sketchfab.com/avatars/e41d659cc7d444aba54915b98442de4a/5f0bc7718ec740bab001fad420c74f1e.jpeg"
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/f8228ebbd984483e89792656867121ee"
+      },
+      "vertexCount": 850509,
+      "viewCount": 3322,
+      "viewerUrl": "https://sketchfab.com/3d-models/old-sugar-factory-in-early-20th-century-europe-cf096a8047cb48ffa66e577d7738ea2a",
+      "isDownloadable": true,
+      "isProtected": false,
+      "description": "Step back in time and explore a 3D photogrammetry scan of an old sugar factory from early 20th century Europe. This factory was once a hub of activity, producing sugar and other goods that were essential to the local economy. With this model, you can explore the various buildings, halls that made up the factory and get a sense of what life was like for workers during this time period.",
+      "price": null,
+      "downloadCount": 667,
+      "editorUrl": "https://sketchfab.com/models/cf096a8047cb48ffa66e577d7738ea2a/edit",
+      "status": {
+        "warning": {},
+        "processing": "SUCCEEDED"
+      },
+      "source": "website",
+      "hasCommentsDisabled": false,
+      "updatedAt": "2023-11-21T18:21:31.906987",
+      "pbrType": null,
+      "textureCount": 1,
+      "materialCount": 1,
+      "objaversePath": "glbs/000-132/cf096a8047cb48ffa66e577d7738ea2a.glb",
+      "downloadBytes": 58134724,
+      "checkedAt": "2026-10-26T20:08:13.933Z"
+    },
+    {
+      "animationCount": 0,
+      "categories": [],
+      "commentCount": 1,
+      "createdAt": "2020-03-25T03:48:58.720120",
+      "embedUrl": "https://sketchfab.com/models/3f295d678fdd40e09b8249b53c88f8f0/embed",
+      "faceCount": 75636,
+      "isAgeRestricted": false,
+      "license": {
+        "uri": "https://api.sketchfab.com/v3/licenses/322a749bcfa841b29dff1e8a1bb74b0b",
+        "label": "CC Attribution",
+        "fullName": "Creative Commons Attribution",
+        "requirements": "Author must be credited. Commercial use is allowed.",
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "slug": "by"
+      },
+      "likeCount": 4,
+      "name": "Factory Hall",
+      "publishedAt": "2020-03-25T03:54:16.040968",
+      "soundCount": 0,
+      "staffpickedAt": null,
+      "tags": [],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "0d203c153e434ea0a301e5c8ffef9ffd",
+            "width": 1920,
+            "height": 1080,
+            "size": 76671,
+            "url": "https://media.sketchfab.com/models/3f295d678fdd40e09b8249b53c88f8f0/thumbnails/a56b93d6980145fe9922942f49350e16/089bd7fa9baf4099b95b52370e2d43a9.jpeg"
+          },
+          {
+            "uid": "6cb522ee0ef040578cc5766cd9f7726f",
+            "width": 1024,
+            "height": 576,
+            "size": 24329,
+            "url": "https://media.sketchfab.com/models/3f295d678fdd40e09b8249b53c88f8f0/thumbnails/a56b93d6980145fe9922942f49350e16/92a2e1359a6b4bf28327d15c07fddcea.jpeg"
+          },
+          {
+            "uid": "cea11f48dfa640688037f41b29ce1c76",
+            "width": 720,
+            "height": 405,
+            "size": 13822,
+            "url": "https://media.sketchfab.com/models/3f295d678fdd40e09b8249b53c88f8f0/thumbnails/a56b93d6980145fe9922942f49350e16/78088f4845954a8a865cd127fcdf7905.jpeg"
+          },
+          {
+            "uid": "74a612854ce84ee19137ce703b094123",
+            "width": 256,
+            "height": 144,
+            "size": 2650,
+            "url": "https://media.sketchfab.com/models/3f295d678fdd40e09b8249b53c88f8f0/thumbnails/a56b93d6980145fe9922942f49350e16/c9d84472a8ea4110b321306c71c08302.jpeg"
+          },
+          {
+            "uid": "d46a0bf0c30f4566a564b116e511e64d",
+            "width": 64,
+            "height": 36,
+            "size": 585,
+            "url": "https://media.sketchfab.com/models/3f295d678fdd40e09b8249b53c88f8f0/thumbnails/a56b93d6980145fe9922942f49350e16/37e9bcd26f504c71a54ce4a8259a94fb.jpeg"
+          }
+        ]
+      },
+      "uid": "3f295d678fdd40e09b8249b53c88f8f0",
+      "uri": "https://api.sketchfab.com/v3/models/3f295d678fdd40e09b8249b53c88f8f0",
+      "user": {
+        "uid": "2c9ae85365344f5c943613f036ca8465",
+        "username": "Kevin.Yudi.Utama",
+        "displayName": "Kevin.Yudi.Utama",
+        "account": "basic",
+        "profileUrl": "https://sketchfab.com/Kevin.Yudi.Utama",
+        "avatar": {
+          "uid": "48445b86f52c42469da5bb9b88faeb72",
+          "uri": "https://api.sketchfab.com/v3/avatars/48445b86f52c42469da5bb9b88faeb72",
+          "images": [
+            {
+              "width": 32,
+              "height": 32,
+              "size": 860,
+              "url": "https://media.sketchfab.com/avatars/48445b86f52c42469da5bb9b88faeb72/ac573e900a734ad28c79db58217bc8b7.jpeg"
+            },
+            {
+              "width": 48,
+              "height": 48,
+              "size": 1388,
+              "url": "https://media.sketchfab.com/avatars/48445b86f52c42469da5bb9b88faeb72/c562f685a56240318d55d7598ac0973f.jpeg"
+            },
+            {
+              "width": 90,
+              "height": 90,
+              "size": 3891,
+              "url": "https://media.sketchfab.com/avatars/48445b86f52c42469da5bb9b88faeb72/e0c120890821437599c2992868a2c930.jpeg"
+            },
+            {
+              "width": 100,
+              "height": 100,
+              "size": 4513,
+              "url": "https://media.sketchfab.com/avatars/48445b86f52c42469da5bb9b88faeb72/12264950084e4ddb851fff89c0daadd1.jpeg"
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/2c9ae85365344f5c943613f036ca8465"
+      },
+      "vertexCount": 38851,
+      "viewCount": 403,
+      "viewerUrl": "https://sketchfab.com/3d-models/factory-hall-3f295d678fdd40e09b8249b53c88f8f0",
+      "isDownloadable": true,
+      "isProtected": false,
+      "description": "",
+      "price": null,
+      "downloadCount": 43,
+      "editorUrl": "https://sketchfab.com/models/3f295d678fdd40e09b8249b53c88f8f0/edit",
+      "status": {
+        "warning": {},
+        "processing": "SUCCEEDED"
+      },
+      "source": "website",
+      "hasCommentsDisabled": false,
+      "updatedAt": "2022-04-05T15:21:32.293489",
+      "pbrType": "metalness",
+      "textureCount": 7,
+      "materialCount": 8,
+      "objaversePath": "glbs/000-033/3f295d678fdd40e09b8249b53c88f8f0.glb",
+      "downloadBytes": 8519052,
+      "checkedAt": "2026-10-26T20:08:13.985Z"
+    },
+    {
+      "animationCount": 0,
+      "categories": [
+        {
+          "uid": "f825c721edb541dbbc8cd210123616c7",
+          "name": "Architecture",
+          "slug": "architecture",
+          "uri": "https://api.sketchfab.com/v3/categories/f825c721edb541dbbc8cd210123616c7",
+          "icon": "https://static.sketchfab.com/static/builds/web/dist/static/assets/images/icons/categories/0d6c3fa023a12c3d7aa493c542afd1b8-v2.svg",
+          "thumbnails": [
+            {
+              "width": "512",
+              "height": "288",
+              "url": "https://static.sketchfab.com/categories/f825c721edb541dbbc8cd210123616c7/512x288.png"
+            },
+            {
+              "width": "800",
+              "height": "450",
+              "url": "https://static.sketchfab.com/categories/f825c721edb541dbbc8cd210123616c7/800x450.png"
+            }
+          ]
+        }
+      ],
+      "commentCount": 18,
+      "createdAt": "2022-06-29T21:41:53.376735",
+      "embedUrl": "https://sketchfab.com/models/12d2dfd3d2cb4c8e80f3f223c649be32/embed",
+      "faceCount": 951781,
+      "isAgeRestricted": false,
+      "license": {
+        "uri": "https://api.sketchfab.com/v3/licenses/322a749bcfa841b29dff1e8a1bb74b0b",
+        "label": "CC Attribution",
+        "fullName": "Creative Commons Attribution",
+        "requirements": "Author must be credited. Commercial use is allowed.",
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "slug": "by"
+      },
+      "likeCount": 1314,
+      "name": "Destroyed Warehouse In Kaarina, Finland",
+      "publishedAt": "2022-06-30T09:11:35.718528",
+      "soundCount": 0,
+      "staffpickedAt": null,
+      "tags": [
+        {
+          "name": "warehouse",
+          "slug": "warehouse",
+          "uri": "https://api.sketchfab.com/v3/tags/warehouse"
+        },
+        {
+          "name": "architecture-photogrammetry",
+          "slug": "architecture-photogrammetry",
+          "uri": "https://api.sketchfab.com/v3/tags/architecture-photogrammetry"
+        },
+        {
+          "name": "architecture",
+          "slug": "architecture",
+          "uri": "https://api.sketchfab.com/v3/tags/architecture"
+        },
+        {
+          "name": "photogrammetry",
+          "slug": "photogrammetry",
+          "uri": "https://api.sketchfab.com/v3/tags/photogrammetry"
+        },
+        {
+          "name": "3dscan",
+          "slug": "3dscan",
+          "uri": "https://api.sketchfab.com/v3/tags/3dscan"
+        },
+        {
+          "name": "building",
+          "slug": "building",
+          "uri": "https://api.sketchfab.com/v3/tags/building"
+        },
+        {
+          "name": "warehouse-building",
+          "slug": "warehouse-building",
+          "uri": "https://api.sketchfab.com/v3/tags/warehouse-building"
+        },
+        {
+          "name": "noai",
+          "slug": "noai",
+          "uri": "https://api.sketchfab.com/v3/tags/noai"
+        }
+      ],
+      "thumbnails": {
+        "images": [
+          {
+            "uid": "85d640862b264d198930d14aec150517",
+            "width": 1920,
+            "height": 1080,
+            "size": 415275,
+            "url": "https://media.sketchfab.com/models/12d2dfd3d2cb4c8e80f3f223c649be32/thumbnails/2b2f298876d141ae9d3059d007397e8d/a37d318571654182a0d583367a9ca661.jpeg"
+          },
+          {
+            "uid": "3dbd2599ed934ae09cff7c97444ac56c",
+            "width": 1024,
+            "height": 576,
+            "size": 117320,
+            "url": "https://media.sketchfab.com/models/12d2dfd3d2cb4c8e80f3f223c649be32/thumbnails/2b2f298876d141ae9d3059d007397e8d/a2776a6543f24e09a42579b593d66e87.jpeg"
+          },
+          {
+            "uid": "f8c52575612b4a1d92466397181dc4a8",
+            "width": 720,
+            "height": 405,
+            "size": 63389,
+            "url": "https://media.sketchfab.com/models/12d2dfd3d2cb4c8e80f3f223c649be32/thumbnails/2b2f298876d141ae9d3059d007397e8d/d5b16498ed0349ec825f03ebdf51ab4f.jpeg"
+          },
+          {
+            "uid": "aedf608d0dc84c4994c425e7c02aa064",
+            "width": 256,
+            "height": 144,
+            "size": 9857,
+            "url": "https://media.sketchfab.com/models/12d2dfd3d2cb4c8e80f3f223c649be32/thumbnails/2b2f298876d141ae9d3059d007397e8d/619282d62df44f02a07808126a055bfa.jpeg"
+          },
+          {
+            "uid": "d9a6af4771a14a3fabd6de149158453c",
+            "width": 64,
+            "height": 36,
+            "size": 1324,
+            "url": "https://media.sketchfab.com/models/12d2dfd3d2cb4c8e80f3f223c649be32/thumbnails/2b2f298876d141ae9d3059d007397e8d/71167c1a30e447108768e95f66a639f7.jpeg"
+          }
+        ]
+      },
+      "uid": "12d2dfd3d2cb4c8e80f3f223c649be32",
+      "uri": "https://api.sketchfab.com/v3/models/12d2dfd3d2cb4c8e80f3f223c649be32",
+      "user": {
+        "uid": "ab16edf31ce94827b7547b8af9139afb",
+        "username": "thesidekick",
+        "displayName": "Lassi Kaukonen",
+        "account": "basic",
+        "profileUrl": "https://sketchfab.com/thesidekick",
+        "avatar": {
+          "uid": "303d0c6b4d564cdab875283ea0b682d1",
+          "uri": "https://api.sketchfab.com/v3/avatars/303d0c6b4d564cdab875283ea0b682d1",
+          "images": [
+            {
+              "width": 32,
+              "height": 32,
+              "size": 604,
+              "url": "https://media.sketchfab.com/avatars/303d0c6b4d564cdab875283ea0b682d1/8d8f418016ce4cbcaa6a768cd845f8de.jpeg"
+            },
+            {
+              "width": 48,
+              "height": 48,
+              "size": 912,
+              "url": "https://media.sketchfab.com/avatars/303d0c6b4d564cdab875283ea0b682d1/61ee59e6963f44c398ba574a5c68a055.jpeg"
+            },
+            {
+              "width": 90,
+              "height": 90,
+              "size": 1901,
+              "url": "https://media.sketchfab.com/avatars/303d0c6b4d564cdab875283ea0b682d1/1ab7d5cc2ba545939a4ab74a30cea1d1.jpeg"
+            },
+            {
+              "width": 100,
+              "height": 100,
+              "size": 2191,
+              "url": "https://media.sketchfab.com/avatars/303d0c6b4d564cdab875283ea0b682d1/cff6454079af4f3297b0499ca331a532.jpeg"
+            }
+          ]
+        },
+        "uri": "https://api.sketchfab.com/v3/users/ab16edf31ce94827b7547b8af9139afb"
+      },
+      "vertexCount": 475602,
+      "viewCount": 51375,
+      "viewerUrl": "https://sketchfab.com/3d-models/destroyed-warehouse-in-kaarina-finland-12d2dfd3d2cb4c8e80f3f223c649be32",
+      "isDownloadable": true,
+      "isProtected": false,
+      "description": "A warehouse that used to store bricks about a decade ago.\n\nPhotos taken with A7RIV + Sony 20mm + Parrot Anafi.\n\nProcessed with Metashape + Blender",
+      "price": null,
+      "downloadCount": 14460,
+      "editorUrl": "https://sketchfab.com/models/12d2dfd3d2cb4c8e80f3f223c649be32/edit",
+      "status": {
+        "warning": {},
+        "processing": "SUCCEEDED"
+      },
+      "source": "website",
+      "hasCommentsDisabled": false,
+      "updatedAt": "2023-11-21T18:38:17.829085",
+      "pbrType": null,
+      "textureCount": 3,
+      "materialCount": 2,
+      "objaversePath": "glbs/000-003/12d2dfd3d2cb4c8e80f3f223c649be32.glb",
+      "downloadBytes": 43480500,
+      "checkedAt": "2026-10-26T20:08:14.638Z"
+    }
+  ],
+  "rejected": [
+    {
+      "id": "412be887e3c0451d9e5b65daac2e278c",
+      "error": "Error: No verified free download"
+    },
+    {
+      "id": "ec50a4b8dc874689a6da225be0932b1c",
+      "error": "Error: No verified free download"
+    }
+  ]
+}

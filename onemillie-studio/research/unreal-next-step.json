@@ -1,0 +1,20 @@
+{
+  "reference": "https://www.youtube.com/watch?v=6XMFpimyvIE",
+  "officialDocumentation": "https://dev.epicgames.com/documentation/unreal-engine/unreal-mcp-in-unreal-editor",
+  "approach": "Reconstruct original workshop as true editable geometry with chosen imported assets. Reference layout and proportional workbench view remain requirements.",
+  "unrealEditorFound": false,
+  "blenderExecutables": [
+    "C:/Users/milto/Documents/Codex/2026-10-23/zoek-naar-gratis-en-vrij-te/research/blender-runtime/blender-4.5.3-windows-x64/blender.exe",
+    "H:/GameFusion/Related/Raceplannet-Splats/tools/blender-4.5.0-windows-x64/blender.exe"
+  ],
+  "pendingChoice": null,
+  "paidServicesAllowed": false,
+  "reviewBeforeCommit": true,
+  "userChoice": "Install Unreal Engine",
+  "installation": {
+    "launcher": "Official Epic installer downloaded and SHA256 verified via winget",
+    "engine": "Not installed yet",
+    "preferredEngineDrive": "H:",
+    "freeGB": 3184.3
+  }
+}
