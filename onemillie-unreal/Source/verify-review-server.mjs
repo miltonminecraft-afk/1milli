@@ -18,6 +18,8 @@ for(const [method,url,status] of [['GET','/health',200],['HEAD','/',200],['HEAD'
   ['HEAD','/electrical-verification.json',200],['HEAD','/electrical-record-clearance.json',200],
   ['HEAD','/reference-dressing.png',200],['HEAD','/dressing-workbench.png',200],['HEAD','/dressing-storage.png',200],
   ['HEAD','/reference-dressing.blend',200],['HEAD','/dressing-study.json',200],['HEAD','/dressing-verification.json',200],['HEAD','/dressing-record-clearance.json',200],
+  ['HEAD','/reference-daylight.png',200],['HEAD','/daylight-workbench.png',200],['HEAD','/daylight-storage.png',200],['HEAD','/reference-daylight.blend',200],
+  ['HEAD','/daylight-study.json',200],['HEAD','/daylight-verification.json',200],['HEAD','/junction-record-clearance.json',200],['HEAD','/junction-verification.json',200],
   ['HEAD','/github-source/docs/werkplan.txt',404],['POST','/',405]]){
   const response=await fetch('http://127.0.0.1:4282'+url,{method,signal:AbortSignal.timeout(5000)});
   if(response.status!==status)throw Error(`${method} ${url}: ${response.status}, wanted ${status}`);

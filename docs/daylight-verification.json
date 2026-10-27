@@ -1,0 +1,48 @@
+{
+  "checkedAt": "2026-10-27T17:11:44.046137+00:00",
+  "scene": "reference-daylight.blend",
+  "sourceScene": "reference-junction.blend",
+  "passed": true,
+  "issues": [],
+  "unrealSceneBuilt": false,
+  "userApproved": false,
+  "originalObjects": 1633,
+  "sampledFrames": [
+    1,
+    109,
+    289,
+    577
+  ],
+  "maximumOriginalNonReorientedMatrixChange": 0,
+  "meshTopologyPositionsUVsVisibilitySha256": "4dd37a1db498d8eaf97ebce53bd70fb79cb957394429bf2090fd72798734a1fb",
+  "nonFloorMaterialAssignmentsAndNodesPreserved": 1062,
+  "originalLightVisibilityPreserved": true,
+  "allowedLightRotations": [
+    "Detail / outside garage daylight"
+  ],
+  "outsideEmitterMinimumWallClearance": {
+    "Detail / outside garage daylight": 0.38000037897004724,
+    "Detail / outside lower slit bounce": 0.15504005182160974,
+    "Detail / outside upper slot daylight": 0.11236026513948083
+  },
+  "newLightOutside": [
+    -1.2799999713897705,
+    9.546704292297363,
+    3.4600000381469727
+  ],
+  "changedExistingLights": [
+    "Detail / outside garage daylight",
+    "Detail / outside lower slit bounce",
+    "Study / ceiling strip",
+    "Study / workbench task lamp",
+    "Study / rear wall task lamp"
+  ],
+  "floorPackedMaps": 3,
+  "priorRouteEvidence": "junction-record-clearance.json",
+  "priorEvidenceApplicability": "No mesh, visibility or sampled non-light transform changes. New object is an outside light without collision geometry. Previous sampled route audit remains applicable.",
+  "limits": [
+    "Exact visual appearance requires image review.",
+    "Four sampled original transforms checked; no claim of continuous collision certification.",
+    "Not validated in Unreal."
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "checkedAt": "2026-10-27T17:15:45.560Z",
+  "passed": true,
+  "url": "http://127.0.0.1:4282/vergelijking.html",
+  "images": [
+    {
+      "height": 941,
+      "loaded": true,
+      "src": "../Reference/original-workshop.png",
+      "width": 1672
+    },
+    {
+      "height": 564,
+      "loaded": true,
+      "src": "reference-daylight.png",
+      "width": 1003
+    },
+    {
+      "height": 564,
+      "loaded": true,
+      "src": "daylight-workbench.png",
+      "width": 1003
+    },
+    {
+      "height": 564,
+      "loaded": true,
+      "src": "daylight-storage.png",
+      "width": 1003
+    },
+    {
+      "height": 941,
+      "loaded": true,
+      "src": "../Reference/original-workshop.png",
+      "width": 1672
+    },
+    {
+      "height": 564,
+      "loaded": true,
+      "src": "reference-records.png",
+      "width": 1003
+    },
+    {
+      "height": 564,
+      "loaded": true,
+      "src": "records-shelf.png",
+      "width": 1003
+    },
+    {
+      "height": 564,
+      "loaded": true,
+      "src": "records-extraction.png",
+      "width": 1003
+    },
+    {
+      "height": 564,
+      "loaded": true,
+      "src": "records-platter.png",
+      "width": 1003
+    },
+    {
+      "height": 564,
+      "loaded": true,
+      "src": "layout-workbench-view.png",
+      "width": 1003
+    },
+    {
+      "height": 564,
+      "loaded": true,
+      "src": "layout-depth.png",
+      "width": 1003
+    },
+    {
+      "height": 564,
+      "loaded": true,
+      "src": "reference-surfaces.png",
+      "width": 1003
+    },
+    {
+      "height": 564,
+      "loaded": true,
+      "src": "surfaces-workbench.png",
+      "width": 1003
+    }
+  ],
+  "title": "Onemillie — vergelijking met het concept"
+}

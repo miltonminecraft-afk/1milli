@@ -113,7 +113,7 @@ floor-browser-verification.json bevestigt alle 12 afbeeldingen geladen.
 Dit is een nog niet goedgekeurde Blender-proef; geen echte Unreal-scène.
 Het concept blijft de maatstaf voor vloerpatroon, licht en overige inrichting.
 
-LAATSTE GETOONDE PROEF: reference-dressing.blend.
+EERDERE GETOONDE PROEF: reference-dressing.blend.
 Uitstekende kunstwand, vlak bevestigde prints op referentieposities, zwarte
 hoek-gereedschapskast, drie bronplanken, gevarieerde/open kisten met inhoud en
 drie tl-ophangkabels. Bovenleidingen/koof volgen de nieuwe wand. Drie beelden:
@@ -123,9 +123,17 @@ kabelcontacten, kisten en inhoud. dressing-record-clearance.json: tien LP-routes
 dressing-visual-review.json bevat bronnen, hashes en resterende verschillen.
 De scène blijft een lokale ongekeurde Blender-proef; geen gebouwde Unreal-scène.
 
-HUIDIG WERKBESTAND: reference-junction.blend.
+VOORGAAND WERKBESTAND: reference-junction.blend.
 Vervolg op dressing: beide achterste elektra-aansluitingen verbonden, dubbele
 bevestigingsklemmen en vrije leidingroutes. Hoofdbeeld reference-junction.png;
 detailbeeld junction-inspection.png. junction-verification.json en
 junction-record-clearance.json bevatten de controles. Vergelijkpagina nog dressing.
 Een lokale Blender-proef; nog geen Unreal-scène of definitief goedgekeurd ontwerp.
+
+HUIDIG WERKBESTAND EN GETOONDE PROEF: reference-daylight.blend.
+Zichtbaar buitenlicht boven de garagedeur, sterkere vloerreflecties en aangepaste
+lampsterkte. Groot buitenlicht geheel achter de deur gezet; geen geometriewijzigingen.
+reference-daylight.png, daylight-workbench.png en daylight-storage.png tonen de proef.
+daylight-verification.json controleert behoud van geometrie, materialen en poses;
+de routecontrole uit junction blijft toepasbaar. Vergelijkpagina bijgewerkt.
+Blender-proef ter beoordeling; exacte sfeer en patronen en Unreal-level blijven open.

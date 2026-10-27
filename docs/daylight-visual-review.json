@@ -1,0 +1,49 @@
+{
+  "checkedAt": "2026-10-27T17:16:09.092Z",
+  "scene": "reference-daylight.blend",
+  "sceneSha256": "dac9a8484f6dae30e1ca6712bf2f220efae75433c363509da5c82d4c76c6639e",
+  "sourceScene": "reference-junction.blend",
+  "unrealSceneBuilt": false,
+  "userApproved": false,
+  "exactConceptMatch": false,
+  "websitePublished": false,
+  "mainWebsiteChanged": false,
+  "localComparisonUpdated": true,
+  "images": [
+    {
+      "file": "reference-daylight.png",
+      "sha256": "7a76a3862ed2db135b21880f5d8b666c2f36f7cfc6505d175810925b21dd76a2"
+    },
+    {
+      "file": "daylight-workbench.png",
+      "sha256": "c1ac8247d7d801200365cdb9f5ddef04b6540d614f14b5a430dda7d398d88efa"
+    },
+    {
+      "file": "daylight-storage.png",
+      "sha256": "84070860e699a869ff2f2598b4f60d3cdb7908f1b575548e752560eb99381337"
+    },
+    {
+      "file": "daylight-comparison-proof.png",
+      "sha256": "180362dec9defbf6051bf469c48f9bf926e1c00459625f17fc016534748d7c1b"
+    }
+  ],
+  "inspection": "Three final Blender views and the comparison page inspected. Upper garage gap now visibly transmits cool exterior light. The floor has stronger, broader reflected doorway highlights using the existing scanned cement material. Practical lights are stronger, while the selected room geometry, art wall, crates and LP placement remain intact. The result still differs from the original concept in overall lighting, floor pattern, furniture details and foliage.",
+  "physicalCorrection": "The prior large tilted exterior area light extended through the rear wall even though its centre was outside. Reoriented it vertically. All three exterior emitter planes now lie completely behind the rear wall; checked actual corners.",
+  "sources": [
+    {
+      "url": "https://polyhaven.com/a/scuffed_cement",
+      "license": "CC0-1.0",
+      "authors": [
+        "Dimitrios Savva",
+        "Dario Barresi"
+      ],
+      "use": "Existing packed diffuse, roughness and normal maps; material scale, roughness and normal response adjusted."
+    }
+  ],
+  "remaining": [
+    "Exact floor pattern and reflection character; current result is a material/light candidate.",
+    "Plant species silhouette and leaf quantity, table/storage details, stool proportions and rug.",
+    "Fine electrical appearance and header diameter transition.",
+    "Unreal installation, editable Unreal level and final user review."
+  ]
+}

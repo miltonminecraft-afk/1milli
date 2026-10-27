@@ -68,45 +68,35 @@ referentieruimte alleen modellen die qua vorm en afwerking passen. Forceer niet
 alle gekozen objecten in beeld wanneer dat de referentie-indeling verandert.
 
 HUIDIGE STAND
-- Laatste lokale WERKBESTAND: onemillie-unreal/Review/reference-junction.blend.
-  Bouwt voort op reference-dressing; tweede achterste elektra-aansluiting nu
-  verbonden met de bestaande bovenleiding. Linker/rechter route kruisen niet.
-  Twee passende dubbele bronklemmen toegepast; één bovenklem boven de bocht gezet.
-  1610 oorspronkelijke objecten op vier animatiemomenten onverplaatst;
-  oorspronkelijke meshgeometrie, UV's en materiaaltoewijzingen behouden. 22 nieuwe
-  elektra-meshes gecontroleerd: 11 aansluitparen sluiten aan, geen geteste
-  doorsnijding tussen leidingen, dubbele klemmen, architectuur of koof.
-  Alle tien LP-routes opnieuw vrij in 289 samples tegen 245 detailmeshes.
-  Hoofdbeeld en detailbeeld bekeken. Vergelijkpagina toont nog de dressing-proef;
-  deze kleine vervolgreparatie is lokaal opgeslagen, geen eindomgeving gepubliceerd.
-  Bewijs: docs/junction-*.json. Volgende beeldtaak: bovenste garagekier en vloerlicht
-  dichter bij het concept; daarna plantvorm, overige meubeldetails en verhoudingen.
-- Laatste GETOONDE PROEF:
-  onemillie-unreal/Review/reference-dressing.blend. Bouwt voort op reference-floor.
-  Nieuwe gebruikerscorrecties verwerkt: volle wandverspringing links (circa 0,33
-  scene-eenheid, geen bewezen fysieke maat), zes kunstwerken vlak op juiste wand
-  met behouden beeldposities. Zwarte gereedschapskast uit W1 en drie intacte
-  bronplanken onder de linker lamp naast de garagedeur. Planken blijven buiten
-  de deuropening. Tl-balk aan drie kabels; beide eindcontacten gecontroleerd.
-  Tien kisten in verschillende maten/kleuren en uitvoeringen; twee open metalen
-  kisten met brondoek en twee kunststof kratten met pennenbakken en tape. Gesloten houten
-  krat behouden. Een doorsnijdende krant uit die krat verwijderd; krant op werkbank
-  blijft. Bovenleidingen en koof volgen de nieuwe uitstekende wand.
-  Alle 1524 oorspronkelijke objecten op vier animatiemomenten onverplaatst.
-  Zes printprojecties/afstand tot muur, kabelcontacten, kastondersteuning en vrije
-  ruimte gecontroleerd. Geen geteste doorsnijdingen tussen inhoud en krat of tussen
-  de nieuwe wand en aangrenzende kast/leiding/koof. Alle tien LP-routes vrij in
-  289 samples tegen 240 detailmeshes. Werkbankmidden blijft vrij.
-  De drie renders en lokale browservergelijking zijn bekeken; extra kastcamera
-  maakt de kisten en inhoud beter inspecteerbaar. Pagina op
-  127.0.0.1:4282/vergelijking.html toont deze correcties naast het oorspronkelijke concept.
-  De eerdere neutralere vloer, B1-motorafwerking, deurkieren, chroom plantenbak en
-  overige aankleding blijven behouden. Geen hoofdwebsite of eigenaarvolgorde gewijzigd.
-  Nog open: exact totaallicht en reflectiebeeld, plantvorm/bladhoeveelheid, verdere
-  tafel-/kastdetails, verdere elektra-afwerking, kleed en krukverhoudingen.
-  Alle plaatsingen zijn nog ter beoordeling; geen exacte of goedgekeurde kopie.
-  Unreal-installatie en een echte bewerkbare .umap blijven open. Ongekeurde scène,
-  renders en bouwscript blijven lokaal; controlecode/licenties/voortgang op GitHub.
+- Laatste lokale WERKBESTAND en GETOONDE PROEF:
+  onemillie-unreal/Review/reference-daylight.blend. Bouwt voort op reference-junction.
+  Zichtbaar koel licht door de bovenste garagekier; sterkere reflecties op de vloer.
+  Bestaande gescande cementvloer behouden, ruwheid/normal/laagglans en materiaalschaal
+  aangepast. Licht van tl- en werklampen versterkt. Eén extra buitenlicht bovenaan.
+  Belangrijk herstel: het eerdere grote gekantelde buitenlichtvlak stak deels door
+  de achterwand. Het hele vlak staat nu buiten; hoekpunten van alle drie buitenlichten
+  gecontroleerd. Geen nieuwe reflectielamp midden in de kamer.
+  Meshgeometrie, topologie, UV's, zichtbaarheid en alle niet-vloermaterialen behouden.
+  1633 oorspronkelijke objecten op vier animatiemomenten gecontroleerd; alleen
+  de bedoelde rotatie van één buitenlicht wijzigt. Camera's, inrichting en LP's blijven.
+  De tien LP-routecontroles uit junction blijven toepasbaar doordat geen botsings-
+  geometrie of objecttraject is veranderd. De nieuwe lichtbron heeft geen mesh.
+  Drie renders en de vergelijking zijn bekeken. Pagina op
+  127.0.0.1:4282/vergelijking.html toont de nieuwe lichtproef naast het concept.
+  Bewijs: docs/daylight-*.json, docs/junction-record-clearance.json.
+- Voorgaande correcties behouden: uitstekende linker kunstwand, zes vlak bevestigde
+  kunstwerken op handmatig afgelezen beeldposities; zwarte W1-gereedschapskast en
+  drie bronplanken onder de linker lamp. Tien gevarieerde kisten, vier open uitvoeringen
+  met doek/pennenbak/tape. Tl-balk hangt aan drie kabels. Koof en leidingen volgen de
+  wandverspringing. Beide achterste elektra-aansluitingen verbonden, dubbele klemmen
+  en vrije bovenroutes. Chroom plantenvat, vrij werkbankmidden en B1-afwerking behouden.
+- Nog open: exacte sfeer, vloerpatroon/reflectievorm, plantvorm en hoeveelheid blad,
+  verdere tafel-/kastdetails, elektra-afwerking, kleed en krukverhoudingen. Volgende
+  uitvoerbare beeldtaak: plantvorm/bladhoeveelheid en potverhoudingen vergelijken met
+  het concept, met behoud van de vastgelegde LP-vrije ruimte.
+  Dit is nog geen exacte of goedgekeurde kopie. Unreal-installatie en een echte
+  bewerkbare .umap blijven open. Ongekeurde scène, renders en bouwscript blijven lokaal;
+  controlecode/licenties/voortgang staan op GitHub. Hoofdwebsite/editor niet gewijzigd.
 - GitHub-broncode staat in https://github.com/miltonminecraft-afk/1milli.
   Eerste upload: commit 3aec88c2f02903668f545d2f1e1d5302d05e6280.
 - Websitepreview bestaat: foto met beperkte diepte, echte 3D-platen en GLB-objecten.
@@ -545,3 +535,11 @@ Geometrie-/contactcontrole en tien LP-routes geslaagd. Twee beelden bekeken.
 Geen wijziging aan hoofdwebsite, eigenaarvolgorde, desktopeditor of publieke scène.
 Epic-proces/log gecontroleerd: dezelfde lege enginecatalogus, geen tweede installer.
 Broncode en bewijs bijgewerkt; Unreal-level, sfeerlicht en eindbeoordeling blijven open.
+
+2026-10-27 Garagekieren en vloerreflecties in daylight-proef bijgewerkt.
+Bovenkier was open maar toonde vrijwel donkere buitenomgeving. Buitenlicht verhoogd,
+extra bovenlicht buiten de opening en ruwheid/normal van de gescande vloer afgestemd.
+Groot buitenlicht stond gekanteld deels binnen: volledig buiten geplaatst en gecontroleerd.
+Geometrie/UV/zichtbaarheid, niet-vloermaterialen, camera's en LP-poses behouden.
+Drie renderbeelden en lokale vergelijking gecontroleerd. Broncode en bewijs bijgewerkt;
+geen gebouwde Unreal-scène, hoofdwebsitepublicatie of definitieve materiaalgoedkeuring.

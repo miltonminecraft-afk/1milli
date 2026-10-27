@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-27T16:16:46.644Z",
+  "checkedAt": "2026-10-27T17:14:53.737Z",
   "passed": true,
   "scope": "Loopback-only read-only review server",
   "checks": [
@@ -206,6 +206,46 @@
     {
       "method": "HEAD",
       "url": "/dressing-record-clearance.json",
+      "status": 200
+    },
+    {
+      "method": "HEAD",
+      "url": "/reference-daylight.png",
+      "status": 200
+    },
+    {
+      "method": "HEAD",
+      "url": "/daylight-workbench.png",
+      "status": 200
+    },
+    {
+      "method": "HEAD",
+      "url": "/daylight-storage.png",
+      "status": 200
+    },
+    {
+      "method": "HEAD",
+      "url": "/reference-daylight.blend",
+      "status": 200
+    },
+    {
+      "method": "HEAD",
+      "url": "/daylight-study.json",
+      "status": 200
+    },
+    {
+      "method": "HEAD",
+      "url": "/daylight-verification.json",
+      "status": 200
+    },
+    {
+      "method": "HEAD",
+      "url": "/junction-record-clearance.json",
+      "status": 200
+    },
+    {
+      "method": "HEAD",
+      "url": "/junction-verification.json",
       "status": 200
     },
     {

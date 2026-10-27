@@ -1,0 +1,149 @@
+{
+  "builtAt": "2026-10-27T17:10:59.820468+00:00",
+  "scene": "reference-daylight.blend",
+  "sourceScene": "reference-junction.blend",
+  "userApproved": false,
+  "unrealSceneBuilt": false,
+  "geometryChanged": false,
+  "lightAdjustments": [
+    {
+      "name": "Detail / outside garage daylight",
+      "beforeEnergy": 390.0,
+      "afterEnergy": 750
+    },
+    {
+      "name": "Detail / outside lower slit bounce",
+      "beforeEnergy": 28.0,
+      "afterEnergy": 60
+    },
+    {
+      "name": "Study / ceiling strip",
+      "beforeEnergy": 115.0,
+      "afterEnergy": 240
+    },
+    {
+      "name": "Study / workbench task lamp",
+      "beforeEnergy": 32.0,
+      "afterEnergy": 42
+    },
+    {
+      "name": "Study / rear wall task lamp",
+      "beforeEnergy": 50.0,
+      "afterEnergy": 60
+    }
+  ],
+  "newLight": {
+    "name": "Detail / outside upper slot daylight",
+    "type": "AREA",
+    "position": [
+      -1.2799999713897705,
+      9.546704292297363,
+      3.4600000381469727
+    ],
+    "energy": 120.0,
+    "size": [
+      3.0999999046325684,
+      0.30000001192092896
+    ],
+    "outsideRearWall": true
+  },
+  "world": {
+    "color": [
+      0.55,
+      0.7,
+      1
+    ],
+    "strength": 0.45
+  },
+  "floor": {
+    "material": "Detail / daylight cement floor",
+    "sourceMaterial": "Detail / scanned cement floor",
+    "roughnessRange": [
+      0.04,
+      0.16
+    ],
+    "normalStrength": 2.0,
+    "tileSizeSceneUnits": 2.2,
+    "coatWeight": 0.45,
+    "coatRoughness": 0.08,
+    "coatUsesScannedNormal": true,
+    "source": "https://polyhaven.com/a/scuffed_cement",
+    "license": "CC0-1.0"
+  },
+  "limitations": [
+    "Lighting candidate in Blender; not verified in Unreal.",
+    "Exact concept material and reflection shape still require visual judgement.",
+    "Scene geometry and animation must be checked against the saved source."
+  ],
+  "reorientedLights": [
+    "Detail / outside garage daylight"
+  ],
+  "outsideEmitterCorners": {
+    "Detail / outside garage daylight": [
+      [
+        0.4700002670288086,
+        9.756704330444336,
+        0.15000024437904358
+      ],
+      [
+        0.4699997901916504,
+        9.756704330444336,
+        3.3500003814697266
+      ],
+      [
+        -3.0299997329711914,
+        9.756704330444336,
+        0.1499997079372406
+      ],
+      [
+        -3.0300002098083496,
+        9.756704330444336,
+        3.3499996662139893
+      ]
+    ],
+    "Detail / outside lower slit bounce": [
+      [
+        0.26999998092651367,
+        9.541664123535156,
+        0.05013688653707504
+      ],
+      [
+        0.26999998092651367,
+        9.531744956970215,
+        0.22986339032649994
+      ],
+      [
+        -2.8299999237060547,
+        9.54166316986084,
+        0.05013661831617355
+      ],
+      [
+        -2.8299999237060547,
+        9.531744003295898,
+        0.22986310720443726
+      ]
+    ],
+    "Detail / outside upper slot daylight": [
+      [
+        0.27000001072883606,
+        9.604344367980957,
+        3.321516752243042
+      ],
+      [
+        0.2699999511241913,
+        9.48906421661377,
+        3.5984835624694824
+      ],
+      [
+        -2.8299999237060547,
+        9.604344367980957,
+        3.321516513824463
+      ],
+      [
+        -2.8299999237060547,
+        9.48906421661377,
+        3.5984833240509033
+      ]
+    ]
+  }
+}
