@@ -1,0 +1,138 @@
+{
+  "status": "Candidates for concept matching; pending review",
+  "models": [
+    {
+      "id": "desk_lamp_arm_01",
+      "name": "Desk Lamp Arm 01",
+      "authors": {
+        "Yann Kervran": "Rigging",
+        "Kuutti Siitonen": "Modeling & texturing"
+      },
+      "source": "https://polyhaven.com/a/desk_lamp_arm_01",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://polyhaven.com/license",
+      "files": [
+        {
+          "file": "desk_lamp_arm_01_2k.gltf",
+          "bytes": 4453,
+          "md5": "93587e189642dc55cd6567703dc88fd6",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/2k/desk_lamp_arm_01/desk_lamp_arm_01_2k.gltf"
+        },
+        {
+          "file": "textures/desk_lamp_arm_01_nor_gl_2k.jpg",
+          "bytes": 2491219,
+          "md5": "f576a49c0203d1115fd4fb4b68f0548c",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/desk_lamp_arm_01/desk_lamp_arm_01_nor_gl_2k.jpg"
+        },
+        {
+          "file": "textures/desk_lamp_arm_01_diff_2k.jpg",
+          "bytes": 2438937,
+          "md5": "18b2a20186590642bf99537784bdc414",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/desk_lamp_arm_01/desk_lamp_arm_01_diff_2k.jpg"
+        },
+        {
+          "file": "desk_lamp_arm_01.bin",
+          "bytes": 736804,
+          "md5": "29ffa5bb6bee35b066e46073124fee1a",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/desk_lamp_arm_01/desk_lamp_arm_01.bin"
+        },
+        {
+          "file": "textures/desk_lamp_arm_01_arm_2k.jpg",
+          "bytes": 2801607,
+          "md5": "7f4335c90f5be6ac9d9e0073a12cc7e5",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/desk_lamp_arm_01/desk_lamp_arm_01_arm_2k.jpg"
+        }
+      ]
+    },
+    {
+      "id": "industrial_coffee_table",
+      "name": "Industrial Coffee Table",
+      "authors": {
+        "Ulan Cabanilla": "All"
+      },
+      "source": "https://polyhaven.com/a/industrial_coffee_table",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://polyhaven.com/license",
+      "files": [
+        {
+          "file": "industrial_coffee_table_2k.gltf",
+          "bytes": 2993,
+          "md5": "8bb4ef2106a47c8783180208bed56509",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/2k/industrial_coffee_table/industrial_coffee_table_2k.gltf"
+        },
+        {
+          "file": "textures/industrial_coffee_table_nor_gl_2k.jpg",
+          "bytes": 1925171,
+          "md5": "cd9cf3d05d01f9605aa91c0f4699e113",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/industrial_coffee_table/industrial_coffee_table_nor_gl_2k.jpg"
+        },
+        {
+          "file": "textures/industrial_coffee_table_diff_2k.jpg",
+          "bytes": 2115167,
+          "md5": "0dbf6804ebbd97f9cd84dc8470283ab1",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/industrial_coffee_table/industrial_coffee_table_diff_2k.jpg"
+        },
+        {
+          "file": "textures/industrial_coffee_table_arm_2k.jpg",
+          "bytes": 2903681,
+          "md5": "18a772e7b6b639d2fc262e018b0da6d9",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/industrial_coffee_table/industrial_coffee_table_arm_2k.jpg"
+        },
+        {
+          "file": "industrial_coffee_table.bin",
+          "bytes": 1335000,
+          "md5": "e6cc0b48e09c9b4aea5bd477ebda08a7",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/industrial_coffee_table/industrial_coffee_table.bin"
+        }
+      ]
+    },
+    {
+      "id": "mounted_fluorescent_lights",
+      "name": "Mounted Fluorescent Lights",
+      "authors": {
+        "Ulan Cabanilla": "All"
+      },
+      "source": "https://polyhaven.com/a/mounted_fluorescent_lights",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://polyhaven.com/license",
+      "files": [
+        {
+          "file": "mounted_fluorescent_lights_2k.gltf",
+          "bytes": 21071,
+          "md5": "2097c576c255b6943b568a0dd9c8df6f",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/2k/mounted_fluorescent_lights/mounted_fluorescent_lights_2k.gltf"
+        },
+        {
+          "file": "textures/mounted_fluorescent_lights_nor_gl_2k.jpg",
+          "bytes": 772169,
+          "md5": "425bc3892fe7994461f61e58989f9ea5",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/mounted_fluorescent_lights/mounted_fluorescent_lights_nor_gl_2k.jpg"
+        },
+        {
+          "file": "textures/mounted_fluorescent_lights_diff_2k.jpg",
+          "bytes": 1176268,
+          "md5": "180cb2c1f3abbccfff3b0d2386ebf705",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/mounted_fluorescent_lights/mounted_fluorescent_lights_diff_2k.jpg"
+        },
+        {
+          "file": "textures/mounted_fluorescent_lights_arm_2k.jpg",
+          "bytes": 2442201,
+          "md5": "d26b0c2e92b92d1df2871d9b719f7d84",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/mounted_fluorescent_lights/mounted_fluorescent_lights_arm_2k.jpg"
+        },
+        {
+          "file": "textures/mounted_fluorescent_lights_emission_2k.jpg",
+          "bytes": 204959,
+          "md5": "880b3f1a77da14d7eee3e06f5cafcbad",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/mounted_fluorescent_lights/mounted_fluorescent_lights_emission_2k.jpg"
+        },
+        {
+          "file": "mounted_fluorescent_lights.bin",
+          "bytes": 551720,
+          "md5": "8b7c24b1af686525c973f0c9d72440d6",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/mounted_fluorescent_lights/mounted_fluorescent_lights.bin"
+        }
+      ]
+    }
+  ]
+}

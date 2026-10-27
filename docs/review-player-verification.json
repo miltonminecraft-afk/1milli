@@ -1,0 +1,272 @@
+{
+  "checkedAt": "2026-10-27T11:46:06.250Z",
+  "initial": {
+    "renderer": "PlayCanvas",
+    "scene": "Local Blender draft",
+    "meshObjects": 682,
+    "cameras": 4,
+    "combinedClips": 1,
+    "playing": false,
+    "time": 0,
+    "camera": "overview",
+    "cameraPosition": [
+      0,
+      1.3,
+      0
+    ],
+    "sleevePosition": [
+      -3.158689,
+      1.526483,
+      -3.132172
+    ],
+    "vinylPosition": [
+      -2.47882,
+      1.478477,
+      -4.572382
+    ],
+    "vinylScale": [
+      0,
+      0,
+      0
+    ],
+    "ownerOrderWritten": false
+  },
+  "paused": {
+    "renderer": "PlayCanvas",
+    "scene": "Local Blender draft",
+    "meshObjects": 682,
+    "cameras": 4,
+    "combinedClips": 1,
+    "playing": false,
+    "time": 11.1676,
+    "camera": "action",
+    "cameraPosition": [
+      -1.55,
+      1.7,
+      -4.1
+    ],
+    "sleevePosition": [
+      -1.82,
+      1.085477,
+      -4.926816
+    ],
+    "vinylPosition": [
+      -2.35882,
+      1.13353,
+      -5.222382
+    ],
+    "vinylScale": [
+      1.194069,
+      1.194069,
+      1.194069
+    ],
+    "ownerOrderWritten": false
+  },
+  "onDeck": {
+    "renderer": "PlayCanvas",
+    "scene": "Local Blender draft",
+    "meshObjects": 682,
+    "cameras": 4,
+    "combinedClips": 1,
+    "playing": false,
+    "time": 9.6,
+    "camera": "action",
+    "cameraPosition": [
+      -1.55,
+      1.7,
+      -4.1
+    ],
+    "sleevePosition": [
+      -1.82,
+      1.085477,
+      -4.926816
+    ],
+    "vinylPosition": [
+      -2.35882,
+      1.028477,
+      -5.222382
+    ],
+    "vinylScale": [
+      1.194069,
+      1.194069,
+      1.194069
+    ],
+    "ownerOrderWritten": false
+  },
+  "returned": {
+    "renderer": "PlayCanvas",
+    "scene": "Local Blender draft",
+    "meshObjects": 682,
+    "cameras": 4,
+    "combinedClips": 1,
+    "playing": false,
+    "time": 19.2,
+    "camera": "action",
+    "cameraPosition": [
+      0,
+      1.3,
+      0
+    ],
+    "sleevePosition": [
+      -3.158689,
+      1.526483,
+      -3.132172
+    ],
+    "vinylPosition": [
+      -2.47882,
+      1.478477,
+      -4.572382
+    ],
+    "vinylScale": [
+      0,
+      0,
+      0
+    ],
+    "ownerOrderWritten": false
+  },
+  "workbench": {
+    "renderer": "PlayCanvas",
+    "scene": "Local Blender draft",
+    "meshObjects": 682,
+    "cameras": 4,
+    "combinedClips": 1,
+    "playing": false,
+    "time": 19.2,
+    "camera": "workbench",
+    "cameraPosition": [
+      -1.35,
+      1.55,
+      -4.75
+    ],
+    "sleevePosition": [
+      -3.158689,
+      1.526483,
+      -3.132172
+    ],
+    "vinylPosition": [
+      -2.47882,
+      1.478477,
+      -4.572382
+    ],
+    "vinylScale": [
+      0,
+      0,
+      0
+    ],
+    "ownerOrderWritten": false
+  },
+  "reset": {
+    "renderer": "PlayCanvas",
+    "scene": "Local Blender draft",
+    "meshObjects": 682,
+    "cameras": 4,
+    "combinedClips": 1,
+    "playing": false,
+    "time": 0,
+    "camera": "overview",
+    "cameraPosition": [
+      0,
+      1.3,
+      0
+    ],
+    "sleevePosition": [
+      -3.158689,
+      1.526483,
+      -3.132172
+    ],
+    "vinylPosition": [
+      -2.47882,
+      1.478477,
+      -4.572382
+    ],
+    "vinylScale": [
+      0,
+      0,
+      0
+    ],
+    "ownerOrderWritten": false
+  },
+  "viewport": {
+    "canvas": {
+      "bottom": 532,
+      "height": 433,
+      "left": 247.03646850585935,
+      "right": 1018.0364685058594,
+      "top": 99,
+      "width": 771,
+      "x": 247.03646850585935,
+      "y": 99
+    },
+    "frame": {
+      "bottom": 532.9948120117188,
+      "height": 434.9948120117187,
+      "left": 246.03646850585935,
+      "right": 1018.9583435058594,
+      "top": 98,
+      "width": 772.921875,
+      "x": 246.03646850585935,
+      "y": 98
+    },
+    "height": 720,
+    "width": 1280
+  },
+  "consoleErrors": [],
+  "scope": "Local PlayCanvas review only; original website unchanged",
+  "passed": true,
+  "comparisonImages": [
+    {
+      "alt": "Oorspronkelijke werkplaatsreferentie",
+      "height": 941,
+      "loaded": true,
+      "width": 1672
+    },
+    {
+      "alt": "Blender-maatproef met tien LP-hoezen, gekozen audioapparatuur, werkbank en motor",
+      "height": 564,
+      "loaded": true,
+      "width": 1003
+    },
+    {
+      "alt": "De twee rijen LP-hoezen in de 3D-kast",
+      "height": 564,
+      "loaded": true,
+      "width": 1003
+    },
+    {
+      "alt": "LP volledig uit de hoes, voor het neerleggen",
+      "height": 564,
+      "loaded": true,
+      "width": 1003
+    },
+    {
+      "alt": "LP gecentreerd op het draaiplateau met hoes ernaast",
+      "height": 564,
+      "loaded": true,
+      "width": 1003
+    },
+    {
+      "alt": "Echt werkbankaanzicht op dezelfde objecten",
+      "height": 564,
+      "loaded": true,
+      "width": 1003
+    },
+    {
+      "alt": "Dezelfde geometrie van opzij en boven bekeken",
+      "height": 564,
+      "loaded": true,
+      "width": 1003
+    },
+    {
+      "alt": "Dezelfde 3D-ruimte met beton, hout en een nieuwe lichtproef",
+      "height": 564,
+      "loaded": true,
+      "width": 1003
+    },
+    {
+      "alt": "De werkbank onder het aangepaste werklicht",
+      "height": 564,
+      "loaded": true,
+      "width": 1003
+    }
+  ]
+}

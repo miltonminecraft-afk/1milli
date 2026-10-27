@@ -1,0 +1,29 @@
+LOKALE 3D-BEOORDELING — GEEN GEPUBLICEERDE WEBSITE OF UNREAL-SCÈNE
+
+Start vanuit de projectmap:
+node onemillie-unreal/Source/serve-review.mjs
+
+Open daarna http://127.0.0.1:4282/ voor afspelen, pauzeren, tijdlijn en camera's.
+De server luistert uitsluitend op 127.0.0.1 en serveert een vaste bestandenlijst.
+De oorspronkelijke website op poort 4270 wordt niet aangepast.
+
+Deze broncode staat op GitHub, maar de nog niet goedgekeurde proefscènes en
+renderbeelden blijven lokaal. Voor afspelen is reference-records.glb in deze map
+nodig. Het bestand bevat dezelfde geometrie en één gezamenlijke animatieclip voor
+hoes, plaat en camera. PlayCanvas komt uit onemillie-runtime/vendor/playcanvas.mjs.
+
+vergelijking.html toont de originele afbeelding naast de geometrieproef, de
+LP-stappen en de aparte licht-/materiaalproef. reference-surfaces.blend is het
+bewerkbare Blender-bestand voor die laatste proef. De realtime animatie gebruikt
+nog reference-records.glb met eenvoudige reviewverlichting; de materiaalproef
+vervangt die animatie niet automatisch.
+
+De nieuwste vergelijking toont reference-atmosphere.blend met gratis bronmodellen
+voor tafelonderstellen, pothosplanten, een kandidaat-vloerplant, een plafondarmatuur
+en de verstelbare werklamp. Licenties en aanpassingen staan bij de vergelijking.
+De gebruiker wil dezelfde tafel, planten en verlichting als het concept. De
+nieuwe proef is een verbetering in onderdelen, geen goedgekeurde of exacte kopie.
+Plantvormen, kast, kleed, krukken, aankleding en lichtafwerking blijven open.
+De gehele ruimte, details, materialen en verlichting zijn nog niet goedgekeurd.
+Unreal-installatie en een echte .umap blijven eveneens open.
+Gebruik de verificatierapporten voor de geteste onderdelen en hun beperkingen.

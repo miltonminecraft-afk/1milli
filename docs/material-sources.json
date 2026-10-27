@@ -1,0 +1,149 @@
+{
+  "downloadedAt": "2026-10-27T11:48:50.848Z",
+  "stage": "Local material study, not an approved final material selection",
+  "materials": [
+    {
+      "id": "concrete_wall_003",
+      "name": "Concrete Wall 003",
+      "source": "https://polyhaven.com/a/concrete_wall_003",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://polyhaven.com/license",
+      "authors": {
+        "Dimitrios Savva": "Photography",
+        "Rico Cilliers": "Processing"
+      },
+      "physicalDimensions": [
+        3000,
+        3000.000238418579
+      ],
+      "resolution": "2k",
+      "maps": {
+        "diff": {
+          "file": "concrete_wall_003_diff_2k.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/concrete_wall_003/concrete_wall_003_diff_2k.jpg",
+          "bytes": 1083378,
+          "md5": "e7d678d14c74d55105077093b545d31e"
+        },
+        "nor_gl": {
+          "file": "concrete_wall_003_nor_gl_2k.png",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/2k/concrete_wall_003/concrete_wall_003_nor_gl_2k.png",
+          "bytes": 22433727,
+          "md5": "5900a0dbc2fdf290995000c579fbb88d"
+        },
+        "rough": {
+          "file": "concrete_wall_003_rough_2k.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/concrete_wall_003/concrete_wall_003_rough_2k.jpg",
+          "bytes": 1043780,
+          "md5": "2ad9d4b53e81f7a643bc27c604f20549"
+        }
+      }
+    },
+    {
+      "id": "concrete_wall_009",
+      "name": "Concrete Wall 009",
+      "source": "https://polyhaven.com/a/concrete_wall_009",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://polyhaven.com/license",
+      "authors": {
+        "Charlotte Baglioni": "All"
+      },
+      "physicalDimensions": [
+        1804.9999475479126,
+        1804.9999475479126
+      ],
+      "resolution": "2k",
+      "maps": {
+        "diff": {
+          "file": "concrete_wall_009_diff_2k.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/concrete_wall_009/concrete_wall_009_diff_2k.jpg",
+          "bytes": 2573465,
+          "md5": "d6d3e7c2f475a43ee858cc82de533062"
+        },
+        "nor_gl": {
+          "file": "concrete_wall_009_nor_gl_2k.png",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/2k/concrete_wall_009/concrete_wall_009_nor_gl_2k.png",
+          "bytes": 19718627,
+          "md5": "4b33905116c06d0058fdd7f594c0b2f8"
+        },
+        "rough": {
+          "file": "concrete_wall_009_rough_2k.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/concrete_wall_009/concrete_wall_009_rough_2k.jpg",
+          "bytes": 3065890,
+          "md5": "b8f96e44ecfb45b92b8ca60a75469481"
+        }
+      }
+    },
+    {
+      "id": "concrete_floor_worn_001",
+      "name": "Concrete Floor Worn 001",
+      "source": "https://polyhaven.com/a/concrete_floor_worn_001",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://polyhaven.com/license",
+      "authors": {
+        "Dimitrios Savva": "Photography",
+        "Rico Cilliers": "Processing"
+      },
+      "physicalDimensions": [
+        3000,
+        3000.000238418579
+      ],
+      "resolution": "2k",
+      "maps": {
+        "diff": {
+          "file": "concrete_floor_worn_001_diff_2k.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/concrete_floor_worn_001/concrete_floor_worn_001_diff_2k.jpg",
+          "bytes": 482906,
+          "md5": "6a3645f19f2ac4b7f60f43419c5d09ec"
+        },
+        "nor_gl": {
+          "file": "concrete_floor_worn_001_nor_gl_2k.png",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/2k/concrete_floor_worn_001/concrete_floor_worn_001_nor_gl_2k.png",
+          "bytes": 22874866,
+          "md5": "7516e0878d101554ce5869dc2b281519"
+        },
+        "rough": {
+          "file": "concrete_floor_worn_001_rough_2k.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/concrete_floor_worn_001/concrete_floor_worn_001_rough_2k.jpg",
+          "bytes": 735249,
+          "md5": "169cac76d6499d7d70d1dbb237fcc976"
+        }
+      }
+    },
+    {
+      "id": "wood_table_worn",
+      "name": "Wood Table Worn",
+      "source": "https://polyhaven.com/a/wood_table_worn",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://polyhaven.com/license",
+      "authors": {
+        "Dimitrios Savva": "Photography",
+        "Rico Cilliers": "Processing"
+      },
+      "physicalDimensions": [
+        549.9999523162842,
+        550.0000715255737
+      ],
+      "resolution": "2k",
+      "maps": {
+        "diff": {
+          "file": "wood_table_worn_diff_2k.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/wood_table_worn/wood_table_worn_diff_2k.jpg",
+          "bytes": 3108339,
+          "md5": "44d2440f1581401e0ea65133c0e11d79"
+        },
+        "nor_gl": {
+          "file": "wood_table_worn_nor_gl_2k.png",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/2k/wood_table_worn/wood_table_worn_nor_gl_2k.png",
+          "bytes": 20560698,
+          "md5": "324af6b74bc615177b892c2ef6260b6f"
+        },
+        "rough": {
+          "file": "wood_table_worn_rough_2k.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/wood_table_worn/wood_table_worn_rough_2k.jpg",
+          "bytes": 2890891,
+          "md5": "0eb31614bc05c3e92a832f063991b6e0"
+        }
+      }
+    }
+  ]
+}

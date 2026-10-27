@@ -1,0 +1,20 @@
+{
+  "id": "9036c0e1761b471aa4e8035d8e972308",
+  "title": "Peace Lily",
+  "author": "Fantom Matter",
+  "source": "https://sketchfab.com/3d-models/peace-lily-9036c0e1761b471aa4e8035d8e972308",
+  "license": {
+    "uri": "https://api.sketchfab.com/v3/licenses/322a749bcfa841b29dff1e8a1bb74b0b",
+    "label": "CC Attribution",
+    "fullName": "Creative Commons Attribution",
+    "requirements": "Author must be credited. Commercial use is allowed.",
+    "url": "http://creativecommons.org/licenses/by/4.0/",
+    "slug": "by"
+  },
+  "url": "https://huggingface.co/datasets/allenai/objaverse/resolve/main/glbs/000-123/9036c0e1761b471aa4e8035d8e972308.glb",
+  "file": "peace-lily.glb",
+  "bytes": 4306544,
+  "sha256": "6a83427892106631cc20bf840930af0f22eacf0e333e202eddbf818832d98747",
+  "status": "Candidate for matching the reference, pending visual approval",
+  "usage": "Traditional mesh import and rendering only; not used for generative AI or training."
+}

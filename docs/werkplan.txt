@@ -10,6 +10,11 @@ correcte LP-interactie en de mogelijkheid objecten toe te voegen. Daarnaast blij
 een eenvoudig apart desktopprogramma beschikbaar voor zelf inrichten.
 
 VASTSTAANDE KEUZES
+- Nieuwste correctie: DEZELFDE SFEER, TAFEL, PLANTEN EN BELICHTING als het concept.
+  De gebruiker heeft de kale materiaalproef afgewezen. Een soortgelijke losse
+  verzameling modellen is onvoldoende. Plantvorm, hoeveelheid blad, potten,
+  tafelframe/blad, warme lichtvlekken en koel achterlicht moeten visueel kloppen.
+  De nieuwe detailproef is nog niet goedgekeurd; geen eindomgeving vastleggen.
 - Alleen gratis tools en assets. Geen betaald World Labs-traject of abonnement.
 - Unreal installeren en daarin de echte scène bouwen; Lumen voor licht en reflecties.
 - Bestaande tools, renderer en kwalitatieve modellen hergebruiken. Geen nieuwe
@@ -242,6 +247,35 @@ BEWIJS EN BELANGRIJKE BESTANDEN
 - previews/: bestaande website- en assetpreviews, nadrukkelijk geen Unreal-renders.
 
 WERKLOG
+2026-10-27 Heartbeat 11:33 UTC, vervolg tot 12:30 UTC: lokale afspeelbare vergelijking
+gebouwd op 127.0.0.1:4282 met de bestaande PlayCanvas-renderer. Afspelen, pauzeren,
+vier camera's, LP op plateau, terugzetten en reset via de browser gecontroleerd.
+De afspeelbare GLB is nog de eerdere LP-proef met eenvoudige reviewverlichting.
+Server alleen op loopback, vaste bestandenlijst, GET/HEAD; tien serverchecks slagen.
+Drie gratis CC0 PBR-materiaalsets toegepast in een aparte Blender-lichtproef.
+Na de nieuwste gebruikerscorrectie verder gewerkt aan dezelfde planten/tafels/lampen:
+gratis pothos van AllQuad, kandidaat-vloerplant van Fantom Matter, Poly Haven
+stalen tafel, armwerklamp en plafondarmatuur gedownload met bron/licentie/checksums.
+Muziektafel en W1-houten onderstel vervangen in een afzonderlijke lokale detailproef;
+W1-gereedschap en laden blijven. Tafelmaten zijn aangepast, dus niet uniform geschaald.
+Drie pothosposities, extra hangende ranken, vloerplant met metalen potafwerking,
+lange plafondlamp, gekozen L3-lampkap achterin en verstelbare werklamp geplaatst.
+De werklamp schijnt vanuit de werkelijke lampkop. Twee nieuwe beelden gerenderd
+en met het concept vergeleken. 705 meshobjecten; 128 bronafbeeldingen ingepakt.
+1238 behouden objecten op vier animatiemomenten vergeleken: matrixverschil 0.
+Muziektafelblad blijft op dezelfde hoogte; potten op de kastplanken ondersteund;
+vloerplant op de vloer en voor de achterwand. Nieuwe bladgeometrie is nog niet
+meegenomen in de volledige botsingscontrole van alle tien LP-routes.
+Vergelijkingspagina toont nu de nieuwste proef vooraan, met de eerdere proeven eronder.
+Alle twaalf afbeeldingen laden. Bewijs: docs/atmosphere-verification.json en
+lokale Review/concept-comparison-proof.png. De lokale proef is nog NIET dezelfde
+omgeving: hangplanten te dun, vloerplant/pot andere vorm, hout/staal/licht afwerking
+wijkt af, kast/kleed/krukken/leidingen/wanddetails/opslag ontbreken of verschillen.
+Eerstvolgend: silhouetten en aankleding uit concept verder laten aansluiten;
+licht beoordelen op verhouding warme tafelzones, donkerder wanden en koele achtervloer.
+Geen nieuwe engine-installatie gestart; geen Unreal-level gebouwd. Broncode en
+bewijsoverzicht naar GitHub; ongekeurde scènes/renders blijven lokaal. Website
+op 4270 en eigenaarvolgorde blijven ongewijzigd.
 2026-10-27: gebruikerskeuzes en resterend werk samengevoegd; werkelijke status van
 GitHub, Unreal-bestanden en laatste installatie gecontroleerd. Heartbeat ingesteld.
 Alle 12 geselecteerde modelbestanden gecontroleerd: aanwezig, samen 13 exemplaren.

@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="nl">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Onemillie — vergelijking met het concept</title>
+<style>
+body{margin:0;background:#181a1c;color:#efebe3;font:16px/1.5 system-ui,sans-serif}main{max-width:1500px;margin:auto;padding:24px}h1{font-size:24px;margin:0 0 8px}p{max-width:85ch;color:#bebdb7}section{display:grid;grid-template-columns:1fr 1fr;gap:16px}figure{margin:0 0 24px}img{width:100%;display:block}figcaption{padding:8px 0;color:#bebdb7;font-size:14px}a{color:#e1bc7b}.depth{max-width:900px}strong{color:#efebe3}@media(max-width:800px){section{grid-template-columns:1fr}main{padding:16px}}
+</style>
+<main>
+<h1>Vergelijking met het concept</h1>
+<p><strong>Nieuwe proef voor tafel, planten en verlichting — nog niet goedgekeurd.</strong> Echte 3D-modellen, lokaal gerenderd in Blender. De tafels hebben nu een verweerd blad en een stalen onderstel. Hangplanten, een vloerplant en zichtbare lampen zijn toegevoegd. Plantvormen, afwerking, kast en aankleding wijken nog af. Dit is nog geen gebouwde Unreal-scène.</p>
+<section>
+<figure><img src="../Reference/original-workshop.png" alt="Het originele concept met houten tafels, hangplanten en warme werklampen"><figcaption>Concept — dit blijft de maatstaf</figcaption></figure>
+<figure><img src="reference-atmosphere.png" alt="Nieuwe Blender-proef met stalen tafels, planten en zichtbare verlichting"><figcaption>Nieuwe proef — dezelfde vaste camera, nog onvoltooid</figcaption></figure>
+</section>
+<figure class="depth"><img src="atmosphere-workbench.png" alt="De aangepaste werkbank met stalen onderstel en verstelbare lamp"><figcaption>Werkbankaanzicht van dezelfde objecten</figcaption></figure>
+<p>De nieuwe tafelmodellen zijn in maat aangepast; de muziektafel houdt dezelfde bladhoogte voor de draaitafel. De vloerplant is een kandidaat met een metalen potafwerking, geen exacte match. De oorspronkelijke gekozen modellen blijven beschikbaar. <a href="reference-atmosphere.blend">Bewerkbare proef</a> · <a href="atmosphere-study.json">Wijzigingen en open punten</a> · <a href="atmosphere-verification.json">Controle</a></p>
+<p>Modellen: <a href="https://sketchfab.com/3d-models/free-pothos-potted-plant-money-plant-e9832f38484f4f85b3f9081b51fa3799">Pothos — AllQuad</a> en <a href="https://sketchfab.com/3d-models/peace-lily-9036c0e1761b471aa4e8035d8e972308">Peace Lily — Fantom Matter</a> (<a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>, potafwerking en opstelling aangepast). <a href="https://polyhaven.com/a/industrial_coffee_table">Industrial Coffee Table</a>, <a href="https://polyhaven.com/a/desk_lamp_arm_01">Desk Lamp Arm 01</a> en <a href="https://polyhaven.com/a/mounted_fluorescent_lights">Mounted Fluorescent Lights</a> via Poly Haven (<a href="https://polyhaven.com/license">CC0</a>).</p>
+<h2>Eerdere maat- en animatieproef</h2>
+<p><a href="http://127.0.0.1:4282/">3D-animatie afspelen en camera kiezen</a></p>
+<p><strong>Onvoltooid, gerenderd in Blender.</strong> De kast en muziektafel zijn tijdelijke maatvolumes. Pioneer D2, twee KRK S3-speakers, werkbank W1 en café racer B1 zijn de gekozen modellen. Tien LP-hoezen staan nu met de voorkant naar de camera in de kast. Aankleding, materialen van de ruimte en definitieve verlichting volgen nog. Dit is geen Unreal-scène en geen nieuwe websiteversie.</p>
+<section>
+<figure><img src="../Reference/original-workshop.png" alt="Oorspronkelijke werkplaatsreferentie"><figcaption>Oorspronkelijke referentie</figcaption></figure>
+<figure><img src="reference-records.png" alt="Blender-maatproef met tien LP-hoezen, gekozen audioapparatuur, werkbank en motor"><figcaption>Dezelfde vaste vergelijkcamera, met echte geometrie en losse objecten</figcaption></figure>
+</section>
+<h2>Platen pakken en terugzetten</h2>
+<p>Deze beelden komen uit één bewerkbare 3D-scène. De animatie van de eerste plaat duurt 19,2 seconden, inclusief terugzetten. Alle tien platen hebben een eigen route. De camera verplaatst zich door de ruimte bij de handeling; de brandpuntsafstand blijft gelijk. De opgeslagen eigenaarvolgorde is alleen uitgelezen.</p>
+<section>
+<figure><img src="records-shelf.png" alt="De twee rijen LP-hoezen in de 3D-kast"><figcaption>1. Naar de kast, covers naar de camera en titels op de ruggen</figcaption></figure>
+<figure><img src="records-extraction.png" alt="LP volledig uit de hoes, voor het neerleggen"><figcaption>2. Plaat uit de open zijkant van de hoes</figcaption></figure>
+<figure><img src="records-platter.png" alt="LP gecentreerd op het draaiplateau met hoes ernaast"><figcaption>3. LP op de gemeten mat; terugzetten volgt dezelfde route achterstevoren</figcaption></figure>
+</section>
+<section>
+<figure><img src="layout-workbench-view.png" alt="Echt werkbankaanzicht op dezelfde objecten"><figcaption>Werkbankcamera in dezelfde opgeslagen scène</figcaption></figure>
+<figure><img src="layout-depth.png" alt="Dezelfde geometrie van opzij en boven bekeken"><figcaption>Dezelfde ruimte vanuit een derde camera</figcaption></figure>
+</section>
+<p>De werkelijke meters zijn niet uit één afbeelding af te leiden. De modellen zijn uniform op de afbeelding afgestemd; beide speakers hebben dezelfde schaal. Hun contact met de tafel en de camera zijn na export en herimport gecontroleerd.</p>
+<h2>Licht- en materiaalproef</h2>
+<p>Aparte Blender-proef met gescande beton- en houtmaterialen, warm werklicht en koel invallend licht. De oorspronkelijke camera, objectposities en LP-animatie zijn behouden. De lichtpunten zijn aan zichtbare lampen in de referentie gekoppeld; hun afstand tot de wand blijft een aanname. Armaturen, aankleding en vloerkleed ontbreken nog. Deze beelden zijn nog geen definitieve materiaalkeuze of Unreal-render.</p>
+<section>
+<figure><img src="reference-surfaces.png" alt="Dezelfde 3D-ruimte met beton, hout en een nieuwe lichtproef"><figcaption>Materiaal- en lichtproef vanuit de vaste referentiecamera</figcaption></figure>
+<figure><img src="surfaces-workbench.png" alt="De werkbank onder het aangepaste werklicht"><figcaption>Dezelfde werkbankcamera, met de aangepaste verlichting</figcaption></figure>
+</section>
+<p>Bronmaterialen: <a href="https://polyhaven.com/a/concrete_wall_009">Concrete Wall 009</a>, <a href="https://polyhaven.com/a/concrete_floor_worn_001">Concrete Floor Worn 001</a> en <a href="https://polyhaven.com/a/wood_table_worn">Wood Table Worn</a>, onder <a href="https://polyhaven.com/license">CC0</a>. <a href="surface-study.json">Licht- en materiaalgegevens</a> · <a href="reference-surfaces.blend">Bewerkbare materiaalproef</a></p>
+<p>De rechterwand loopt in deze proef iets naar buiten om de onvervormde werkbank te laten passen. Dit is een aanname; de plafondrand wijkt daar ongeveer 18 pixels af van de referentie. W1 en B1 hebben andere details dan de werkbank en motor op de afbeelding. De vorige proef blijft bewaard.</p>
+<p><a href="record-verification.json">LP- en animatiecontrole</a> · <a href="layout-placement.json">Motorplaatsing</a> · <a href="workbench-placement.json">Werkbank en camera</a> · <a href="layout-round-trip.json">Eerdere exportcontrole</a> · <a href="reference-records.blend">Bewerkbaar Blender-bestand</a> · <a href="reference-records.glb">3D-export met animatie</a> · <a href="reference-layout.png">Vorige proef</a></p>
+</main>
+</html>

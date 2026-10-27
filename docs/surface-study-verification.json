@@ -1,0 +1,136 @@
+{
+  "checkedAt": "2026-10-27T11:57:02.956919+00:00",
+  "passed": true,
+  "scope": "Saved local Blender study; not an Unreal test or final visual approval",
+  "sourceScene": "reference-records.blend",
+  "checkedScene": "reference-surfaces.blend",
+  "sampledFrames": [
+    1,
+    109,
+    289,
+    577
+  ],
+  "maxExistingTransformDifference": 0.0,
+  "nonLightObjectsPreserved": 1239,
+  "activeAreaLights": 5,
+  "maxLightAnchorProjectionErrorPixels": 0.0001471593655461051,
+  "packedMaterialMaps": [
+    {
+      "material": "Study / cast concrete wall",
+      "map": "diff",
+      "packed": true,
+      "size": [
+        2048,
+        2048
+      ],
+      "colorSpace": "sRGB"
+    },
+    {
+      "material": "Study / cast concrete wall",
+      "map": "nor_gl",
+      "packed": true,
+      "size": [
+        2048,
+        2048
+      ],
+      "colorSpace": "Non-Color"
+    },
+    {
+      "material": "Study / cast concrete wall",
+      "map": "rough",
+      "packed": true,
+      "size": [
+        2048,
+        2048
+      ],
+      "colorSpace": "Non-Color"
+    },
+    {
+      "material": "Study / worn concrete floor",
+      "map": "diff",
+      "packed": true,
+      "size": [
+        2048,
+        2048
+      ],
+      "colorSpace": "sRGB"
+    },
+    {
+      "material": "Study / worn concrete floor",
+      "map": "nor_gl",
+      "packed": true,
+      "size": [
+        2048,
+        2048
+      ],
+      "colorSpace": "Non-Color"
+    },
+    {
+      "material": "Study / worn concrete floor",
+      "map": "rough",
+      "packed": true,
+      "size": [
+        2048,
+        2048
+      ],
+      "colorSpace": "Non-Color"
+    },
+    {
+      "material": "Study / worn wooden boards",
+      "map": "diff",
+      "packed": true,
+      "size": [
+        2048,
+        2048
+      ],
+      "colorSpace": "sRGB"
+    },
+    {
+      "material": "Study / worn wooden boards",
+      "map": "nor_gl",
+      "packed": true,
+      "size": [
+        2048,
+        2048
+      ],
+      "colorSpace": "Non-Color"
+    },
+    {
+      "material": "Study / worn wooden boards",
+      "map": "rough",
+      "packed": true,
+      "size": [
+        2048,
+        2048
+      ],
+      "colorSpace": "Non-Color"
+    }
+  ],
+  "usedMaterials": [
+    {
+      "name": "Study / cast concrete wall",
+      "source": "https://polyhaven.com/a/concrete_wall_009",
+      "license": "CC0-1.0"
+    },
+    {
+      "name": "Study / worn concrete floor",
+      "source": "https://polyhaven.com/a/concrete_floor_worn_001",
+      "license": "CC0-1.0"
+    },
+    {
+      "name": "Study / worn wooden boards",
+      "source": "https://polyhaven.com/a/wood_table_worn",
+      "license": "CC0-1.0"
+    }
+  ],
+  "renderedAndVisuallyInspected": [
+    "reference-surfaces.png",
+    "surfaces-workbench.png"
+  ],
+  "rejectedMaterial": {
+    "id": "concrete_wall_003",
+    "reason": "Large stains do not match the reference; retained only as a prior candidate."
+  },
+  "websiteSceneReplaced": false,
+  "unrealSceneBuilt": false
+}

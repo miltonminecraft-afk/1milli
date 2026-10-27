@@ -1,0 +1,57 @@
+{
+  "checkedAt": "2026-10-27T12:28:17.552Z",
+  "passed": true,
+  "scope": "Loopback-only read-only review server",
+  "checks": [
+    {
+      "method": "GET",
+      "url": "/health",
+      "status": 200
+    },
+    {
+      "method": "HEAD",
+      "url": "/",
+      "status": 200
+    },
+    {
+      "method": "HEAD",
+      "url": "/reference-records.glb",
+      "status": 200
+    },
+    {
+      "method": "HEAD",
+      "url": "/Reference/original-workshop.png",
+      "status": 200
+    },
+    {
+      "method": "HEAD",
+      "url": "/reference-surfaces.png",
+      "status": 200
+    },
+    {
+      "method": "HEAD",
+      "url": "/surfaces-workbench.png",
+      "status": 200
+    },
+    {
+      "method": "HEAD",
+      "url": "/reference-atmosphere.png",
+      "status": 200
+    },
+    {
+      "method": "HEAD",
+      "url": "/atmosphere-verification.json",
+      "status": 200
+    },
+    {
+      "method": "HEAD",
+      "url": "/github-source/docs/werkplan.txt",
+      "status": 404
+    },
+    {
+      "method": "POST",
+      "url": "/",
+      "status": 405
+    }
+  ]
+}

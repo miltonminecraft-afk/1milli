@@ -1,0 +1,20 @@
+{
+  "id": "e9832f38484f4f85b3f9081b51fa3799",
+  "title": "[FREE] Pothos Potted Plant - Money Plant",
+  "author": "AllQuad",
+  "source": "https://sketchfab.com/3d-models/free-pothos-potted-plant-money-plant-e9832f38484f4f85b3f9081b51fa3799",
+  "license": {
+    "uri": "https://api.sketchfab.com/v3/licenses/322a749bcfa841b29dff1e8a1bb74b0b",
+    "label": "CC Attribution",
+    "fullName": "Creative Commons Attribution",
+    "requirements": "Author must be credited. Commercial use is allowed.",
+    "url": "http://creativecommons.org/licenses/by/4.0/",
+    "slug": "by"
+  },
+  "url": "https://huggingface.co/datasets/allenai/objaverse/resolve/main/glbs/000-059/e9832f38484f4f85b3f9081b51fa3799.glb",
+  "file": "pothos-allquad.glb",
+  "bytes": 3888912,
+  "sha256": "767b94deb73cc0fb48e84a32fd8cb52d58fa41e6f93270ce8a060db8709e93c5",
+  "status": "Candidate for matching the reference, pending visual approval",
+  "usage": "Traditional mesh import and rendering only; not used for generative AI or training."
+}
