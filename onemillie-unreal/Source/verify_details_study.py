@@ -4,7 +4,9 @@ from pathlib import Path
 from mathutils import Vector,Matrix
 from mathutils.bvhtree import BVHTree
 R=Path(__file__).resolve().parents[1];O=R/'Review'
-bpy.ops.wm.open_mainfile(filepath=str(O/'reference-details.blend'));scene=bpy.context.scene;scene.frame_set(1)
+args=sys.argv[sys.argv.index('--')+1:] if '--' in sys.argv else []
+scene_name=args[0] if args else 'reference-details.blend';report_name=args[1] if len(args)>1 else 'details-verification.json'
+bpy.ops.wm.open_mainfile(filepath=str(O/scene_name));scene=bpy.context.scene;scene.frame_set(1)
 study=json.loads((O/'details-study.json').read_text());bench=bpy.data.objects['W1_1 / Oude werkbank'].matrix_world;inverse=bench.inverted()
 def points(obs,space=None):return [(space or Matrix.Identity(4))@o.matrix_world@v.co for o in obs for v in o.data.vertices]
 def bounds(obs,space=None):
@@ -48,6 +50,6 @@ for record in study['storageCrates']:
  obs=[bpy.data.objects[n] for n in record['objects']];lo,hi=bounds(obs);crate.append({'bottom':lo.z,'top':hi.z,'bounds':[list(lo),list(hi)]})
  if not (lo.x>=-3.389 and hi.x<=-2.958 and lo.y>=2.965 and hi.y<=4.372):issues.append('Storage crate outside shelf envelope')
 reference_error=max((Vector(r['referencePixel'])-Vector(r['projectedAnchor'])).length for r in study['electrical'] if 'referencePixel' in r)
-out={'checkedAt':datetime.datetime.now(datetime.timezone.utc).isoformat(),'scene':'reference-details.blend','passed':not issues,'issues':issues,'unrealSceneBuilt':False,'userApproved':False,'freeWorkbenchRectangleLocal':study['clearWorkbenchLocalRectangle'],'freeWorkbenchAreaSceneUnitsSquared':1.1*.46*bench.to_scale().x**2,'freeWorkbenchChecks':clear,'supports':supports,'propIntersections':collisions,'doorTransmissionRays':slot_checks,'chromeDrum':{'floorGap':drumlo.z,'height':drumhi.z,'metallic':p.inputs['Metallic'].default_value},'storageCrates':crate,'switchAnchorPixelError':reference_error,'limits':['Reference anchors are manually read; geometry silhouettes remain approximate.','Door rays confirm openings; appearance needs renders.','BVH tests triangle crossings, not solid containment.','No claim of exact material match or Unreal import.']}
-(O/'details-verification.json').write_text(json.dumps(out,indent=2)+'\n');print('DETAILS_VERIFIED',json.dumps({'passed':not issues,'issues':issues,'propIntersections':collisions,'doorTransmissionRays':slot_checks}),flush=True)
+out={'checkedAt':datetime.datetime.now(datetime.timezone.utc).isoformat(),'scene':scene_name,'passed':not issues,'issues':issues,'unrealSceneBuilt':False,'userApproved':False,'freeWorkbenchRectangleLocal':study['clearWorkbenchLocalRectangle'],'freeWorkbenchAreaSceneUnitsSquared':1.1*.46*bench.to_scale().x**2,'freeWorkbenchChecks':clear,'supports':supports,'propIntersections':collisions,'doorTransmissionRays':slot_checks,'chromeDrum':{'floorGap':drumlo.z,'height':drumhi.z,'metallic':p.inputs['Metallic'].default_value},'storageCrates':crate,'switchAnchorPixelError':reference_error,'limits':['Reference anchors are manually read; geometry silhouettes remain approximate.','Door rays confirm openings; appearance needs renders.','BVH tests triangle crossings, not solid containment.','No claim of exact material match or Unreal import.']}
+(O/report_name).write_text(json.dumps(out,indent=2)+'\n');print('DETAILS_VERIFIED',json.dumps({'passed':not issues,'issues':issues,'propIntersections':collisions,'doorTransmissionRays':slot_checks}),flush=True)
 if issues:raise RuntimeError('; '.join(issues))

@@ -1,0 +1,81 @@
+{
+  "builtAt": "2026-10-27T14:32:54.534740+00:00",
+  "source": "reference-details.blend",
+  "scene": "reference-finish.blend",
+  "unrealSceneBuilt": false,
+  "userApproved": false,
+  "meshObjects": 900,
+  "motorcycleMeshes": 399,
+  "isolatedMaterialCopies": 10,
+  "geometrySha256BeforeAndAfter": "217ada0497a53e8dc5667812373c6bc11a842650c592857a8d3aeb087f7e9890",
+  "objectTransformChange": 0,
+  "lightingChanged": false,
+  "originalSourceGlbChanged": false,
+  "changes": [
+    {
+      "source": "SoftBlack",
+      "reason": "Black paint/rubber had metallic=1 and near-zero reflectance in source GLB.",
+      "baseLinearRGB": [
+        0.012,
+        0.012,
+        0.012
+      ],
+      "metallic": 0,
+      "roughness": 0.5699999928474426
+    },
+    {
+      "source": "Glossy_Black",
+      "reason": "Black paint/rubber had metallic=1 and near-zero reflectance in source GLB.",
+      "baseLinearRGB": [
+        0.008,
+        0.008,
+        0.008
+      ],
+      "metallic": 0,
+      "roughness": 0.23999999463558197
+    },
+    {
+      "source": "Chrome.002",
+      "reason": "Source named Chrome uses a black scratched albedo and metallic factor 0.2456. Adapted to chrome to match reference.",
+      "chromeLinearRGB": [
+        0.64,
+        0.67,
+        0.7
+      ],
+      "sourceAlbedoMix": 0.11,
+      "metallic": 1,
+      "minimumRoughness": 0.19,
+      "sourceNormalAndRoughnessMapsRetained": true
+    },
+    {
+      "source": "Cable",
+      "reason": "Black paint/rubber had metallic=1 and near-zero reflectance in source GLB.",
+      "baseLinearRGB": [
+        0.009,
+        0.009,
+        0.009
+      ],
+      "metallic": 0,
+      "roughness": 0.6499999761581421
+    },
+    {
+      "source": "Bike_Seat",
+      "reason": "Source factor [0,0,0] erased the leather texture.",
+      "textureMultiplier": 0.22,
+      "metallic": 0,
+      "sourceTextureAndNormalRetained": true
+    },
+    {
+      "source": "Bike_Tank",
+      "reason": "Coated paint interpretation instead of default metallic=1.",
+      "metallic": 0,
+      "coatWeight": 1,
+      "sourceBaseTextureRetained": true
+    }
+  ],
+  "limits": [
+    "Finish adaptation from the selected source model, not proof of its original intended materials.",
+    "No light increase is used to compensate for dark materials.",
+    "Exact concept fidelity and Unreal validation remain open."
+  ]
+}

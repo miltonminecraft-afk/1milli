@@ -1,0 +1,30 @@
+{
+  "checkedAt": "2026-10-27T14:35:15.154761+00:00",
+  "passed": true,
+  "source": "reference-details.blend",
+  "scene": "reference-finish.blend",
+  "unrealSceneBuilt": false,
+  "userApproved": false,
+  "comparedObjects": 1468,
+  "sampledFrames": [
+    1,
+    109,
+    289,
+    577
+  ],
+  "maximumMatrixError": 0,
+  "meshTopologyPositionsUVsVisibilitySha256": "3feeca9ea72ffbd89558c7b21dc004c482b29b928ce9d3ebf724525fc0df4692",
+  "lightsUnchanged": true,
+  "nonMotorcycleMaterialAssignmentsUnchanged": 501,
+  "motorcycleMeshesWithIsolatedMaterials": 399,
+  "nonmetalPaintRubberLeather": true,
+  "chromeMetallic": 1,
+  "chromeNormalAndRoughnessMapsRetained": true,
+  "priorRouteEvidence": "details-record-clearance.json",
+  "priorRouteEvidenceStillApplies": "All mesh topology, vertex positions, UVs, visibility and sampled transforms unchanged; material-only edit.",
+  "currentContactEvidence": "finish-detail-verification.json",
+  "limitations": [
+    "Visual finish is adapted, not an exact model/material reconstruction.",
+    "No Unreal level or Unreal material validation."
+  ]
+}

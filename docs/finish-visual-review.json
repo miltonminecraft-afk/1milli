@@ -1,0 +1,33 @@
+{
+  "checkedAt": "2026-10-27T14:37:13.255Z",
+  "scene": "reference-finish.blend",
+  "sceneSha256": "40d7e02e21e3522dc3d907485f47c10f9355fd8a3c0dd052e120f83ab433fa3a",
+  "status": "Internal continuation; last displayed browser comparison remains the detail study",
+  "userApproved": false,
+  "exactConceptMatch": false,
+  "unrealSceneBuilt": false,
+  "websitePublished": false,
+  "originalSourceGlbChanged": false,
+  "lightingChanged": false,
+  "images": [
+    {
+      "file": "reference-finish.png",
+      "sha256": "50e048dadfa035fa0254ea14efedaafe13216271e13dc28d49fa419aabb725c5"
+    },
+    {
+      "file": "finish-workbench.png",
+      "sha256": "0e7419cec4797ff136867687e53bfc640821539be2264c74735a8f1ba7f0e90f"
+    }
+  ],
+  "inspection": "Both renders visually inspected. Motorcycle wheel rims, exhaust and metal fittings read more clearly; no brightening of room lights.",
+  "remaining": [
+    "Overall reference lighting and floor reflection/material fidelity.",
+    "Exact electrical bends, casing profile and storage shapes.",
+    "Foliage, table/cabinet and rug/stool differences.",
+    "Motorcycle finish remains adapted, pending user review.",
+    "No Unreal installation completion or saved level."
+  ],
+  "geometryEvidence": "finish-verification.json",
+  "contactEvidence": "finish-detail-verification.json",
+  "priorRouteEvidence": "details-record-clearance.json"
+}

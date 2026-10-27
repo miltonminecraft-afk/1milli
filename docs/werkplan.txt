@@ -64,8 +64,14 @@ alle gekozen objecten in beeld wanneer dat de referentie-indeling verandert.
 
 HUIDIGE STAND
 - Laatste lokale WERKBESTAND voor vervolgwerk:
-  onemillie-unreal/Review/reference-details.blend (900 meshes, 251 ingepakte beelden).
-  Dit bouwt voort op reference-structure.blend; eerdere tafel-, planten- en LP-
+  onemillie-unreal/Review/reference-finish.blend (900 meshes, 251 ingepakte beelden).
+  Dit bouwt voort op reference-details.blend met alleen aangepaste B1-materialen.
+  Bronmodel gebruikte zwart metaal en een nulfactor voor de zadeltextuur. Lak,
+  rubber en leer als niet-metaal ingesteld; chroom met behouden krassen/normalmap.
+  Motor is beter zichtbaar zonder lichtverhoging. Deze materiaalproef is intern;
+  laatst getoonde browservergelijking blijft reference-details.blend. Bij volgende
+  zichtbare vergelijking de materiaalproef meenemen. Nog geen goedgekeurde afwerking.
+  De detailproef bouwt voort op reference-structure.blend; eerdere tafel-, planten- en LP-
   reparaties blijven. Leidingmodules en kleine schakelaars aan referentiepunten
   gekoppeld; koof langs bovenwand. Chroom benzinevat vervangt taps toelopende pot.
   Bronkratten in olijf/antraciet/grijs toegevoegd; vorm wijkt nog af. W1-gereedschap
@@ -76,13 +82,14 @@ HUIDIGE STAND
   als fotoprojectie op de kamer. Garageachterwand heeft een echte deuropening;
   onder- en bovenkier open, tussen de lamellen is de deur dicht. Licht staat buiten.
   Vloer met sterkere, onregelmatige reflectie; warm werklicht en koeler kierlicht.
-  Vergelijkingspagina op 127.0.0.1:4282/vergelijking.html toont deze nieuwste proef.
+  Vergelijkingspagina op 127.0.0.1:4282/vergelijking.html toont de detailproef;
+  de interne B1-materiaalcorrectie is daar nog niet getoond.
   Nog duidelijk andere tafel-/kastdetails, plantvormen, krukproporties, kleedpatroon,
   ontbrekende wand-/opbergdetails en te donkere motor. Geen exacte of goedgekeurde
   kopie. Geen Unreal-scène; niets als definitieve omgeving op GitHub gepubliceerd.
   Vervolg: exacte leidingbochten/aansluitingen, koofprofiel, kratvormen en kleuren
   visueel verder controleren. Vloermateriaal en reflectie moeten dichter bij het
-  concept; motor nog te donker, totaallicht en plantdichtheid/silhouetten afwijkend.
+  concept; motorafwerking verder beoordelen, totaallicht en plantdichtheid/silhouetten afwijkend.
   Tafeldetails blijven afwijkend; dit is geen visueel goedgekeurde tafelkopie.
   Behoud LP-routes, gereedschapsondersteuning en herstelde planten. Niet teruggaan
   naar een oudere proef die deze reparaties of het vrije werkvlak mist.
@@ -455,3 +462,20 @@ en zachtere warme werklamp. Twee laatste renders en browservergelijking bekeken.
 Exacte elektra/koofvorm, kratproporties, vloerbeeld, donkere motor en plantvormen
 blijven open. Geen Unreal-level, geen definitieve scène of nieuwe websiteversie.
 Broncode/licenties/checks naar GitHub; de ongekeurde scène en beelden blijven lokaal.
+
+2026-10-27 Heartbeat 14:28 UTC: oorzaak van donkere B1-motor onderzocht in
+bron-GLB en Blender-nodes. Lak/rubber gebruiken standaard metallic=1 met bijna
+zwart albedo; leertextuur vermenigvuldigd met nul. Materiaal Chrome heeft zwart
+krassenbeeld en slechts 0,2456 metallic factor. Dit is bronmateriaalgedrag, geen
+bewijs dat de import stuk is. In een aparte lokale finish-proef aangepaste lak,
+rubber, leer en chroom. Tien geïsoleerde materiaal-kopieën; oorspronkelijke GLB
+ongewijzigd en andere modellen niet aangepast. 399 motormeshes, 900 totaal.
+Twee renders bekeken: metalen delen leesbaarder, ruimteverlichting gelijk.
+Volledige meshposities, topologie, UV en zichtbaarheid hebben gelijke SHA-256.
+1468 objecten op vier animatiemomenten: matrixverschil nul. 501 materiaaltoewijzingen
+buiten de motor ongewijzigd. Werkvlak/props/deurkieren opnieuw gecontroleerd: goed.
+LP-routebewijs blijft geldig door gelijke geometrie/poses. Broncontrole en bewijs
+op GitHub; scènes/renders lokaal. Laatst getoonde vergelijking niet opnieuw
+vervangen voor deze kleine tussenstap; volgende zichtbare update moet finish meenemen.
+Epic alleen proces/log gecontroleerd: zelfde launcher en foutcode 2, geen engine.
+Geen herhaalde installer, cache-reset of gebruikersactie. Overige taken blijven open.
