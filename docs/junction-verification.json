@@ -1,0 +1,119 @@
+{
+  "checkedAt": "2026-10-27T16:43:39.538966+00:00",
+  "scene": "reference-junction.blend",
+  "passed": true,
+  "issues": [],
+  "unrealSceneBuilt": false,
+  "userApproved": false,
+  "originalObjects": 1610,
+  "preservedFrames": [
+    1,
+    109,
+    289,
+    577
+  ],
+  "maximumOriginalMatrixChange": 0,
+  "originalGeometryMaterialUVUnchanged": true,
+  "visibilityChanges": [
+    "Detail / connected electrical / rear junction lower clip 1",
+    "Detail / connected electrical / rear junction lower clip 2",
+    "Detail / connected electrical / rear junction upper",
+    "Detail / connected electrical / rear junction upper clip 1",
+    "Detail / connected electrical / rear junction upper clip 2",
+    "Detail / connected electrical / rear junction upper clip 3",
+    "Detail / connected electrical / rear left lower bend",
+    "Detail / connected electrical / rear lower horizontal",
+    "Detail / connected electrical / rear lower horizontal clip 1",
+    "Detail / connected electrical / rear lower horizontal clip 2",
+    "Detail / connected electrical / rear lower horizontal clip 3",
+    "Detail / connected electrical / rear lower horizontal clip 4",
+    "Detail / connected electrical / rear lower horizontal clip 5",
+    "Detail / connected electrical / rear lower horizontal clip 6",
+    "Detail / connected electrical / rear left upper return",
+    "Detail / connected electrical / rear left upper return clip 1",
+    "Detail / connected electrical / rear left upper return clip 2"
+  ],
+  "newMeshes": 22,
+  "connectedPortPairs": 11,
+  "maximumJoinDistance": 4.76837158203125e-07,
+  "sourcePortSurfaceDistance": [
+    0.0031072807032614946,
+    0.0031072807032614946,
+    0.0031072807032614946
+  ],
+  "portChecks": [
+    {
+      "object": "Detail / junction completion / left / source riser",
+      "surfaceDistances": [
+        0.0031561851501464844,
+        0.0031561851501464844
+      ]
+    },
+    {
+      "object": "Detail / junction completion / left / outward elbow",
+      "surfaceDistances": [
+        0.0031557357870042324,
+        0.0031561851501464844
+      ]
+    },
+    {
+      "object": "Detail / junction completion / left / offset",
+      "surfaceDistances": [
+        0.003155854996293783,
+        0.003155854996293783
+      ]
+    },
+    {
+      "object": "Detail / junction completion / left / upward elbow",
+      "surfaceDistances": [
+        0.0031557357870042324,
+        0.003155854996293783
+      ]
+    },
+    {
+      "object": "Detail / junction completion / left / header riser",
+      "surfaceDistances": [
+        0.003155854996293783,
+        0.003155854996293783
+      ]
+    },
+    {
+      "object": "Detail / junction completion / right / source riser",
+      "surfaceDistances": [
+        0.003155885264277458,
+        0.0031558831688016653
+      ]
+    },
+    {
+      "object": "Detail / junction completion / right / header elbow",
+      "surfaceDistances": [
+        0.006797885987907648,
+        0.006797885987907648
+      ]
+    },
+    {
+      "object": "Detail / junction completion / right / header horizontal",
+      "surfaceDistances": [
+        0.0067975521087646484,
+        0.006797075271606445
+      ]
+    },
+    {
+      "object": "Detail / junction completion / right / lower source lead",
+      "surfaceDistances": [
+        0.003155854996293783,
+        0.003155854996293783
+      ]
+    }
+  ],
+  "intersectingLeftRightTrianglePairs": 0,
+  "boundaryMeshes": 44,
+  "boundaryIntersections": [],
+  "outsideRoom": [],
+  "limitations": [
+    "Sampled animation poses and selected intersection tests; not complete continuous collision proof.",
+    "Source conduit centreline contacts do not establish functional electrical wiring.",
+    "Exact photographic match still requires visual review."
+  ],
+  "twinBracketConduitIntersections": 0
+}

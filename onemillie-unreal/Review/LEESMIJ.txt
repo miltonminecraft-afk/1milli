@@ -113,7 +113,7 @@ floor-browser-verification.json bevestigt alle 12 afbeeldingen geladen.
 Dit is een nog niet goedgekeurde Blender-proef; geen echte Unreal-scène.
 Het concept blijft de maatstaf voor vloerpatroon, licht en overige inrichting.
 
-HUIDIG WERKBESTAND EN GETOONDE PROEF: reference-dressing.blend.
+LAATSTE GETOONDE PROEF: reference-dressing.blend.
 Uitstekende kunstwand, vlak bevestigde prints op referentieposities, zwarte
 hoek-gereedschapskast, drie bronplanken, gevarieerde/open kisten met inhoud en
 drie tl-ophangkabels. Bovenleidingen/koof volgen de nieuwe wand. Drie beelden:
@@ -122,3 +122,10 @@ dressing-verification.json controleert oorspronkelijke poses, wand/kunst,
 kabelcontacten, kisten en inhoud. dressing-record-clearance.json: tien LP-routes vrij.
 dressing-visual-review.json bevat bronnen, hashes en resterende verschillen.
 De scène blijft een lokale ongekeurde Blender-proef; geen gebouwde Unreal-scène.
+
+HUIDIG WERKBESTAND: reference-junction.blend.
+Vervolg op dressing: beide achterste elektra-aansluitingen verbonden, dubbele
+bevestigingsklemmen en vrije leidingroutes. Hoofdbeeld reference-junction.png;
+detailbeeld junction-inspection.png. junction-verification.json en
+junction-record-clearance.json bevatten de controles. Vergelijkpagina nog dressing.
+Een lokale Blender-proef; nog geen Unreal-scène of definitief goedgekeurd ontwerp.

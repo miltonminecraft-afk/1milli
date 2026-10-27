@@ -1,0 +1,392 @@
+{
+  "builtAt": "2026-10-27T16:42:54.621310+00:00",
+  "scene": "reference-junction.blend",
+  "sourceScene": "reference-dressing.blend",
+  "unrealSceneBuilt": false,
+  "userApproved": false,
+  "source": "https://polyhaven.com/a/modular_electric_cables",
+  "license": "CC0-1.0",
+  "secondNativePorts": [
+    [
+      -0.28,
+      -0.01,
+      0
+    ],
+    [
+      -0.28,
+      -0.01,
+      0.2
+    ]
+  ],
+  "sourcePorts": [
+    [
+      -3.1190054416656494,
+      9.368064880371094,
+      1.9319628477096558
+    ],
+    [
+      -3.1060054302215576,
+      9.368064880371094,
+      1.9319628477096558
+    ],
+    [
+      -3.1060054302215576,
+      9.368064880371094,
+      1.8019628524780273
+    ]
+  ],
+  "hiddenReplacedObjects": [
+    "Detail / connected electrical / rear junction upper",
+    "Detail / connected electrical / rear junction upper clip 1",
+    "Detail / connected electrical / rear junction upper clip 2",
+    "Detail / connected electrical / rear junction upper clip 3",
+    "Detail / connected electrical / rear left upper return",
+    "Detail / connected electrical / rear left upper return clip 1",
+    "Detail / connected electrical / rear left upper return clip 2",
+    "Detail / connected electrical / rear left lower bend",
+    "Detail / connected electrical / rear lower horizontal",
+    "Detail / connected electrical / rear lower horizontal clip 1",
+    "Detail / connected electrical / rear lower horizontal clip 2",
+    "Detail / connected electrical / rear lower horizontal clip 3",
+    "Detail / connected electrical / rear lower horizontal clip 4",
+    "Detail / connected electrical / rear lower horizontal clip 5",
+    "Detail / connected electrical / rear lower horizontal clip 6",
+    "Detail / connected electrical / rear junction lower clip 1",
+    "Detail / connected electrical / rear junction lower clip 2"
+  ],
+  "conduits": [
+    {
+      "object": "Detail / junction completion / left / source riser",
+      "part": "cable_10cm",
+      "ports": [
+        [
+          -3.1190054416656494,
+          9.368064880371094,
+          1.9319628477096558
+        ],
+        [
+          -3.1190054416656494,
+          9.360404014587402,
+          2.1500000953674316
+        ]
+      ],
+      "diameterScale": 0.65,
+      "circuit": "left"
+    },
+    {
+      "object": "Detail / junction completion / left / outward elbow",
+      "part": "cable_turn_short complete tube",
+      "ports": [
+        [
+          -3.1190054416656494,
+          9.360404014587402,
+          2.1500000953674316
+        ],
+        [
+          -3.1840054988861084,
+          9.360404014587402,
+          2.2150001525878906
+        ]
+      ],
+      "diameterScale": 0.65,
+      "circuit": "left"
+    },
+    {
+      "object": "Detail / junction completion / left / offset",
+      "part": "cable_10cm",
+      "ports": [
+        [
+          -3.1840054988861084,
+          9.360404014587402,
+          2.2150001525878906
+        ],
+        [
+          -3.204005479812622,
+          9.360404014587402,
+          2.2150001525878906
+        ]
+      ],
+      "diameterScale": 0.65,
+      "circuit": "left"
+    },
+    {
+      "object": "Detail / junction completion / left / upward elbow",
+      "part": "cable_turn_short complete tube",
+      "ports": [
+        [
+          -3.204005479812622,
+          9.360404014587402,
+          2.2150001525878906
+        ],
+        [
+          -3.269005537033081,
+          9.360404014587402,
+          2.2800002098083496
+        ]
+      ],
+      "diameterScale": 0.65,
+      "circuit": "left"
+    },
+    {
+      "object": "Detail / junction completion / left / header riser",
+      "part": "cable_10cm",
+      "ports": [
+        [
+          -3.269005537033081,
+          9.360404014587402,
+          2.2800002098083496
+        ],
+        [
+          -3.269005537033081,
+          9.360404014587402,
+          3.5
+        ]
+      ],
+      "diameterScale": 0.65,
+      "circuit": "left"
+    },
+    {
+      "object": "Detail / junction completion / right / source riser",
+      "part": "cable_10cm",
+      "ports": [
+        [
+          -3.1060054302215576,
+          9.368064880371094,
+          1.9319628477096558
+        ],
+        [
+          -3.1060054302215576,
+          9.360404014587402,
+          3.450000047683716
+        ]
+      ],
+      "diameterScale": 0.65,
+      "circuit": "right"
+    },
+    {
+      "object": "Detail / junction completion / right / header elbow",
+      "part": "cable_turn_short complete tube",
+      "ports": [
+        [
+          -3.1060054302215576,
+          9.360404014587402,
+          3.450000047683716
+        ],
+        [
+          -2.966005325317383,
+          9.360404014587402,
+          3.5899999141693115
+        ]
+      ],
+      "diameterScale": 1.4,
+      "circuit": "right"
+    },
+    {
+      "object": "Detail / junction completion / right / header horizontal",
+      "part": "cable_10cm",
+      "ports": [
+        [
+          -2.966005325317383,
+          9.360404014587402,
+          3.5899999141693115
+        ],
+        [
+          0.37999963760375977,
+          9.360404014587402,
+          3.5899999141693115
+        ]
+      ],
+      "diameterScale": 1.4,
+      "circuit": "right"
+    },
+    {
+      "object": "Detail / junction completion / right / lower source lead",
+      "part": "cable_10cm",
+      "ports": [
+        [
+          -3.1060054302215576,
+          9.368064880371094,
+          0.8999999761581421
+        ],
+        [
+          -3.1060054302215576,
+          9.368064880371094,
+          1.8019627332687378
+        ]
+      ],
+      "diameterScale": 0.65,
+      "circuit": "right"
+    }
+  ],
+  "joins": [
+    {
+      "name": "left source top",
+      "a": [
+        -3.1190054416656494,
+        9.368064880371094,
+        1.9319628477096558
+      ],
+      "b": [
+        -3.1190054416656494,
+        9.368064880371094,
+        1.9319628477096558
+      ],
+      "distance": 0.0
+    },
+    {
+      "name": "left riser elbow",
+      "a": [
+        -3.1190054416656494,
+        9.360404014587402,
+        2.1500000953674316
+      ],
+      "b": [
+        -3.1190054416656494,
+        9.360404014587402,
+        2.1500000953674316
+      ],
+      "distance": 0.0
+    },
+    {
+      "name": "left offset start",
+      "a": [
+        -3.1840054988861084,
+        9.360404014587402,
+        2.2150001525878906
+      ],
+      "b": [
+        -3.1840054988861084,
+        9.360404014587402,
+        2.2150001525878906
+      ],
+      "distance": 0.0
+    },
+    {
+      "name": "left offset end",
+      "a": [
+        -3.204005479812622,
+        9.360404014587402,
+        2.2150001525878906
+      ],
+      "b": [
+        -3.204005479812622,
+        9.360404014587402,
+        2.2150001525878906
+      ],
+      "distance": 0.0
+    },
+    {
+      "name": "left final riser",
+      "a": [
+        -3.269005537033081,
+        9.360404014587402,
+        2.2800002098083496
+      ],
+      "b": [
+        -3.269005537033081,
+        9.360404014587402,
+        2.2800002098083496
+      ],
+      "distance": 0.0
+    },
+    {
+      "name": "left existing upper header",
+      "a": [
+        -3.269005537033081,
+        9.360404014587402,
+        3.5
+      ],
+      "b": [
+        -3.269005537033081,
+        9.360404014587402,
+        3.5
+      ],
+      "distance": 0.0
+    },
+    {
+      "name": "right source top",
+      "a": [
+        -3.1060054302215576,
+        9.368064880371094,
+        1.9319628477096558
+      ],
+      "b": [
+        -3.1060054302215576,
+        9.368064880371094,
+        1.9319628477096558
+      ],
+      "distance": 0.0
+    },
+    {
+      "name": "right header elbow",
+      "a": [
+        -3.1060054302215576,
+        9.360404014587402,
+        3.450000047683716
+      ],
+      "b": [
+        -3.1060054302215576,
+        9.360404014587402,
+        3.450000047683716
+      ],
+      "distance": 0.0
+    },
+    {
+      "name": "right header start",
+      "a": [
+        -2.966005325317383,
+        9.360404014587402,
+        3.5899999141693115
+      ],
+      "b": [
+        -2.966005325317383,
+        9.360404014587402,
+        3.5899999141693115
+      ],
+      "distance": 0.0
+    },
+    {
+      "name": "right existing return elbow",
+      "a": [
+        0.37999963760375977,
+        9.360404014587402,
+        3.5899999141693115
+      ],
+      "b": [
+        0.38000011444091797,
+        9.360404014587402,
+        3.5899999141693115
+      ],
+      "distance": 4.76837158203125e-07
+    },
+    {
+      "name": "right source bottom",
+      "a": [
+        -3.1060054302215576,
+        9.368064880371094,
+        1.8019627332687378
+      ],
+      "b": [
+        -3.1060054302215576,
+        9.368064880371094,
+        1.8019628524780273
+      ],
+      "distance": 1.1920928955078125e-07
+    }
+  ],
+  "twinBrackets": {
+    "sourcePart": "cable_double_mount",
+    "count": 2,
+    "scaleXYZ": [
+      0.65,
+      0.715,
+      0.65
+    ],
+    "adaptation": "Original complete bracket with 10 percent extra depth clearance; no source file edits."
+  },
+  "limits": [
+    "Visual conduit connection only, not an electrically functional wiring design.",
+    "Manual layout; not proof of exact concept fidelity.",
+    "Existing header diameter transition is retained."
+  ]
+}

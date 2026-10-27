@@ -68,7 +68,20 @@ referentieruimte alleen modellen die qua vorm en afwerking passen. Forceer niet
 alle gekozen objecten in beeld wanneer dat de referentie-indeling verandert.
 
 HUIDIGE STAND
-- Laatste lokale WERKBESTAND en GETOONDE PROEF:
+- Laatste lokale WERKBESTAND: onemillie-unreal/Review/reference-junction.blend.
+  Bouwt voort op reference-dressing; tweede achterste elektra-aansluiting nu
+  verbonden met de bestaande bovenleiding. Linker/rechter route kruisen niet.
+  Twee passende dubbele bronklemmen toegepast; één bovenklem boven de bocht gezet.
+  1610 oorspronkelijke objecten op vier animatiemomenten onverplaatst;
+  oorspronkelijke meshgeometrie, UV's en materiaaltoewijzingen behouden. 22 nieuwe
+  elektra-meshes gecontroleerd: 11 aansluitparen sluiten aan, geen geteste
+  doorsnijding tussen leidingen, dubbele klemmen, architectuur of koof.
+  Alle tien LP-routes opnieuw vrij in 289 samples tegen 245 detailmeshes.
+  Hoofdbeeld en detailbeeld bekeken. Vergelijkpagina toont nog de dressing-proef;
+  deze kleine vervolgreparatie is lokaal opgeslagen, geen eindomgeving gepubliceerd.
+  Bewijs: docs/junction-*.json. Volgende beeldtaak: bovenste garagekier en vloerlicht
+  dichter bij het concept; daarna plantvorm, overige meubeldetails en verhoudingen.
+- Laatste GETOONDE PROEF:
   onemillie-unreal/Review/reference-dressing.blend. Bouwt voort op reference-floor.
   Nieuwe gebruikerscorrecties verwerkt: volle wandverspringing links (circa 0,33
   scene-eenheid, geen bewezen fysieke maat), zes kunstwerken vlak op juiste wand
@@ -90,7 +103,7 @@ HUIDIGE STAND
   De eerdere neutralere vloer, B1-motorafwerking, deurkieren, chroom plantenbak en
   overige aankleding blijven behouden. Geen hoofdwebsite of eigenaarvolgorde gewijzigd.
   Nog open: exact totaallicht en reflectiebeeld, plantvorm/bladhoeveelheid, verdere
-  tafel-/kastdetails, tweede achterste elektra-aansluiting, kleed en krukverhoudingen.
+  tafel-/kastdetails, verdere elektra-afwerking, kleed en krukverhoudingen.
   Alle plaatsingen zijn nog ter beoordeling; geen exacte of goedgekeurde kopie.
   Unreal-installatie en een echte bewerkbare .umap blijven open. Ongekeurde scène,
   renders en bouwscript blijven lokaal; controlecode/licenties/voortgang op GitHub.
@@ -524,3 +537,11 @@ aan wandverspringing. 1524 oorspronkelijke poses behouden op vier momenten.
 Eigen geometriecontrole en tien LP-routes geslaagd. Drie beelden en browserpagina
 visueel gecontroleerd. Alleen lokale reviewserver herstart; hoofdwebsite/editor blijven.
 Bewijs: docs/dressing-*.json. Geen Unreal-level of definitieve scène gepubliceerd.
+
+2026-10-27 Tweede achterste elektra-aansluiting afgerond in lokale junction-proef.
+Bronpoorten gemeten in het bestaande model. Linker en rechter stijgleiding gekoppeld
+aan afzonderlijke bovenroutes; passende dubbele klemmen en aangepaste klemhoogte.
+Geometrie-/contactcontrole en tien LP-routes geslaagd. Twee beelden bekeken.
+Geen wijziging aan hoofdwebsite, eigenaarvolgorde, desktopeditor of publieke scène.
+Epic-proces/log gecontroleerd: dezelfde lege enginecatalogus, geen tweede installer.
+Broncode en bewijs bijgewerkt; Unreal-level, sfeerlicht en eindbeoordeling blijven open.

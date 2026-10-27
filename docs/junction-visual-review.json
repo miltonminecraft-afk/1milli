@@ -1,0 +1,35 @@
+{
+  "checkedAt": "2026-10-27T16:45:35.682Z",
+  "scene": "reference-junction.blend",
+  "sceneSha256": "efba05b4bf88f582a6dcd9bc616105c96d1ad370b1916a557d5be5238a53280e",
+  "sourceScene": "reference-dressing.blend",
+  "unrealSceneBuilt": false,
+  "userApproved": false,
+  "exactConceptMatch": false,
+  "websitePublished": false,
+  "mainWebsiteChanged": false,
+  "localComparisonUpdated": false,
+  "images": [
+    {
+      "file": "reference-junction.png",
+      "sha256": "eeb3725c6e871c7f0e8a134cc5b0425e740513ffd0bf6e86e16456c4f96f3115"
+    },
+    {
+      "file": "junction-inspection.png",
+      "sha256": "3add609a65d36866f45cc674735d44b254fb1f99bca7f9520e06cbb27be63f1c"
+    }
+  ],
+  "inspection": "Final main and close inspection renders examined. Both native rear junction leads reach separate overhead routes without crossing. The junction box itself remains partly occluded by the existing lamp; its port contacts were checked geometrically. The close camera is a diagnostic view with architecture outside its frame, not a proposed presentation camera. Existing scene placement, wall, artwork, crates and fluorescent suspension remain intact. Complete twin brackets from the same licensed source replace unsuitable single clips; bracket depth enlarged by 10 percent to remove small intersections.",
+  "source": {
+    "url": "https://polyhaven.com/a/modular_electric_cables",
+    "license": "CC0-1.0",
+    "sourceFilesModified": false
+  },
+  "previousFailureAndRepair": "Initial single clips intersected the adjacent conduit. Replaced lower clips with the source twin bracket; raised the upper individual clip above the elbow. Checked bracket clearance and retained complete source mesh.",
+  "remaining": [
+    "Full lighting and floor-reflection match, brighter upper garage slot.",
+    "Plant shape/density, table/storage details and rug/stool proportions.",
+    "Fine conduit routing and header diameter transition still differ from the reference.",
+    "Unreal installation, editable Unreal level and final user review."
+  ]
+}
