@@ -64,13 +64,20 @@ alle gekozen objecten in beeld wanneer dat de referentie-indeling verandert.
 
 HUIDIGE STAND
 - Laatste lokale WERKBESTAND voor vervolgwerk:
-  onemillie-unreal/Review/reference-finish.blend (900 meshes, 251 ingepakte beelden).
-  Dit bouwt voort op reference-details.blend met alleen aangepaste B1-materialen.
-  Bronmodel gebruikte zwart metaal en een nulfactor voor de zadeltextuur. Lak,
-  rubber en leer als niet-metaal ingesteld; chroom met behouden krassen/normalmap.
-  Motor is beter zichtbaar zonder lichtverhoging. Deze materiaalproef is intern;
-  laatst getoonde browservergelijking blijft reference-details.blend. Bij volgende
-  zichtbare vergelijking de materiaalproef meenemen. Nog geen goedgekeurde afwerking.
+  onemillie-unreal/Review/reference-electrical.blend (956 meshobjecten, inclusief
+  bewaarde verborgen voorgangers). Bouwt voort op reference-finish.blend: B1-lak,
+  rubber, leer en chroom behouden hun materiaalcorrectie. Licht/camera niet gewijzigd.
+  Drie schakelaarfronten liggen op de afgelezen referentiepunten; losse leidingen
+  vervangen door bronbuizen, echte bochtmodules en afzonderlijke bevestigingsclips.
+  Twee leidingroutes boven de garage met vrije dalende einden. Eerste aansluiting
+  van achterste kleine doos verbonden; tweede bronaansluiting nog afmaken.
+  Alle geteste nieuwe onderdelen binnen muren/plafond. Geen doorsnijding met koof,
+  deurkast of tussen de twee achterste leidingassemblages. 14 aansluitingen gemeten.
+  Alle tien LP-routes opnieuw vrij (289 samples per route). Werkvlak, deurkieren,
+  ondersteuning en 1238 oorspronkelijke objectposes op vier momenten behouden.
+  Beide renders intern bekeken; laatste zichtbare vergelijking blijft details.
+  Neem motorafwerking én nieuwe elektra mee in de volgende zichtbare vergelijking.
+  Dit is een Blender-proef, geen gebouwde Unreal-scène of goedgekeurde afwerking.
   De detailproef bouwt voort op reference-structure.blend; eerdere tafel-, planten- en LP-
   reparaties blijven. Leidingmodules en kleine schakelaars aan referentiepunten
   gekoppeld; koof langs bovenwand. Chroom benzinevat vervangt taps toelopende pot.
@@ -83,11 +90,12 @@ HUIDIGE STAND
   onder- en bovenkier open, tussen de lamellen is de deur dicht. Licht staat buiten.
   Vloer met sterkere, onregelmatige reflectie; warm werklicht en koeler kierlicht.
   Vergelijkingspagina op 127.0.0.1:4282/vergelijking.html toont de detailproef;
-  de interne B1-materiaalcorrectie is daar nog niet getoond.
+  de interne motorafwerking en aansluitingscorrectie zijn daar nog niet getoond.
   Nog duidelijk andere tafel-/kastdetails, plantvormen, krukproporties, kleedpatroon,
-  ontbrekende wand-/opbergdetails en te donkere motor. Geen exacte of goedgekeurde
+  ontbrekende wand-/opbergdetails en nog te beoordelen motorafwerking. Geen exacte of goedgekeurde
   kopie. Geen Unreal-scène; niets als definitieve omgeving op GitHub gepubliceerd.
-  Vervolg: exacte leidingbochten/aansluitingen, koofprofiel, kratvormen en kleuren
+  Vervolg: tweede achterste doosaansluiting, volledige leidingrouting/koofprofiel,
+  kratvormen en kleuren
   visueel verder controleren. Vloermateriaal en reflectie moeten dichter bij het
   concept; motorafwerking verder beoordelen, totaallicht en plantdichtheid/silhouetten afwijkend.
   Tafeldetails blijven afwijkend; dit is geen visueel goedgekeurde tafelkopie.
@@ -479,3 +487,21 @@ op GitHub; scènes/renders lokaal. Laatst getoonde vergelijking niet opnieuw
 vervangen voor deze kleine tussenstap; volgende zichtbare update moet finish meenemen.
 Epic alleen proces/log gecontroleerd: zelfde launcher en foutcode 2, geen engine.
 Geen herhaalde installer, cache-reset of gebruikersactie. Overige taken blijven open.
+
+2026-10-27 Heartbeat 14:58 UTC: elektra-aansluitingen in lokale Blender-proef
+hersteld met bestaande gratis Poly Haven-buizen, bochten en losse beugels. Drie
+schakelaarfronten op handmatig afgelezen beeldankers gezet; maximaal 0,00018 pixel
+rekenafwijking bewijst alleen die ankerpassing, niet een exacte reconstructie.
+14 gecontroleerde aansluitingen, maximale eindpuntafstand 0,00000048 scene-eenheid.
+Eerste achterste doosaansluiting verbonden; tweede bronleiding blijft nog open.
+Tijdens controle een plafondkruising van de bovenste beugels gecorrigeerd en beide
+achterste retourleidingen geplaatst. Definitieve 56 nieuwe elektra-meshes binnen
+ruimte; nul driehoekdoorsnijdingen tussen de twee routes en met deurkast/koof.
+Alle tien LP-routes tegen 223 detailmeshes / 973998 driehoeken: nul botsingssamples.
+1238 oorspronkelijke poses op vier momenten onverplaatst. Vrij werkvlak,
+ondersteuning en boven-/onderkier opnieuw gecontroleerd. Twee renders bekeken.
+Bewijs: docs/electrical-*.json. Alleen controlecode en voortgang naar GitHub;
+ongekeurde scene/renders lokaal. Laatst getoonde vergelijking blijft details.
+Motorfinish en deze elektra moeten samen in volgende zichtbare vergelijking.
+Epic alleen proces/log gecontroleerd; dezelfde blokkade, geen dubbele installer.
+Volledige routing, vloer/reflecties, plant-/tafelverhoudingen en Unreal blijven open.

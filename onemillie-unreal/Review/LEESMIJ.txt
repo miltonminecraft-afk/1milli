@@ -75,7 +75,7 @@ De kunstreproducties gebruiken alleen op printobjecten de aangeleverde afbeeldin
 Nieuwe bronmodellen en aanpassingen staan met hun licenties op de vergelijkingspagina.
 Geen definitieve omgeving of Unreal-level. Niet gepubliceerd als nieuwe website.
 
-HUIDIG INTERN VERVOLGWERKBESTAND: reference-finish.blend (900 meshes).
+VORIGE INTERNE MATERIAALPROEF: reference-finish.blend (900 meshes).
 Alleen de materialen van B1 zijn aangepast; geen verandering van licht of geometrie.
 De bronscène gaf zwarte lak/rubber metallic=1 en het leer een kleurfactor nul.
 Geïsoleerde kopieën herstellen lak, rubber en leer als niet-metaal en maken het
@@ -87,3 +87,16 @@ finish-verification.json: volledige meshposities/topologie/UV/zichtbaarheid geli
 finish-detail-verification.json: werkvlak, ondersteuning en deurkieren opnieuw goed.
 Eerdere LP-routecontrole blijft geldig door ongewijzigde geometrie en animatie.
 Geen exacte visuele kopie, Unreal-level of goedgekeurde eindafwerking.
+
+HUIDIG INTERN VERVOLGWERKBESTAND: reference-electrical.blend (956 meshobjecten).
+Behoudt de motorfinish; nieuwe aangesloten bronbuizen, bochten en clips. Drie
+schakelaarfronten op handmatige referentieankers; eerste achterste doosaansluiting
+verbonden, tweede nog afmaken. Volledige routing en koofvorm zijn nog niet exact.
+electrical-verification.json: aansluitingen, muur/plafond, retourleidingen en koof.
+electrical-detail-verification.json: vrij werkvlak, spullen, ondersteuning en kieren.
+electrical-retained-verification.json: 1238 poses op vier momenten behouden.
+electrical-record-clearance.json: tien routes tegen 223 detailmeshes, nul botsingen.
+electrical-visual-review.json: beide renders bekeken, SHA-256 en resterende punten.
+De zichtbare vergelijking blijft reference-details.blend. Bij volgende zichtbare
+review de motorfinish én deze aansluitingscorrectie tonen. Geen Unreal-level;
+de nog niet goedgekeurde werkfile en beelden blijven lokaal.

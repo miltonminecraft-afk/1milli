@@ -1,0 +1,134 @@
+{
+  "checkedAt": "2026-10-27T15:21:34.744714+00:00",
+  "scene": "reference-electrical.blend",
+  "passed": true,
+  "issues": [],
+  "unrealSceneBuilt": false,
+  "userApproved": false,
+  "sourceModules": "Poly Haven modular_electric_cables, CC0",
+  "checkedElectricalMeshes": 56,
+  "connectedPortPairs": 14,
+  "maximumJoinDistance": 4.76837158203125e-07,
+  "maximumSwitchFacePixelError": 0.00017263349150062197,
+  "tubePortSurfaceDistances": [
+    {
+      "object": "Detail / connected electrical / left single switch lower supply",
+      "surfaceDistancesAtPorts": [
+        0.005571842193603516,
+        0.005571842193603516
+      ]
+    },
+    {
+      "object": "Detail / connected electrical / left single switch upper supply",
+      "surfaceDistancesAtPorts": [
+        0.005571842193603516,
+        0.005571842193603516
+      ]
+    },
+    {
+      "object": "Detail / connected electrical / right upper switch upper supply",
+      "surfaceDistancesAtPorts": [
+        0.00458166841417551,
+        0.00458166841417551
+      ]
+    },
+    {
+      "object": "Detail / connected electrical / right covered outlet upper supp",
+      "surfaceDistancesAtPorts": [
+        0.006112774834036827,
+        0.006112774834036827
+      ]
+    },
+    {
+      "object": "Detail / connected electrical / rear junction lower",
+      "surfaceDistancesAtPorts": [
+        0.003155854996293783,
+        0.003155854996293783
+      ]
+    },
+    {
+      "object": "Detail / connected electrical / rear junction upper",
+      "surfaceDistancesAtPorts": [
+        0.003155885264277458,
+        0.0031558831688016653
+      ]
+    },
+    {
+      "object": "Detail / connected electrical / rear left lower bend",
+      "surfaceDistancesAtPorts": [
+        0.006797885987907648,
+        0.006797885987907648
+      ]
+    },
+    {
+      "object": "Detail / connected electrical / rear lower horizontal",
+      "surfaceDistancesAtPorts": [
+        0.0067975521087646484,
+        0.006797075271606445
+      ]
+    },
+    {
+      "object": "Detail / connected electrical / rear right lower bend",
+      "surfaceDistancesAtPorts": [
+        0.006797885987907648,
+        0.006797885987907648
+      ]
+    },
+    {
+      "object": "Detail / connected electrical / rear right lower return",
+      "surfaceDistancesAtPorts": [
+        0.0067979153245687485,
+        0.006798148155212402
+      ]
+    },
+    {
+      "object": "Detail / connected electrical / rear left upper bend",
+      "surfaceDistancesAtPorts": [
+        0.006797885987907648,
+        0.006797885987907648
+      ]
+    },
+    {
+      "object": "Detail / connected electrical / rear left upper return",
+      "surfaceDistancesAtPorts": [
+        0.006797885987907648,
+        0.0067980289459228516
+      ]
+    },
+    {
+      "object": "Detail / connected electrical / rear upper horizontal",
+      "surfaceDistancesAtPorts": [
+        0.006797313690185547,
+        0.006796836853027344
+      ]
+    },
+    {
+      "object": "Detail / connected electrical / rear right upper bend",
+      "surfaceDistancesAtPorts": [
+        0.006797885987907648,
+        0.006797885987907648
+      ]
+    },
+    {
+      "object": "Detail / connected electrical / rear right upper return",
+      "surfaceDistancesAtPorts": [
+        0.0067979153245687485,
+        0.006798148155212402
+      ]
+    }
+  ],
+  "outsideRoom": [],
+  "shutterHousingIntersections": [],
+  "limitations": [
+    "Joined endpoints and shell clearance do not prove an electrically functional circuit.",
+    "Manual reference anchors do not establish an exact photographic match.",
+    "Selected joins only; rear junction lead adaptation remains separately documented.",
+    "All ten LP routes need the separate sampled audit."
+  ],
+  "rearConduitPair": {
+    "upperMeshes": 18,
+    "lowerMeshes": 21,
+    "intersectingTrianglePairs": 0
+  },
+  "highWallCasingIntersections": 0
+}

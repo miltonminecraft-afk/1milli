@@ -1,0 +1,737 @@
+{
+  "builtAt": "2026-10-27T15:14:23.559671+00:00",
+  "scene": "reference-electrical.blend",
+  "source": "reference-finish.blend",
+  "unrealSceneBuilt": false,
+  "userApproved": false,
+  "meshObjects": 956,
+  "retainedObjectMatrixError": 0,
+  "sourceModel": "https://polyhaven.com/a/modular_electric_cables",
+  "sourceLicense": "CC0-1.0",
+  "hiddenReplacedObjects": [
+    "Detail / electrical / left vertical conduit 1",
+    "Detail / electrical / left vertical conduit 2",
+    "Detail / electrical / left vertical conduit 3",
+    "Detail / electrical / left vertical conduit 4",
+    "Detail / electrical / left vertical conduit 5",
+    "Detail / electrical / right vertical conduit 1",
+    "Detail / electrical / right vertical conduit 2",
+    "Detail / electrical / right vertical conduit 3",
+    "Detail / electrical / right vertical conduit 4",
+    "Detail / electrical / rear left conduit 1",
+    "Detail / electrical / rear left conduit 2",
+    "Detail / electrical / rear left conduit 3",
+    "Detail / electrical / rear left conduit 4",
+    "Detail / electrical / left single switch",
+    "Detail / electrical / right upper switch",
+    "Detail / electrical / right covered outlet"
+  ],
+  "switches": [
+    {
+      "object": "Detail / connected electrical / left single switch",
+      "referencePixel": [
+        503,
+        433
+      ],
+      "actualFaceCentre": [
+        -3.330867290496826,
+        5.4527907371521,
+        1.477028250694275
+      ],
+      "projectedFaceCentre": [
+        502.9999792575836,
+        432.999919295311
+      ],
+      "sourcePart": "cable_lightswitch",
+      "uniformScale": 1.147503143496592,
+      "ports": [
+        [
+          -3.376561164855957,
+          5.4527907371521,
+          1.3600366115570068
+        ],
+        [
+          -3.376561164855957,
+          5.4527907371521,
+          1.5160282850265503
+        ]
+      ]
+    },
+    {
+      "object": "Detail / connected electrical / right upper switch",
+      "referencePixel": [
+        1514,
+        226
+      ],
+      "actualFaceCentre": [
+        0.7925999164581299,
+        6.868896484375,
+        2.3725638389587402
+      ],
+      "projectedFaceCentre": [
+        1513.9998779296875,
+        225.99997186660767
+      ],
+      "sourcePart": "cable_lightswitch_2",
+      "uniformScale": 0.9435589260412304,
+      "ports": [
+        [
+          0.8314349055290222,
+          6.87274169921875,
+          2.4623830318450928
+        ]
+      ]
+    },
+    {
+      "object": "Detail / connected electrical / right covered outlet",
+      "referencePixel": [
+        1540,
+        319
+      ],
+      "actualFaceCentre": [
+        0.8137840032577515,
+        6.252159118652344,
+        1.9072645902633667
+      ],
+      "projectedFaceCentre": [
+        1539.9999055862427,
+        318.9998848438263
+      ],
+      "sourcePart": "cable_plug_covered_2",
+      "uniformScale": 1.2589279347386146,
+      "ports": [
+        [
+          0.890075147151947,
+          6.259713172912598,
+          2.057938575744629
+        ]
+      ]
+    },
+    {
+      "object": "Detail / electrical / rear small junction",
+      "sourcePart": "cable_box_double",
+      "nativePorts": [
+        [
+          -0.3,
+          -0.01,
+          0
+        ],
+        [
+          -0.3,
+          -0.01,
+          0.2
+        ]
+      ],
+      "ports": [
+        [
+          -3.1190054416656494,
+          9.368064880371094,
+          1.8019628524780273
+        ],
+        [
+          -3.1190054416656494,
+          9.368064880371094,
+          1.9319628477096558
+        ]
+      ],
+      "note": "First lead connected; second source lead retained for later detail review."
+    }
+  ],
+  "conduits": [
+    {
+      "object": "Detail / connected electrical / left single switch lower supply",
+      "kind": "straight",
+      "ports": [
+        [
+          -3.376561164855957,
+          5.4527907371521,
+          0.8500000238418579
+        ],
+        [
+          -3.376561164855957,
+          5.4527907371521,
+          1.3600366115570068
+        ]
+      ],
+      "targetPorts": [
+        [
+          -3.376561164855957,
+          5.4527907371521,
+          0.8500000238418579
+        ],
+        [
+          -3.376561164855957,
+          5.4527907371521,
+          1.3600366115570068
+        ]
+      ],
+      "sourcePart": "cable_10cm"
+    },
+    {
+      "object": "Detail / connected electrical / left single switch upper supply",
+      "kind": "straight",
+      "ports": [
+        [
+          -3.376561164855957,
+          5.4527907371521,
+          1.5160282850265503
+        ],
+        [
+          -3.376561164855957,
+          5.4527907371521,
+          3.495321750640869
+        ]
+      ],
+      "targetPorts": [
+        [
+          -3.376561164855957,
+          5.4527907371521,
+          1.5160282850265503
+        ],
+        [
+          -3.376561164855957,
+          5.4527907371521,
+          3.4953219890594482
+        ]
+      ],
+      "sourcePart": "cable_10cm"
+    },
+    {
+      "object": "Detail / connected electrical / right upper switch upper supply",
+      "kind": "straight",
+      "ports": [
+        [
+          0.8314349055290222,
+          6.87274169921875,
+          2.4623830318450928
+        ],
+        [
+          0.8314349055290222,
+          6.87274169921875,
+          3.495321750640869
+        ]
+      ],
+      "targetPorts": [
+        [
+          0.8314349055290222,
+          6.87274169921875,
+          2.4623830318450928
+        ],
+        [
+          0.8314349055290222,
+          6.87274169921875,
+          3.4953219890594482
+        ]
+      ],
+      "sourcePart": "cable_10cm"
+    },
+    {
+      "object": "Detail / connected electrical / right covered outlet upper supp",
+      "kind": "straight",
+      "ports": [
+        [
+          0.890075147151947,
+          6.259713172912598,
+          2.057938575744629
+        ],
+        [
+          0.890075147151947,
+          6.259713172912598,
+          3.495321750640869
+        ]
+      ],
+      "targetPorts": [
+        [
+          0.890075147151947,
+          6.259713172912598,
+          2.057938575744629
+        ],
+        [
+          0.890075147151947,
+          6.259713172912598,
+          3.4953219890594482
+        ]
+      ],
+      "sourcePart": "cable_10cm"
+    },
+    {
+      "object": "Detail / connected electrical / rear junction lower",
+      "kind": "straight",
+      "ports": [
+        [
+          -3.1190054416656494,
+          9.368064880371094,
+          0.8999999761581421
+        ],
+        [
+          -3.1190054416656494,
+          9.368064880371094,
+          1.8019627332687378
+        ]
+      ],
+      "targetPorts": [
+        [
+          -3.1190054416656494,
+          9.368064880371094,
+          0.8999999761581421
+        ],
+        [
+          -3.1190054416656494,
+          9.368064880371094,
+          1.8019628524780273
+        ]
+      ],
+      "sourcePart": "cable_10cm"
+    },
+    {
+      "object": "Detail / connected electrical / rear junction upper",
+      "kind": "straight",
+      "ports": [
+        [
+          -3.1190054416656494,
+          9.368064880371094,
+          1.9319628477096558
+        ],
+        [
+          -3.1190054416656494,
+          9.360404014587402,
+          3.450000047683716
+        ]
+      ],
+      "targetPorts": [
+        [
+          -3.1190054416656494,
+          9.368064880371094,
+          1.9319628477096558
+        ],
+        [
+          -3.1190054416656494,
+          9.360404014587402,
+          3.450000047683716
+        ]
+      ],
+      "sourcePart": "cable_10cm"
+    },
+    {
+      "object": "Detail / connected electrical / rear left lower bend",
+      "kind": "elbow",
+      "ports": [
+        [
+          -3.1190054416656494,
+          9.360404014587402,
+          3.450000047683716
+        ],
+        [
+          -2.9790053367614746,
+          9.360404014587402,
+          3.5899999141693115
+        ]
+      ],
+      "sourcePart": "cable_turn_short, complete tube component",
+      "sourceVertices": 96
+    },
+    {
+      "object": "Detail / connected electrical / rear lower horizontal",
+      "kind": "straight",
+      "ports": [
+        [
+          -2.9790048599243164,
+          9.360404014587402,
+          3.5899999141693115
+        ],
+        [
+          0.38000011444091797,
+          9.360404014587402,
+          3.5899999141693115
+        ]
+      ],
+      "targetPorts": [
+        [
+          -2.9790053367614746,
+          9.360404014587402,
+          3.5899999141693115
+        ],
+        [
+          0.3799999952316284,
+          9.360404014587402,
+          3.5899999141693115
+        ]
+      ],
+      "sourcePart": "cable_10cm"
+    },
+    {
+      "object": "Detail / connected electrical / rear right lower bend",
+      "kind": "elbow",
+      "ports": [
+        [
+          0.38000011444091797,
+          9.360404014587402,
+          3.5899999141693115
+        ],
+        [
+          0.520000159740448,
+          9.360404014587402,
+          3.4499998092651367
+        ]
+      ],
+      "sourcePart": "cable_turn_short, complete tube component",
+      "sourceVertices": 96
+    },
+    {
+      "object": "Detail / connected electrical / rear right lower return",
+      "kind": "straight",
+      "ports": [
+        [
+          0.520000159740448,
+          9.360404014587402,
+          1.25
+        ],
+        [
+          0.520000159740448,
+          9.360404014587402,
+          3.4499995708465576
+        ]
+      ],
+      "targetPorts": [
+        [
+          0.520000159740448,
+          9.360404014587402,
+          1.25
+        ],
+        [
+          0.520000159740448,
+          9.360404014587402,
+          3.4499998092651367
+        ]
+      ],
+      "sourcePart": "cable_10cm"
+    },
+    {
+      "object": "Detail / connected electrical / rear left upper bend",
+      "kind": "elbow",
+      "ports": [
+        [
+          -3.269005537033081,
+          9.360404014587402,
+          3.5
+        ],
+        [
+          -3.1290054321289062,
+          9.360404014587402,
+          3.6399998664855957
+        ]
+      ],
+      "sourcePart": "cable_turn_short, complete tube component",
+      "sourceVertices": 96
+    },
+    {
+      "object": "Detail / connected electrical / rear left upper return",
+      "kind": "straight",
+      "ports": [
+        [
+          -3.269005537033081,
+          9.360404014587402,
+          2.5
+        ],
+        [
+          -3.269005537033081,
+          9.360404014587402,
+          3.5
+        ]
+      ],
+      "targetPorts": [
+        [
+          -3.269005537033081,
+          9.360404014587402,
+          2.5
+        ],
+        [
+          -3.269005537033081,
+          9.360404014587402,
+          3.5
+        ]
+      ],
+      "sourcePart": "cable_10cm"
+    },
+    {
+      "object": "Detail / connected electrical / rear upper horizontal",
+      "kind": "straight",
+      "ports": [
+        [
+          -3.1290059089660645,
+          9.360404014587402,
+          3.6399998664855957
+        ],
+        [
+          0.4249992370605469,
+          9.360404014587402,
+          3.6399998664855957
+        ]
+      ],
+      "targetPorts": [
+        [
+          -3.1290054321289062,
+          9.360404014587402,
+          3.6399998664855957
+        ],
+        [
+          0.42500001192092896,
+          9.360404014587402,
+          3.6399998664855957
+        ]
+      ],
+      "sourcePart": "cable_10cm"
+    },
+    {
+      "object": "Detail / connected electrical / rear right upper bend",
+      "kind": "elbow",
+      "ports": [
+        [
+          0.4249992370605469,
+          9.360404014587402,
+          3.6399998664855957
+        ],
+        [
+          0.5649992823600769,
+          9.360404014587402,
+          3.499999761581421
+        ]
+      ],
+      "sourcePart": "cable_turn_short, complete tube component",
+      "sourceVertices": 96
+    },
+    {
+      "object": "Detail / connected electrical / rear right upper return",
+      "kind": "straight",
+      "ports": [
+        [
+          0.5649992823600769,
+          9.360404014587402,
+          1.350000023841858
+        ],
+        [
+          0.5649992823600769,
+          9.360404014587402,
+          3.499999523162842
+        ]
+      ],
+      "targetPorts": [
+        [
+          0.5649992823600769,
+          9.360404014587402,
+          1.350000023841858
+        ],
+        [
+          0.5649992823600769,
+          9.360404014587402,
+          3.499999761581421
+        ]
+      ],
+      "sourcePart": "cable_10cm"
+    }
+  ],
+  "joins": [
+    {
+      "name": "left single switch lower port",
+      "endA": [
+        -3.376561164855957,
+        5.4527907371521,
+        1.3600366115570068
+      ],
+      "endB": [
+        -3.376561164855957,
+        5.4527907371521,
+        1.3600366115570068
+      ],
+      "distance": 0
+    },
+    {
+      "name": "left single switch upper port",
+      "endA": [
+        -3.376561164855957,
+        5.4527907371521,
+        1.5160282850265503
+      ],
+      "endB": [
+        -3.376561164855957,
+        5.4527907371521,
+        1.5160282850265503
+      ],
+      "distance": 0
+    },
+    {
+      "name": "right upper switch upper port",
+      "endA": [
+        0.8314349055290222,
+        6.87274169921875,
+        2.4623830318450928
+      ],
+      "endB": [
+        0.8314349055290222,
+        6.87274169921875,
+        2.4623830318450928
+      ],
+      "distance": 0
+    },
+    {
+      "name": "right covered outlet upper port",
+      "endA": [
+        0.890075147151947,
+        6.259713172912598,
+        2.057938575744629
+      ],
+      "endB": [
+        0.890075147151947,
+        6.259713172912598,
+        2.057938575744629
+      ],
+      "distance": 0
+    },
+    {
+      "name": "rear junction source lower port",
+      "endA": [
+        -3.1190054416656494,
+        9.368064880371094,
+        1.8019627332687378
+      ],
+      "endB": [
+        -3.1190054416656494,
+        9.368064880371094,
+        1.8019628524780273
+      ],
+      "distance": 1.1920928955078125e-7
+    },
+    {
+      "name": "rear junction source upper port",
+      "endA": [
+        -3.1190054416656494,
+        9.368064880371094,
+        1.9319628477096558
+      ],
+      "endB": [
+        -3.1190054416656494,
+        9.368064880371094,
+        1.9319628477096558
+      ],
+      "distance": 0
+    },
+    {
+      "name": "rear left lower bend",
+      "endA": [
+        -3.1190054416656494,
+        9.360404014587402,
+        3.450000047683716
+      ],
+      "endB": [
+        -3.1190054416656494,
+        9.360404014587402,
+        3.450000047683716
+      ],
+      "distance": 0
+    },
+    {
+      "name": "rear lower header start",
+      "endA": [
+        -2.9790053367614746,
+        9.360404014587402,
+        3.5899999141693115
+      ],
+      "endB": [
+        -2.9790048599243164,
+        9.360404014587402,
+        3.5899999141693115
+      ],
+      "distance": 4.76837158203125e-7
+    },
+    {
+      "name": "rear lower header end",
+      "endA": [
+        0.38000011444091797,
+        9.360404014587402,
+        3.5899999141693115
+      ],
+      "endB": [
+        0.38000011444091797,
+        9.360404014587402,
+        3.5899999141693115
+      ],
+      "distance": 0
+    },
+    {
+      "name": "rear lower return",
+      "endA": [
+        0.520000159740448,
+        9.360404014587402,
+        3.4499998092651367
+      ],
+      "endB": [
+        0.520000159740448,
+        9.360404014587402,
+        3.4499995708465576
+      ],
+      "distance": 2.384185791015625e-7
+    },
+    {
+      "name": "rear upper left return",
+      "endA": [
+        -3.269005537033081,
+        9.360404014587402,
+        3.5
+      ],
+      "endB": [
+        -3.269005537033081,
+        9.360404014587402,
+        3.5
+      ],
+      "distance": 0
+    },
+    {
+      "name": "rear upper header start",
+      "endA": [
+        -3.1290054321289062,
+        9.360404014587402,
+        3.6399998664855957
+      ],
+      "endB": [
+        -3.1290059089660645,
+        9.360404014587402,
+        3.6399998664855957
+      ],
+      "distance": 4.76837158203125e-7
+    },
+    {
+      "name": "rear upper header end",
+      "endA": [
+        0.4249992370605469,
+        9.360404014587402,
+        3.6399998664855957
+      ],
+      "endB": [
+        0.4249992370605469,
+        9.360404014587402,
+        3.6399998664855957
+      ],
+      "distance": 0
+    },
+    {
+      "name": "rear upper right return",
+      "endA": [
+        0.5649992823600769,
+        9.360404014587402,
+        3.499999761581421
+      ],
+      "endB": [
+        0.5649992823600769,
+        9.360404014587402,
+        3.499999523162842
+      ],
+      "distance": 2.384185791015625e-7
+    }
+  ],
+  "maximumConnectedPortError": 4.76837158203125e-7,
+  "remaining": [
+    "The second native lead of the rear junction still needs its own connection and reference review.",
+    "Exact full reference routing, any diameter couplings and casing shape remain unapproved.",
+    "Current geometry checks cover sampled LP routes, room bounds, rear conduit pair and casing/housing intersections; they do not establish appearance fidelity."
+  ]
+}

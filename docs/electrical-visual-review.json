@@ -1,0 +1,41 @@
+{
+  "checkedAt": "2026-10-27T15:23:25.943Z",
+  "scene": "reference-electrical.blend",
+  "sceneSha256": "cbd5b79c81e23dcdfea5003d25487e1bc414d83289fe01605ada0989bdc21080",
+  "status": "Internal Blender continuation; displayed comparison remains reference-details.blend",
+  "userApproved": false,
+  "exactConceptMatch": false,
+  "unrealSceneBuilt": false,
+  "websitePublished": false,
+  "sourceModel": "https://polyhaven.com/a/modular_electric_cables",
+  "sourceLicense": "CC0-1.0",
+  "sourceModelsChanged": false,
+  "images": [
+    {
+      "file": "reference-electrical.png",
+      "sha256": "f2b8fcd0bf6fe317e7d90d8a03bb8333c518a3ac6415ffac3434891709cb3272"
+    },
+    {
+      "file": "electrical-workbench.png",
+      "sha256": "8f6d635326a20ee023fe434d9d80f2d16d3958704ec6eb3b9e647a347df8419c"
+    }
+  ],
+  "inspection": "Both final renders inspected. Switch body centres follow the manually selected image anchors; conduits include source elbows and spaced clips. Clear workbench area remains visible. Prior motorcycle material correction retained. This is not a verified exact reconstruction.",
+  "checks": [
+    "electrical-verification.json",
+    "electrical-record-clearance.json",
+    "electrical-detail-verification.json",
+    "electrical-retained-verification.json"
+  ],
+  "remaining": [
+    "The second native lead of the rear junction still needs its own connection and reference review.",
+    "Exact full reference routing, any diameter couplings and casing shape remain unapproved.",
+    "Current geometry checks cover sampled LP routes, room bounds, rear conduit pair and casing/housing intersections; they do not establish appearance fidelity.",
+    "Floor material/reflections, reference lighting, foliage silhouette/density and table/storage proportions remain different.",
+    "User review must include both the preceding motorcycle finish and this conduit study.",
+    "Unreal engine installation and an editable saved Unreal level are still outstanding."
+  ],
+  "browserComparisonChanged": false,
+  "mainWebsiteChanged": false,
+  "ownerOrderWritten": false
+}
