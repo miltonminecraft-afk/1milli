@@ -2,6 +2,21 @@
 
 Werkbestanden voor de interactieve werkplaats, de assetkeuze-site en de eenvoudige desktopeditor.
 
+## Online werkversie
+
+[Open de website](https://miltonminecraft-afk.github.io/1milli/).
+Deze GitHub Pages-versie toont de huidige Blender-ruimtebeelden, de conceptvergelijking,
+een eerdere interactieve LP-proef en de ruimte-/assetcatalogus. Het is een werkversie,
+geen definitieve omgeving of Unreal-publicatie. De eerdere LP-proef heeft nog de
+eenvoudigere inrichting. Assetkeuzes en aantallen worden in de browser bewaard;
+met **Kopieer keuzes** kunnen ze in de chat worden doorgegeven.
+
+De publicatie komt uitsluitend uit `site/`, de twee openbare catalogusmappen en de
+bestaande PlayCanvas-renderer. `node scripts/build-github-pages.mjs` maakt `_site/`.
+`node scripts/publish-github-pages.mjs` publiceert een vastgelegde bronversie naar
+de branch `gh-pages`; GitHub Pages toont die branch. Serverbeheer, lokale inrichtingen en Blender-projectbestanden zitten niet
+in de Pages-site. Zie [modelcontrole](docs/online-model-verification.json).
+
 **Status op 27 oktober 2026: er is nog geen ruimte in Unreal gebouwd.** Het Unreal-project bevat alleen instellingen, referenties en een importlijst. Er staat nog geen `.umap`-scène in deze repository. De afbeeldingen hieronder zijn van de websitepreview, geen Unreal-renders.
 
 De gewenste eindversie is een echte 3D-kopie van de referentieruimte: dezelfde geometrie, verhoudingen, plaatsing, materialen, licht en camera. De eerdere assetselectie mag niet leiden tot een andere, willekeurig ingerichte ruimte. Eerst volgt een visuele vergelijking vanuit dezelfde camerahoek.
@@ -69,4 +84,6 @@ De laatste lokale websitebuild en TypeScript-controle zijn geslaagd. De website 
 
 Modellen blijven onder de licentie van hun makers. Zie `onemillie-runtime/public/assets/credits.html`, de catalogusbestanden en `onemillie-studio/research/included-models.json` voor bron, maker en licentie. Muziekhoezen vallen niet onder de licenties van de 3D-modellen. Imagegen-prompts voor de websitebeelden staan in `onemillie-runtime/docs/concept-image-prompts.txt`.
 
-Een push naar deze repository publiceert geen website. De website gebruikt een server voor gebruikersbeheer en opgeslagen keuzes en is geen statische GitHub Pages-site.
+De volledige `onemillie-runtime` gebruikt een server voor gebruikersbeheer en opgeslagen
+keuzes. De afzonderlijke Pages-werkversie in `site/` werkt statisch en publiceert via
+de branch `gh-pages`; een broncodepush naar `main` publiceert niet automatisch opnieuw.

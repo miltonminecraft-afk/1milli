@@ -10,6 +10,9 @@ correcte LP-interactie en de mogelijkheid objecten toe te voegen. Daarnaast blij
 een eenvoudig apart desktopprogramma beschikbaar voor zelf inrichten.
 
 VASTSTAANDE KEUZES
+- Opdracht 27 oktober: "Online op git op site". De huidige werkversie mag op
+  GitHub Pages worden gepubliceerd, inclusief ruimtebeelden, conceptvergelijking,
+  eerdere LP-proef en catalogi. Dit is geen goedkeuring van het definitieve ontwerp.
 - Nieuwste gebruikersopdracht: een betere muurtextuur zoals in het concept.
   Visuele interpretatie voor de lokale proef: fijn vezelig, mat en grijsbeige.
 - Nieuwste gebruikerscorrecties: de linkerwand met de kunst steekt naar binnen
@@ -70,6 +73,15 @@ referentieruimte alleen modellen die qua vorm en afwerking passen. Forceer niet
 alle gekozen objecten in beeld wanneer dat de referentie-indeling verandert.
 
 HUIDIGE STAND
+- GitHub Pages-publicatie voorbereid op https://miltonminecraft-afk.github.io/1milli/.
+  site/ bevat de muurproef met kleine objectknoppen, echte werkbank-/kastbeelden,
+  conceptvergelijking en de eerdere interactieve LP-proef, expliciet als werkversie.
+  Catalogi blijven beschikbaar; 13 gekozen exemplaren worden op de nieuwe origin
+  als beginselectie aangeboden. Aantallen/keuzes lokaal bewaren en kopiëren werkt.
+  Statische zoekfunctie zoekt in de bestaande selectie; meer modellen via Sketchfab.
+  De LP-GLB is van 94,1 naar 48,3 MB verkleind met WebP; alle geometriewaarden,
+  camerawaarden en animaties identiek gecontroleerd. Blender-projecten blijven lokaal.
+  Definitieve publicatiestatus en browserbewijs volgen in docs/github-pages-deployment.json.
 - Laatste GETOONDE PROEF (muurafwerking ter beoordeling):
   onemillie-unreal/Review/reference-walls.blend. Bouwt voort op reference-daylight.
   Negen wand-, deurstijl- en koofmeshes hebben nu een fijnere vezelstructuur in

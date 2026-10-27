@@ -1,0 +1,18 @@
+{
+  "checkedAt": "2026-10-27T18:17:55.502Z",
+  "passed": true,
+  "sourceScene": "reference-records.glb",
+  "webScene": "site/assets/record-preview.glb",
+  "sourceBytes": 94104732,
+  "webBytes": 48331000,
+  "sourceSha256": "cbda3ca01859c2523a84a4303f12fb31d66e2c301ca3f0105b40cc638b45061d",
+  "webSha256": "89693c8b8f9e5e8dfb65775a4ede991453d2a690156ed7c6c1fccd370cdf0c4d",
+  "nodes": 1242,
+  "meshes": 682,
+  "cameras": 4,
+  "animationClips": 1,
+  "geometryCameraAndAnimationValuesIdentical": true,
+  "changed": "Textures compressed to WebP quality 90; mesh and animation values preserved.",
+  "latestRoomRendersScene": "reference-walls.blend",
+  "unrealSceneBuilt": false
+}
