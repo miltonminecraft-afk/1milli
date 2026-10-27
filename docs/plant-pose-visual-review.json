@@ -1,0 +1,83 @@
+{
+  "checkedAt": "2026-10-27T18:00:56.648Z",
+  "scene": "reference-plant-pose.blend",
+  "sourceScene": "reference-walls.blend",
+  "sceneSha256": "128754760dc9400c87cfb03ad527992f0a736a00358e8899fdb4e9f7765c9371",
+  "images": [
+    {
+      "file": "reference-plant-pose.png",
+      "sha256": "9083e76c54e37ac64462456e36a05b6c7d3b2956a4a6219edb59967a9b4cb88c"
+    },
+    {
+      "file": "plant-pose-closeup.png",
+      "sha256": "e0e5b311ffa017d06031a88d45f0136ef28c97d1f09cf07d5cb15de45c324ddf"
+    }
+  ],
+  "userApproved": false,
+  "unrealSceneBuilt": false,
+  "exactConceptMatch": false,
+  "comparisonPageChanged": false,
+  "mainWebsiteChanged": false,
+  "editorChanged": false,
+  "websitePublished": false,
+  "inspection": "Final main view and close-up visually inspected. Floor foliage is taller and less broad after rigid rotation and uniform scaling of complete source leaf/stem components. Existing chrome drum, lighting, wall finish and furnishings retained. This is an internal intermediate candidate; the recently shown wall comparison stays available unchanged.",
+  "projectedGeometryEnvelope": {
+    "before": [
+      [
+        899.9202642440796,
+        451.3576803803444
+      ],
+      [
+        1075.2960267066956,
+        582.2842791676521
+      ]
+    ],
+    "after": [
+      [
+        913.2870230674744,
+        408.9210169315338
+      ],
+      [
+        1059.364544391632,
+        582.5102015137672
+      ]
+    ],
+    "manualReferenceApproximation": [
+      [
+        920,
+        403
+      ],
+      [
+        1062,
+        552
+      ]
+    ],
+    "caveat": "Bounds include alpha-textured leaf cards, not pixel segmentation. Manual image reading is approximate and does not prove exact visual agreement."
+  },
+  "preservation": "145 complete source components; authored split normals rotated with each component. All original mesh geometry and normals, materials, lights and cameras retained. The two original foliage objects remain hidden. Four original animation poses unchanged; ten LP routes pass 289 samples each.",
+  "knownDifferences": [
+    "Floor leaf species and individual shape remain different; cards read coarse in the close-up.",
+    "Chrome drum and stem bases remain lower/left in the image than the reference; floor and rear-wall geometry constrain repositioning.",
+    "The drum has an open interior but no soil insert yet; stem support is not visually finished.",
+    "Rear hanging foliage still too short; foreground density and pot details remain open.",
+    "Unreal level still absent."
+  ],
+  "source": {
+    "url": "https://sketchfab.com/3d-models/peace-lily-9036c0e1761b471aa4e8035d8e972308",
+    "author": "Fantom Matter",
+    "license": "CC-BY-4.0"
+  },
+  "sourceGLBSha256": "6a83427892106631cc20bf840930af0f22eacf0e333e202eddbf818832d98747",
+  "sourceGLBChanged": false,
+  "epic": {
+    "checkedAt": "2026-10-27T17:45:26Z",
+    "process": "EpicGamesLauncher",
+    "pid": 14116,
+    "startedLocal": "2026-10-27T11:06:06+01:00",
+    "latestLog": "EpicGamesLauncher.log",
+    "unchangedWarning": "LauncherUsingEOSH query error 2",
+    "engineProcessPresent": false,
+    "installerStarted": false,
+    "cacheReset": false
+  }
+}

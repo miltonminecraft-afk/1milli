@@ -70,7 +70,7 @@ referentieruimte alleen modellen die qua vorm en afwerking passen. Forceer niet
 alle gekozen objecten in beeld wanneer dat de referentie-indeling verandert.
 
 HUIDIGE STAND
-- Laatste lokale WERKBESTAND en GETOONDE PROEF:
+- Laatste GETOONDE PROEF (muurafwerking ter beoordeling):
   onemillie-unreal/Review/reference-walls.blend. Bouwt voort op reference-daylight.
   Negen wand-, deurstijl- en koofmeshes hebben nu een fijnere vezelstructuur in
   mat grijsbeige. Bestaande 4K-scan Oriented Strand Board van Poly Haven hergebruikt
@@ -84,6 +84,19 @@ HUIDIGE STAND
   De eerdere LP-routecontroles blijven toepasbaar; geen botsingsgeometrie gewijzigd.
   Drie renders en de lokale vergelijking zijn bekeken. Bewijs: docs/walls-*.json,
   docs/wall-material-source.json. Nog ter beoordeling; geen definitieve scène.
+- Nieuwste INTERNE WERKPROEF: onemillie-unreal/Review/reference-plant-pose.blend.
+  Gebaseerd op reference-walls; de vloerplant staat hoger en minder breed door 145
+  volledige bronblad-/stengeldelen op hun basis te draaien en uniform 30% te vergroten.
+  Geen afgesneden of uitgerekte bladeren; bronnormalen draaien met de onderdelen mee.
+  Oorspronkelijke bladobjecten verborgen
+  bewaard; alle 1634 bestaande poses, geometrie/materialen, licht en camera's behouden.
+  Bladtop in de vaste camera van y=451 naar y=409 pixels (handafgelezen concept ~403).
+  Dit betreft geometriegrenzen inclusief transparante bladkaarten, geen exacte match.
+  Vat op vloer, bladeren 0,256 scène-eenheid voor achterwand, geen geteste contactbotsingen.
+  Alle tien LP-routes opnieuw vrij bij 289 samples elk. Hoofdbeeld en plantdetail bekeken.
+  Vergelijkpagina blijft de zojuist getoonde muurproef; deze tussenstap nog niet getoond.
+  Bewijs: docs/plant-pose-*.json. Vatpositie/plantsoort en hangplanten blijven open;
+  bladvlakken ogen in de close-up grof en het open vat mist nog zichtbare potgrond.
 - Lichtproef behouden: zichtbare bovenste garagekier, sterkere vloerreflecties,
   afgestemde tl-/werklampen en alle buitenlichtvlakken volledig achter de wand.
   Pagina op 127.0.0.1:4282/vergelijking.html toont de nieuwe wandproef naast het concept.
@@ -95,8 +108,9 @@ HUIDIGE STAND
   en vrije bovenroutes. Chroom plantenvat, vrij werkbankmidden en B1-afwerking behouden.
 - Nog open: exacte sfeer, vloerpatroon/reflectievorm, plantvorm en hoeveelheid blad,
   verdere tafel-/kastdetails, elektra-afwerking, kleed en krukverhoudingen. Volgende
-  uitvoerbare beeldtaak: plantvorm/bladhoeveelheid en potverhoudingen vergelijken met
-  het concept, met behoud van de vastgelegde LP-vrije ruimte.
+  uitvoerbare beeldtaak: de ontbrekende achterste hangranken en voorste bladdichtheid
+  afstemmen; daarna vatpositie/potverhoudingen beoordelen zonder de achterwand of
+  LP-vrije ruimte te doorkruisen. Gebruik reference-plant-pose als laatste werkproef.
   Dit is nog geen exacte of goedgekeurde kopie. Unreal-installatie en een echte
   bewerkbare .umap blijven open. Ongekeurde scène, renders en bouwscript blijven lokaal;
   controlecode/licenties/voortgang staan op GitHub. Hoofdwebsite/editor niet gewijzigd.
@@ -554,3 +568,16 @@ Negen zichtbare wanden/stijlen/koofdelen met gelijkmatige wereldprojectie;
 oude UV's en alle geometrie behouden. Licht/vloer en niet-wandmaterialen ongewijzigd.
 Drie beelden en browserpagina gecontroleerd. Broncode/bewijs op GitHub, ongekeurde
 scène en renders lokaal. Exacte materiaalovereenkomst en Unreal blijven open.
+
+2026-10-27 Heartbeat 17:44 UTC: vloerplant in aparte lokale werkproef rechterop gezet.
+145 complete bestaande blad-/stengeldelen rond hun basis gedraaid en uniform vergroot;
+vormen/UV/topologie per onderdeel behouden, bronnormalen meegeroteerd en gecontroleerd.
+Geen nieuwe plantgeometrie ontworpen.
+Geprojecteerde bladtop dichter bij concept, maar soort en onderste contour wijken af.
+Brongeometrie en alle 1634 oorspronkelijke poses op vier momenten behouden; licht,
+camera's, muurtextuur, vloer en chroomvat gelijk. Geen contact met vatwand/ruimte.
+Alle tien LP-routes vrij (245 detailmeshes, 981796 driehoeken, 289 samples per route).
+Hoofdbeeld en close-up gerenderd en bekeken; interne tussenproef, getoonde muurpagina
+niet vervangen. Controlecode/rapporten op GitHub; scène en renderbeelden lokaal.
+Epic-proces/log read-only gecontroleerd: dezelfde launcher en melding, geen engine.
+Geen tweede installer/cache-reset of gebruikersactie. Achterste hangranken volgen.

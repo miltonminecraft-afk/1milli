@@ -138,9 +138,16 @@ daylight-verification.json controleert behoud van geometrie, materialen en poses
 de routecontrole uit junction blijft toepasbaar. Vergelijkpagina bijgewerkt.
 Blender-proef ter beoordeling; exacte sfeer en patronen en Unreal-level blijven open.
 
-HUIDIG WERKBESTAND EN GETOONDE PROEF: reference-walls.blend.
+LAATSTE GETOONDE PROEF: reference-walls.blend.
 Fijnere vezelstructuur, matte grijsbeige wandafwerking op 4K-bronscan; gelijke
 textuurschaal op wand, uitstekende sectie, stijlen en koof. Licht en vloer behouden.
 reference-walls.png, walls-workbench.png en walls-storage.png tonen de proef.
 walls-verification.json: geometrie/oude UV's, niet-wandmaterialen, licht en poses behouden.
 Blender-proef ter beoordeling; exacte referentieafwerking en Unreal-level blijven open.
+
+NIEUWSTE INTERNE WERKPROEF: reference-plant-pose.blend.
+Vloerplant hoger/rechterop met complete bestaande blad-/stengeldelen; chroomvat gelijk.
+reference-plant-pose.png en plant-pose-closeup.png zijn lokaal bekeken.
+plant-pose-verification.json en plant-pose-record-clearance.json: behoud/contacten
+en tien LP-routes geslaagd. Geen exacte plantmatch of Unreal-level. Vergelijkpagina
+blijft de muurproef totdat een volgende gecombineerde visuele update klaar is.

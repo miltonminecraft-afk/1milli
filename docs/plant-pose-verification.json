@@ -1,0 +1,62 @@
+{
+  "checkedAt": "2026-10-27T17:58:29.577077+00:00",
+  "scene": "reference-plant-pose.blend",
+  "passed": true,
+  "issues": [],
+  "unrealSceneBuilt": false,
+  "userApproved": false,
+  "originalObjects": 1634,
+  "sampledFrames": [
+    1,
+    109,
+    289,
+    577
+  ],
+  "maximumOriginalMatrixChange": 0,
+  "originalMeshesMaterialsLightsCamerasRetained": true,
+  "sourceLeafShapeChecks": [
+    {
+      "object": "Detail / upright plant / defaultMaterial",
+      "completeComponents": 92,
+      "maxLocalVertexError": 0,
+      "maxLocalRootError": 2.4204183225926104e-06,
+      "maxUniformScaleError": 1.6810731762184616e-07,
+      "maxRotatedCornerNormalVectorError": 0.0004809626282592773,
+      "topologyAndUVRetained": true
+    },
+    {
+      "object": "Detail / upright plant / defaultMaterial.001",
+      "completeComponents": 53,
+      "maxLocalVertexError": 0,
+      "maxLocalRootError": 1.922192036699903e-06,
+      "maxUniformScaleError": 1.3273496568544374e-07,
+      "maxRotatedCornerNormalVectorError": 0.0006013369168093583,
+      "topologyAndUVRetained": true
+    }
+  ],
+  "floorPlantBounds": [
+    [
+      -2.338932991027832,
+      8.219956398010254,
+      0.6402515172958374
+    ],
+    [
+      -1.4976513385772705,
+      9.12105655670166,
+      1.697035789489746
+    ]
+  ],
+  "backWallClearance": 0.25564739477262854,
+  "drumFloorGap": 0.0,
+  "nearbyGeometryContacts": [
+    {
+      "object": "Detail / chrome petrol drum planter",
+      "triangleIntersections": 0
+    }
+  ],
+  "limits": [
+    "This verifies source-preserving component posing and geometric contacts, not an exact botanical or visual match.",
+    "Full LP routes checked separately.",
+    "Four animation poses are samples, not a continuous proof."
+  ]
+}
