@@ -1,11 +1,18 @@
 {
-  "publishedAt": "2026-10-27T21:11:03.693Z",
-  "sourceCommit": "ba18ad7897dc173c466b34e543be8f7a38c842e0",
-  "publicationCommit": "3eb2d29e826ffb458eb85253fea56ec2e66d5496",
+  "publishedAt": "2026-10-27T23:14:04.897Z",
+  "sourceCommit": "8051820b5ddb7d02bec2668b163fefc98d492b50",
+  "publicationCommit": "f40b3529eca50e46a4d5e7483a6fa35171e274fe",
   "sourceBranch": "main",
   "publicationBranch": "gh-pages",
   "site": "https://miltonminecraft-afk.github.io/1milli/",
   "awaitingGitHubPagesBuild": false,
   "unrealSceneBuilt": false,
-  "verifiedAt": "2026-10-27T21:26:06.0694776Z"
+  "buildStatus": "built",
+  "browserVerifiedAt": "2026-10-27T23:16:48.902Z",
+  "browserChecks": [
+    "Original overview with one independent wooden record crate",
+    "Record zoom and visitor navigation",
+    "Local browse, pickup, return and workbench transition",
+    "Motion-off direct navigation"
+  ]
 }

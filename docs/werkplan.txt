@@ -21,9 +21,9 @@ ACTUELE OPDRACHT — 28 OKTOBER (VERVANGT HET UNREAL-TRAJECT HIERONDER)
   Geen hoverbeweging; beweging uit blijft beschikbaar.
 - 16 gerichte controles geslaagd: geen overlap tussen hoezen tijdens bladeren,
   plaatsing in de bak, vrije rand bij pakken, terugzetten, collectie en cameratiming.
-  Lokale browsercontrole: overzicht, kratzoom, bladeren en opleggen gecontroleerd.
-- Vorige publicatie: bron ba18ad7, website 3eb2d29. Nieuwe publicatiegegevens staan
-  na afronding in docs/github-pages-publication.json.
+  Lokale browsercontrole: overzicht, kratzoom, bladeren, opleggen, terugzetten, werkbank heen/terug en beweging uit gecontroleerd.
+- Actuele publicatie: bron 8051820, website f40b352. GitHub Pages meldt built;
+  de openbare site toont de losse platenbak. Bewijs: docs/github-pages-publication.json.
 - Heartbeat is aangepast: geen Blender/Unreal bouwen, installeren of exporteren.
 - Alle nieuwe grote bestanden naar H:. Afbeeldingen en bewaarde versie zijn met
   geverifieerde kopie en compatibiliteitsjunction omgeleid. Kopie van alle 122.582 bestanden (29.737.951.813 bytes) is met SHA256 geverifieerd. Website, broncode, builds, bibliotheken en reservekopie staan op H: met werkende oude paden. De volledige eigen werkmap
