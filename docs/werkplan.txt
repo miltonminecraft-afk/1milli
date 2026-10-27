@@ -84,7 +84,7 @@ HUIDIGE STAND
   twee echte camera's. De camera is aan 22 handmatig afgelezen referentiepunten
   aangepast met SciPy. De RMS-afwijking op die meetpunten is 8,93 pixels; dat is
   geen bewijs van een exacte reconstructie of bekende werkelijke schaal.
-  Werkbank, inrichting, details en definitieve materialen/licht ontbreken nog.
+  Dit eerste bestand mist nog de werkbank, inrichting en definitieve materialen/licht.
   De tijdelijke kast- en tafelvormen zijn maatvolumes, geen gekozen nieuwe assets.
   Deze proef vervangt de website niet en is niet als definitieve omgeving op GitHub gezet.
   In een vervolgbestand zijn de gekozen D2-draaitafel en twee S3-speakers geplaatst.
@@ -93,10 +93,18 @@ HUIDIGE STAND
   een conventie: de visuele modelschaal is geen bevestigde fysieke maatvoering.
   Twee nieuwe camerabeelden zijn bekeken en de glTF-export is opnieuw ingelezen:
   134 meshes, twee camera's, alle modelgroepen en tafelcontacten blijven behouden.
+  De nieuwste lokale vervolgproef bevat daarnaast W1 en B1: 621 meshes, drie
+  camera's. Het werkbankaanzicht is een echte camera op dezelfde objecten. De
+  werkbank en motor zijn uniform geschaald en niet vervormd; vloercontact,
+  vrije wandafstand, bronmetadata en camerabehoud zijn na herimport gecontroleerd.
+  De rechterwand loopt in deze proef naar buiten om W1 te laten passen. Dat is
+  een expliciete aanname; de plafondrand wijkt daar circa 18 pixels af. W1 en B1
+  verschillen qua details van de referentie. De proef is dus geen exacte kopie.
 - Laatste eerdere controles: websitebuild en TypeScript geslaagd, 11 websitetests
   en 11 editortests geslaagd. Mobiele weergave nog niet geverifieerd.
-- Het huidige werkbankbeeld is een gegenereerde interpretatie; een geometrisch
-  juiste camera op dezelfde echte scène moet nog worden gemaakt.
+- Het werkbankbeeld op de WEBSITE is nog een gegenereerde interpretatie. Lokaal
+  bestaat nu een geometrisch juist werkbankaanzicht op de echte proefscène;
+  dit is nog niet naar de website overgezet of als definitief ontwerp beoordeeld.
 
 WERKVOLGORDE EN ACCEPTATIE
 
@@ -132,8 +140,16 @@ reference-audio.png, reference-audio-depth.png, audio-placement.json en audio-ro
 Review/vergelijking.html toont de originele afbeelding en de lokale proef naast elkaar.
 Deze nieuwe geometrie en plaatsingen blijven lokaal; GitHub bevat alleen voortgang
 en verificatiegegevens tot er een omgeving ter beoordeling ligt.
-Volgende concrete stap: werkbank en bijbehorende camera afpassen, de kast-/tafel-
-silhouetten verfijnen en alleen passende gekozen modellen in hun gemeten posities zetten.
+Nieuwste vervolg: Review/reference-layout.blend en .glb, reference-layout.png,
+layout-workbench-view.png, layout-depth.png, layout-placement.json en layout-round-trip.json.
+Werkbankfit: Reference/workbench-fit.json. Reproduceerbare stappen: Source/
+inspect_workbenches.py, fit_reference_workbench.py, place_reference_workbench.py,
+inspect_motorcycle.py, place_reference_motorcycle.py en render_layout_views.py.
+Alle eerdere proefbestanden blijven behouden. De rechterwandaanname en verschillen
+van de gekozen modellen staan bij de vergelijking en in de plaatsingsrapporten.
+Volgende concrete stap: kast-/tafel-silhouetten en zichtbare LP-inhoud afpassen,
+de bestaande plateninteractie aan echte ankers in de proef koppelen en de
+materiaal-/lichtreferentie voorbereiden. Controleer de rechterwandaanname visueel.
 De referentiecamera blijft staan. Proefgeometrie blijft voorlopig lokaal voor beoordeling.
 
 03. MATERIALEN, LICHT EN REFLECTIES — OPEN
@@ -161,6 +177,8 @@ Gereed wanneer: overzicht, kast, draaitafel en werkbank dezelfde inrichting tone
 desktop en mobiel zijn visueel gecontroleerd. Maak expliciet hoe de Unreal-scène
 naar de website wordt gebracht; Unreal kan niet simpelweg als webpagina worden
 gepubliceerd. Controleer een gratis route met dezelfde scenegegevens en assets.
+Lokaal is de werkbankcamera inmiddels gebouwd en na glTF-herimport gecontroleerd.
+De website gebruikt deze camera/omgeving pas na verdere uitwerking en beoordeling.
 
 06. EENVOUDIGE DESKTOPEDITOR — AANWEZIG, EINDCONTROLE OPEN
 Behoud eenvoudig plaatsen, verwijderen, verplaatsen, draaien, schalen en groeperen.
@@ -240,3 +258,16 @@ Na export/herimport: 134 meshes, twee camera's; maximale modelgrensafwijking
 De controle gebruikt 0,000001 m tolerantie voor afronding aan de tafelrand.
 Blenderbeelden vanuit beide camera's bekeken; vergelijkingspagina lokaal opgeslagen.
 Geen Unreal-level, eindmaterialen, goedgekeurde omgeving of websitepublicatie geclaimd.
+2026-10-27 Heartbeat 10:30 UTC: W1/W2 geometrie uitgelezen en W1 op twee handmatig
+afgelezen tafelrandpunten gepast. Model onvervormd; een iets uitlopende rechterwand
+maakt de plaatsing mogelijk. Deze aanname verschuift de plafondrand circa 18 pixels,
+en wordt niet als bewezen reconstructie gepresenteerd. Echte werkbankcamera toegevoegd.
+B1 café racer via twee wielcontacten geplaatst; ruim 0,47 m naar voren gecorrigeerd
+om vrij van de achterwand te blijven. Daardoor wijken de wielcontacten circa 11–15
+pixels van de afgelezen punten af. Bronmodel en beide wielen blijven onvervormd.
+Export/herimport geslaagd met 621 meshes en drie camera's. Alle motorvertices zijn
+op vloerdoorsnijding gecontroleerd; afwijking maximaal 0,0000006 m bij de banden.
+W1 staat circa 1,65 cm vrij van de wand; B1 minimaal 3 cm van de achterwand.
+Werkbankcamera blijft binnen 0,00035 pixel van de oorspronkelijke proefprojectie.
+Referentiecamera en eerdere audio-objecten blijven behouden. Beeldvergelijking
+blijft lokaal; deze stap vervangt of publiceert de website niet.

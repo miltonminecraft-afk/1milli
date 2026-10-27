@@ -1,0 +1,39 @@
+{
+  "scope": "Local Blender/glTF draft verification; not an Unreal level or a visual approval",
+  "meshObjects": 222,
+  "cameras": 3,
+  "maxProjectionDifferencePixels": 0.00014917751126938895,
+  "passed": true,
+  "assetComparisons": [
+    {
+      "code": "D2",
+      "instance": 1,
+      "meshes": 36,
+      "maxBoundsDifferenceMetres": 4.76837158203125e-07
+    },
+    {
+      "code": "S3",
+      "instance": 1,
+      "meshes": 18,
+      "maxBoundsDifferenceMetres": 5.960464477539063e-08
+    },
+    {
+      "code": "S3",
+      "instance": 2,
+      "meshes": 18,
+      "maxBoundsDifferenceMetres": 4.76837158203125e-07
+    }
+  ],
+  "identicalSpeakerScale": true,
+  "allAssetsSupportedByTable": true,
+  "workbench": {
+    "meshCount": 88,
+    "maxBoundsDifferenceMetres": 9.5367431640625e-07,
+    "floorContactErrorMetres": 5.242051660390655e-17,
+    "minimumWallClearanceMetres": 0.01649117810320222,
+    "cameraPositionDifferenceMetres": 0.0,
+    "cameraDirectionDifference": 3.516800320507868e-07,
+    "maxCameraProjectionDifferencePixels": 0.00034405544552236337,
+    "sourceMetadataPreserved": true
+  }
+}
