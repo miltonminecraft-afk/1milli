@@ -1,0 +1,19 @@
+{
+  "checkedOn": "2026-10-27",
+  "launcherInstalled": true,
+  "launcherVersion": "20.3.6-0+UE5",
+  "launcherSignedIn": true,
+  "engineInstalled": false,
+  "engineDownloadStarted": false,
+  "observed": [
+    "Engine Versions remains empty after the + and Install Engine controls are clicked.",
+    "Ordinary navigation works: clicking News opens the Unreal news page. This confirms the launcher receives input.",
+    "No engine selection, license agreement or install location dialog appears.",
+    "The local log records zero entitled apps and a missing LauncherUsingEOSH setting. These observations do not establish the cause."
+  ],
+  "relatedFirstHandReport": "https://forums.unrealengine.com/t/launcher-20-3-6-engine-versions-empty-install-engine-and-do-nothing/2844695",
+  "officialInstallInstructions": "https://dev.epicgames.com/documentation/en-us/unreal-engine/install-unreal-engine",
+  "assessment": "The observed symptoms and launcher version match a current community bug report. This is not an Epic-confirmed diagnosis.",
+  "changesAvoided": "No repeated reinstall, forced logout, cache deletion, security-setting changes or legacy downgrade performed.",
+  "independentWork": "Reference-camera calibration and an editable Blender/glTF geometry draft were created and round-trip verified. They are not an Unreal level or final assets."
+}

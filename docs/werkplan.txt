@@ -69,9 +69,19 @@ HUIDIGE STAND
   Epic is ingelogd. De andere chat 01a15e51-f939-77b2-9090-ddca2b3bb791 nam kort
   de engine-installatiebediening over, maar is daarna op gebruikersverzoek gepauzeerd
   en heeft Epic vrijgegeven. Deze chat is weer verantwoordelijk voor Unreal.
-  Library/Engine Versions is nog leeg, geen engine-download bevestigd. Native
-  vensterbediening wordt ook voor een downloadtaak in DuckDuckGo gebruikt; wacht
-  op vrije bediening en vermijd gelijktijdige klikken of ongeldige screenshot-ID's.
+  Library/Engine Versions is nog leeg, geen engine-download bevestigd. Opnieuw
+  gecontroleerd met vrije bediening: News reageert op klikken, maar + en Install
+  Engine openen geen installatiestap. Versie 20.3.6 komt overeen met een recente
+  melding op het Epic-forum. Dit is een aanwijzing, geen bevestigde oorzaak.
+  Zie onemillie-studio/research/unreal-install-diagnosis.json. Niet eindeloos dezelfde
+  knoppen opnieuw proberen of een tweede launcher-installatie starten.
+- Er is nu lokaal een geometrieproef in Blender en glTF, met 62 meshobjecten en
+  twee echte camera's. De camera is aan 22 handmatig afgelezen referentiepunten
+  aangepast met SciPy. De RMS-afwijking op die meetpunten is 8,93 pixels; dat is
+  geen bewijs van een exacte reconstructie of bekende werkelijke schaal.
+  Werkbank, inrichting, details en definitieve materialen/licht ontbreken nog.
+  De tijdelijke kast- en tafelvormen zijn maatvolumes, geen gekozen nieuwe assets.
+  Deze proef vervangt de website niet en is niet als definitieve omgeving op GitHub gezet.
 - Laatste eerdere controles: websitebuild en TypeScript geslaagd, 11 websitetests
   en 11 editortests geslaagd. Mobiele weergave nog niet geverifieerd.
 - Het huidige werkbankbeeld is een gegenereerde interpretatie; een geometrisch
@@ -79,10 +89,10 @@ HUIDIGE STAND
 
 WERKVOLGORDE EN ACCEPTATIE
 
-01. UNREAL BESCHIKBAAR MAKEN — NOG NIET VOLTOOID
+01. UNREAL BESCHIKBAAR MAKEN — LAUNCHER WERKT, ENGINECATALOGUS OPENT NIET
 Controleer eerst het werk in chat 01a15e51-f939-77b2-9090-ddca2b3bb791 en actuele
 processen/bestanden. Die chat deed de eerdere poging; de actuele stand staat
-hierboven. Deze chat hervat de engine-installatie zodra de native bediening vrij is.
+hierboven. Deze chat onderzoekt een ondersteunde oplossing voor de lege enginecatalogus.
 Voorkom een tweede gelijktijdige installer. Voorkeurslocatie: H:\exe\Epic Games.
 Rond de al toegestane installatie af zodra noodzakelijke Windows-bevestiging en
 accounttoegang beschikbaar zijn. Geen wachtwoorden of Windows-beveiligingsprompts
@@ -90,7 +100,7 @@ zelf afhandelen. Een noodzakelijke licentiebevestiging moet specifiek worden get
 Gereed wanneer: Unreal Editor start, Onemillie.uproject opent, relevante ingebouwde
 plug-ins werken en een eerste echte level kan worden opgeslagen en heropend.
 
-02. REFERENTIE EN ECHTE GEOMETRIE — EERSTE BOUWPRIORITEIT
+02. REFERENTIE EN ECHTE GEOMETRIE — EERSTE MAATVOERINGSPROEF OPGESLAGEN
 Kalibreer eerst camera, vloer, wanden, plafond, roldeur en plaats van kast, draaitafel,
 brommer en werkbank aan de oorspronkelijke afbeelding. Bewaar de vaste vergelijkcamera.
 Gebruik Blender desgewenst als bestaand hulpmiddel voor geometrie/import terwijl de
@@ -100,6 +110,15 @@ worden beoordeeld, met overeenkomende hoofdcontouren en onderlinge afstanden.
 Ook een tweede camerahoek moet echte diepte en losse objecten tonen. Een gekantelde
 foto of projectievlak geldt niet als gereconstrueerde ruimte. Verborgen delen van
 de ruimte blijven expliciete aannames; uit één afbeelding volgen geen exacte meters.
+Lokale bestanden: onemillie-unreal/Reference/camera-calibration.json;
+onemillie-unreal/Source/calibrate_reference.py, build_reference_scaffold.py en
+verify_scaffold.py; onemillie-unreal/Review/reference-scaffold.blend en .glb.
+Twee renderbeelden plus status.json en round-trip.json staan in dezelfde Review-map.
+Blender 4.5.3 herimporteert de glTF met 62 meshes en 2 camera's; de camera-projectie
+wijkt na de export/import maximaal 0,00015 pixel af van het berekende model.
+Volgende concrete stap: werkbank en bijbehorende camera afpassen, de kast-/tafel-
+silhouetten verfijnen en alleen passende gekozen modellen in hun gemeten posities zetten.
+De referentiecamera blijft staan. Proefgeometrie blijft voorlopig lokaal voor beoordeling.
 
 03. MATERIALEN, LICHT EN REFLECTIES — OPEN
 Pas gratis passende PBR-materialen en kwalitatieve bestaande assets toe. Stem
@@ -190,3 +209,9 @@ screenshots vóór/na aanwijzerverplaatsing exact gelijk. Volledige mobiele QA b
 Laatste build na het verwijderen van muisparallax geslaagd. Platenkast-, draaitafel-
 en werkbankknop aangeklikt en terugnavigatie gecontroleerd. De voorbeeldtab staat
 weer op het overzicht. Bewijs: docs/ui-verification.json en de nieuwe previewbeelden.
+2026-10-27 Heartbeat: concrete installatieblokkade onderzocht; bediening werkt,
+maar de enginecatalogus komt niet beschikbaar in Launcher 20.3.6. Vergelijkbare
+melding gevonden op het Epic-forum; geen root-cause-claim of destructieve reset.
+Ondertussen de camera en hoofdvormen gekalibreerd en echte 3D-proef gebouwd in
+Blender. Twee camerabeelden visueel bekeken en glTF-export opnieuw geïmporteerd:
+geometrie en projectie behouden. Nog geen Unreal-level of definitieve inrichting.

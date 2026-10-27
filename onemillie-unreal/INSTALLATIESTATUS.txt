@@ -22,8 +22,12 @@ De gebruiker heeft Windows-toestemming bevestigd. Epic Games Launcher is om
 Executable: H:\exe\Epic Games\Launcher\Portal\Binaries\Win64\EpicGamesLauncher.exe.
 Epic is ingelogd. Chat 01a15e51-f939-77b2-9090-ddca2b3bb791 heeft de bediening
 na een korte poging weer vrijgegeven en is op gebruikersverzoek gepauzeerd.
-Deze onemillie-chat hervat de engine-installatie. Library/Engine Versions is nog
-leeg, geen engine-download of Unreal-scène bevestigd. Voorkom gelijktijdige native
-bediening met andere downloadtaken; controleer actuele vensterstatus vóór klikken.
+Deze onemillie-chat hervat de engine-installatie. Library/Engine Versions blijft
+leeg. In Launcher 20.3.6 werkt gewone navigatie wel, maar + en Install Engine tonen
+geen keuze- of installatievenster. De symptomen komen overeen met een recente
+communitymelding; de oorzaak is niet bevestigd. Geen engine-download of Unreal-scène.
+Diagnostiek: onemillie-studio/research/unreal-install-diagnosis.json in de werkmap.
+Er is inmiddels wel een lokale Blender/geometrieproef in Review, met een gekalibreerde
+referentiecamera en gecontroleerde glTF-export. Dit is geen Unreal-level of eindinrichting.
 Het volledige werkplan staat in github-source/docs/werkplan.txt in de werkmap,
 of docs/werkplan.txt vanaf de hoofdmap van de GitHub-repository.
