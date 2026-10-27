@@ -13,7 +13,8 @@ export function recordTimeline({shelf,sleeveAtDeck,platter,waypoints={}}) {
   return [
     {time:0,sleeve:home,vinyl:inside,visible:false,phase:'Naar de platenkast'},
     {time:.8,sleeve:home,vinyl:inside,visible:false,phase:'Hoes pakken'},
-    {time:1.6,sleeve:pulled,vinyl:inside,visible:false,phase:'Hoes pakken'},
+    ...(waypoints.lifted?[{time:1.25,sleeve:pose(waypoints.lifted),vinyl:inside,visible:false,phase:'Hoes uit de bak tillen'}]:[]),
+    {time:1.9,sleeve:pulled,vinyl:inside,visible:false,phase:'Hoes pakken'},
     {time:2.4,sleeve:held,vinyl:inside,visible:true,phase:'LP uit de hoes halen'},
     {time:3.7,sleeve:held,vinyl:extracted,visible:true,phase:'LP naar de draaitafel'},
     {time:4.8,sleeve:rest,vinyl:above,visible:true,phase:'LP op de draaitafel leggen'},

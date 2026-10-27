@@ -1,5 +1,6 @@
-import {FRAME,photoPoint,shelfDepth,recordAnchor,recordBrowseAngle,SLEEVE_HALF_DEPTH,PLATTER,SLEEVE_AT_DECK,CONCEPT_VIEWS,OBJECT_HOTSPOTS} from './concept-layout.mjs';
+import {FRAME,photoPoint,shelfDepth,recordAnchor,recordBrowsePose,RECORD_CRATE,SLEEVE_HALF_DEPTH,PLATTER,SLEEVE_AT_DECK,CONCEPT_VIEWS,OBJECT_HOTSPOTS} from './concept-layout.mjs';
 import {recordTimeline,sampleRecordTimeline,RECORD_DURATION} from './record-motion.mjs';
+import {sampleCameraTransition,CAMERA_DURATION} from './camera-motion.mjs';
 import {publicPath} from './public-path.mjs';
 
 // Reuse PlayCanvas and the existing Depth Anything map. The photo surface is a
@@ -15,7 +16,7 @@ export async function createRoom(canvas,options={}){
   const fill=new pc.Entity('Cool ceiling light');fill.addComponent('light',{type:'directional',color:new pc.Color(.8,.9,1),intensity:.5});fill.setEulerAngles(15,160,0);app.root.addChild(fill);
   const textures=new Map(),containers=new Map(),records=new Map(),models=new Map();
   let alive=true,motion=true,currentDeck=null,recordItems=[],pending=null,processing=false,animation=null,wantedModels=new Set();
-  let view='overview',pressed=null,desired=CONCEPT_VIEWS.overview,stage,benchStage,activeRecord=null,browsing=null;
+  let view='overview',pressed=null,desired=CONCEPT_VIEWS.overview,stage,benchStage,activeRecord=null,browsing=null,cameraTransition=null,benchMaterial,benchWeight=0;
   const position=new pc.Vec3(...desired.position),look=new pc.Vec3(...photoPoint(...desired.pixel,desired.depth));let fov=desired.fov;
   function load(name,type,url,filename){return new Promise((resolve,reject)=>{const a=new pc.Asset(name,type,{url:publicPath(url),filename});app.assets.add(a);a.once('load',()=>resolve(a));a.once('error',reject);app.assets.load(a);});}
   function texture(url){if(!textures.has(url))textures.set(url,load(url,'texture',url).then(a=>a.resource));return textures.get(url);}
@@ -54,7 +55,8 @@ export async function createRoom(canvas,options={}){
     }
     for(let y=0;y<30;y++)for(let x=0;x<50;x++){const a=y*51+x;bi.push(a,a+51,a+1,a+1,a+51,a+52);}
     const bm=new pc.Mesh(device);bm.setPositions(bp);bm.setUvs(0,bu);bm.setIndices(bi);bm.update(pc.PRIMITIVE_TRIANGLES);
-    benchStage=new pc.Entity('Workbench concept view');benchStage.addComponent('render',{meshInstances:[new pc.MeshInstance(bm,material(benchPhoto,[1,1,1],true))]});benchStage.enabled=false;app.root.addChild(benchStage);
+    benchMaterial=material(benchPhoto,[1,1,1],true);benchMaterial.blendType=pc.BLEND_NORMAL;benchMaterial.opacity=0;benchMaterial.depthTest=false;benchMaterial.depthWrite=false;benchMaterial.update();
+    benchStage=new pc.Entity('Workbench concept view');benchStage.addComponent('render',{meshInstances:[new pc.MeshInstance(bm,benchMaterial)]});benchStage.enabled=false;app.root.addChild(benchStage);
   }catch(e){app.destroy();throw e;}
   function makeSleeve(item,cover){
     const front=material(cover,[.66,.62,.56]),edge=material(null,[.18,.15,.11]);
@@ -66,21 +68,37 @@ export async function createRoom(canvas,options={}){
       face([-.5,-.5,-d,.5,-.5,-d,.5,-.5,d,-.5,-.5,d],[0,-1,0],edge)
     ]});e.enabled=false;app.root.addChild(e);return e;
   }
+  const crateAsset=await container('/assets/models/record-crate.glb');
+  const crate=new pc.Entity('Losse platenbak'),crateContent=new pc.Entity('Crate normalization');crateContent.addChild(crateAsset.resource.instantiateRenderEntity());crate.addChild(crateContent);app.root.addChild(crate);
+  let crateBox;for(const r of crateContent.findComponents('render'))for(const mesh of r.meshInstances){if(crateBox)crateBox.add(mesh.aabb);else crateBox=mesh.aabb.clone();}
+  const ext=crateBox.halfExtents,min=crateBox.getMin(),max=crateBox.getMax();
+  const sx=RECORD_CRATE.width/(ext.x*2),sy=RECORD_CRATE.height/(ext.y*2),sz=RECORD_CRATE.depth/(ext.z*2);
+  crateContent.setLocalScale(sx,sy,sz);crateContent.setLocalPosition(-crateBox.center.x*sx,-min.y*sy,-max.z*sz);transform(crate,RECORD_CRATE);
   const vinylAsset=await container('/assets/models/vinyl-record-ready.glb');
   const vinyl=new pc.Entity('Playable vinyl');vinyl.addChild(vinylAsset.resource.instantiateRenderEntity());app.root.addChild(vinyl);vinyl.enabled=false;
   const atBench=()=>view==='workbenches'||view==='projects';
-  function sleeveHome(item){const selected=recordItems.find(r=>r.id===activeRecord);return recordAnchor(item.slot,recordBrowseAngle(item.slot,view==='records'?selected?.slot??-1:-1));}
+  function sleeveHome(item){const selected=recordItems.find(r=>r.id===activeRecord);return recordBrowsePose(item.slot,view==='records'?selected?.slot??-1:-1);}
   function readPose(e){const p=e.getPosition(),r=e.getEulerAngles();return {x:p.x,y:p.y,z:p.z,rx:r.x,ry:r.y,rz:r.z,scale:e.getLocalScale().x};}
   function browseToSelection(){if(animation||processing)return;const poses=recordItems.filter(r=>r.id!==currentDeck).map(r=>({entity:records.get(r.id),from:readPose(records.get(r.id)),to:sleeveHome(r)}));if(!motion){for(const p of poses)transform(p.entity,p.to);browsing=null;}else browsing={started:performance.now(),poses};}
   function setActiveRecord(id){if(activeRecord===id)return;activeRecord=id;if(view==='records')browseToSelection();}
-  function setView(name){const before=atBench();view=name in CONCEPT_VIEWS?name:'overview';desired=CONCEPT_VIEWS[view];stage.enabled=!atBench();benchStage.enabled=atBench();for(const e of records.values())e.enabled=!atBench();vinyl.enabled=!!currentDeck&&!atBench();if(before!==atBench()){position.set(...desired.position);look.set(...photoPoint(...desired.pixel,desired.depth));fov=desired.fov;}if(view!=='recordAction')browseToSelection();}
+  function setBenchWeight(weight){
+    benchWeight=weight;benchStage.enabled=weight>0;stage.enabled=weight<1;benchMaterial.opacity=weight;benchMaterial.update();
+    crate.enabled=weight<.98;for(const e of records.values())e.enabled=weight<.98;
+    if(!animation)vinyl.enabled=!!currentDeck&&weight<.98;
+  }
+  function setView(name){
+    view=name in CONCEPT_VIEWS?name:'overview';desired=CONCEPT_VIEWS[view];
+    cameraTransition={started:performance.now(),from:{position:[position.x,position.y,position.z],look:[look.x,look.y,look.z],fov},to:{position:desired.position,look:photoPoint(...desired.pixel,desired.depth),fov:desired.fov},benchFrom:benchWeight,benchTo:atBench()?1:0};
+    if(view!=='recordAction')browseToSelection();
+  }
   function placeRecords(items){for(const item of items){const e=records.get(item.id);e.enabled=!atBench();transform(e,item.id===currentDeck?SLEEVE_AT_DECK:sleeveHome(item));}vinyl.enabled=!!currentDeck&&!atBench();transform(vinyl,PLATTER);}
   async function updateLabel(item){const tex=await texture(item.coverUrl);for(const c of vinyl.findComponents('render'))for(const mesh of c.meshInstances)if(mesh.material.name==='Release label'){mesh.material.diffuseMap=tex;mesh.material.update();}}
   function animateRecord(item,returning){
     if(browsing){for(const p of browsing.poses)transform(p.entity,p.to);browsing=null;}
-    const home=returning?recordAnchor(item.slot,recordBrowseAngle(item.slot,recordItems.find(r=>r.id===activeRecord)?.slot??-1)):readPose(records.get(item.id));
-    const pulled={...home,y:home.y+.045,z:home.z+.36,rx:0,ry:-5,rz:0};
-    const frames=recordTimeline({shelf:home,sleeveAtDeck:SLEEVE_AT_DECK,platter:PLATTER,waypoints:{pulled}});setView('recordAction');
+    const home=returning?recordBrowsePose(item.slot,recordItems.find(r=>r.id===activeRecord)?.slot??-1):readPose(records.get(item.id));
+    const lifted={...home,y:home.y+.18};
+    const pulled={...lifted,z:home.z+.36,rx:0,ry:8,rz:0};
+    const frames=recordTimeline({shelf:home,sleeveAtDeck:SLEEVE_AT_DECK,platter:PLATTER,waypoints:{lifted,pulled}});setView('recordAction');
     if(!motion)return Promise.resolve();return new Promise(resolve=>{animation={frames,item,returning,time:0,started:performance.now(),resolve,phase:''};});
   }
   async function setRecords(items){
@@ -116,10 +134,15 @@ export async function createRoom(canvas,options={}){
   canvas.addEventListener('pointerdown',down);canvas.addEventListener('pointerup',up);
   const resize=()=>{const r=canvas.parentElement.getBoundingClientRect();app.resizeCanvas(r.width,r.height);};const observer=new ResizeObserver(resize);observer.observe(canvas.parentElement);resize();
   app.on('update',delta=>{
-    const dt=Math.min(delta,.05),blend=motion?1-Math.exp(-dt*4):1;
+
     if(browsing&&!animation){const b=browsing,u=motion?Math.min(1,(performance.now()-b.started)/750):1,t=u*u*(3-2*u);for(const p of b.poses){const pose={};for(const key of Object.keys(p.to)){let delta=p.to[key]-p.from[key];if(key[0]==='r')delta=((delta+540)%360)-180;pose[key]=p.from[key]+delta*t;}transform(p.entity,pose);}if(u>=1)browsing=null;}
     if(animation){const a=animation;a.time=motion?(performance.now()-a.started)/1000:RECORD_DURATION;const frame=sampleRecordTimeline(a.frames,a.time,a.returning);transform(records.get(a.item.id),frame.sleeve);transform(vinyl,frame.vinyl);vinyl.enabled=frame.visible;if(a.phase!==frame.phase){a.phase=frame.phase;options.onTransition?.(frame.phase);}if(a.time>=RECORD_DURATION){animation=null;a.resolve();}}
-    position.lerp(position,new pc.Vec3(...desired.position),blend);look.lerp(look,new pc.Vec3(...photoPoint(...desired.pixel,desired.depth)),blend);fov+=(desired.fov-fov)*blend;
+    if(cameraTransition){const c=cameraTransition,p=sampleCameraTransition(c.from,c.to,motion?performance.now()-c.started:CAMERA_DURATION);
+      position.set(...p.position);look.set(...p.look);fov=p.fov;
+      const fade=c.benchTo?Math.max(0,(p.progress-.62)/.38):Math.min(1,p.progress/.32),smooth=fade*fade*(3-2*fade);
+      setBenchWeight(c.benchFrom+(c.benchTo-c.benchFrom)*smooth);
+      if(p.progress>=1)cameraTransition=null;
+    }
     camera.setPosition(position.x,position.y,position.z);camera.lookAt(look);
     // On portrait screens retain the horizontal composition of each calibrated view.
     const aspect=canvas.clientWidth/canvas.clientHeight,base=FRAME.width/FRAME.height;

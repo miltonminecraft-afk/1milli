@@ -1,7 +1,7 @@
 ONEMILLIE — WERKPLAN EN BESLUITEN
-Bijgewerkt: 27 oktober 2026. Dit bestand is de werklijst voor deze chat en de Heartbeat.
+Bijgewerkt: 28 oktober 2026. Dit bestand is de werklijst voor deze chat en de Heartbeat.
 
-ACTUELE OPDRACHT — 27 OKTOBER, AVOND (VERVANGT HET UNREAL-TRAJECT HIERONDER)
+ACTUELE OPDRACHT — 28 OKTOBER (VERVANGT HET UNREAL-TRAJECT HIERONDER)
 - Gebruiker: nieuwe platenanimatie op http://127.0.0.1:4270/, geen Unreal en Blender meer.
 - Behoud de oorspronkelijke site. Snapshot met broncode, assets en collectie/objecten
   staat op H:/CodexData/Projects/onemillie/saved-versions/onemillie-original-2026-10-27.
@@ -10,10 +10,20 @@ ACTUELE OPDRACHT — 27 OKTOBER, AVOND (VERVANGT HET UNREAL-TRAJECT HIERONDER)
 - Schilderij in beide aanzichten: enkelvoudige, kloppende lijst. Overzicht opnieuw
   gecorrigeerd in workshop-soldering-v3.png; werkbank in workbench-soldering-v2.png.
   Kastje onder lamp heeft aangesloten soldeerbout met houder en digitale 320°C-meter.
-- LP's: twee schuine groepen per plank, zichtbare dikte, bladeren door hoezen in de
-  kast. Pakken/uit hoes/op draaitafel/terug gebruikt dezelfde fysieke beginpositie.
-  13 tests voor collectie, uitlijning, vrije ruimte bij bladeren en animatie geslaagd.
-- Browsercontrole geslaagd: beide beelden, bladeren, pakken/opleggen/terugzetten en beweging uit. GitHub Pages is gebouwd en visueel gecontroleerd: bron ba18ad7, publicatie 3eb2d29. De openbare homepage toont de oorspronkelijke site.
+- Nieuwste correctie: één los kratje, geen bundel; LP's rechtop achter elkaar,
+  covers naar de camera. De oude vier groepen en ver kantelende hoezen vervallen.
+- Uitgevoerd: één krat uit het eerder gekozen C2-model (CC BY 4.0) vrijgemaakt.
+  456 driehoeken, 409 KB; geen nieuwe modelsoftware gebruikt. Bronvermelding toegevoegd.
+  Alle tien LP's staan in dezelfde krat. Bladeren tilt alleen de geselecteerde hoes.
+  Pakken tilt de hoes over de rand; terugzetten behoudt de eigenaarvolgorde.
+- Zoom hersteld: camerapad duurt 1,15 seconde op verstreken tijd, onafhankelijk
+  van framesnelheid. Werkbank zoomt nu mee en vloeit over naar het tweede aanzicht.
+  Geen hoverbeweging; beweging uit blijft beschikbaar.
+- 16 gerichte controles geslaagd: geen overlap tussen hoezen tijdens bladeren,
+  plaatsing in de bak, vrije rand bij pakken, terugzetten, collectie en cameratiming.
+  Lokale browsercontrole: overzicht, kratzoom, bladeren en opleggen gecontroleerd.
+- Vorige publicatie: bron ba18ad7, website 3eb2d29. Nieuwe publicatiegegevens staan
+  na afronding in docs/github-pages-publication.json.
 - Heartbeat is aangepast: geen Blender/Unreal bouwen, installeren of exporteren.
 - Alle nieuwe grote bestanden naar H:. Afbeeldingen en bewaarde versie zijn met
   geverifieerde kopie en compatibiliteitsjunction omgeleid. Kopie van alle 122.582 bestanden (29.737.951.813 bytes) is met SHA256 geverifieerd. Website, broncode, builds, bibliotheken en reservekopie staan op H: met werkende oude paden. De volledige eigen werkmap

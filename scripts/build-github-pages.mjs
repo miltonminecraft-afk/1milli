@@ -8,7 +8,7 @@ const env={...process.env,TEMP:'H:/CodexData/Temp',TMP:'H:/CodexData/Temp',ONEMI
 execFileSync(process.execPath,[path.join(app,'node_modules/vite/bin/vite.js'),'build','--config',path.join(app,'static-site/vite.config.mjs')],{cwd:app,env,stdio:'inherit',windowsHide:true});
 for(const f of fs.readdirSync(path.join(output,'assets')).filter(f=>f.endsWith('.css'))){const p=path.join(output,'assets',f);fs.writeFileSync(p,fs.readFileSync(p,'utf8').replaceAll('/assets/workshop.png','/1milli/assets/workshop.png'));}
 const copy=(source,dest)=>{fs.mkdirSync(path.dirname(dest),{recursive:true});fs.cpSync(source,dest,{recursive:true});};
-for(const file of ['workshop-soldering-v3.png','workbench-soldering-v2.png','workshop-depth.json','workshop.png','credits.html','models/vinyl-record-ready.glb'])copy(path.join(app,'public/assets',file),path.join(output,'assets',file));
+for(const file of ['workshop-soldering-v3.png','workbench-soldering-v2.png','workshop-depth.json','workshop.png','credits.html','models/vinyl-record-ready.glb','models/record-crate.glb'])copy(path.join(app,'public/assets',file),path.join(output,'assets',file));
 copy(path.join(app,'public/assets/covers'),path.join(output,'assets/covers'));
 copy(path.join(app,'public/favicon.svg'),path.join(output,'favicon.svg'));
 copy(path.join(app,'vendor/playcanvas-LICENSE.txt'),path.join(output,'assets/playcanvas-LICENSE.txt'));
