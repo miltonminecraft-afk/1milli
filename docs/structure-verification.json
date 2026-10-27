@@ -1,0 +1,156 @@
+{
+  "checkedAt": "2026-10-27T13:53:19.918824+00:00",
+  "scene": "reference-structure.blend",
+  "passed": true,
+  "userApproved": false,
+  "unrealSceneBuilt": false,
+  "baseVerification": "structure-storage-verification.json",
+  "tabletops": [
+    {
+      "role": "music table",
+      "topHeight": 0.89741051197052,
+      "previousTopHeight": 0.89741051197052,
+      "thickness": 0.07499998807907104,
+      "sourceBoardFaces": 612,
+      "topUnchanged": true
+    },
+    {
+      "role": "workbench",
+      "topHeight": 1.061706304550171,
+      "previousTopHeight": 1.061706304550171,
+      "thickness": 0.07499998807907104,
+      "sourceBoardFaces": 612,
+      "topUnchanged": true
+    }
+  ],
+  "frameSupports": [
+    {
+      "role": "music table",
+      "floorGap": 0.0,
+      "topContactVertices": 48,
+      "maximumLegUndersideGap": 1.7881393432617188e-07
+    },
+    {
+      "role": "workbench",
+      "floorGap": 0.0,
+      "topContactVertices": 48,
+      "maximumLegUndersideGap": 1.1920928955078125e-07
+    }
+  ],
+  "cabinetPostEnvelopes": [
+    {
+      "replacedObject": "Calibration / shelf upright",
+      "sourceSections": 3,
+      "maximumTargetEnvelopeError": 0.0,
+      "outwardExpansion": 0.02
+    },
+    {
+      "replacedObject": "Calibration / shelf upright.001",
+      "sourceSections": 3,
+      "maximumTargetEnvelopeError": 0.0,
+      "outwardExpansion": 0.02
+    },
+    {
+      "replacedObject": "Calibration / shelf upright.002",
+      "sourceSections": 3,
+      "maximumTargetEnvelopeError": 0.0,
+      "outwardExpansion": 0.02
+    },
+    {
+      "replacedObject": "Calibration / shelf upright.003",
+      "sourceSections": 3,
+      "maximumTargetEnvelopeError": 0.0,
+      "outwardExpansion": 0.02
+    }
+  ],
+  "lowerDeckRailGap": -1.4901161193847656e-08,
+  "crateFrameIntersectingTrianglePairs": 0,
+  "stoolPostIntersectingTrianglePairs": 0,
+  "supportedWorkbenchProps": [
+    {
+      "family": "Vice_",
+      "parts": 4,
+      "supportGap": 0.0003000497817993164,
+      "intersectingTopTriangles": 0,
+      "maximumRigidTranslationError": 4.806057638785284e-07
+    },
+    {
+      "family": "Hardware_",
+      "parts": 1,
+      "supportGap": 0.0003000497817993164,
+      "intersectingTopTriangles": 0,
+      "maximumRigidTranslationError": 4.833698744567809e-07
+    },
+    {
+      "family": "Adjustable_Wrench_L_",
+      "parts": 3,
+      "supportGap": 0.0003000497817993164,
+      "intersectingTopTriangles": 0,
+      "maximumRigidTranslationError": 4.796808541661463e-07
+    },
+    {
+      "family": "Angled_Pliers_",
+      "parts": 5,
+      "supportGap": 0.0003000497817993164,
+      "intersectingTopTriangles": 0,
+      "maximumRigidTranslationError": 4.806057638785284e-07
+    },
+    {
+      "family": "Box_Cutter_",
+      "parts": 4,
+      "supportGap": 0.0003000497817993164,
+      "intersectingTopTriangles": 0,
+      "maximumRigidTranslationError": 4.796808541661463e-07
+    },
+    {
+      "family": "Duct_Tape_",
+      "parts": 1,
+      "supportGap": 0.0003000497817993164,
+      "intersectingTopTriangles": 0,
+      "maximumRigidTranslationError": 4.833698744567809e-07
+    },
+    {
+      "family": "Measuring_Tape_",
+      "parts": 4,
+      "supportGap": 0.0003000497817993164,
+      "intersectingTopTriangles": 0,
+      "maximumRigidTranslationError": 4.833698744567809e-07
+    },
+    {
+      "family": "Scissors_",
+      "parts": 5,
+      "supportGap": 0.0003000497817993164,
+      "intersectingTopTriangles": 0,
+      "maximumRigidTranslationError": 4.796808541661463e-07
+    },
+    {
+      "family": "Screwdriver_L_",
+      "parts": 2,
+      "supportGap": 0.0003000497817993164,
+      "intersectingTopTriangles": 0,
+      "maximumRigidTranslationError": 4.796808541661463e-07
+    },
+    {
+      "family": "Screwdriver_L_",
+      "parts": 2,
+      "supportGap": 0.0003000497817993164,
+      "intersectingTopTriangles": 0,
+      "maximumRigidTranslationError": 4.798544105322545e-07
+    },
+    {
+      "family": "Wrench_M_",
+      "parts": 1,
+      "supportGap": 0.0003000497817993164,
+      "intersectingTopTriangles": 0,
+      "maximumRigidTranslationError": 4.806057638785284e-07
+    }
+  ],
+  "drawerFrameIntersectingTrianglePairs": 0,
+  "sourceW2SetsUsed": 1,
+  "limitations": [
+    "Physical metres remain provisional; thickness is 0.075 scene units.",
+    "Geometry contacts and sampled routes do not establish visual fidelity.",
+    "BVH triangle intersections do not establish general solid containment.",
+    "Unreal import and rendered lighting are not verified."
+  ]
+}

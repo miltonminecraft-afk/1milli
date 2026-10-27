@@ -34,8 +34,7 @@ doorsnijdingen met twee hoezen; alle tien routes zijn in het vervolg gecontrolee
 check_detail_record_clearance.py gebruikt Blender-BVH en driehoek/volume-controles.
 Deze herstelproef en zijn twee renderbeelden zijn nog geen nieuwe websiteversie.
 
-HUIDIG VERVOLGWERKBESTAND: reference-storage.blend (lokaal, 720 meshes).
-De nieuwste vergelijking toont reference-storage.png en storage-workbench.png.
+VORIGE AANKLEDINGSPROEF: reference-storage.blend (lokaal, 720 meshes).
 Deze proef behoudt de gerepareerde planten en voegt C2/C3-kratten, twee kandidaat-
 krukken en een kandidaat-kleed toe. Krukverhoudingen, kratkleur en licht zijn
 aangepast. Deze kandidaten veranderen de vastgelegde gebruikerskeuzes niet.
@@ -45,3 +44,16 @@ relevante statische meshparen. storage-record-clearance.json controleert alle
 tien LP-routes in steekproeven tegen de toegevoegde details. Bronlicenties en
 aanpassingen staan op de vergelijking. De scène is geen Unreal-level en blijft
 lokaal tot de gebruiker de omgeving beoordeeld heeft.
+
+HUIDIG VERVOLGWERKBESTAND: reference-structure.blend (lokaal, 771 meshes).
+De vergelijking toont reference-structure.png en structure-workbench.png.
+Dikkere bron-houtbladen behouden hun bovenzijde. Twee onderstellen uit één W2-set
+zijn op beide tafels aangepast; kaststaanders gebruiken bronprofielen met gaten.
+W1-gereedschap dat onder het nieuwe blad zat is in 11 complete groepen opgetild.
+De 32 onderdelen behouden onderlinge poses; de bankschroefvoet staat op het blad.
+structure-verification.json controleert bladen, steunpoten, staanders en gereedschap.
+structure-storage-verification.json controleert behouden originelen en aankleding.
+structure-record-clearance.json controleert alle tien routes tegen 87 detailmeshes.
+Alle controles slagen; dit bewijst geen exacte gelijkenis of Unreal-compatibiliteit.
+Lichtverdeling, reflecties, plantvormen en ontbrekende opbergspullen blijven open.
+Ook deze proef blijft lokaal; broncode, licenties en controlebewijzen staan op GitHub.

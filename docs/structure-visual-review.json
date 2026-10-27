@@ -1,0 +1,45 @@
+{
+  "checkedAt": "2026-10-27T14:01:28.567Z",
+  "scene": "reference-structure.blend",
+  "sceneSha256": "30c2df7735699209c7e356726daf891aafc7edc45425e19fd366cb19def1f6b3",
+  "userApproved": false,
+  "exactConceptMatch": false,
+  "unrealSceneBuilt": false,
+  "websitePublished": false,
+  "chosenManifestChanged": false,
+  "ownerOrderWritten": false,
+  "inspection": "Assistant visually inspected both Blender renders and the local browser comparison.",
+  "images": [
+    {
+      "file": "reference-structure.png",
+      "sha256": "3cdd91e8b94a481c4376766fae15a728433376dfafe648908df8e9bc98d5354a"
+    },
+    {
+      "file": "structure-workbench.png",
+      "sha256": "908c4d000d11e22dadfc5d8c4d2b73a2ff39aeb29aa2aa8a5d9e5f74f2276ba1"
+    },
+    {
+      "file": "structure-comparison-proof.png",
+      "sha256": "4325bde47697b0cb0c1461e9ce471570fccc2e51bffd11bb931f8b5345694626"
+    }
+  ],
+  "browser": {
+    "url": "http://127.0.0.1:4282/vergelijking.html",
+    "allTwelveImagesLoaded": true,
+    "deliveryTabId": "21"
+  },
+  "improvements": [
+    "Timber boards thickened downward without changing turntable/support height.",
+    "Two source W2 subframes adapted into narrower dark steel table frames.",
+    "Perforated source profiles replace plain cabinet uprights.",
+    "Eleven W1 tool groups raised out of the replacement tabletop, retaining all 32 part relationships."
+  ],
+  "remaining": [
+    "Table, cabinet and storage details still differ from reference.",
+    "Plant shapes and foliage density differ.",
+    "Stool proportions are adapted and rug pattern differs.",
+    "Motorcycle too dark, workbench hotspot too bright; floor reflection and light distribution differ.",
+    "Wall art, pipes, jacket and storage cases missing.",
+    "Unreal installation, saved level and final review remain open."
+  ]
+}

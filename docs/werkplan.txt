@@ -57,18 +57,23 @@ alle gekozen objecten in beeld wanneer dat de referentie-indeling verandert.
 
 HUIDIGE STAND
 - Laatste lokale WERKBESTAND voor vervolgwerk:
-  onemillie-unreal/Review/reference-storage.blend (720 meshes, 136 ingepakte beelden).
-  Dit bouwt voort op reference-foliage-clearance.blend; de plantenreparatie blijft.
-  C2-krat bij de vloerplant, C3 onder de tafel, twee kandidaat-krukken en een
-  kandidaat-kleed toegevoegd. Beton, tafelhout en licht opnieuw afgestemd.
+  onemillie-unreal/Review/reference-structure.blend (771 meshes, 216 ingepakte beelden).
+  Dit bouwt voort op reference-storage.blend; de plantenreparatie, kratten, krukken
+  en het kleed blijven. Bestaande houten bladen naar beneden verdikt; bovenzijde
+  blijft gelijk. Twee onderstellen uit één gekozen W2-set aangepast voor beide
+  tafels. Kaststaanders hergebruiken bestaande geperforeerde brongeometrie.
+  Fout hersteld: 11 groepen W1-gereedschap (32 meshonderdelen) zaten onder het
+  nieuwe werkblad. Complete groepen staan nu op het blad, interne poses behouden.
   Vergelijkingspagina op 127.0.0.1:4282/vergelijking.html toont deze nieuwste proef.
   Nog duidelijk andere tafel-/kastdetails, plantvormen, krukproporties, kleedpatroon,
   ontbrekende wand-/opbergdetails en te donkere motor. Geen exacte of goedgekeurde
   kopie. Geen Unreal-scène; niets als definitieve omgeving op GitHub gepubliceerd.
-  Vervolg: eerst het zware tafelframe, de bladdikte en kaststaanders beter laten
-  aansluiten op het concept met geschikte bestaande brongeometrie. Daarna gericht
-  het warme tafellicht en koel reflecterend achterlicht afstemmen. Behoud de LP-
-  en tafelcontacten en de herstelde planten; niet teruggaan naar de oudere proef.
+  Vervolg: warme tafelzones minder overbelicht, motor leesbaar en koele reflectie
+  op achtervloer afstemmen op de referentie. Daarna plantdichtheid/silhouetten en
+  ontbrekende kisten, opbergspullen en wanddetails aanpakken met bronassets.
+  Tafeldetails blijven afwijkend; dit is geen visueel goedgekeurde tafelkopie.
+  Behoud LP-routes, gereedschapsondersteuning en herstelde planten. Niet teruggaan
+  naar een oudere proef die deze reparaties mist.
 - GitHub-broncode staat in https://github.com/miltonminecraft-afk/1milli.
   Eerste upload: commit 3aec88c2f02903668f545d2f1e1d5302d05e6280.
 - Websitepreview bestaat: foto met beperkte diepte, echte 3D-platen en GLB-objecten.
@@ -397,3 +402,24 @@ gedeelde animatiecode, tests, verificatie en voortgang. Geen Unreal-level of
 goedgekeurde eindomgeving geclaimd. Enginecatalogus nog onbeschikbaar; geen extra
 installer gestart. Licht/materialen, toonarm, volledige editorcontrole en live
 integratie blijven open. Bewijs: docs/record-preview-verification.json.
+
+2026-10-27 Heartbeat 13:33 UTC: tafelbladen naar beneden verdikt (0,075 scène-eenheid),
+met dezelfde bovenzijde voor de audioapparatuur. Twee bestaande onderstellen uit
+één W2-set passend gemaakt; losse poten versmald met behoud van de buitenhoeken.
+Vier kaststaanders vervangen door geperforeerde bronprofielen, buiten de LP-vakken.
+Belangrijke plaatsingsfout hersteld: het oude werkbank-achterbord was als bladhoogte
+gebruikt, waardoor gereedschap begraven zat. Elf groepen (32 W1-onderdelen) rigid
+opgetild naar het echte blad. Bankschroefvoet ondersteund, handgreep mag over rand.
+Nieuwe lokale werkfile reference-structure.blend: 771 meshes, 216 ingepakte beelden.
+1238 originele objecten op vier momenten behouden; zichtbare gereedschapskopieën
+hebben alleen de gemeten Z-correctie. Tafelpoten staan op de vloer en raken het blad.
+Geen geteste krat/frame-, kruk/staander-, lade/frame- of gereedschap/blad-intersecties.
+Alle tien LP-routes, 289 samples elk, tegen 87 meshes / 830106 driehoeken: nul
+botsingssamples. 22 serverchecks slagen; alle 12 browserafbeeldingen geladen.
+Bewijs: docs/structure-verification.json, structure-storage-verification.json,
+structure-record-clearance.json en structure-visual-review.json (bestands-hashes).
+Twee renders visueel bekeken en browservergelijking vastgelegd. Nog onvoltooid:
+werkbanklicht te fel, motor te donker, koele vloerreflectie en plant-/opbergdetails
+verschillen. Eerst die sfeer herstellen; geen exacte match of Unreal-level claimen.
+Epic-proces en laatste log alleen gecontroleerd: bekende fout blijft, geen nieuwe
+installer of cache-reset. Broncode/bewijs naar GitHub, scène/renders blijven lokaal.

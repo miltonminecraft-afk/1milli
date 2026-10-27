@@ -1,0 +1,38 @@
+{
+  "checkedAt": "2026-10-27T14:01:28.566Z",
+  "status": "Adapted source geometry in local review only; no changed user selections",
+  "selectedSources": [
+    {
+      "code": "W1",
+      "title": "Oude werkbank",
+      "author": "Oliver Triplett",
+      "source": "https://sketchfab.com/3d-models/old-work-bench-9fbc30ba31a546fe9370e6de2dcc0707",
+      "license": "CC-BY-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "adaptation": "Eleven complete groups of tabletop props rigidly raised to the replacement tabletop. Original parts retained but hidden."
+    },
+    {
+      "code": "W2",
+      "title": "Garagewerkbank",
+      "author": "Arsen Ismailov",
+      "source": "https://sketchfab.com/3d-models/garage-desk-c260327b93114d56933bdd9e3b0454b7",
+      "license": "CC-BY-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "adaptation": "Two subframes from one source set, resized for the two tables; legs narrowed and steel material assigned to rails."
+    }
+  ],
+  "reusedSources": [
+    {
+      "source": "https://polyhaven.com/a/industrial_coffee_table",
+      "license": "CC0",
+      "licenseUrl": "https://polyhaven.com/license",
+      "adaptation": "Three complete timber boards per table isolated from the source, thickened downward; perforated steel post reused in three sections per cabinet upright."
+    },
+    {
+      "source": "https://polyhaven.com/a/wood_table_worn",
+      "license": "CC0",
+      "licenseUrl": "https://polyhaven.com/license",
+      "adaptation": "Retained honey timber finish on boards only."
+    }
+  ]
+}

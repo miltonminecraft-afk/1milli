@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-27T13:24:20.705Z",
+  "checkedAt": "2026-10-27T13:59:21.611Z",
   "passed": true,
   "scope": "Loopback-only read-only review server",
   "checks": [
@@ -66,6 +66,41 @@
     {
       "method": "HEAD",
       "url": "/reference-storage.blend",
+      "status": 200
+    },
+    {
+      "method": "HEAD",
+      "url": "/reference-structure.png",
+      "status": 200
+    },
+    {
+      "method": "HEAD",
+      "url": "/structure-workbench.png",
+      "status": 200
+    },
+    {
+      "method": "HEAD",
+      "url": "/structure-study.json",
+      "status": 200
+    },
+    {
+      "method": "HEAD",
+      "url": "/structure-verification.json",
+      "status": 200
+    },
+    {
+      "method": "HEAD",
+      "url": "/structure-storage-verification.json",
+      "status": 200
+    },
+    {
+      "method": "HEAD",
+      "url": "/structure-record-clearance.json",
+      "status": 200
+    },
+    {
+      "method": "HEAD",
+      "url": "/reference-structure.blend",
       "status": 200
     },
     {
