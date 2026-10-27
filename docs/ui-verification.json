@@ -1,0 +1,22 @@
+{
+  "checkedOn": "2026-10-27",
+  "scope": "Front-facing covers, small object navigation buttons, removal of pointer-driven camera movement",
+  "build": "passed",
+  "typescript": "passed",
+  "tests": { "passed": 11, "failed": 0, "command": "node --test --test-isolation=none tests/*.test.mjs" },
+  "browser": {
+    "viewport": { "width": 496, "height": 572 },
+    "frontFacingCoversVisuallyChecked": true,
+    "objectButtonsChecked": ["Platenkast", "Draaitafel", "Werkbank"],
+    "returnToOverviewChecked": true,
+    "screenshotsIdenticalAfterPointerRelocationIntoCanvas": true,
+    "currentPreview": "previews/object-hotspots.png",
+    "recordPreview": "previews/front-facing-records.png"
+  },
+  "limits": [
+    "This verifies the existing bounded photo-depth website preview, not a reconstructed Unreal room.",
+    "The narrower browser window was checked; a complete mobile device matrix remains open.",
+    "The earlier workbench illustration remains an interpretation, not a render of the future reconstructed room."
+  ],
+  "websitePublished": false
+}

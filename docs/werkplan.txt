@@ -21,6 +21,11 @@ VASTSTAANDE KEUZES
   is uitgevoerd en is geen goedkeuring van de nog te bouwen omgeving.
 - De gebruiker bepaalt de beginvolgorde van de platen. Iedere bezoeker kan vrij
   bladeren; bezoekers mogen de vaste beginvolgorde voor anderen niet overschrijven.
+- Nieuwste aanwijzing: platen met de VOORKANT naar de camera. Dit vervangt de
+  eerdere opstelling waarbij vooral de ruggen zichtbaar waren; titels en dikte blijven.
+- Kleine knoppen voor platenkast, draaitafel en werkbank bij de objecten zelf.
+  Geen zwevende rij aanzichtknoppen bovenin. Geen beeld- of camerabeweging door
+  muisbeweging/hover; alleen expliciete navigatie en LP-acties mogen bewegen.
 - Geen verzonnen marketingtekst, zoals 'gemaakt om te ontdekken'. Atelier niet
   tonen zolang het niet bestaat. Het label 'Brommers' mag weg; de brommer blijft.
 - Meerdere exemplaren van objecten, eigen objecten toevoegen en meer keuzes blijven
@@ -58,13 +63,15 @@ HUIDIGE STAND
   daarvoor nog Sketchfab-inlog ontbreekt is achterhaald.
 - Het Unreal-project bevat instellingen, referenties en importmanifest; nog geen
   opgeslagen .umap of gebouwde ruimte. Lumen-instellingen zijn nog niet gevalideerd.
-- De eerdere Epic-installatie werd om 09:25 lokale tijd afgebroken (1602). Nadat
-  bleek dat de andere chat idle was en geen installer meer actief was, heeft deze
-  chat om 09:55 een nieuwe poging gestart met de geverifieerde officiële MSI.
-  Actuele poging: PID 39252, log %TEMP%/onemillie-epic-resume-native.log.
-  Om 09:56 meldt die expliciet dat Windows-verhoging van rechten nodig is; consent
-  PID 31556 is aanwezig. De gebruiker is gevraagd zelf 'Ja' te kiezen. Dit is geen
-  bevestigde installatie. Start niet nog een installer naast deze poging.
+- De gebruiker heeft de Windows-bevestiging gegeven. Epic Games Launcher is op
+  27 oktober om 10:05 succesvol geïnstalleerd (MSI-status 0) op H:\exe\Epic Games.
+  Bewijs: %TEMP%/onemillie-epic-resume-native.log en de launcher-executable.
+  Epic is ingelogd. De andere chat 01a15e51-f939-77b2-9090-ddca2b3bb791 nam kort
+  de engine-installatiebediening over, maar is daarna op gebruikersverzoek gepauzeerd
+  en heeft Epic vrijgegeven. Deze chat is weer verantwoordelijk voor Unreal.
+  Library/Engine Versions is nog leeg, geen engine-download bevestigd. Native
+  vensterbediening wordt ook voor een downloadtaak in DuckDuckGo gebruikt; wacht
+  op vrije bediening en vermijd gelijktijdige klikken of ongeldige screenshot-ID's.
 - Laatste eerdere controles: websitebuild en TypeScript geslaagd, 11 websitetests
   en 11 editortests geslaagd. Mobiele weergave nog niet geverifieerd.
 - Het huidige werkbankbeeld is een gegenereerde interpretatie; een geometrisch
@@ -74,8 +81,9 @@ WERKVOLGORDE EN ACCEPTATIE
 
 01. UNREAL BESCHIKBAAR MAKEN — NOG NIET VOLTOOID
 Controleer eerst het werk in chat 01a15e51-f939-77b2-9090-ddca2b3bb791 en actuele
-processen/bestanden. Die chat deed de eerdere poging; de actuele poging staat
-hierboven. Voorkom een tweede gelijktijdige installer. Voorkeurslocatie: H:\exe\Epic Games.
+processen/bestanden. Die chat deed de eerdere poging; de actuele stand staat
+hierboven. Deze chat hervat de engine-installatie zodra de native bediening vrij is.
+Voorkom een tweede gelijktijdige installer. Voorkeurslocatie: H:\exe\Epic Games.
 Rond de al toegestane installatie af zodra noodzakelijke Windows-bevestiging en
 accounttoegang beschikbaar zijn. Geen wachtwoorden of Windows-beveiligingsprompts
 zelf afhandelen. Een noodzakelijke licentiebevestiging moet specifiek worden getoond.
@@ -100,8 +108,8 @@ Gereed wanneer: Lumen en reflecties in de editor/render werken, materialen geen
 verkeerde glans of clipping hebben en de gebruiker een concrete preview kan bekijken.
 
 04. PLATENKAST, DRAAITAFEL EN ANIMATIE — PROTOTYPE BESTAAT, ECHTE SCÈNE OPEN
-Plaats LP's in de kast met juiste maat, licht schuine stand en iets dikkere rug met
-leesbare titel. Pas de zichtbare inhoud aan zodra een LP wordt gepakt of teruggezet.
+Plaats LP's in de kast met juiste maat en de voorkant naar de camera, met iets dikkere
+rug en leesbare titel. Pas de zichtbare inhoud aan zodra een LP wordt gepakt of teruggezet.
 Breng de camera daadwerkelijk naar kast/draaitafel. Animatie: hoes pakken, plaat uit
 hoes, plaat op draaitafel; omgekeerde volgorde bij terugzetten. LP exact op platter.
 Gereed wanneer: meerdere opeenvolgende keuzes en terugzetten geen dubbele platen,
@@ -111,6 +119,8 @@ blijven gescheiden. Test op verschillende vensterverhoudingen en in de echte sc�
 05. WERKBANKAANZICHT EN ORIGINELE WEBSITE — GEDEELTELIJK
 Maak de werkbankcamera op dezelfde echte ruimte, met de verhoudingen en plaatsingen
 van het concept. Behoud stijl, kleuren en navigatie van de oorspronkelijke website.
+Plaats kleine navigatieknoppen direct bij de kast, draaitafel en werkbank. De camera
+blijft stil bij muisbeweging; beweging volgt uitsluitend een expliciete actie.
 Haal ongewenste teksten/lege Atelier-bestemming weg en behoud de brommer in beeld.
 Gereed wanneer: overzicht, kast, draaitafel en werkbank dezelfde inrichting tonen;
 desktop en mobiel zijn visueel gecontroleerd. Maak expliciet hoe de Unreal-scène
@@ -169,3 +179,14 @@ GitHub, Unreal-bestanden en laatste installatie gecontroleerd. Heartbeat ingeste
 Alle 12 geselecteerde modelbestanden gecontroleerd: aanwezig, samen 13 exemplaren.
 Bibliotheek gecontroleerd: 54 ruimtes, 24 objecten en 1 HDRI-lichtomgeving.
 Epic opnieuw gestart na de afgebroken eerdere poging; wacht op Windows-bevestiging.
+2026-10-27 vervolg: gebruiker heeft Windows bevestigd; Epic-installatie geslaagd
+om 10:05 (status 0). Andere chat neemt engine-installatie over met ingelogde launcher.
+Heartbeat opnieuw op ACTIVE gezet en aangescherpt: concrete taken uitvoeren,
+ook wanneer een ander onderdeel geblokkeerd is; geen herhaalde toestemmingsvragen.
+Website aangepast aan nieuwste aanwijzingen: alle hoezen frontaal, kleine knoppen
+bij de drie objecten, oude bovenste knoppenrij verwijderd, hover/parallax uitgeschakeld.
+11 tests en TypeScript-controle geslaagd. Bij controle op 496 × 572 bleven de
+screenshots vóór/na aanwijzerverplaatsing exact gelijk. Volledige mobiele QA blijft open.
+Laatste build na het verwijderen van muisparallax geslaagd. Platenkast-, draaitafel-
+en werkbankknop aangeklikt en terugnavigatie gecontroleerd. De voorbeeldtab staat
+weer op het overzicht. Bewijs: docs/ui-verification.json en de nieuwe previewbeelden.

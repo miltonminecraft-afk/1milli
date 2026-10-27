@@ -1,4 +1,4 @@
-import {FRAME,photoPoint,shelfDepth,recordAnchor,PLATTER,SLEEVE_AT_DECK,CONCEPT_VIEWS} from './concept-layout.mjs';
+import {FRAME,photoPoint,shelfDepth,recordAnchor,PLATTER,SLEEVE_AT_DECK,CONCEPT_VIEWS,OBJECT_HOTSPOTS} from './concept-layout.mjs';
 import {recordTimeline,sampleRecordTimeline,RECORD_DURATION} from './record-motion.mjs';
 
 // Reuse PlayCanvas and the existing Depth Anything map. The photo surface is a
@@ -14,7 +14,7 @@ export async function createRoom(canvas,options={}){
   const fill=new pc.Entity('Cool ceiling light');fill.addComponent('light',{type:'directional',color:new pc.Color(.8,.9,1),intensity:.5});fill.setEulerAngles(15,160,0);app.root.addChild(fill);
   const textures=new Map(),containers=new Map(),records=new Map(),models=new Map();
   let alive=true,motion=true,currentDeck=null,recordItems=[],pending=null,processing=false,animation=null,wantedModels=new Set();
-  let view='overview',pointer={x:0,y:0},pressed=null,desired=CONCEPT_VIEWS.overview,stage,benchStage;
+  let view='overview',pressed=null,desired=CONCEPT_VIEWS.overview,stage,benchStage;
   const position=new pc.Vec3(...desired.position),look=new pc.Vec3(...photoPoint(...desired.pixel,desired.depth));let fov=desired.fov;
   function load(name,type,url,filename){return new Promise((resolve,reject)=>{const a=new pc.Asset(name,type,{url,filename});app.assets.add(a);a.once('load',()=>resolve(a));a.once('error',reject);app.assets.load(a);});}
   function texture(url){if(!textures.has(url))textures.set(url,load(url,'texture',url).then(a=>a.resource));return textures.get(url);}
@@ -105,17 +105,23 @@ export async function createRoom(canvas,options={}){
     for(const [id,e] of records)if(e.enabled)for(const mesh of e.render.meshInstances)if(mesh.aabb.intersectsRay(ray,hit)){const d=hit.distance(origin);if(d<distance){nearest=id;distance=d;}}
     if(nearest)options.onRecord?.(nearest);
   }
-  function move(e){const r=canvas.getBoundingClientRect();pointer={x:(e.clientX-r.left)/r.width-.5,y:(e.clientY-r.top)/r.height-.5};}
-  canvas.addEventListener('pointerdown',down);canvas.addEventListener('pointerup',up);canvas.addEventListener('pointermove',move);
+  canvas.addEventListener('pointerdown',down);canvas.addEventListener('pointerup',up);
   const resize=()=>{const r=canvas.parentElement.getBoundingClientRect();app.resizeCanvas(r.width,r.height);};const observer=new ResizeObserver(resize);observer.observe(canvas.parentElement);resize();
   app.on('update',delta=>{
     const dt=Math.min(delta,.05),blend=motion?1-Math.exp(-dt*4):1;
     if(animation){const a=animation;a.time=motion?a.time+dt:RECORD_DURATION;const frame=sampleRecordTimeline(a.frames,a.time,a.returning);transform(records.get(a.item.id),frame.sleeve);transform(vinyl,frame.vinyl);vinyl.enabled=frame.visible;if(a.phase!==frame.phase){a.phase=frame.phase;options.onTransition?.(frame.phase);}if(a.time>=RECORD_DURATION){animation=null;a.resolve();}}
     position.lerp(position,new pc.Vec3(...desired.position),blend);look.lerp(look,new pc.Vec3(...photoPoint(...desired.pixel,desired.depth)),blend);fov+=(desired.fov-fov)*blend;
-    camera.setPosition(position.x+(motion?pointer.x*.018:0),position.y+(motion?-pointer.y*.012:0),position.z);camera.lookAt(look);
+    camera.setPosition(position.x,position.y,position.z);camera.lookAt(look);
     // On portrait screens retain the horizontal composition of each calibrated view.
     const aspect=canvas.clientWidth/canvas.clientHeight,base=FRAME.width/FRAME.height;
     camera.camera.fov=aspect<base?2*Math.atan(Math.tan(fov*Math.PI/360)*base/aspect)*180/Math.PI:fov;
+    if(view==='overview'&&options.onHotspots){
+      const points=Object.fromEntries(Object.entries(OBJECT_HOTSPOTS).map(([name,point])=>{
+        const screen=camera.camera.worldToScreen(new pc.Vec3(...point));
+        return [name,{x:screen.x,y:screen.y}];
+      }));
+      options.onHotspots(points);
+    }
   });app.start();
-  return {setView,setRecords,setModels,setMotion(v){motion=v;},setNavigation(){},destroy(){alive=false;animation?.resolve();animation=null;observer.disconnect();canvas.removeEventListener('pointerdown',down);canvas.removeEventListener('pointerup',up);canvas.removeEventListener('pointermove',move);app.destroy();}};
+  return {setView,setRecords,setModels,setMotion(v){motion=v;},setNavigation(){},destroy(){alive=false;animation?.resolve();animation=null;observer.disconnect();canvas.removeEventListener('pointerdown',down);canvas.removeEventListener('pointerup',up);app.destroy();}};
 }

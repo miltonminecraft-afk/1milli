@@ -39,6 +39,7 @@ export default function Workshop({ catalog }: { catalog: Catalog }) {
   const travelTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
   const dialog = useRef<HTMLDialogElement>(null);
   const scene = useRef<HTMLDivElement>(null);
+  const targets = useRef<HTMLElement>(null);
   const strip = useRef<HTMLDivElement>(null);
   const focusBefore = useRef<HTMLElement | null>(null);
   const sorted = order.map(id => releases.find(r => r.id === id)!).filter(Boolean);
@@ -77,13 +78,6 @@ export default function Workshop({ catalog }: { catalog: Catalog }) {
     if (shown.length && !shown.some(r => r.id === active)) setActive(shown[0].id);
   }, [search]);
 
-  function moveCamera(e: React.PointerEvent) {
-    if (!motion || panel || e.pointerType !== "mouse") return;
-    const x = (e.clientX / window.innerWidth - .5) * 10;
-    const y = (e.clientY / window.innerHeight - .5) * 6;
-    scene.current?.style.setProperty("--mx", `${-x}px`);
-    scene.current?.style.setProperty("--my", `${-y}px`);
-  }
   function closePanel() { if(recordPhase)return; if (travelTimer.current) clearTimeout(travelTimer.current); setTravelling(false); setPanel(null); setView("overview"); }
   function openPanel(next: Panel) {
     if(recordPhase)return;
@@ -95,6 +89,15 @@ export default function Workshop({ catalog }: { catalog: Catalog }) {
     travelTimer.current = setTimeout(() => { setTravelling(false); setPanel(next); }, 1250);
   }
   function goTo(next:string) { if(recordPhase)return; if(travelTimer.current)clearTimeout(travelTimer.current); setPanel(null);setTravelling(false);setWalking(false);setView(next);setPlayerOpen(false); }
+  function positionHotspots(points:Record<string,{x:number;y:number}>) {
+    const layer=targets.current;if(!layer)return;
+    for(const [name,point] of Object.entries(points)){
+      const button=layer.querySelector<HTMLButtonElement>(`[data-target="${name}"]`);if(!button)continue;
+      const half=button.offsetWidth/2+8;
+      button.style.left=`${Math.max(half,Math.min(layer.clientWidth-half,point.x))}px`;
+      button.style.top=`${point.y}px`;
+    }
+  }
   function browse(delta: number) {
     if (!shown.length) return;
     const next = (Math.max(activeIndex, 0) + delta + shown.length) % shown.length;
@@ -130,8 +133,13 @@ export default function Workshop({ catalog }: { catalog: Catalog }) {
     <div className={`room ${roomReady?'has-3d':''}`}><div className="scene" ref={scene} aria-hidden="true">
       <img className="room-image" src="/assets/workshop-empty-shelves.png" alt="" fetchPriority="high" />
       <div className="warm-light" />
-    </div><Room3D view={view} motion={motion} records={roomRecords} models={objects} navigation={walking&&!panel&&!recordPhase} onReady={setRoomReady} onError={setStatus} onTransition={recordTransition} onRecord={id=>{goTo('records');setActive(id);}} /><div className="room-shade" /></div>
-    {roomReady&&!panel&&!recordPhase&&<nav className="scene-views" aria-label="Aanzicht"><button aria-pressed={view==='overview'} onClick={()=>goTo('overview')}>Overzicht</button><button aria-pressed={view==='records'} onClick={()=>goTo('records')}>Platenkast</button><button aria-pressed={view==='turntable'} onClick={()=>goTo('turntable')}>Draaitafel</button><button aria-pressed={view==='workbenches'} onClick={()=>goTo('workbenches')}>Werkbank</button></nav>}
+    </div><Room3D view={view} motion={motion} records={roomRecords} models={objects} navigation={walking&&!panel&&!recordPhase} onReady={setRoomReady} onError={setStatus} onTransition={recordTransition} onHotspots={positionHotspots} onRecord={id=>{goTo('records');setActive(id);}} /><div className="room-shade" /></div>
+    {roomReady&&view==='overview'&&!panel&&!recordPhase&&<nav ref={targets} className="room-targets object-hotspots" aria-label="Objecten in de werkplaats">
+      <button className="hotspot object-hotspot" data-target="records" onClick={()=>goTo('records')}><span className="target-dot"/><span>Platenkast</span></button>
+      <button className="hotspot object-hotspot" data-target="turntable" onClick={()=>goTo('turntable')}><span className="target-dot"/><span>Draaitafel</span></button>
+      <button className="hotspot object-hotspot" data-target="workbenches" onClick={()=>goTo('workbenches')}><span className="target-dot"/><span>Werkbank</span></button>
+    </nav>}
+    {roomReady&&view!=='overview'&&!panel&&!recordPhase&&<button className="object-view-back" onClick={()=>goTo('overview')}><ArrowLeft size={14}/> Terug naar de werkplaats</button>}
     {view==='records'&&!panel&&!recordPhase&&selected&&<aside className="record-dock" aria-label="Geselecteerde plaat"><div className="dock-heading"><div><span className="eyebrow">{Math.max(activeIndex+1,1)} / {shown.length}</span><h2>{selected.title}</h2><p>{selected.artist}</p></div>{cover(selected)}</div><div className="dock-browse"><button className="icon-button" aria-label="Vorige plaat" onClick={()=>browse(-1)}><ChevronLeft size={20}/></button><button className="text-button" onClick={()=>openPanel('records')}>Hele collectie</button><button className="icon-button" aria-label="Volgende plaat" onClick={()=>browse(1)}><ChevronRight size={20}/></button></div><button className="primary-button" onClick={()=>putOnDeck(selected)}><Play size={14}/> {onDeck===selected.id?'Open speler':'Leg op de draaitafel'}</button></aside>}
 
 

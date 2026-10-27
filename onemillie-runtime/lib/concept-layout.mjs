@@ -10,8 +10,13 @@ export function recordAnchor(slot){
   const baseline=row===0?454+(px-125)*.041:629-(px-125)*.085;
   const depth=shelfDepth(px)-.07,[x,y,z]=photoPoint(px,baseline,depth);
   const size=.315;
-  return {x,y:y+size/2,z,ry:column===4?64:104,rz:-2,scale:size};
+  return {x,y:y+size/2,z,ry:0,rz:0,scale:size};
 }
+export const OBJECT_HOTSPOTS={
+  records:photoPoint(250,487,shelfDepth(250)),
+  turntable:photoPoint(700,614,2.68),
+  workbenches:photoPoint(1510,650,3.35)
+};
 export const PLATTER=(()=>{const [x,y,z]=photoPoint(693,552,2.65);return {x,y,z,rx:0,ry:0,rz:0,scale:1};})();
 export const SLEEVE_AT_DECK=(()=>{const [x,y,z]=photoPoint(774,535,2.63);return {x,y:y+.12,z,ry:-18,rz:0,scale:.315};})();
 export const OBJECT_ZONES={

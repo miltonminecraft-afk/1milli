@@ -12,8 +12,8 @@
   "reviewBeforeCommit": true,
   "userChoice": "Install Unreal Engine",
   "installation": {
-    "launcher": "Official Epic installer downloaded and SHA256 verified via winget",
-    "engine": "Not installed yet",
+    "launcher": "Installed successfully on 2026-10-27 at 10:05 local time; MSI status 0. H:/exe/Epic Games/Launcher/Portal/Binaries/Win64/EpicGamesLauncher.exe",
+    "engine": "Not installed; no engine download confirmed. Launcher signed in. This onemillie chat resumes engine setup when shared native UI is free.",
     "preferredEngineDrive": "H:",
     "freeGB": 3184.3
   }

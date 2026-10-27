@@ -19,7 +19,9 @@ De actuele taken, alle gekozen modellen en aantallen, vaststaande ontwerpkeuzes 
 
 ## Preview
 
-![Website-overzicht — geen Unreal-render](previews/overview.png)
+![Website-overzicht met kleine objectknoppen — geen Unreal-render](previews/object-hotspots.png)
+
+De hoezen staan met de voorkant naar de camera. De knoppen zitten bij de kast, draaitafel en werkbank; muisbeweging verplaatst of vervormt het beeld niet. Zie ook de [platenkastpreview](previews/front-facing-records.png) en [controle van deze wijziging](docs/ui-verification.json).
 
 ![Werkbankaanzicht — websitepreview, geen Unreal-render](previews/workbench.png)
 

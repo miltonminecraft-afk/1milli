@@ -16,11 +16,14 @@ aantallen en bronvermelding. S3 wordt tweemaal gebruikt.
 Installatiebesluit gebruiker: Unreal installeren zoals in de videoreferentie.
 Voorkeurslocatie voor launcher en engine: H:\exe\Epic Games.
 
-Controle 27 oktober 2026, 09:56 lokale tijd:
-De eerdere Epic-poging was geannuleerd. Deze chat heeft een nieuwe poging gestart
-met de geverifieerde officiële MSI. Log: %TEMP%/onemillie-epic-resume-native.log.
-Installer-PID 39252 wacht op Windows-toestemming (consent-PID 31556). De gebruiker
-is gevraagd zelf te bevestigen. Geen bevestigde launcher- of engine-installatie
-en geen Unreal-scène. Controleer actuele processen en log vóór vervolgstappen.
+Controle 27 oktober 2026:
+De gebruiker heeft Windows-toestemming bevestigd. Epic Games Launcher is om
+10:05 succesvol geïnstalleerd (MSI-status 0). Log: %TEMP%/onemillie-epic-resume-native.log.
+Executable: H:\exe\Epic Games\Launcher\Portal\Binaries\Win64\EpicGamesLauncher.exe.
+Epic is ingelogd. Chat 01a15e51-f939-77b2-9090-ddca2b3bb791 heeft de bediening
+na een korte poging weer vrijgegeven en is op gebruikersverzoek gepauzeerd.
+Deze onemillie-chat hervat de engine-installatie. Library/Engine Versions is nog
+leeg, geen engine-download of Unreal-scène bevestigd. Voorkom gelijktijdige native
+bediening met andere downloadtaken; controleer actuele vensterstatus vóór klikken.
 Het volledige werkplan staat in github-source/docs/werkplan.txt in de werkmap,
 of docs/werkplan.txt vanaf de hoofdmap van de GitHub-repository.
