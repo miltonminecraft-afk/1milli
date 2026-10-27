@@ -1,0 +1,28 @@
+{
+  "meshObjects": 134,
+  "cameras": 2,
+  "maxProjectionDifferencePixels": 0.00014917751126938895,
+  "passed": true,
+  "assetComparisons": [
+    {
+      "code": "D2",
+      "instance": 1,
+      "meshes": 36,
+      "maxBoundsDifferenceMetres": 4.76837158203125e-07
+    },
+    {
+      "code": "S3",
+      "instance": 1,
+      "meshes": 18,
+      "maxBoundsDifferenceMetres": 5.960464477539063e-08
+    },
+    {
+      "code": "S3",
+      "instance": 2,
+      "meshes": 18,
+      "maxBoundsDifferenceMetres": 4.76837158203125e-07
+    }
+  ],
+  "identicalSpeakerScale": true,
+  "allAssetsSupportedByTable": true
+}

@@ -75,6 +75,11 @@ HUIDIGE STAND
   melding op het Epic-forum. Dit is een aanwijzing, geen bevestigde oorzaak.
   Zie onemillie-studio/research/unreal-install-diagnosis.json. Niet eindeloos dezelfde
   knoppen opnieuw proberen of een tweede launcher-installatie starten.
+  Op 27 oktober is de officiële webcache-herstelroute één keer uitgevoerd: de
+  oorspronkelijke cache is in twee herstelmappen bewaard en Epic opnieuw gestart.
+  Inloggen bleef behouden; Library en + leveren opnieuw geen engine-keuze op.
+  Geen engine-download, licentiescherm of installatielocatie verschenen. Cacheherstel
+  heeft het probleem dus niet opgelost; herhaal dit niet zonder nieuwe aanwijzing.
 - Er is nu lokaal een geometrieproef in Blender en glTF, met 62 meshobjecten en
   twee echte camera's. De camera is aan 22 handmatig afgelezen referentiepunten
   aangepast met SciPy. De RMS-afwijking op die meetpunten is 8,93 pixels; dat is
@@ -82,6 +87,12 @@ HUIDIGE STAND
   Werkbank, inrichting, details en definitieve materialen/licht ontbreken nog.
   De tijdelijke kast- en tafelvormen zijn maatvolumes, geen gekozen nieuwe assets.
   Deze proef vervangt de website niet en is niet als definitieve omgeving op GitHub gezet.
+  In een vervolgbestand zijn de gekozen D2-draaitafel en twee S3-speakers geplaatst.
+  Het zijn losse modellen met hun eigen materialen. Beide speakers hebben dezelfde
+  uniforme schaal; alle drie staan volledig op het tafelblad. De kamermaat is nog
+  een conventie: de visuele modelschaal is geen bevestigde fysieke maatvoering.
+  Twee nieuwe camerabeelden zijn bekeken en de glTF-export is opnieuw ingelezen:
+  134 meshes, twee camera's, alle modelgroepen en tafelcontacten blijven behouden.
 - Laatste eerdere controles: websitebuild en TypeScript geslaagd, 11 websitetests
   en 11 editortests geslaagd. Mobiele weergave nog niet geverifieerd.
 - Het huidige werkbankbeeld is een gegenereerde interpretatie; een geometrisch
@@ -116,6 +127,11 @@ verify_scaffold.py; onemillie-unreal/Review/reference-scaffold.blend en .glb.
 Twee renderbeelden plus status.json en round-trip.json staan in dezelfde Review-map.
 Blender 4.5.3 herimporteert de glTF met 62 meshes en 2 camera's; de camera-projectie
 wijkt na de export/import maximaal 0,00015 pixel af van het berekende model.
+Vervolgproef: Source/place_reference_audio.py; Review/reference-audio.blend en .glb,
+reference-audio.png, reference-audio-depth.png, audio-placement.json en audio-round-trip.json.
+Review/vergelijking.html toont de originele afbeelding en de lokale proef naast elkaar.
+Deze nieuwe geometrie en plaatsingen blijven lokaal; GitHub bevat alleen voortgang
+en verificatiegegevens tot er een omgeving ter beoordeling ligt.
 Volgende concrete stap: werkbank en bijbehorende camera afpassen, de kast-/tafel-
 silhouetten verfijnen en alleen passende gekozen modellen in hun gemeten posities zetten.
 De referentiecamera blijft staan. Proefgeometrie blijft voorlopig lokaal voor beoordeling.
@@ -215,3 +231,12 @@ melding gevonden op het Epic-forum; geen root-cause-claim of destructieve reset.
 Ondertussen de camera en hoofdvormen gekalibreerd en echte 3D-proef gebouwd in
 Blender. Twee camerabeelden visueel bekeken en glTF-export opnieuw geïmporteerd:
 geometrie en projectie behouden. Nog geen Unreal-level of definitieve inrichting.
+2026-10-27 Heartbeat 10:00 UTC: Epic-webcache herbouwd volgens officiële herstelroute,
+met beide oorspronkelijke cachegedeelten bewaard. Enginecatalogus blijft leeg.
+Gekozen Pioneer D2 en twee KRK S3-modellen in de gekalibreerde geometrie geplaatst,
+richting van speakers aan referentie aangepast en beide op gelijke schaal gehouden.
+Na export/herimport: 134 meshes, twee camera's; maximale modelgrensafwijking
+0,00000048 m en camera-afwijking 0,00015 pixel. Tafelcontact en ondersteuning geslaagd.
+De controle gebruikt 0,000001 m tolerantie voor afronding aan de tafelrand.
+Blenderbeelden vanuit beide camera's bekeken; vergelijkingspagina lokaal opgeslagen.
+Geen Unreal-level, eindmaterialen, goedgekeurde omgeving of websitepublicatie geclaimd.

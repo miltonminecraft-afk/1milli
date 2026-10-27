@@ -14,6 +14,15 @@
   "relatedFirstHandReport": "https://forums.unrealengine.com/t/launcher-20-3-6-engine-versions-empty-install-engine-and-do-nothing/2844695",
   "officialInstallInstructions": "https://dev.epicgames.com/documentation/en-us/unreal-engine/install-unreal-engine",
   "assessment": "The observed symptoms and launcher version match a current community bug report. This is not an Epic-confirmed diagnosis.",
-  "changesAvoided": "No repeated reinstall, forced logout, cache deletion, security-setting changes or legacy downgrade performed.",
-  "independentWork": "Reference-camera calibration and an editable Blender/glTF geometry draft were created and round-trip verified. They are not an Unreal level or final assets."
+  "cacheRecovery": {
+    "performedOn": "2026-10-27",
+    "officialInstructions": "https://www.epicgames.com/help/c-36403860/a20673770?lang=en-US",
+    "method": "Verified Downloads showed No Activity, closed the launcher and its helpers, preserved the original webcache in recovery folders, then restarted the official launcher.",
+    "backupFolders": ["webcache_4430.onemillie-backup-20261027", "webcache_4430.onemillie-recovery-tail-20261027"],
+    "backupNote": "The first move was partial because helpers were still closing. After they exited, the remaining cache was renamed atomically. Both original portions are retained.",
+    "result": "Signed-in state retained. Library opens but Engine Versions remains empty after +. No selection, license or download appeared.",
+    "resolved": false
+  },
+  "changesAvoided": "No repeated reinstall, forced logout, permanent cache deletion, security-setting changes or legacy downgrade performed.",
+  "independentWork": "Chosen D2 turntable and two equally scaled S3 speakers were placed in the editable Blender/glTF measurement draft. Two camera renders inspected; 134 meshes, camera projection, model bounds and table contact verified after glTF reimport. This is not an Unreal level or final environment."
 }
