@@ -1,0 +1,179 @@
+{
+  "checkedAt": "2026-10-27T16:19:23.941673+00:00",
+  "scene": "reference-dressing.blend",
+  "passed": true,
+  "issues": [],
+  "unrealSceneBuilt": false,
+  "userApproved": false,
+  "originalObjects": 1524,
+  "frames": [
+    1,
+    109,
+    289,
+    577
+  ],
+  "maximumOriginalMatrixError": 0,
+  "wallProjectionDepth": 0.3301948634187135,
+  "artworkChecks": [
+    {
+      "object": "Detail / correction / aligned artwork / left monochrome",
+      "wallGap": 0.0014998045960816775,
+      "planarityError": 0.0,
+      "maximumImageUVPixelError": 6.103515625e-05
+    },
+    {
+      "object": "Detail / correction / aligned artwork / rear photograph",
+      "wallGap": 0.0014998912811279297,
+      "planarityError": 2.384185791015625e-07,
+      "maximumImageUVPixelError": 8.631674575031098e-05
+    },
+    {
+      "object": "Detail / correction / aligned artwork / rear abstract",
+      "wallGap": 0.0015001296997070312,
+      "planarityError": 0.0,
+      "maximumImageUVPixelError": 6.103515625e-05
+    },
+    {
+      "object": "Detail / correction / aligned artwork / rear dark print",
+      "wallGap": 0.0015001296997070312,
+      "planarityError": 0.0,
+      "maximumImageUVPixelError": 6.103515625e-05
+    },
+    {
+      "object": "Detail / correction / aligned artwork / rear circle",
+      "wallGap": 0.0015001296997070312,
+      "planarityError": 0.0,
+      "maximumImageUVPixelError": 6.103515625e-05
+    },
+    {
+      "object": "Detail / correction / aligned artwork / rear yellow",
+      "wallGap": 0.0015001296997070312,
+      "planarityError": 0.0,
+      "maximumImageUVPixelError": 8.631674575031098e-05
+    }
+  ],
+  "suspensionChecks": [
+    {
+      "object": "Detail / correction / fluorescent suspension 1",
+      "length": 0.1164064405746948,
+      "fixtureSurfaceDistance": 0.00017714500427246094,
+      "ceilingError": 3.6616246035237054e-08
+    },
+    {
+      "object": "Detail / correction / fluorescent suspension 2",
+      "length": 0.1164064405746948,
+      "fixtureSurfaceDistance": 0.00017714500427246094,
+      "ceilingError": 3.6616246035237054e-08
+    },
+    {
+      "object": "Detail / correction / fluorescent suspension 3",
+      "length": 0.1164064405746948,
+      "fixtureSurfaceDistance": 0.00017714500427246094,
+      "ceilingError": 3.6616246035237054e-08
+    }
+  ],
+  "wallDressingIntersections": [],
+  "containers": [
+    {
+      "index": 1,
+      "kind": "wood",
+      "supportGap": 0.0003000000142492354,
+      "insideShelfVolume": true,
+      "headroom": 0.06627504822374691
+    },
+    {
+      "index": 2,
+      "kind": "plastic",
+      "supportGap": 0.00030000507831573486,
+      "insideShelfVolume": true,
+      "headroom": 0.07627500888468136
+    },
+    {
+      "index": 3,
+      "kind": "closed",
+      "supportGap": 0.0003000000142492354,
+      "insideShelfVolume": true,
+      "headroom": 0.12627502080561032
+    },
+    {
+      "index": 4,
+      "kind": "closed",
+      "supportGap": 0.0005000019395220989,
+      "insideShelfVolume": true,
+      "headroom": 0.15812250599567523
+    },
+    {
+      "index": 5,
+      "kind": "plastic",
+      "supportGap": 0.0005000019395220989,
+      "insideShelfVolume": true,
+      "headroom": 0.16812249645893207
+    },
+    {
+      "index": 6,
+      "kind": "closed",
+      "supportGap": 0.0005000019395220989,
+      "insideShelfVolume": true,
+      "headroom": 0.13812252506916156
+    },
+    {
+      "index": 7,
+      "kind": "open",
+      "supportGap": 0.0005000503061642902,
+      "insideShelfVolume": true,
+      "headroom": 0.14236664356633266
+    },
+    {
+      "index": 8,
+      "kind": "closed",
+      "supportGap": 0.0005000503061642902,
+      "insideShelfVolume": true,
+      "headroom": 0.14236664356633266
+    },
+    {
+      "index": 9,
+      "kind": "closed",
+      "supportGap": 0.0005000537450690068,
+      "insideShelfVolume": true,
+      "headroom": 1.0379610427807968
+    },
+    {
+      "index": 10,
+      "kind": "open",
+      "supportGap": 0.0005000537450690068,
+      "insideShelfVolume": true,
+      "headroom": 1.0679612525891464
+    }
+  ],
+  "contents": [
+    {
+      "container": 2,
+      "family": "pencil cup",
+      "containerTriangleIntersections": 0,
+      "insideContainerFootprintAndShelfHeadroom": true
+    },
+    {
+      "container": 2,
+      "family": "Duct_Tape_",
+      "containerTriangleIntersections": 0,
+      "insideContainerFootprintAndShelfHeadroom": true
+    },
+    {
+      "container": 5,
+      "family": "pencil cup",
+      "containerTriangleIntersections": 0,
+      "insideContainerFootprintAndShelfHeadroom": true
+    },
+    {
+      "container": 5,
+      "family": "Duct_Tape_",
+      "containerTriangleIntersections": 0,
+      "insideContainerFootprintAndShelfHeadroom": true
+    }
+  ],
+  "limits": [
+    "Image landmarks were measured manually; subpixel UV alignment is not proof of exact reference geometry.",
+    "BVH checks are selected surface intersections, not a complete physics simulation.",
+    "Full LP route check is separate."
+  ]
+}

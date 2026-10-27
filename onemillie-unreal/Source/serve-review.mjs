@@ -17,7 +17,9 @@ const files=new Map([
     'reference-structure.png','structure-workbench.png','structure-study.json','structure-verification.json','structure-storage-verification.json','structure-record-clearance.json','reference-structure.blend',
     'reference-details.png','details-workbench.png','details-study.json','details-verification.json','details-retained-verification.json','details-record-clearance.json','reference-details.blend',
     'reference-floor.png','floor-workbench.png','reference-floor.blend','floor-study.json','floor-verification.json',
-    'electrical-verification.json','electrical-record-clearance.json'].map(name=>['/'+name,name])
+    'electrical-verification.json','electrical-record-clearance.json',
+    'reference-dressing.png','dressing-workbench.png','dressing-storage.png','reference-dressing.blend',
+    'dressing-study.json','dressing-verification.json','dressing-record-clearance.json'].map(name=>['/'+name,name])
 ].map(([url,file])=>[url,path.join(review,file)]));
 files.set('/Reference/original-workshop.png',path.join(root,'Reference/original-workshop.png'));
 files.set('/vendor/playcanvas.mjs',path.join(root,'../onemillie-runtime/vendor/playcanvas.mjs'));

@@ -101,7 +101,7 @@ De zichtbare vergelijking blijft reference-details.blend. Bij volgende zichtbare
 review de motorfinish én deze aansluitingscorrectie tonen. Geen Unreal-level;
 de nog niet goedgekeurde werkfile en beelden blijven lokaal.
 
-HUIDIG WERKBESTAND EN GETOONDE PROEF: reference-floor.blend (956 meshobjecten).
+VORIGE GETOONDE VLOERPROEF: reference-floor.blend (956 meshobjecten).
 De actuele vergelijking toont reference-floor.png en floor-workbench.png.
 Behoudt motorfinish en aangesloten elektra; alleen vloer krijgt Scuffed Cement,
 Poly Haven CC0, met neutralere kleur en aangepaste glans/normalsterkte.
@@ -112,3 +112,13 @@ floor-visual-review.json bevat hashes, visuele beoordeling en open verschillen;
 floor-browser-verification.json bevestigt alle 12 afbeeldingen geladen.
 Dit is een nog niet goedgekeurde Blender-proef; geen echte Unreal-scène.
 Het concept blijft de maatstaf voor vloerpatroon, licht en overige inrichting.
+
+HUIDIG WERKBESTAND EN GETOONDE PROEF: reference-dressing.blend.
+Uitstekende kunstwand, vlak bevestigde prints op referentieposities, zwarte
+hoek-gereedschapskast, drie bronplanken, gevarieerde/open kisten met inhoud en
+drie tl-ophangkabels. Bovenleidingen/koof volgen de nieuwe wand. Drie beelden:
+reference-dressing.png, dressing-workbench.png en dressing-storage.png.
+dressing-verification.json controleert oorspronkelijke poses, wand/kunst,
+kabelcontacten, kisten en inhoud. dressing-record-clearance.json: tien LP-routes vrij.
+dressing-visual-review.json bevat bronnen, hashes en resterende verschillen.
+De scène blijft een lokale ongekeurde Blender-proef; geen gebouwde Unreal-scène.

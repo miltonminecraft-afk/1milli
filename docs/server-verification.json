@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-27T15:43:50.182Z",
+  "checkedAt": "2026-10-27T16:16:46.644Z",
   "passed": true,
   "scope": "Loopback-only read-only review server",
   "checks": [
@@ -171,6 +171,41 @@
     {
       "method": "HEAD",
       "url": "/electrical-record-clearance.json",
+      "status": 200
+    },
+    {
+      "method": "HEAD",
+      "url": "/reference-dressing.png",
+      "status": 200
+    },
+    {
+      "method": "HEAD",
+      "url": "/dressing-workbench.png",
+      "status": 200
+    },
+    {
+      "method": "HEAD",
+      "url": "/dressing-storage.png",
+      "status": 200
+    },
+    {
+      "method": "HEAD",
+      "url": "/reference-dressing.blend",
+      "status": 200
+    },
+    {
+      "method": "HEAD",
+      "url": "/dressing-study.json",
+      "status": 200
+    },
+    {
+      "method": "HEAD",
+      "url": "/dressing-verification.json",
+      "status": 200
+    },
+    {
+      "method": "HEAD",
+      "url": "/dressing-record-clearance.json",
       "status": 200
     },
     {

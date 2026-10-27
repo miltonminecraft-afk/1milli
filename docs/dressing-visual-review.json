@@ -1,0 +1,59 @@
+{
+  "checkedAt": "2026-10-27T16:24:16.493Z",
+  "scene": "reference-dressing.blend",
+  "sceneSha256": "ff16521f085a20af749a8f1510104edd5e225e5373a236c455da30311b50c9bc",
+  "unrealSceneBuilt": false,
+  "userApproved": false,
+  "exactConceptMatch": false,
+  "websitePublished": false,
+  "mainWebsiteChanged": false,
+  "localComparisonUpdated": true,
+  "images": [
+    {
+      "file": "reference-dressing.png",
+      "sha256": "1c8d6e151c6f6577b65bb0e1ba8c492c02618442d7a87015aa0d02e45d35d420"
+    },
+    {
+      "file": "dressing-workbench.png",
+      "sha256": "78c150bc112398b57229ad701d1737223b76867c3c9459a7b113d99a34eb66e4"
+    },
+    {
+      "file": "dressing-storage.png",
+      "sha256": "e8b367aff9b51e9f6beb5ae6b4164005739ed90b6dd264e3f37ec894eaba860e"
+    },
+    {
+      "file": "dressing-comparison-proof.png",
+      "sha256": "41c4a975a2e729ef2821fb2cee01aabfc957ddf9445f46d0165c7df024d7c24c"
+    }
+  ],
+  "inspection": "Three final Blender views and browser comparison inspected. The art wall has a visible full-height reveal; six left prints are mounted flush on the corresponding wall plane while preserving their reference image positions. Corner has a black W1 cabinet and three source timber boards. Fluorescent light has three suspension cables. Ten varied containers include two lidless metal boxes with source cloth and two plastic crates with pencil cups and tape. A newspaper that intersected a wooden crate was removed from that crate; the workbench newspaper remains.",
+  "sources": [
+    {
+      "source": "https://polyhaven.com/a/industrial_coffee_table",
+      "license": "CC0-1.0",
+      "use": "Three intact source boards, resized and mounted at rear corner."
+    },
+    {
+      "source": "https://polyhaven.com/a/modular_electric_cables",
+      "license": "CC0-1.0",
+      "use": "Fixture suspension and overhead conduits around stepped wall."
+    },
+    {
+      "source": "https://polyhaven.com/a/old_military_crate",
+      "license": "CC0-1.0",
+      "use": "Mixed closed and lidless cases, original cloth, adapted dimensions/colours."
+    },
+    {
+      "source": "https://sketchfab.com/3d-models/old-work-bench-9fbc30ba31a546fe9370e6de2dcc0707",
+      "license": "CC-BY-4.0",
+      "use": "Complete cabinet copy, repositioned, resized and black finish."
+    }
+  ],
+  "priorSelectedAssetsUnchanged": true,
+  "remaining": [
+    "Manual image measurements do not establish exact physical dimensions or complete scene fidelity.",
+    "Second rear electrical junction connection and remaining fine conduit/casing details.",
+    "Lighting/reflections, plant shape/density, table details, rug and stool differences.",
+    "Unreal installation, editable Unreal level and final user review."
+  ]
+}
