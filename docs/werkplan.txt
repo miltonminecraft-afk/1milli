@@ -73,7 +73,7 @@ referentieruimte alleen modellen die qua vorm en afwerking passen. Forceer niet
 alle gekozen objecten in beeld wanneer dat de referentie-indeling verandert.
 
 HUIDIGE STAND
-- GitHub Pages-publicatie voorbereid op https://miltonminecraft-afk.github.io/1milli/.
+- GitHub Pages-werkversie ONLINE: https://miltonminecraft-afk.github.io/1milli/.
   site/ bevat de muurproef met kleine objectknoppen, echte werkbank-/kastbeelden,
   conceptvergelijking en de eerdere interactieve LP-proef, expliciet als werkversie.
   Catalogi blijven beschikbaar; 13 gekozen exemplaren worden op de nieuwe origin
@@ -81,7 +81,8 @@ HUIDIGE STAND
   Statische zoekfunctie zoekt in de bestaande selectie; meer modellen via Sketchfab.
   De LP-GLB is van 94,1 naar 48,3 MB verkleind met WebP; alle geometriewaarden,
   camerawaarden en animaties identiek gecontroleerd. Blender-projecten blijven lokaal.
-  Definitieve publicatiestatus en browserbewijs volgen in docs/github-pages-deployment.json.
+  Openbare pagina en afbeelding geladen en screenshot bewaard; publicatiebewijs staat
+  in docs/github-pages-deployment.json. Publicatiebranch: gh-pages; broncode: main.
 - Laatste GETOONDE PROEF (muurafwerking ter beoordeling):
   onemillie-unreal/Review/reference-walls.blend. Bouwt voort op reference-daylight.
   Negen wand-, deurstijl- en koofmeshes hebben nu een fijnere vezelstructuur in
@@ -593,3 +594,12 @@ Hoofdbeeld en close-up gerenderd en bekeken; interne tussenproef, getoonde muurp
 niet vervangen. Controlecode/rapporten op GitHub; scène en renderbeelden lokaal.
 Epic-proces/log read-only gecontroleerd: dezelfde launcher en melding, geen engine.
 Geen tweede installer/cache-reset of gebruikersactie. Achterste hangranken volgen.
+
+2026-10-27 Opdracht online-publicatie uitgevoerd via GitHub Pages.
+Werkplaatsbeelden van muurproef, vergelijking, eerdere interactieve LP-scène en
+ruimte-/assetkeuzes bereikbaar op https://miltonminecraft-afk.github.io/1milli/.
+WebP-model 48,3 MB, identieke mesh/camera/animatiewaarden gecontroleerd.
+Kast/werkbank/terug, LP op plateau en terugzetten, keuzes 13 exemplaren en
+hoeveelheid opslaan na herladen lokaal gecontroleerd. Publieke pagina en beeld geladen.
+OAuth-aanmelding heeft geen workflow-scope: bestaande rechten gebruikt met gh-pages,
+geen extra toegang gevraagd. Geen definitieve ontwerpgoedkeuring of Unreal-level.
