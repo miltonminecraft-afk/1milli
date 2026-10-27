@@ -1,0 +1,112 @@
+{
+  "checkedAt": "2026-10-27T08:57:46.883Z",
+  "scope": "File audit, not a rendered visual quality assessment or new test run.",
+  "catalog": {
+    "rooms": 54,
+    "objects": 24,
+    "lightingEnvironments": 1,
+    "total": 79,
+    "installedCatalogModels": 39
+  },
+  "selectedAssets": [
+    {
+      "code": "D2",
+      "title": "Pioneer PLX-1000",
+      "quantity": 1,
+      "available": true,
+      "bytes": 37738524
+    },
+    {
+      "code": "K1",
+      "title": "Kallax 77 × 147",
+      "quantity": 1,
+      "available": true,
+      "bytes": 235308
+    },
+    {
+      "code": "K3",
+      "title": "Hout en metaal",
+      "quantity": 1,
+      "available": true,
+      "bytes": 5236772
+    },
+    {
+      "code": "W1",
+      "title": "Oude werkbank",
+      "quantity": 1,
+      "available": true,
+      "bytes": 23870804
+    },
+    {
+      "code": "W2",
+      "title": "Garagewerkbank",
+      "quantity": 1,
+      "available": true,
+      "bytes": 38853980
+    },
+    {
+      "code": "B1",
+      "title": "Café racer",
+      "quantity": 1,
+      "available": true,
+      "bytes": 24028476
+    },
+    {
+      "code": "B3",
+      "title": "Puch — 1978",
+      "quantity": 1,
+      "available": true,
+      "bytes": 4805764
+    },
+    {
+      "code": "S3",
+      "title": "KRK Classic 5",
+      "quantity": 2,
+      "available": true,
+      "bytes": 20794688
+    },
+    {
+      "code": "C2",
+      "title": "Houten melkkratten",
+      "quantity": 1,
+      "available": true,
+      "bytes": 14389284
+    },
+    {
+      "code": "C3",
+      "title": "Kunststof krat",
+      "quantity": 1,
+      "available": true,
+      "bytes": 9007768
+    },
+    {
+      "code": "L2",
+      "title": "Industriële wandlamp",
+      "quantity": 1,
+      "available": true,
+      "bytes": 73972148
+    },
+    {
+      "code": "L3",
+      "title": "Industriële lamp",
+      "quantity": 1,
+      "available": true,
+      "bytes": 2403144
+    }
+  ],
+  "selectedModelCount": 12,
+  "selectedInstanceCount": 13,
+  "allSelectedModelFilesPresent": true,
+  "localOverrideEntries": 4,
+  "unreal": {
+    "projectFilePresent": true,
+    "savedMaps": [],
+    "sceneBuilt": false,
+    "renderedVisualMatchVerified": false
+  },
+  "website": {
+    "trueReconstructedRoom": false,
+    "mobileVerified": false
+  },
+  "shippedGithubModels": 15
+}

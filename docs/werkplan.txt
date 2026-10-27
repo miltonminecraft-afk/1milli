@@ -1,0 +1,171 @@
+ONEMILLIE — WERKPLAN EN BESLUITEN
+Bijgewerkt: 27 oktober 2026. Dit bestand is de werklijst voor deze chat en de Heartbeat.
+
+EINDDOEL
+Een echte, bewerkbare 3D-kopie van de oorspronkelijke werkplaats in Unreal.
+De zichtbare geometrie, verhoudingen, inrichting, camera, materialen en verlichting
+moeten overeenkomen met onemillie-unreal/Reference/original-workshop.png.
+De bestaande website behoudt de oorspronkelijke vormgeving en krijgt diepte,
+correcte LP-interactie en de mogelijkheid objecten toe te voegen. Daarnaast blijft
+een eenvoudig apart desktopprogramma beschikbaar voor zelf inrichten.
+
+VASTSTAANDE KEUZES
+- Alleen gratis tools en assets. Geen betaald World Labs-traject of abonnement.
+- Unreal installeren en daarin de echte scène bouwen; Lumen voor licht en reflecties.
+- Bestaande tools, renderer en kwalitatieve modellen hergebruiken. Geen nieuwe
+  zelfgeschreven splatrenderer of goedkope vervangende modellen als eindresultaat.
+- De referentieruimte bepaalt de website. Extra gescande bedrijfsruimtes zijn
+  keuzes voor de bibliotheek; selecteer geen vervangende omgeving namens de gebruiker.
+- Toon een vergelijking met de referentie vóór de definitieve omgeving wordt
+  vastgelegd of gepubliceerd. De eerdere opdracht om broncode op GitHub te zetten
+  is uitgevoerd en is geen goedkeuring van de nog te bouwen omgeving.
+- De gebruiker bepaalt de beginvolgorde van de platen. Iedere bezoeker kan vrij
+  bladeren; bezoekers mogen de vaste beginvolgorde voor anderen niet overschrijven.
+- Geen verzonnen marketingtekst, zoals 'gemaakt om te ontdekken'. Atelier niet
+  tonen zolang het niet bestaat. Het label 'Brommers' mag weg; de brommer blijft.
+- Meerdere exemplaren van objecten, eigen objecten toevoegen en meer keuzes blijven
+  mogelijk. De gebruiker kiest de inrichting en aantallen zelf.
+- Behoud niet-opgeslagen werk en bestaande projecten. Herstart de desktopeditor niet
+  zonder dat duidelijk is dat werk is opgeslagen.
+
+GEKOZEN OBJECTEN — BESCHIKBAAR HOUDEN
+1 × D2 Pioneer PLX-1000
+1 × K3 Hout en metaal
+1 × K1 Kallax 77 × 147
+1 × W1 Oude werkbank
+1 × W2 Garagewerkbank
+1 × B1 Café racer
+1 × B3 Puch — 1978
+2 × S3 KRK Classic 5
+1 × C2 Houten melkkratten
+1 × C3 Kunststof krat
+1 × L2 Industriële wandlamp
+1 × L3 Industriële lamp
+Dit zijn 12 verschillende modellen, 13 exemplaren. Gebruik voor de exacte
+referentieruimte alleen modellen die qua vorm en afwerking passen. Forceer niet
+alle gekozen objecten in beeld wanneer dat de referentie-indeling verandert.
+
+HUIDIGE STAND
+- GitHub-broncode staat in https://github.com/miltonminecraft-afk/1milli.
+  Eerste upload: commit 3aec88c2f02903668f545d2f1e1d5302d05e6280.
+- Websitepreview bestaat: foto met beperkte diepte, echte 3D-platen en GLB-objecten.
+  Dit is nog geen volledig gereconstrueerde 3D-ruimte of Unreal-render.
+- Desktopeditor bestaat met plaatsen, verwijderen, draaien, groeperen en schalen.
+  Camera om selectie, ruimte centreren en maatvoering zijn in broncode aanwezig.
+- Bibliotheek bevat 54 ruimteopties en 24 objectopties. Niet iedere ruimte is al
+  gedownload of op correcte fysieke maat gecontroleerd.
+- W2, C2, C3 en L2 zijn inmiddels gedownload en geïntegreerd; eerdere melding dat
+  daarvoor nog Sketchfab-inlog ontbreekt is achterhaald.
+- Het Unreal-project bevat instellingen, referenties en importmanifest; nog geen
+  opgeslagen .umap of gebouwde ruimte. Lumen-instellingen zijn nog niet gevalideerd.
+- De eerdere Epic-installatie werd om 09:25 lokale tijd afgebroken (1602). Nadat
+  bleek dat de andere chat idle was en geen installer meer actief was, heeft deze
+  chat om 09:55 een nieuwe poging gestart met de geverifieerde officiële MSI.
+  Actuele poging: PID 39252, log %TEMP%/onemillie-epic-resume-native.log.
+  Om 09:56 meldt die expliciet dat Windows-verhoging van rechten nodig is; consent
+  PID 31556 is aanwezig. De gebruiker is gevraagd zelf 'Ja' te kiezen. Dit is geen
+  bevestigde installatie. Start niet nog een installer naast deze poging.
+- Laatste eerdere controles: websitebuild en TypeScript geslaagd, 11 websitetests
+  en 11 editortests geslaagd. Mobiele weergave nog niet geverifieerd.
+- Het huidige werkbankbeeld is een gegenereerde interpretatie; een geometrisch
+  juiste camera op dezelfde echte scène moet nog worden gemaakt.
+
+WERKVOLGORDE EN ACCEPTATIE
+
+01. UNREAL BESCHIKBAAR MAKEN — NOG NIET VOLTOOID
+Controleer eerst het werk in chat 01a15e51-f939-77b2-9090-ddca2b3bb791 en actuele
+processen/bestanden. Die chat deed de eerdere poging; de actuele poging staat
+hierboven. Voorkom een tweede gelijktijdige installer. Voorkeurslocatie: H:\exe\Epic Games.
+Rond de al toegestane installatie af zodra noodzakelijke Windows-bevestiging en
+accounttoegang beschikbaar zijn. Geen wachtwoorden of Windows-beveiligingsprompts
+zelf afhandelen. Een noodzakelijke licentiebevestiging moet specifiek worden getoond.
+Gereed wanneer: Unreal Editor start, Onemillie.uproject opent, relevante ingebouwde
+plug-ins werken en een eerste echte level kan worden opgeslagen en heropend.
+
+02. REFERENTIE EN ECHTE GEOMETRIE — EERSTE BOUWPRIORITEIT
+Kalibreer eerst camera, vloer, wanden, plafond, roldeur en plaats van kast, draaitafel,
+brommer en werkbank aan de oorspronkelijke afbeelding. Bewaar de vaste vergelijkcamera.
+Gebruik Blender desgewenst als bestaand hulpmiddel voor geometrie/import terwijl de
+Unreal-installatie geblokkeerd is, maar label die bestanden en previews eerlijk.
+Gereed wanneer: een echte scène uit dezelfde camerahoek naast de referentie kan
+worden beoordeeld, met overeenkomende hoofdcontouren en onderlinge afstanden.
+Ook een tweede camerahoek moet echte diepte en losse objecten tonen. Een gekantelde
+foto of projectievlak geldt niet als gereconstrueerde ruimte. Verborgen delen van
+de ruimte blijven expliciete aannames; uit één afbeelding volgen geen exacte meters.
+
+03. MATERIALEN, LICHT EN REFLECTIES — OPEN
+Pas gratis passende PBR-materialen en kwalitatieve bestaande assets toe. Stem
+warme werklampen, omgevingslicht, schaduwen en reflecties in Unreal op de referentie af.
+Gereed wanneer: Lumen en reflecties in de editor/render werken, materialen geen
+verkeerde glans of clipping hebben en de gebruiker een concrete preview kan bekijken.
+
+04. PLATENKAST, DRAAITAFEL EN ANIMATIE — PROTOTYPE BESTAAT, ECHTE SCÈNE OPEN
+Plaats LP's in de kast met juiste maat, licht schuine stand en iets dikkere rug met
+leesbare titel. Pas de zichtbare inhoud aan zodra een LP wordt gepakt of teruggezet.
+Breng de camera daadwerkelijk naar kast/draaitafel. Animatie: hoes pakken, plaat uit
+hoes, plaat op draaitafel; omgekeerde volgorde bij terugzetten. LP exact op platter.
+Gereed wanneer: meerdere opeenvolgende keuzes en terugzetten geen dubbele platen,
+verkeerde lege plekken of verschuiving geven; eigenaarvolgorde en bezoekersbladeren
+blijven gescheiden. Test op verschillende vensterverhoudingen en in de echte scène.
+
+05. WERKBANKAANZICHT EN ORIGINELE WEBSITE — GEDEELTELIJK
+Maak de werkbankcamera op dezelfde echte ruimte, met de verhoudingen en plaatsingen
+van het concept. Behoud stijl, kleuren en navigatie van de oorspronkelijke website.
+Haal ongewenste teksten/lege Atelier-bestemming weg en behoud de brommer in beeld.
+Gereed wanneer: overzicht, kast, draaitafel en werkbank dezelfde inrichting tonen;
+desktop en mobiel zijn visueel gecontroleerd. Maak expliciet hoe de Unreal-scène
+naar de website wordt gebracht; Unreal kan niet simpelweg als webpagina worden
+gepubliceerd. Controleer een gratis route met dezelfde scenegegevens en assets.
+
+06. EENVOUDIGE DESKTOPEDITOR — AANWEZIG, EINDCONTROLE OPEN
+Behoud eenvoudig plaatsen, verwijderen, verplaatsen, draaien, schalen en groeperen.
+Camera draait om geselecteerd object/groep. Ruimtes op vloerhoogte centreren;
+afmetingen en schaal zelf kunnen aanpassen. Meerdere objecten tegelijk mogelijk.
+Gereed wanneer: selectie, groep, ongedaan maken, eigen import, opslaan en opnieuw
+openen samen zijn gecontroleerd zonder verlies van schaal, positie of groepen.
+De gebruiker hoeft daarvoor niet de uitgebreide Blender-interface te gebruiken.
+
+07. MEER RUIMTES EN ASSETS / KEUZES — BIBLIOTHEEK AANWEZIG, CONTROLE OPEN
+Toon de bestaande uitgebreide collectie met goede previews, herkomst, licentie,
+downloadstatus en aantalkeuze. Controleer juist de gescande bedrijfsruimtes op maat
+en centreerbaarheid. Voeg alleen relevante gratis opties toe; dedupliceer.
+Gereed wanneer: de gebruiker meerdere keuzes/aantallen kan opslaan en deze door
+de agent kunnen worden uitgelezen; ontbrekende download en verkeerd ingeschaalde
+ruimte zijn duidelijk zichtbaar. Vervang de vaste referentieruimte niet automatisch.
+
+08. GITHUB EN OPLEVERING — BRONCODE ONLINE, EINDVERSIE OPEN
+Werk vanuit de bestaande werkmappen en neem gerichte wijzigingen over naar de
+schone repository in github-source. Draai niet blind het oude snapshotscript,
+want dat kan de draagbare paden en latere wijzigingen overschrijven.
+Publiceer alleen relevante bronbestanden, licenties, modellen en bewijs. Geen
+browserprofielen, persoonlijke projecten, secrets, node_modules of engine-installatie.
+Gereed wanneer: de door de gebruiker beoordeelde scène, bijbehorende broncode,
+startinstructies en passende verificatie beschikbaar zijn. Broncodepush is geen
+live websitepublicatie. Toon de omgeving vóór definitief vastleggen/publiceren.
+
+09. HEARTBEAT — INGESTELD
+Naam: onemillie verder bouwen. Interval: elke 30 minuten. Gekoppeld aan deze chat.
+Lees eerst nieuwe gebruikersinstructies en dit plan. Pak de eerste uitvoerbare taak,
+voer concreet werk uit, verifieer passend en werk status plus bewijs bij.
+Een geblokkeerde installatie verhindert geometrie-, catalogus- of editorwerk niet.
+Geen eindeloze statuspolls, dubbele installers, dubbel aangevraagde toestemming of
+voortgangclaims zonder bestanden/render/test als bewijs. Stop de Heartbeat zodra
+alle open controlepunten zijn afgehandeld of de gebruiker daarom vraagt.
+
+BEWIJS EN BELANGRIJKE BESTANDEN
+- docs/progress-evidence.json: herhaalbare bestandsinventaris met datum.
+- scripts/audit-progress.mjs: controle vanuit de repository met Node.js; als een
+  eerste argument is opgegeven wordt die map gecontroleerd, een tweede argument
+  bepaalt waar het JSON-rapport wordt geschreven. Wijzigt geen scène of project.
+- onemillie-unreal/Reference/original-workshop.png: primaire visuele referentie.
+- onemillie-unreal/Reference/requirements.txt: eisen voor reconstructie.
+- onemillie-unreal/Import/chosen-assets.json: gekozen assets, aantallen en licenties.
+- onemillie-studio/research/included-models.json: meegeleverde modelbestanden.
+- previews/: bestaande website- en assetpreviews, nadrukkelijk geen Unreal-renders.
+
+WERKLOG
+2026-10-27: gebruikerskeuzes en resterend werk samengevoegd; werkelijke status van
+GitHub, Unreal-bestanden en laatste installatie gecontroleerd. Heartbeat ingesteld.
+Alle 12 geselecteerde modelbestanden gecontroleerd: aanwezig, samen 13 exemplaren.
+Bibliotheek gecontroleerd: 54 ruimtes, 24 objecten en 1 HDRI-lichtomgeving.
+Epic opnieuw gestart na de afgebroken eerdere poging; wacht op Windows-bevestiging.

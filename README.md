@@ -6,6 +6,8 @@ Werkbestanden voor de interactieve werkplaats, de assetkeuze-site en de eenvoudi
 
 De gewenste eindversie is een echte 3D-kopie van de referentieruimte: dezelfde geometrie, verhoudingen, plaatsing, materialen, licht en camera. De eerdere assetselectie mag niet leiden tot een andere, willekeurig ingerichte ruimte. Eerst volgt een visuele vergelijking vanuit dezelfde camerahoek.
 
+De actuele taken, alle gekozen modellen en aantallen, vaststaande ontwerpkeuzes en controlepunten staan in het [werkplan](docs/werkplan.txt). De [bestandscontrole](docs/progress-evidence.json) vermeldt afzonderlijk wat daadwerkelijk aanwezig is. Een Heartbeat in de bijbehorende Codex-chat hervat het werk iedere 30 minuten; dit is geen GitHub Actions-taak.
+
 ## Projecten
 
 | Map | Inhoud | Status |
