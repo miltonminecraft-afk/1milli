@@ -130,10 +130,17 @@ detailbeeld junction-inspection.png. junction-verification.json en
 junction-record-clearance.json bevatten de controles. Vergelijkpagina nog dressing.
 Een lokale Blender-proef; nog geen Unreal-scène of definitief goedgekeurd ontwerp.
 
-HUIDIG WERKBESTAND EN GETOONDE PROEF: reference-daylight.blend.
+EERDERE LICHTPROEF: reference-daylight.blend.
 Zichtbaar buitenlicht boven de garagedeur, sterkere vloerreflecties en aangepaste
 lampsterkte. Groot buitenlicht geheel achter de deur gezet; geen geometriewijzigingen.
 reference-daylight.png, daylight-workbench.png en daylight-storage.png tonen de proef.
 daylight-verification.json controleert behoud van geometrie, materialen en poses;
 de routecontrole uit junction blijft toepasbaar. Vergelijkpagina bijgewerkt.
 Blender-proef ter beoordeling; exacte sfeer en patronen en Unreal-level blijven open.
+
+HUIDIG WERKBESTAND EN GETOONDE PROEF: reference-walls.blend.
+Fijnere vezelstructuur, matte grijsbeige wandafwerking op 4K-bronscan; gelijke
+textuurschaal op wand, uitstekende sectie, stijlen en koof. Licht en vloer behouden.
+reference-walls.png, walls-workbench.png en walls-storage.png tonen de proef.
+walls-verification.json: geometrie/oude UV's, niet-wandmaterialen, licht en poses behouden.
+Blender-proef ter beoordeling; exacte referentieafwerking en Unreal-level blijven open.

@@ -1,0 +1,32 @@
+{
+  "downloadedAt": "2026-10-27T17:28:02.364Z",
+  "id": "oriented_strand_board",
+  "name": "Oriented Strand Board",
+  "source": "https://polyhaven.com/a/oriented_strand_board",
+  "authors": {
+    "Dimitrios Savva": "All"
+  },
+  "license": "CC0-1.0",
+  "licenseUrl": "https://polyhaven.com/license",
+  "maps": {
+    "diff": {
+      "file": "oriented_strand_board_diff_4k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/4k/oriented_strand_board/oriented_strand_board_diff_4k.jpg",
+      "md5": "7b396b98c245b96cdf6d141c2ae06bb1",
+      "bytes": 13938405
+    },
+    "normal": {
+      "file": "oriented_strand_board_nor_gl_4k.png",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/4k/oriented_strand_board/oriented_strand_board_nor_gl_4k.png",
+      "md5": "3cd441e21bc0495a5d421bddc7c658a9",
+      "bytes": 91796662
+    },
+    "rough": {
+      "file": "oriented_strand_board_rough_4k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/4k/oriented_strand_board/oriented_strand_board_rough_4k.jpg",
+      "md5": "05aa499a9410ba1d9751cebaec7ff873",
+      "bytes": 16335657
+    }
+  },
+  "status": "Unapproved wall candidate"
+}

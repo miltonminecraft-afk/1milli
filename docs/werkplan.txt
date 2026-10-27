@@ -10,6 +10,8 @@ correcte LP-interactie en de mogelijkheid objecten toe te voegen. Daarnaast blij
 een eenvoudig apart desktopprogramma beschikbaar voor zelf inrichten.
 
 VASTSTAANDE KEUZES
+- Nieuwste gebruikersopdracht: een betere muurtextuur zoals in het concept.
+  Visuele interpretatie voor de lokale proef: fijn vezelig, mat en grijsbeige.
 - Nieuwste gebruikerscorrecties: de linkerwand met de kunst steekt naar binnen
   en moet echte dikte krijgen. Kunst/lijsten op dezelfde plaatsen als het concept,
   vlak tegen het juiste wandvlak. Onder de linker lamp naast de garage horen
@@ -69,21 +71,22 @@ alle gekozen objecten in beeld wanneer dat de referentie-indeling verandert.
 
 HUIDIGE STAND
 - Laatste lokale WERKBESTAND en GETOONDE PROEF:
-  onemillie-unreal/Review/reference-daylight.blend. Bouwt voort op reference-junction.
-  Zichtbaar koel licht door de bovenste garagekier; sterkere reflecties op de vloer.
-  Bestaande gescande cementvloer behouden, ruwheid/normal/laagglans en materiaalschaal
-  aangepast. Licht van tl- en werklampen versterkt. Eén extra buitenlicht bovenaan.
-  Belangrijk herstel: het eerdere grote gekantelde buitenlichtvlak stak deels door
-  de achterwand. Het hele vlak staat nu buiten; hoekpunten van alle drie buitenlichten
-  gecontroleerd. Geen nieuwe reflectielamp midden in de kamer.
-  Meshgeometrie, topologie, UV's, zichtbaarheid en alle niet-vloermaterialen behouden.
-  1633 oorspronkelijke objecten op vier animatiemomenten gecontroleerd; alleen
-  de bedoelde rotatie van één buitenlicht wijzigt. Camera's, inrichting en LP's blijven.
-  De tien LP-routecontroles uit junction blijven toepasbaar doordat geen botsings-
-  geometrie of objecttraject is veranderd. De nieuwe lichtbron heeft geen mesh.
-  Drie renders en de vergelijking zijn bekeken. Pagina op
-  127.0.0.1:4282/vergelijking.html toont de nieuwe lichtproef naast het concept.
-  Bewijs: docs/daylight-*.json, docs/junction-record-clearance.json.
+  onemillie-unreal/Review/reference-walls.blend. Bouwt voort op reference-daylight.
+  Negen wand-, deurstijl- en koofmeshes hebben nu een fijnere vezelstructuur in
+  mat grijsbeige. Bestaande 4K-scan Oriented Strand Board van Poly Haven hergebruikt
+  met een neutrale matte shaderafwerking. Het echte referentiemateriaal is onbekend;
+  dit is een visuele benadering, geen bewijs dat het concept onbewerkt OSB toont.
+  Oude horizontale betonstrepen vervallen. Nieuwe wereldgeprojecteerde UV-laag
+  houdt de structuur even groot op hoofdwand, uitstekende wand, stijlen en koof.
+  Meshposities/topologie, bestaande UV's, zichtbaarheid en 1054 niet-wandmaterialen
+  behouden. Alle 1634 objecten op vier animatiemomenten onverplaatst; licht,
+  wereldinstellingen, kleurbeheer, vloer en camera's ongewijzigd.
+  De eerdere LP-routecontroles blijven toepasbaar; geen botsingsgeometrie gewijzigd.
+  Drie renders en de lokale vergelijking zijn bekeken. Bewijs: docs/walls-*.json,
+  docs/wall-material-source.json. Nog ter beoordeling; geen definitieve scène.
+- Lichtproef behouden: zichtbare bovenste garagekier, sterkere vloerreflecties,
+  afgestemde tl-/werklampen en alle buitenlichtvlakken volledig achter de wand.
+  Pagina op 127.0.0.1:4282/vergelijking.html toont de nieuwe wandproef naast het concept.
 - Voorgaande correcties behouden: uitstekende linker kunstwand, zes vlak bevestigde
   kunstwerken op handmatig afgelezen beeldposities; zwarte W1-gereedschapskast en
   drie bronplanken onder de linker lamp. Tien gevarieerde kisten, vier open uitvoeringen
@@ -543,3 +546,11 @@ Groot buitenlicht stond gekanteld deels binnen: volledig buiten geplaatst en gec
 Geometrie/UV/zichtbaarheid, niet-vloermaterialen, camera's en LP-poses behouden.
 Drie renderbeelden en lokale vergelijking gecontroleerd. Broncode en bewijs bijgewerkt;
 geen gebouwde Unreal-scène, hoofdwebsitepublicatie of definitieve materiaalgoedkeuring.
+
+2026-10-27 Muurtextuur aangepast op verzoek van de gebruiker.
+Gescande vezelstructuur in matte grijsbeige afwerking vervangt de te horizontale
+betontextuur. 4K kleur/ruwheid/normal-bestanden met bronchecksums opgeslagen.
+Negen zichtbare wanden/stijlen/koofdelen met gelijkmatige wereldprojectie;
+oude UV's en alle geometrie behouden. Licht/vloer en niet-wandmaterialen ongewijzigd.
+Drie beelden en browserpagina gecontroleerd. Broncode/bewijs op GitHub, ongekeurde
+scène en renders lokaal. Exacte materiaalovereenkomst en Unreal blijven open.

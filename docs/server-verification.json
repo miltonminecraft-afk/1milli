@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-27T17:14:53.737Z",
+  "checkedAt": "2026-10-27T17:41:00.619Z",
   "passed": true,
   "scope": "Loopback-only read-only review server",
   "checks": [
@@ -246,6 +246,36 @@
     {
       "method": "HEAD",
       "url": "/junction-verification.json",
+      "status": 200
+    },
+    {
+      "method": "HEAD",
+      "url": "/reference-walls.png",
+      "status": 200
+    },
+    {
+      "method": "HEAD",
+      "url": "/walls-workbench.png",
+      "status": 200
+    },
+    {
+      "method": "HEAD",
+      "url": "/walls-storage.png",
+      "status": 200
+    },
+    {
+      "method": "HEAD",
+      "url": "/reference-walls.blend",
+      "status": 200
+    },
+    {
+      "method": "HEAD",
+      "url": "/walls-study.json",
+      "status": 200
+    },
+    {
+      "method": "HEAD",
+      "url": "/walls-verification.json",
       "status": 200
     },
     {

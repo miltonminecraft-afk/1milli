@@ -1,0 +1,55 @@
+{
+  "checkedAt": "2026-10-27T17:43:51.328Z",
+  "scene": "reference-walls.blend",
+  "sceneSha256": "aa3a50c417cbd728a90f467385b6ccc307b71d24afc67ef0301c3368eb01664f",
+  "sourceScene": "reference-daylight.blend",
+  "unrealSceneBuilt": false,
+  "userApproved": false,
+  "exactConceptMatch": false,
+  "websitePublished": false,
+  "mainWebsiteChanged": false,
+  "localComparisonUpdated": true,
+  "userRequest": "Improve the wall texture to resemble the concept.",
+  "images": [
+    {
+      "file": "reference-walls.png",
+      "sha256": "aa63a13bd813c6457f6fe95d49a8fc68af41bd3558992d22b2ac514f5c3e25e0"
+    },
+    {
+      "file": "walls-workbench.png",
+      "sha256": "2c69dd5cabd1d2e80439a2ef949ce661728c4b7fa4d6121b057db1b6bfaaea78"
+    },
+    {
+      "file": "walls-storage.png",
+      "sha256": "89b98d03cb4eaf8b40be7db670056bb44fe683ad336f12daedcb83add601b52a"
+    },
+    {
+      "file": "walls-comparison-proof.png",
+      "sha256": "212938eb87d059c7eed733438791204b5aafdcc0b2d0a11bbc9d98e9787ac457"
+    }
+  ],
+  "inspection": "Three final Blender views and the local comparison inspected. Replaced the horizontal cast-concrete texture on nine visible wall, doorway and casing meshes with a finer strand pattern and neutral matte grey-beige shader finish. A first trial was too pale and fine; final scale and coating adjusted. Existing floor, lights, object placements and original camera retained.",
+  "interpretation": "The concept reads visually as a fine fibrous panel surface. The exact physical material cannot be identified from the image. The scanned OSB source is used with a neutral matte shader finish; this is a visual candidate, not a claim that the concept depicts bare OSB.",
+  "source": {
+    "url": "https://polyhaven.com/a/oriented_strand_board",
+    "author": "Dimitrios Savva",
+    "license": "CC0-1.0",
+    "resolution": 4096,
+    "maps": [
+      "diffuse",
+      "roughness",
+      "normal"
+    ],
+    "sourceFilesModified": false
+  },
+  "rejectedCandidate": {
+    "url": "https://polyhaven.com/a/wood_textured_concrete",
+    "reason": "Predominantly vertical wood-grain streaks, unlike the smaller irregular fibres visible in the concept."
+  },
+  "remaining": [
+    "Final user judgement of wall finish and precise reference fidelity.",
+    "Floor pattern and reflection character, foliage silhouette and quantity, table/storage details, stool proportions and rug.",
+    "Fine electrical appearance and header diameter transition.",
+    "Unreal installation and editable Unreal level."
+  ]
+}

@@ -1,0 +1,144 @@
+{
+  "builtAt": "2026-10-27T17:36:52.868429+00:00",
+  "scene": "reference-walls.blend",
+  "sourceScene": "reference-daylight.blend",
+  "userApproved": false,
+  "unrealSceneBuilt": false,
+  "geometryPositionsChanged": false,
+  "lightingChanged": false,
+  "changedWalls": [
+    {
+      "object": "Architecture / left wall",
+      "previousMaterials": [
+        "Study / cast concrete wall"
+      ],
+      "material": "Detail / matte grey fibre wall",
+      "tileSizeSceneUnits": 1.5,
+      "mapping": "World-space planar UV per face; same detail size on full walls, projecting section, doorway and casing."
+    },
+    {
+      "object": "Architecture / right wall",
+      "previousMaterials": [
+        "Study / cast concrete wall"
+      ],
+      "material": "Detail / matte grey fibre wall",
+      "tileSizeSceneUnits": 1.5,
+      "mapping": "World-space planar UV per face; same detail size on full walls, projecting section, doorway and casing."
+    },
+    {
+      "object": "Detail / doorway left jamb",
+      "previousMaterials": [
+        "Study / cast concrete wall"
+      ],
+      "material": "Detail / matte grey fibre wall",
+      "tileSizeSceneUnits": 1.5,
+      "mapping": "World-space planar UV per face; same detail size on full walls, projecting section, doorway and casing."
+    },
+    {
+      "object": "Detail / doorway right jamb",
+      "previousMaterials": [
+        "Study / cast concrete wall"
+      ],
+      "material": "Detail / matte grey fibre wall",
+      "tileSizeSceneUnits": 1.5,
+      "mapping": "World-space planar UV per face; same detail size on full walls, projecting section, doorway and casing."
+    },
+    {
+      "object": "Detail / doorway lintel",
+      "previousMaterials": [
+        "Study / cast concrete wall"
+      ],
+      "material": "Detail / matte grey fibre wall",
+      "tileSizeSceneUnits": 1.5,
+      "mapping": "World-space planar UV per face; same detail size on full walls, projecting section, doorway and casing."
+    },
+    {
+      "object": "Detail / correction / projecting art wall",
+      "previousMaterials": [
+        "Study / cast concrete wall"
+      ],
+      "material": "Detail / matte grey fibre wall",
+      "tileSizeSceneUnits": 1.5,
+      "mapping": "World-space planar UV per face; same detail size on full walls, projecting section, doorway and casing."
+    },
+    {
+      "object": "Detail / correction / stepped wall casing 1",
+      "previousMaterials": [
+        "Study / cast concrete wall"
+      ],
+      "material": "Detail / matte grey fibre wall",
+      "tileSizeSceneUnits": 1.5,
+      "mapping": "World-space planar UV per face; same detail size on full walls, projecting section, doorway and casing."
+    },
+    {
+      "object": "Detail / correction / stepped wall casing 2",
+      "previousMaterials": [
+        "Study / cast concrete wall"
+      ],
+      "material": "Detail / matte grey fibre wall",
+      "tileSizeSceneUnits": 1.5,
+      "mapping": "World-space planar UV per face; same detail size on full walls, projecting section, doorway and casing."
+    },
+    {
+      "object": "Detail / correction / stepped wall casing 3",
+      "previousMaterials": [
+        "Study / cast concrete wall"
+      ],
+      "material": "Detail / matte grey fibre wall",
+      "tileSizeSceneUnits": 1.5,
+      "mapping": "World-space planar UV per face; same detail size on full walls, projecting section, doorway and casing."
+    }
+  ],
+  "sourceMaterial": {
+    "downloadedAt": "2026-10-27T17:28:02.364Z",
+    "id": "oriented_strand_board",
+    "name": "Oriented Strand Board",
+    "source": "https://polyhaven.com/a/oriented_strand_board",
+    "authors": {
+      "Dimitrios Savva": "All"
+    },
+    "license": "CC0-1.0",
+    "licenseUrl": "https://polyhaven.com/license",
+    "maps": {
+      "diff": {
+        "file": "oriented_strand_board_diff_4k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/4k/oriented_strand_board/oriented_strand_board_diff_4k.jpg",
+        "md5": "7b396b98c245b96cdf6d141c2ae06bb1",
+        "bytes": 13938405
+      },
+      "normal": {
+        "file": "oriented_strand_board_nor_gl_4k.png",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/4k/oriented_strand_board/oriented_strand_board_nor_gl_4k.png",
+        "md5": "3cd441e21bc0495a5d421bddc7c658a9",
+        "bytes": 91796662
+      },
+      "rough": {
+        "file": "oriented_strand_board_rough_4k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/4k/oriented_strand_board/oriented_strand_board_rough_4k.jpg",
+        "md5": "05aa499a9410ba1d9751cebaec7ff873",
+        "bytes": 16335657
+      }
+    },
+    "status": "Unapproved wall candidate"
+  },
+  "wallSettings": {
+    "colourSaturation": 0.1,
+    "sourceColourMix": 0.18,
+    "coatingLinearRGB": [
+      0.14,
+      0.13,
+      0.115
+    ],
+    "roughnessRange": [
+      0.72,
+      0.92
+    ],
+    "normalStrength": 0.35,
+    "tileSizeSceneUnits": 1.5
+  },
+  "limitations": [
+    "Reference material inferred visually; exact material identity is unknown.",
+    "Wall texture candidate, not an approved scene.",
+    "Geometry, non-wall materials, lights and LP transforms require invariant verification."
+  ]
+}

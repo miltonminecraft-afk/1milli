@@ -1,0 +1,84 @@
+{
+  "checkedAt": "2026-10-27T17:37:36.478675+00:00",
+  "scene": "reference-walls.blend",
+  "sourceScene": "reference-daylight.blend",
+  "passed": true,
+  "issues": [],
+  "unrealSceneBuilt": false,
+  "userApproved": false,
+  "originalObjects": 1634,
+  "sampledFrames": [
+    1,
+    109,
+    289,
+    577
+  ],
+  "maximumOriginalMatrixChange": 0,
+  "meshTopologyPositionsOriginalUVsVisibilitySha256": "4dd37a1db498d8eaf97ebce53bd70fb79cb957394429bf2090fd72798734a1fb",
+  "nonWallMaterialAssignmentsAndNodesPreserved": 1054,
+  "lightsWorldAndColourManagementUnchanged": true,
+  "wallMappings": [
+    {
+      "object": "Architecture / left wall",
+      "maximumWorldProjectionUVError": 1.5894571969710114e-07,
+      "mapsPacked": 3,
+      "resolution": 4096
+    },
+    {
+      "object": "Architecture / right wall",
+      "maximumWorldProjectionUVError": 1.5894571969710114e-07,
+      "mapsPacked": 3,
+      "resolution": 4096
+    },
+    {
+      "object": "Detail / doorway left jamb",
+      "maximumWorldProjectionUVError": 1.5894571969710114e-07,
+      "mapsPacked": 3,
+      "resolution": 4096
+    },
+    {
+      "object": "Detail / doorway right jamb",
+      "maximumWorldProjectionUVError": 1.5894571969710114e-07,
+      "mapsPacked": 3,
+      "resolution": 4096
+    },
+    {
+      "object": "Detail / doorway lintel",
+      "maximumWorldProjectionUVError": 1.5894571969710114e-07,
+      "mapsPacked": 3,
+      "resolution": 4096
+    },
+    {
+      "object": "Detail / correction / projecting art wall",
+      "maximumWorldProjectionUVError": 7.947285984855057e-08,
+      "mapsPacked": 3,
+      "resolution": 4096
+    },
+    {
+      "object": "Detail / correction / stepped wall casing 1",
+      "maximumWorldProjectionUVError": 1.5894571969710114e-07,
+      "mapsPacked": 3,
+      "resolution": 4096
+    },
+    {
+      "object": "Detail / correction / stepped wall casing 2",
+      "maximumWorldProjectionUVError": 1.5894571969710114e-07,
+      "mapsPacked": 3,
+      "resolution": 4096
+    },
+    {
+      "object": "Detail / correction / stepped wall casing 3",
+      "maximumWorldProjectionUVError": 1.5894571969710114e-07,
+      "mapsPacked": 3,
+      "resolution": 4096
+    }
+  ],
+  "priorRouteEvidence": "junction-record-clearance.json",
+  "priorEvidenceApplicability": "Only materials and an additional wall UV layer changed. Collision geometry and sampled original poses remain identical; no new objects. Prior LP route and dressing/junction geometry checks remain applicable.",
+  "limits": [
+    "Reference wall finish is a visual interpretation, not an identified physical material.",
+    "Exact appearance still requires visual comparison.",
+    "Four sampled poses, not continuous collision certification.",
+    "Not validated in Unreal."
+  ]
+}
