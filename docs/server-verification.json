@@ -1,0 +1,187 @@
+{
+  "checkedAt": "2026-10-27T15:43:50.182Z",
+  "passed": true,
+  "scope": "Loopback-only read-only review server",
+  "checks": [
+    {
+      "method": "GET",
+      "url": "/health",
+      "status": 200
+    },
+    {
+      "method": "HEAD",
+      "url": "/",
+      "status": 200
+    },
+    {
+      "method": "HEAD",
+      "url": "/reference-records.glb",
+      "status": 200
+    },
+    {
+      "method": "HEAD",
+      "url": "/Reference/original-workshop.png",
+      "status": 200
+    },
+    {
+      "method": "HEAD",
+      "url": "/reference-surfaces.png",
+      "status": 200
+    },
+    {
+      "method": "HEAD",
+      "url": "/surfaces-workbench.png",
+      "status": 200
+    },
+    {
+      "method": "HEAD",
+      "url": "/reference-atmosphere.png",
+      "status": 200
+    },
+    {
+      "method": "HEAD",
+      "url": "/atmosphere-verification.json",
+      "status": 200
+    },
+    {
+      "method": "HEAD",
+      "url": "/reference-storage.png",
+      "status": 200
+    },
+    {
+      "method": "HEAD",
+      "url": "/storage-workbench.png",
+      "status": 200
+    },
+    {
+      "method": "HEAD",
+      "url": "/storage-verification.json",
+      "status": 200
+    },
+    {
+      "method": "HEAD",
+      "url": "/storage-record-clearance.json",
+      "status": 200
+    },
+    {
+      "method": "HEAD",
+      "url": "/reference-storage.blend",
+      "status": 200
+    },
+    {
+      "method": "HEAD",
+      "url": "/reference-structure.png",
+      "status": 200
+    },
+    {
+      "method": "HEAD",
+      "url": "/structure-workbench.png",
+      "status": 200
+    },
+    {
+      "method": "HEAD",
+      "url": "/structure-study.json",
+      "status": 200
+    },
+    {
+      "method": "HEAD",
+      "url": "/structure-verification.json",
+      "status": 200
+    },
+    {
+      "method": "HEAD",
+      "url": "/structure-storage-verification.json",
+      "status": 200
+    },
+    {
+      "method": "HEAD",
+      "url": "/structure-record-clearance.json",
+      "status": 200
+    },
+    {
+      "method": "HEAD",
+      "url": "/reference-structure.blend",
+      "status": 200
+    },
+    {
+      "method": "HEAD",
+      "url": "/reference-details.png",
+      "status": 200
+    },
+    {
+      "method": "HEAD",
+      "url": "/details-workbench.png",
+      "status": 200
+    },
+    {
+      "method": "HEAD",
+      "url": "/details-study.json",
+      "status": 200
+    },
+    {
+      "method": "HEAD",
+      "url": "/details-verification.json",
+      "status": 200
+    },
+    {
+      "method": "HEAD",
+      "url": "/details-retained-verification.json",
+      "status": 200
+    },
+    {
+      "method": "HEAD",
+      "url": "/details-record-clearance.json",
+      "status": 200
+    },
+    {
+      "method": "HEAD",
+      "url": "/reference-details.blend",
+      "status": 200
+    },
+    {
+      "method": "HEAD",
+      "url": "/reference-floor.png",
+      "status": 200
+    },
+    {
+      "method": "HEAD",
+      "url": "/floor-workbench.png",
+      "status": 200
+    },
+    {
+      "method": "HEAD",
+      "url": "/reference-floor.blend",
+      "status": 200
+    },
+    {
+      "method": "HEAD",
+      "url": "/floor-study.json",
+      "status": 200
+    },
+    {
+      "method": "HEAD",
+      "url": "/floor-verification.json",
+      "status": 200
+    },
+    {
+      "method": "HEAD",
+      "url": "/electrical-verification.json",
+      "status": 200
+    },
+    {
+      "method": "HEAD",
+      "url": "/electrical-record-clearance.json",
+      "status": 200
+    },
+    {
+      "method": "HEAD",
+      "url": "/github-source/docs/werkplan.txt",
+      "status": 404
+    },
+    {
+      "method": "POST",
+      "url": "/",
+      "status": 405
+    }
+  ]
+}

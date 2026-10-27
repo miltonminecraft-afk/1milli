@@ -1,0 +1,67 @@
+{
+  "checkedAt": "2026-10-27T15:42:39.077Z",
+  "url": "http://127.0.0.1:4282/vergelijking.html",
+  "images": [
+    {
+      "loaded": true,
+      "src": "../Reference/original-workshop.png",
+      "width": 1672
+    },
+    {
+      "loaded": true,
+      "src": "reference-floor.png",
+      "width": 1003
+    },
+    {
+      "loaded": true,
+      "src": "floor-workbench.png",
+      "width": 1003
+    },
+    {
+      "loaded": true,
+      "src": "../Reference/original-workshop.png",
+      "width": 1672
+    },
+    {
+      "loaded": true,
+      "src": "reference-records.png",
+      "width": 1003
+    },
+    {
+      "loaded": true,
+      "src": "records-shelf.png",
+      "width": 1003
+    },
+    {
+      "loaded": true,
+      "src": "records-extraction.png",
+      "width": 1003
+    },
+    {
+      "loaded": true,
+      "src": "records-platter.png",
+      "width": 1003
+    },
+    {
+      "loaded": true,
+      "src": "layout-workbench-view.png",
+      "width": 1003
+    },
+    {
+      "loaded": true,
+      "src": "layout-depth.png",
+      "width": 1003
+    },
+    {
+      "loaded": true,
+      "src": "reference-surfaces.png",
+      "width": 1003
+    },
+    {
+      "loaded": true,
+      "src": "surfaces-workbench.png",
+      "width": 1003
+    }
+  ],
+  "passed": true
+}

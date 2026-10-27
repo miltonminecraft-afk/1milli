@@ -64,43 +64,35 @@ alle gekozen objecten in beeld wanneer dat de referentie-indeling verandert.
 
 HUIDIGE STAND
 - Laatste lokale WERKBESTAND voor vervolgwerk:
-  onemillie-unreal/Review/reference-electrical.blend (956 meshobjecten, inclusief
-  bewaarde verborgen voorgangers). Bouwt voort op reference-finish.blend: B1-lak,
-  rubber, leer en chroom behouden hun materiaalcorrectie. Licht/camera niet gewijzigd.
-  Drie schakelaarfronten liggen op de afgelezen referentiepunten; losse leidingen
-  vervangen door bronbuizen, echte bochtmodules en afzonderlijke bevestigingsclips.
-  Twee leidingroutes boven de garage met vrije dalende einden. Eerste aansluiting
-  van achterste kleine doos verbonden; tweede bronaansluiting nog afmaken.
-  Alle geteste nieuwe onderdelen binnen muren/plafond. Geen doorsnijding met koof,
-  deurkast of tussen de twee achterste leidingassemblages. 14 aansluitingen gemeten.
-  Alle tien LP-routes opnieuw vrij (289 samples per route). Werkvlak, deurkieren,
-  ondersteuning en 1238 oorspronkelijke objectposes op vier momenten behouden.
-  Beide renders intern bekeken; laatste zichtbare vergelijking blijft details.
-  Neem motorafwerking én nieuwe elektra mee in de volgende zichtbare vergelijking.
-  Dit is een Blender-proef, geen gebouwde Unreal-scène of goedgekeurde afwerking.
-  De detailproef bouwt voort op reference-structure.blend; eerdere tafel-, planten- en LP-
-  reparaties blijven. Leidingmodules en kleine schakelaars aan referentiepunten
-  gekoppeld; koof langs bovenwand. Chroom benzinevat vervangt taps toelopende pot.
-  Bronkratten in olijf/antraciet/grijs toegevoegd; vorm wijkt nog af. W1-gereedschap
-  langs werkbankranden, pennenbak en krant links, gereedschapskist onder tafel.
-  Bankschroef gedraaid zodat de handgreep vóór de tafel hangt; bladcontact klopt.
-  Middenvlak vrij: lokale rechthoek 1,10 × 0,46 (schaal in meters nog voorlopig).
-  Kunstwerken uit originele afbeelding als textuur op losse printobjecten, niet
-  als fotoprojectie op de kamer. Garageachterwand heeft een echte deuropening;
-  onder- en bovenkier open, tussen de lamellen is de deur dicht. Licht staat buiten.
-  Vloer met sterkere, onregelmatige reflectie; warm werklicht en koeler kierlicht.
-  Vergelijkingspagina op 127.0.0.1:4282/vergelijking.html toont de detailproef;
-  de interne motorafwerking en aansluitingscorrectie zijn daar nog niet getoond.
-  Nog duidelijk andere tafel-/kastdetails, plantvormen, krukproporties, kleedpatroon,
-  ontbrekende wand-/opbergdetails en nog te beoordelen motorafwerking. Geen exacte of goedgekeurde
-  kopie. Geen Unreal-scène; niets als definitieve omgeving op GitHub gepubliceerd.
-  Vervolg: tweede achterste doosaansluiting, volledige leidingrouting/koofprofiel,
-  kratvormen en kleuren
-  visueel verder controleren. Vloermateriaal en reflectie moeten dichter bij het
-  concept; motorafwerking verder beoordelen, totaallicht en plantdichtheid/silhouetten afwijkend.
-  Tafeldetails blijven afwijkend; dit is geen visueel goedgekeurde tafelkopie.
-  Behoud LP-routes, gereedschapsondersteuning en herstelde planten. Niet teruggaan
-  naar een oudere proef die deze reparaties of het vrije werkvlak mist.
+  onemillie-unreal/Review/reference-floor.blend (956 meshobjecten, inclusief
+  bewaarde verborgen voorgangers). Bouwt voort op reference-electrical.blend.
+  Alleen vloermateriaal veranderd: gescand Scuffed Cement van Poly Haven (CC0),
+  kleur neutraler en ruwheid/normalsterkte afgestemd. Andere twee onderzochte
+  vloerbronnen niet toegepast. De eerste te gele/matte proef is bijgesteld.
+  Alle meshposities, topologie, UV en zichtbaarheid behouden. 1524 objecten op
+  vier animatiemomenten onverplaatst; materiaaltoewijzingen en nodes van 955
+  andere meshes gelijk. Lampen en wereldlicht gelijk. Eerdere LP-, contact- en
+  elektracontroles blijven van toepassing; dit is een materiaalwijziging.
+  Vergelijking op 127.0.0.1:4282/vergelijking.html toont nu reference-floor.png
+  en floor-workbench.png, naast het originele concept. Beide renders en browser
+  bekeken, alle 12 afbeeldingen geladen, 36 serverchecks geslaagd.
+  De voorgaande motorafwerking en elektrareparaties zijn nu ook zichtbaar.
+  De motor behoudt de materiaalcorrectie voor lak, rubber, leer en chroom.
+  Drie schakelaarfronten liggen op de afgelezen punten; buizen, bochten en losse
+  clips gekoppeld. Tweede bronleiding van de achterste kleine doos nog verbinden.
+  14 geteste aansluitingen; geen geteste muur/plafond-, koof/deurkast- of onderlinge
+  leidingdoorsnijdingen. Tien LP-routes vrij in 289 samples tegen 223 detailmeshes.
+  W1-werkbank heeft een vrij middenvlak; pennenbak, krant en gereedschap langs
+  randen. Chroom benzinevat, opslagkratten, koof en losse kunstreproducties blijven.
+  Onder- en bovenkier van garage zijn geometrisch open, lamelrug is dicht.
+  Nog duidelijk andere vloertextuur/reflecties, totaallicht, tafel-/kastdetails,
+  kratvormen, planten en hoeveelheid blad, krukverhoudingen en kleedpatroon.
+  Volgende visuele stap: verhoudingen/dichtheid van opslag en tafel, warm-koel
+  lichtbeeld en duidelijk zichtbaar bovenkierlicht verder aan het concept toetsen.
+  De open tweede elektra-aansluiting en koofvorm blijven eveneens op de lijst.
+  Geen exacte of goedgekeurde kopie. Geen gebouwde Unreal-scène. Niets als
+  definitieve omgeving gepubliceerd; scène en renders blijven lokaal.
+  Behoud de actuele werkfile en controles; niet teruggaan naar een oudere proef.
 - GitHub-broncode staat in https://github.com/miltonminecraft-afk/1milli.
   Eerste upload: commit 3aec88c2f02903668f545d2f1e1d5302d05e6280.
 - Websitepreview bestaat: foto met beperkte diepte, echte 3D-platen en GLB-objecten.
@@ -505,3 +497,17 @@ ongekeurde scene/renders lokaal. Laatst getoonde vergelijking blijft details.
 Motorfinish en deze elektra moeten samen in volgende zichtbare vergelijking.
 Epic alleen proces/log gecontroleerd; dezelfde blokkade, geen dubbele installer.
 Volledige routing, vloer/reflecties, plant-/tafelverhoudingen en Unreal blijven open.
+
+2026-10-27 Heartbeat 15:28 UTC: drie gratis gescande vloertexturen onderzocht.
+Scuffed Cement in aparte lokale materiaalproef toegepast; eerste te gele/matte
+versie afgewezen en neutraler/glanzender bijgesteld. Bronmaps 2K met MD5 gecheckt,
+licentie/auteurs bewaard en in Blender ingepakt. Geen fotoprojectie op de kamer.
+Geometrie/topologie/UV/zichtbaarheid SHA gelijk aan electrical-proef. 1524 objecten
+op vier animatiemomenten behouden; 955 andere meshmaterialen inclusief nodes gelijk.
+Lampen en wereldlicht ongewijzigd. LP-routes/contacten en elektra-bewijs blijven geldig.
+Beide finalerenders en browservergelijking bekeken; 12 afbeeldingen laden en
+36 checks op de lokale read-only server slagen. Vergelijking toont nu ook de
+motorfinish en aangesloten leidingen. Vloerpatroon en reflectiebeeld nog afwijkend.
+Alleen eigen reviewserver 4282 herstart; hoofdwebsite en desktopeditor ongemoeid.
+Controlecode, bronnen en voortgang op GitHub; ongekeurde scène/renders blijven lokaal.
+Epic-proces en laatste log read-only gecontroleerd: bekende blokkade, geen installer.

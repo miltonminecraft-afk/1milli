@@ -57,7 +57,7 @@ Alle controles slagen; dit bewijst geen exacte gelijkenis of Unreal-compatibilit
 Lichtverdeling, reflecties, plantvormen en ontbrekende opbergspullen blijven open.
 Ook deze proef blijft lokaal; broncode, licenties en controlebewijzen staan op GitHub.
 
-LAATST GETOONDE DETAILPROEF: reference-details.blend (lokaal, 900 meshes).
+EERDERE DETAILPROEF: reference-details.blend (lokaal, 900 meshes).
 De vergelijking toont reference-details.png en details-workbench.png.
 Elektra op gemeten referentiepunten; koof, chroom vat, kratten, kunstreproducties,
 pennenbak en krant toegevoegd. Bestaande tafellamp en gereedschapskast blijven.
@@ -88,7 +88,7 @@ finish-detail-verification.json: werkvlak, ondersteuning en deurkieren opnieuw g
 Eerdere LP-routecontrole blijft geldig door ongewijzigde geometrie en animatie.
 Geen exacte visuele kopie, Unreal-level of goedgekeurde eindafwerking.
 
-HUIDIG INTERN VERVOLGWERKBESTAND: reference-electrical.blend (956 meshobjecten).
+VORIGE INTERNE ELEKTRAPROEF: reference-electrical.blend (956 meshobjecten).
 Behoudt de motorfinish; nieuwe aangesloten bronbuizen, bochten en clips. Drie
 schakelaarfronten op handmatige referentieankers; eerste achterste doosaansluiting
 verbonden, tweede nog afmaken. Volledige routing en koofvorm zijn nog niet exact.
@@ -100,3 +100,15 @@ electrical-visual-review.json: beide renders bekeken, SHA-256 en resterende punt
 De zichtbare vergelijking blijft reference-details.blend. Bij volgende zichtbare
 review de motorfinish én deze aansluitingscorrectie tonen. Geen Unreal-level;
 de nog niet goedgekeurde werkfile en beelden blijven lokaal.
+
+HUIDIG WERKBESTAND EN GETOONDE PROEF: reference-floor.blend (956 meshobjecten).
+De actuele vergelijking toont reference-floor.png en floor-workbench.png.
+Behoudt motorfinish en aangesloten elektra; alleen vloer krijgt Scuffed Cement,
+Poly Haven CC0, met neutralere kleur en aangepaste glans/normalsterkte.
+floor-verification.json bewijst gelijke geometrie/UV/zichtbaarheid, 1524 poses op
+vier momenten, 955 andere meshmaterialen/nodes en gelijke verlichting.
+Eerdere LP-route-, contact-, werkvlak- en elektracontroles blijven geldig.
+floor-visual-review.json bevat hashes, visuele beoordeling en open verschillen;
+floor-browser-verification.json bevestigt alle 12 afbeeldingen geladen.
+Dit is een nog niet goedgekeurde Blender-proef; geen echte Unreal-scène.
+Het concept blijft de maatstaf voor vloerpatroon, licht en overige inrichting.

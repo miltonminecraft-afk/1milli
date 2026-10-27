@@ -1,0 +1,29 @@
+{
+  "checkedAt": "2026-10-27T15:38:49.989253+00:00",
+  "source": "reference-electrical.blend",
+  "scene": "reference-floor.blend",
+  "passed": true,
+  "userApproved": false,
+  "unrealSceneBuilt": false,
+  "comparedObjects": 1524,
+  "sampledFrames": [
+    1,
+    109,
+    289,
+    577
+  ],
+  "maximumMatrixError": 0,
+  "meshTopologyPositionsUVsVisibilitySha256": "a750f5b74f8f743317408879922caa33a6028fe42506471a14b3f0c826519462",
+  "lightsAndWorldUnchanged": true,
+  "nonFloorMeshMaterialAssignmentsAndNodesUnchanged": 955,
+  "floorMapsPacked": 3,
+  "sourceResolution": 2048,
+  "priorRouteEvidence": "electrical-record-clearance.json",
+  "priorDetailEvidence": "electrical-detail-verification.json",
+  "priorElectricalEvidence": "electrical-verification.json",
+  "priorEvidenceStillApplies": "Material-only change; geometry, UVs, visibility and sampled object matrices remain identical.",
+  "limitations": [
+    "Shader adjustment does not prove exact visual similarity.",
+    "No Unreal material validation or saved Unreal scene."
+  ]
+}

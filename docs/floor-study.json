@@ -1,0 +1,70 @@
+{
+  "builtAt": "2026-10-27T15:37:45.020113+00:00",
+  "source": "reference-electrical.blend",
+  "scene": "reference-floor.blend",
+  "sourceMaterial": {
+    "downloadedAt": "2026-10-27T15:33:22.802Z",
+    "id": "scuffed_cement",
+    "name": "Scuffed Cement",
+    "source": "https://polyhaven.com/a/scuffed_cement",
+    "authors": {
+      "Dario Barresi": "Processing",
+      "Dimitrios Savva": "Photography"
+    },
+    "license": "CC0-1.0",
+    "licenseUrl": "https://polyhaven.com/license",
+    "physicalDimensions": [
+      1619.999885559082,
+      1619.999885559082
+    ],
+    "maps": {
+      "diff": {
+        "file": "scuffed_cement_diff_2k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/scuffed_cement/scuffed_cement_diff_2k.jpg",
+        "md5": "ba82d109952d61bebea71dbda426e023",
+        "bytes": 2354199
+      },
+      "normal": {
+        "file": "scuffed_cement_nor_gl_2k.png",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/2k/scuffed_cement/scuffed_cement_nor_gl_2k.png",
+        "md5": "8630302f43d27cf1aaed3443e76f9b92",
+        "bytes": 21207947
+      },
+      "rough": {
+        "file": "scuffed_cement_rough_2k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/scuffed_cement/scuffed_cement_rough_2k.jpg",
+        "md5": "ab34f76501e9f307fe479efda2ef7170",
+        "bytes": 1296970
+      }
+    },
+    "status": "Unapproved material candidate"
+  },
+  "changedObject": "Architecture / floor",
+  "userApproved": false,
+  "unrealSceneBuilt": false,
+  "lightingChanged": false,
+  "geometryChanged": false,
+  "tileSizeSceneUnits": 1.6,
+  "roughnessRange": [
+    0.08,
+    0.23
+  ],
+  "normalStrength": 0.45,
+  "coatWeight": 0.3,
+  "coatRoughness": 0.12,
+  "saturation": 0.28,
+  "albedoLinearRGBMultiplier": [
+    1.3,
+    1.27,
+    1.24
+  ],
+  "removedFromFloor": "Previous added procedural macro bump; source normal now supplies surface detail.",
+  "remaining": [
+    "Exact floor pattern and warm/cool reflected light distribution.",
+    "Second rear electrical junction connection, full reference routing and casing profile.",
+    "Table/cabinet/storage proportions, denser reference foliage, stool and rug differences.",
+    "Unreal installation and an actual editable .umap; final user approval."
+  ],
+  "verification": "floor-verification.json",
+  "visualReview": "floor-visual-review.json"
+}

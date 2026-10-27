@@ -1,0 +1,49 @@
+{
+  "checkedAt": "2026-10-27T15:43:50.937Z",
+  "scene": "reference-floor.blend",
+  "sceneSha256": "24d9cce9584c60a0d5e5774a4c4fa0b5d9aef315b2eeb63f28ccca4482507bb3",
+  "userApproved": false,
+  "exactConceptMatch": false,
+  "unrealSceneBuilt": false,
+  "websitePublished": false,
+  "mainWebsiteChanged": false,
+  "localComparisonUpdated": true,
+  "images": [
+    {
+      "file": "reference-floor.png",
+      "sha256": "700a02d150c917577eb6ec42262d8f5945384d406410698f1a52de3f5dd0447c"
+    },
+    {
+      "file": "floor-workbench.png",
+      "sha256": "55aa61e59c21f8f084a5fe10b58933e5bf4e3dc50738e024ce94748ae4f76776"
+    },
+    {
+      "file": "floor-comparison-proof.png",
+      "sha256": "4cfa59661724cb1f174034738a91ea67547f5ce6877eb6121c895c7c7d00b3e4"
+    }
+  ],
+  "source": "https://polyhaven.com/a/scuffed_cement",
+  "sourceLicense": "CC0-1.0",
+  "inspected": "Both final Blender renders and the local browser comparison inspected. First floor trial was too yellow and matte; final trial has reduced saturation and smoother source normals. Floor is lighter and reflection is visible, but it does not reproduce the original strongly patterned polished floor and light pools.",
+  "alternatives": [
+    {
+      "source": "https://polyhaven.com/a/hangar_concrete_floor",
+      "used": false,
+      "reason": "Preview is too dark and coarse for this candidate."
+    },
+    {
+      "source": "https://polyhaven.com/a/smooth_concrete_floor",
+      "used": false,
+      "reason": "Preview is too red/brown and strongly stained."
+    }
+  ],
+  "unchangedEvidence": "floor-verification.json",
+  "browserEvidence": "floor-browser-verification.json",
+  "serverChecks": 36,
+  "remaining": [
+    "Exact floor pattern and warm/cool reflected light distribution.",
+    "Second rear electrical junction connection, full reference routing and casing profile.",
+    "Table/cabinet/storage proportions, denser reference foliage, stool and rug differences.",
+    "Unreal installation and an actual editable .umap; final user approval."
+  ]
+}
