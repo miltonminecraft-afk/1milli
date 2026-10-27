@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="nl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ruimtes vergelijken · onemillie</title>
+  <link rel="stylesheet" href="./rooms.css">
+</head>
+<body>
+  <main>
+    <header>
+      <div><p class="eyebrow">ONEMILLIE <span>/</span> OMGEVING</p><h1>Ruimtes vergelijken</h1></div>
+      <p class="intro"><strong id="total">Nieuwe 3D-ruimtes</strong> · gratis<br><span>Bekijk de 3D-modellen en geef je voorkeur door.</span></p>
+    </header>
+    <nav class="filters" aria-label="Type ruimte"><button data-filter="added" aria-pressed="true">22 toegevoegd</button><button data-filter="new" aria-pressed="false">Alle 30 opties</button><button data-filter="scan" aria-pressed="false">Alleen scans</button><button data-filter="previous" aria-pressed="false">Eerdere selectie</button><a href="../">Terug naar de website ↗</a></nav>
+    <div class="search-row"><label>Soort ruimte <select id="category"><option value="">Alle soorten</option></select></label><label class="search-field">Zoeken <input id="room-search" type="search" placeholder="Bijvoorbeeld: baksteen, loods, daglicht"></label><span id="result-count" role="status"></span></div>
+    <p class="selection" id="selection" aria-live="polite">Geen nieuwe ruimte gekozen. De huidige inrichting blijft staan totdat jij kiest.</p>
+    <div class="grid" id="rooms"></div>
+    <footer>Originele voorbeeldbeelden van de makers. Licht en materialen kunnen bij import afwijken. Kies eerst een ruimte; daarna volgt de belichting en inrichting.</footer>
+  </main>
+  <dialog id="viewer" aria-labelledby="viewer-title">
+    <div class="viewer-bar"><div><h2 id="viewer-title"></h2><p id="viewer-note"></p></div><button id="close-viewer" type="button">Sluiten <span aria-hidden="true">×</span></button></div>
+    <div class="viewer-stage" id="viewer-stage"></div>
+    <div class="viewer-footer"><span>Originele Sketchfab-viewer · sleep om rond te kijken · scroll om te zoomen</span><a id="original" target="_blank" rel="noopener noreferrer">Open bij de maker ↗</a></div>
+  </dialog>
+  <script src="./rooms.js"></script>
+</body>
+</html>
