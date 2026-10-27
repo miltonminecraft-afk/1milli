@@ -10,6 +10,13 @@ correcte LP-interactie en de mogelijkheid objecten toe te voegen. Daarnaast blij
 een eenvoudig apart desktopprogramma beschikbaar voor zelf inrichten.
 
 VASTSTAANDE KEUZES
+- Aanvulling 27 oktober: elektra exact volgens zichtbare routes, bochten en kleine
+  schakelkastjes van het concept; geen willekeurige grote meterkast. Koof op de muur.
+  Gereedschapskasten, kranten, pennenbak en kleine tafelspullen; werkbank met lamp
+  én voldoende vrij werkvlak. Kratjes dezelfde kleuren als concept. Kunstwerken
+  op de muur uit dezelfde referentie. Plant bij garagedeur in een chroom benzinevat.
+  Vloer hetzelfde verweerde materiaal en reflectiebeeld; meer sfeerlicht. Echte
+  smalle kieren boven en onder garagedeur voor invallend licht en vloerreflecties.
 - Nieuwste correctie: DEZELFDE SFEER, TAFEL, PLANTEN EN BELICHTING als het concept.
   De gebruiker heeft de kale materiaalproef afgewezen. Een soortgelijke losse
   verzameling modellen is onvoldoende. Plantvorm, hoeveelheid blad, potten,
@@ -57,23 +64,28 @@ alle gekozen objecten in beeld wanneer dat de referentie-indeling verandert.
 
 HUIDIGE STAND
 - Laatste lokale WERKBESTAND voor vervolgwerk:
-  onemillie-unreal/Review/reference-structure.blend (771 meshes, 216 ingepakte beelden).
-  Dit bouwt voort op reference-storage.blend; de plantenreparatie, kratten, krukken
-  en het kleed blijven. Bestaande houten bladen naar beneden verdikt; bovenzijde
-  blijft gelijk. Twee onderstellen uit één gekozen W2-set aangepast voor beide
-  tafels. Kaststaanders hergebruiken bestaande geperforeerde brongeometrie.
-  Fout hersteld: 11 groepen W1-gereedschap (32 meshonderdelen) zaten onder het
-  nieuwe werkblad. Complete groepen staan nu op het blad, interne poses behouden.
+  onemillie-unreal/Review/reference-details.blend (900 meshes, 251 ingepakte beelden).
+  Dit bouwt voort op reference-structure.blend; eerdere tafel-, planten- en LP-
+  reparaties blijven. Leidingmodules en kleine schakelaars aan referentiepunten
+  gekoppeld; koof langs bovenwand. Chroom benzinevat vervangt taps toelopende pot.
+  Bronkratten in olijf/antraciet/grijs toegevoegd; vorm wijkt nog af. W1-gereedschap
+  langs werkbankranden, pennenbak en krant links, gereedschapskist onder tafel.
+  Bankschroef gedraaid zodat de handgreep vóór de tafel hangt; bladcontact klopt.
+  Middenvlak vrij: lokale rechthoek 1,10 × 0,46 (schaal in meters nog voorlopig).
+  Kunstwerken uit originele afbeelding als textuur op losse printobjecten, niet
+  als fotoprojectie op de kamer. Garageachterwand heeft een echte deuropening;
+  onder- en bovenkier open, tussen de lamellen is de deur dicht. Licht staat buiten.
+  Vloer met sterkere, onregelmatige reflectie; warm werklicht en koeler kierlicht.
   Vergelijkingspagina op 127.0.0.1:4282/vergelijking.html toont deze nieuwste proef.
   Nog duidelijk andere tafel-/kastdetails, plantvormen, krukproporties, kleedpatroon,
   ontbrekende wand-/opbergdetails en te donkere motor. Geen exacte of goedgekeurde
   kopie. Geen Unreal-scène; niets als definitieve omgeving op GitHub gepubliceerd.
-  Vervolg: warme tafelzones minder overbelicht, motor leesbaar en koele reflectie
-  op achtervloer afstemmen op de referentie. Daarna plantdichtheid/silhouetten en
-  ontbrekende kisten, opbergspullen en wanddetails aanpakken met bronassets.
+  Vervolg: exacte leidingbochten/aansluitingen, koofprofiel, kratvormen en kleuren
+  visueel verder controleren. Vloermateriaal en reflectie moeten dichter bij het
+  concept; motor nog te donker, totaallicht en plantdichtheid/silhouetten afwijkend.
   Tafeldetails blijven afwijkend; dit is geen visueel goedgekeurde tafelkopie.
   Behoud LP-routes, gereedschapsondersteuning en herstelde planten. Niet teruggaan
-  naar een oudere proef die deze reparaties mist.
+  naar een oudere proef die deze reparaties of het vrije werkvlak mist.
 - GitHub-broncode staat in https://github.com/miltonminecraft-afk/1milli.
   Eerste upload: commit 3aec88c2f02903668f545d2f1e1d5302d05e6280.
 - Websitepreview bestaat: foto met beperkte diepte, echte 3D-platen en GLB-objecten.
@@ -423,3 +435,23 @@ werkbanklicht te fel, motor te donker, koele vloerreflectie en plant-/opbergdeta
 verschillen. Eerst die sfeer herstellen; geen exacte match of Unreal-level claimen.
 Epic-proces en laatste log alleen gecontroleerd: bekende fout blijft, geen nieuwe
 installer of cache-reset. Broncode/bewijs naar GitHub, scène/renders blijven lokaal.
+
+2026-10-27 gebruikersaanvullingen na 14:02 UTC verwerkt in lokale detailproef.
+900 meshes, 251 ingepakte beelden. Acht gratis bronmodellen met licenties bewaard.
+Modulaire metalen leidingen en schakelaars langs referentieroutes; grote meterkast
+wel onderzocht maar NIET geplaatst. Schakelaarankers volgen vier afgelezen punten.
+Koofprofiel kandidaat. Taps plantenpotje vervangen door open chroom benzinevat.
+Tien gesloten bronkratten in olijf/antraciet/grijs, zeven losse referentieprints.
+Pennenbak en gevouwen krant bij de rand; gereedschap in complete groepen verplaatst.
+Vrij werkvlak 1,10 × 0,46 lokale eenheden. Geen tafel- of onderlinge propbotsingen.
+Bankschroef gedraaid om de handgreep buiten het blad te houden; krat-overhang
+hersteld. 1238 originele poses op vier momenten behouden. Alle tien LP-routes
+tegen 183 meshes / 973970 driehoeken, 289 samples elk: nul botsingssamples.
+Garageachterwand opengemaakt en lamellen aan achterzijde afgedicht: alleen twee
+bedoelde kieren open. Vier raytests slagen. Lichtbronnen staan achter de opening.
+Eerste onderkierlicht en gladde vloerglans teruggenomen; onregelmatige reflectie
+en zachtere warme werklamp. Twee laatste renders en browservergelijking bekeken.
+29 serverchecks slagen; alle 12 beelden laden. Bewijs: docs/details-*.json.
+Exacte elektra/koofvorm, kratproporties, vloerbeeld, donkere motor en plantvormen
+blijven open. Geen Unreal-level, geen definitieve scène of nieuwe websiteversie.
+Broncode/licenties/checks naar GitHub; de ongekeurde scène en beelden blijven lokaal.

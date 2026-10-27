@@ -45,8 +45,7 @@ tien LP-routes in steekproeven tegen de toegevoegde details. Bronlicenties en
 aanpassingen staan op de vergelijking. De scène is geen Unreal-level en blijft
 lokaal tot de gebruiker de omgeving beoordeeld heeft.
 
-HUIDIG VERVOLGWERKBESTAND: reference-structure.blend (lokaal, 771 meshes).
-De vergelijking toont reference-structure.png en structure-workbench.png.
+VORIGE TAFELPROEF: reference-structure.blend (lokaal, 771 meshes).
 Dikkere bron-houtbladen behouden hun bovenzijde. Twee onderstellen uit één W2-set
 zijn op beide tafels aangepast; kaststaanders gebruiken bronprofielen met gaten.
 W1-gereedschap dat onder het nieuwe blad zat is in 11 complete groepen opgetild.
@@ -57,3 +56,21 @@ structure-record-clearance.json controleert alle tien routes tegen 87 detailmesh
 Alle controles slagen; dit bewijst geen exacte gelijkenis of Unreal-compatibiliteit.
 Lichtverdeling, reflecties, plantvormen en ontbrekende opbergspullen blijven open.
 Ook deze proef blijft lokaal; broncode, licenties en controlebewijzen staan op GitHub.
+
+HUIDIG VERVOLGWERKBESTAND: reference-details.blend (lokaal, 900 meshes).
+De vergelijking toont reference-details.png en details-workbench.png.
+Elektra op gemeten referentiepunten; koof, chroom vat, kratten, kunstreproducties,
+pennenbak en krant toegevoegd. Bestaande tafellamp en gereedschapskast blijven.
+De werkbank heeft een gecontroleerd vrij middenvlak. Bankschroef en losse spullen
+zijn als complete groepen verplaatst; geen onderlinge botsingen of bladkruisingen.
+Daglicht staat buiten een echte deuropening, met open boven- en onderkier en
+een dichte rug achter de lamellen. Raytests controleren open en gesloten delen.
+De bestaande vloertextuur heeft nieuwe ruwheid en onregelmatige reflecties;
+het exacte referentiemateriaal en het lichtbeeld zijn nog niet bereikt.
+details-verification.json: werkvlak, spullen, kieren en geprojecteerde schakelaars.
+details-retained-verification.json: behouden originelen en eerdere aankleding.
+details-record-clearance.json: alle tien LP-routes tegen 183 zichtbare detailmeshes.
+details-visual-review.json: hashes, visuele controle, resterende verschillen.
+De kunstreproducties gebruiken alleen op printobjecten de aangeleverde afbeelding.
+Nieuwe bronmodellen en aanpassingen staan met hun licenties op de vergelijkingspagina.
+Geen definitieve omgeving of Unreal-level. Niet gepubliceerd als nieuwe website.

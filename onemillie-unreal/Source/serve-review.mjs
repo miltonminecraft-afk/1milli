@@ -14,7 +14,8 @@ const files=new Map([
     'reference-surfaces.png','surfaces-workbench.png','surface-study.json','reference-surfaces.blend',
     'reference-atmosphere.png','atmosphere-workbench.png','atmosphere-study.json','atmosphere-verification.json','reference-atmosphere.blend',
     'reference-storage.png','storage-workbench.png','storage-study.json','storage-verification.json','storage-record-clearance.json','reference-storage.blend',
-    'reference-structure.png','structure-workbench.png','structure-study.json','structure-verification.json','structure-storage-verification.json','structure-record-clearance.json','reference-structure.blend'].map(name=>['/'+name,name])
+    'reference-structure.png','structure-workbench.png','structure-study.json','structure-verification.json','structure-storage-verification.json','structure-record-clearance.json','reference-structure.blend',
+    'reference-details.png','details-workbench.png','details-study.json','details-verification.json','details-retained-verification.json','details-record-clearance.json','reference-details.blend'].map(name=>['/'+name,name])
 ].map(([url,file])=>[url,path.join(review,file)]));
 files.set('/Reference/original-workshop.png',path.join(root,'Reference/original-workshop.png'));
 files.set('/vendor/playcanvas.mjs',path.join(root,'../onemillie-runtime/vendor/playcanvas.mjs'));

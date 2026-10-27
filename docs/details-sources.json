@@ -1,0 +1,368 @@
+{
+  "checkedAt": "2026-10-27T14:25:22.593Z",
+  "status": "Local review candidates, no change to chosen manifest",
+  "sources": [
+    {
+      "id": "Barrel_01",
+      "name": "Barrel_01",
+      "authors": {
+        "Jorge Camacho": "All"
+      },
+      "source": "https://polyhaven.com/a/Barrel_01",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://polyhaven.com/license",
+      "status": "Local comparison candidate; not user approved",
+      "files": [
+        {
+          "file": "Barrel_01_2k.gltf",
+          "bytes": 2711,
+          "md5": "b590284768d2c7bf92a96e759ca9e9d8",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/2k/Barrel_01/Barrel_01_2k.gltf"
+        },
+        {
+          "file": "Barrel_01.bin",
+          "bytes": 81756,
+          "md5": "e9f1036a183a1747aea6d40c556d7410",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/Barrel_01/Barrel_01.bin"
+        },
+        {
+          "file": "textures/Barrel_01_explosive_arm_2k.jpg",
+          "bytes": 814101,
+          "md5": "5aaba73164df1518bbc417efb7782d67",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/Barrel_01/Barrel_01_explosive_arm_2k.jpg"
+        },
+        {
+          "file": "textures/Barrel_01_explosive_diff_2k.jpg",
+          "bytes": 613078,
+          "md5": "c8914e7197e19feb37436c3035f1b3cd",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/Barrel_01/Barrel_01_explosive_diff_2k.jpg"
+        },
+        {
+          "file": "textures/Barrel_01_explosive_nor_gl_2k.jpg",
+          "bytes": 875565,
+          "md5": "8018e6790829cbbe453de4f25f314362",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/Barrel_01/Barrel_01_explosive_nor_gl_2k.jpg"
+        }
+      ]
+    },
+    {
+      "id": "modular_electric_cables",
+      "name": "Modular Electric Cables",
+      "authors": {
+        "Kuutti Siitonen": "All"
+      },
+      "source": "https://polyhaven.com/a/modular_electric_cables",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://polyhaven.com/license",
+      "status": "Local comparison candidate; not user approved",
+      "files": [
+        {
+          "file": "modular_electric_cables_2k.gltf",
+          "bytes": 82607,
+          "md5": "f2142760a00c34109c50b8407cd9e656",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/2k/modular_electric_cables/modular_electric_cables_2k.gltf"
+        },
+        {
+          "file": "textures/modular_electric_cables_nor_gl_2k.jpg",
+          "bytes": 3532531,
+          "md5": "6eeac85eb146c27ee0737a28925dbdae",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/modular_electric_cables/modular_electric_cables_nor_gl_2k.jpg"
+        },
+        {
+          "file": "textures/modular_electric_cables_diff_2k.jpg",
+          "bytes": 1628766,
+          "md5": "dd06b628c4680404173c0a11289e5adf",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/modular_electric_cables/modular_electric_cables_diff_2k.jpg"
+        },
+        {
+          "file": "textures/modular_electric_cables_arm_2k.jpg",
+          "bytes": 2679133,
+          "md5": "7195e2938ab35a74fbce0c999b6e211f",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/modular_electric_cables/modular_electric_cables_arm_2k.jpg"
+        },
+        {
+          "file": "textures/modular_electric_cables_boxes_nor_gl_2k.jpg",
+          "bytes": 2707023,
+          "md5": "0dece50fce1d1764bb1cb4f8c2d59fd9",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/modular_electric_cables/modular_electric_cables_boxes_nor_gl_2k.jpg"
+        },
+        {
+          "file": "textures/modular_electric_cables_boxes_diff_2k.jpg",
+          "bytes": 2327515,
+          "md5": "5d5a194eebee6ab8dcd45b71328734d4",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/modular_electric_cables/modular_electric_cables_boxes_diff_2k.jpg"
+        },
+        {
+          "file": "textures/modular_electric_cables_boxes_arm_2k.jpg",
+          "bytes": 3140374,
+          "md5": "02a8a4eb52d7e35aaa659e205b74573e",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/modular_electric_cables/modular_electric_cables_boxes_arm_2k.jpg"
+        },
+        {
+          "file": "modular_electric_cables.bin",
+          "bytes": 1563316,
+          "md5": "1444b0e21d201c344a99e86937bbe5fc",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/4k/modular_electric_cables/modular_electric_cables.bin"
+        }
+      ]
+    },
+    {
+      "id": "modular_airduct_rectangular_01",
+      "name": "Modular Airduct Rectangular 01",
+      "authors": {
+        "James Ray Cock": "All"
+      },
+      "source": "https://polyhaven.com/a/modular_airduct_rectangular_01",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://polyhaven.com/license",
+      "status": "Local comparison candidate; not user approved",
+      "files": [
+        {
+          "file": "modular_airduct_rectangular_01_2k.gltf",
+          "bytes": 37157,
+          "md5": "6573f5173aba875fedfb714d1babc1a4",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/2k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_2k.gltf"
+        },
+        {
+          "file": "textures/modular_airduct_rectangular_01_parts01_arm_2k.jpg",
+          "bytes": 775803,
+          "md5": "05888ab8f1a6db7cb41613e18e4ec74f",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts01_arm_2k.jpg"
+        },
+        {
+          "file": "textures/modular_airduct_rectangular_01_parts02_nor_gl_2k.jpg",
+          "bytes": 276798,
+          "md5": "4639550b8bb5f31fbe53beb2418d0b1a",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts02_nor_gl_2k.jpg"
+        },
+        {
+          "file": "textures/modular_airduct_rectangular_01_parts02_diff_2k.jpg",
+          "bytes": 544079,
+          "md5": "9b43cd770eeaac1523037a3ceeb42c83",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts02_diff_2k.jpg"
+        },
+        {
+          "file": "textures/modular_airduct_rectangular_01_parts01_diff_2k.jpg",
+          "bytes": 602952,
+          "md5": "743e4e6d4ddb2aba2d59d87e2e938a90",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts01_diff_2k.jpg"
+        },
+        {
+          "file": "textures/modular_airduct_rectangular_01_parts02_arm_2k.jpg",
+          "bytes": 583018,
+          "md5": "8b98774d639d973869489b726e5b484c",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts02_arm_2k.jpg"
+        },
+        {
+          "file": "modular_airduct_rectangular_01.bin",
+          "bytes": 1795116,
+          "md5": "e9d9ce22429985630952fc26fe24e2f5",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/modular_airduct_rectangular_01/modular_airduct_rectangular_01.bin"
+        },
+        {
+          "file": "textures/modular_airduct_rectangular_01_parts01_nor_gl_2k.jpg",
+          "bytes": 210877,
+          "md5": "341769bc5d610d6097451df744e21af8",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/modular_airduct_rectangular_01/modular_airduct_rectangular_01_parts01_nor_gl_2k.jpg"
+        }
+      ]
+    },
+    {
+      "id": "metal_toolbox",
+      "name": "Metal Toolbox",
+      "authors": {
+        "Mateusz Sadek": "All"
+      },
+      "source": "https://polyhaven.com/a/metal_toolbox",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://polyhaven.com/license",
+      "status": "Local comparison candidate; not user approved",
+      "files": [
+        {
+          "file": "metal_toolbox_2k.gltf",
+          "bytes": 10717,
+          "md5": "71aaf4b1868301fa9664e5e3d8bb7f04",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/2k/metal_toolbox/metal_toolbox_2k.gltf"
+        },
+        {
+          "file": "textures/metal_toolbox_nor_gl_2k.jpg",
+          "bytes": 2380628,
+          "md5": "75f7a9df8c867eba5b4d29219ec496e5",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/metal_toolbox/metal_toolbox_nor_gl_2k.jpg"
+        },
+        {
+          "file": "textures/metal_toolbox_diff_2k.jpg",
+          "bytes": 2884619,
+          "md5": "870d4d3804daadd9c4df40f746d56fa7",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/metal_toolbox/metal_toolbox_diff_2k.jpg"
+        },
+        {
+          "file": "textures/metal_toolbox_arm_2k.jpg",
+          "bytes": 4376677,
+          "md5": "05506bb3feca52d47682dd76af5383dc",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/metal_toolbox/metal_toolbox_arm_2k.jpg"
+        },
+        {
+          "file": "metal_toolbox.bin",
+          "bytes": 468892,
+          "md5": "0a7b37a276056e8c1c714dd4af0351f9",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/4k/metal_toolbox/metal_toolbox.bin"
+        }
+      ]
+    },
+    {
+      "id": "old_military_crate",
+      "name": "Old Military Crate",
+      "authors": {
+        "Jack Mava": "All"
+      },
+      "source": "https://polyhaven.com/a/old_military_crate",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://polyhaven.com/license",
+      "status": "Local comparison candidate; not user approved",
+      "files": [
+        {
+          "file": "old_military_crate_2k.gltf",
+          "bytes": 10126,
+          "md5": "38a0dbf05a8086e54978fa5f3f45ba49",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/2k/old_military_crate/old_military_crate_2k.gltf"
+        },
+        {
+          "file": "textures/old_military_crate_nor_gl_2k.jpg",
+          "bytes": 3184154,
+          "md5": "d7fc7062b059c6f99ae5de99af6c33b6",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/old_military_crate/old_military_crate_nor_gl_2k.jpg"
+        },
+        {
+          "file": "textures/old_military_crate_diff_2k.jpg",
+          "bytes": 2968985,
+          "md5": "141e3163cfd56a2654440a4f4fac9bfa",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/old_military_crate/old_military_crate_diff_2k.jpg"
+        },
+        {
+          "file": "textures/old_military_crate_arm_2k.jpg",
+          "bytes": 2808924,
+          "md5": "84727b16aef55f262d04dd1ebd265dc6",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/old_military_crate/old_military_crate_arm_2k.jpg"
+        },
+        {
+          "file": "old_military_crate.bin",
+          "bytes": 329004,
+          "md5": "4aa204ebcc401c38206677a808aebea6",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/old_military_crate/old_military_crate.bin"
+        }
+      ]
+    },
+    {
+      "id": "hanging_picture_frame_01",
+      "name": "Hanging Picture Frame 01",
+      "authors": {
+        "James Ray Cock": "All"
+      },
+      "source": "https://polyhaven.com/a/hanging_picture_frame_01",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://polyhaven.com/license",
+      "status": "Local comparison candidate; not user approved",
+      "files": [
+        {
+          "file": "hanging_picture_frame_01_2k.gltf",
+          "bytes": 6495,
+          "md5": "bb3a24b798979d796917c698493f342d",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/2k/hanging_picture_frame_01/hanging_picture_frame_01_2k.gltf"
+        },
+        {
+          "file": "textures/hanging_picture_frame_01_diff_2k.jpg",
+          "bytes": 355335,
+          "md5": "85b15d6ddac811110e9abaa838110fa7",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/hanging_picture_frame_01/hanging_picture_frame_01_diff_2k.jpg"
+        },
+        {
+          "file": "textures/hanging_picture_frame_01_artwork_diff_2k.jpg",
+          "bytes": 140005,
+          "md5": "f03b557dbe54b81a3bdebe4c580347c0",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/hanging_picture_frame_01/hanging_picture_frame_01_artwork_diff_2k.jpg"
+        },
+        {
+          "file": "textures/hanging_picture_frame_01_arm_2k.jpg",
+          "bytes": 368238,
+          "md5": "8965f477239f6c1f34e490226f041952",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/hanging_picture_frame_01/hanging_picture_frame_01_arm_2k.jpg"
+        },
+        {
+          "file": "hanging_picture_frame_01.bin",
+          "bytes": 86448,
+          "md5": "ed2c512ea5e3dcdcfc70c53b4de24099",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/hanging_picture_frame_01/hanging_picture_frame_01.bin"
+        },
+        {
+          "file": "textures/hanging_picture_frame_01_artwork_roughness_2k.jpg",
+          "bytes": 49548,
+          "md5": "8ee25a87fbcc4d46dd5985e37b5ec99e",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/hanging_picture_frame_01/hanging_picture_frame_01_artwork_roughness_2k.jpg"
+        },
+        {
+          "file": "textures/hanging_picture_frame_01_nor_gl_2k.jpg",
+          "bytes": 166602,
+          "md5": "d1721ca9c87267a2f28d3d84cc714048",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/hanging_picture_frame_01/hanging_picture_frame_01_nor_gl_2k.jpg"
+        },
+        {
+          "file": "textures/hanging_picture_frame_01_artwork_nor_gl_2k.jpg",
+          "bytes": 66928,
+          "md5": "f5f15614387ee8e1558f392d096ab21f",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/hanging_picture_frame_01/hanging_picture_frame_01_artwork_nor_gl_2k.jpg"
+        }
+      ]
+    },
+    {
+      "id": "1f33e40c27fe451e9efda612c69010ae",
+      "title": "Pens with Pencil holder - desk props",
+      "author": "janexx (looking for work)",
+      "source": "https://sketchfab.com/3d-models/pens-with-pencil-holder-desk-props-1f33e40c27fe451e9efda612c69010ae",
+      "license": {
+        "uri": "https://api.sketchfab.com/v3/licenses/322a749bcfa841b29dff1e8a1bb74b0b",
+        "label": "CC Attribution",
+        "fullName": "Creative Commons Attribution",
+        "requirements": "Author must be credited. Commercial use is allowed.",
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "slug": "by"
+      },
+      "url": "https://huggingface.co/datasets/allenai/objaverse/resolve/main/glbs/000-143/1f33e40c27fe451e9efda612c69010ae.glb",
+      "file": "pencil-holder.glb",
+      "bytes": 3493328,
+      "sha256": "fc965aad7f24d4e4bd598d4421ce62b65b689486ab225c3ed8a1c010643a05e1",
+      "status": "Candidate for matching the reference, pending visual approval",
+      "usage": "Traditional mesh import and rendering only; not used for generative AI or training."
+    },
+    {
+      "id": "4fc14ea5129b4ea3b34a22844a6f1b3f",
+      "title": "Folded Newspaper",
+      "author": "abdillaamy",
+      "source": "https://sketchfab.com/3d-models/folded-newspaper-4fc14ea5129b4ea3b34a22844a6f1b3f",
+      "license": {
+        "uri": "https://api.sketchfab.com/v3/licenses/322a749bcfa841b29dff1e8a1bb74b0b",
+        "label": "CC Attribution",
+        "fullName": "Creative Commons Attribution",
+        "requirements": "Author must be credited. Commercial use is allowed.",
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "slug": "by"
+      },
+      "url": "https://huggingface.co/datasets/allenai/objaverse/resolve/main/glbs/000-015/4fc14ea5129b4ea3b34a22844a6f1b3f.glb",
+      "file": "folded-newspaper.glb",
+      "bytes": 710604,
+      "sha256": "febf6ffcf7f4c7d222ab5735b5f8cc541aea2d46ca931845751713541561a4e9",
+      "status": "Candidate for matching the reference, pending visual approval",
+      "usage": "Traditional mesh import and rendering only; not used for generative AI or training."
+    }
+  ],
+  "unusedDownloadedCandidate": "power_box_01 was not placed: user requested original small switch boxes.",
+  "referenceArtwork": "Supplied original-workshop.png, used only on seven separate print objects",
+  "adaptations": [
+    "Conduit source modules placed along reference wall routes; switch anchors manually read.",
+    "Duct profile resized and wall-coloured for a provisional casing.",
+    "Drum uniformly scaled, top cap opened and paint replaced by chrome.",
+    "Closed crate assemblies uniformly scaled and recoloured; shape is not exact.",
+    "Frame reused with original reference print imagery; other paper prints reuse its artwork surface.",
+    "Pencil holder and newspaper uniformly scaled; tabletop groups moved rigidly."
+  ]
+}

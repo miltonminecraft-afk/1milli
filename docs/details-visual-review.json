@@ -1,0 +1,45 @@
+{
+  "checkedAt": "2026-10-27T14:25:22.597Z",
+  "scene": "reference-details.blend",
+  "sceneSha256": "5ba533cf8ecfb163cb565361963a26e6119ce92bc18d47dcd27876f2235b62ea",
+  "userApproved": false,
+  "exactConceptMatch": false,
+  "unrealSceneBuilt": false,
+  "websitePublished": false,
+  "chosenManifestChanged": false,
+  "ownerOrderWritten": false,
+  "inspection": "Both Blender renders and browser comparison inspected. First trial lower-slot light and floor gloss reduced; vice/table collision and shelf overhang repaired.",
+  "images": [
+    {
+      "file": "reference-details.png",
+      "sha256": "e112425a26d48634e49c6b43fe410b4c0df8f33310a6dec7efd38c9927d352df"
+    },
+    {
+      "file": "details-workbench.png",
+      "sha256": "8e609fcfbf9c3aee702a5a4ca169a77af65a2240e48f7dfe1fb1cf6dbfcc28b0"
+    },
+    {
+      "file": "details-comparison-proof.png",
+      "sha256": "f0188bd13769673f3d42c17e767b45456686d6a2b57644c15cd04d17975d4bd8"
+    }
+  ],
+  "browser": {
+    "url": "http://127.0.0.1:4282/vergelijking.html",
+    "allTwelveImagesLoaded": true,
+    "deliveryTabId": "21"
+  },
+  "improvements": [
+    "Reference-positioned electrical conduits and small switches.",
+    "Chrome petrol drum planter and olive/charcoal/grey shelf boxes.",
+    "Reference artwork printed on editable separate surfaces.",
+    "Lamp, pencil cup, folded newspaper and tools around a tested clear work area.",
+    "Actual upper/lower garage openings with exterior light, and less uniform floor reflections."
+  ],
+  "remaining": [
+    "Exact conduit bends and attachments, casing profile, crate shapes and proportions.",
+    "Floor material and reflection pattern are still candidates, not an exact copy.",
+    "Motorcycle too dark; total lighting and foliage shape/density still differ.",
+    "More faithful cabinet and table details, rug and stool proportions.",
+    "Unreal installation and saved level; final visual review."
+  ]
+}

@@ -10,6 +10,9 @@ for(const [method,url,status] of [['GET','/health',200],['HEAD','/',200],['HEAD'
   ['HEAD','/reference-structure.png',200],['HEAD','/structure-workbench.png',200],['HEAD','/structure-study.json',200],
   ['HEAD','/structure-verification.json',200],['HEAD','/structure-storage-verification.json',200],
   ['HEAD','/structure-record-clearance.json',200],['HEAD','/reference-structure.blend',200],
+  ['HEAD','/reference-details.png',200],['HEAD','/details-workbench.png',200],['HEAD','/details-study.json',200],
+  ['HEAD','/details-verification.json',200],['HEAD','/details-retained-verification.json',200],
+  ['HEAD','/details-record-clearance.json',200],['HEAD','/reference-details.blend',200],
   ['HEAD','/github-source/docs/werkplan.txt',404],['POST','/',405]]){
   const response=await fetch('http://127.0.0.1:4282'+url,{method,signal:AbortSignal.timeout(5000)});
   if(response.status!==status)throw Error(`${method} ${url}: ${response.status}, wanted ${status}`);
