@@ -35,3 +35,8 @@ verder afstemmen; fysieke steun/boekensteunen voor de kleine LP-groepen; meer
 bibliotheekkeuzes; volledige eenvoudige objecteditor met actuele omgeving.
 Unreal is nog niet geïnstalleerd/gebouwd. Deze turn wijzigt de installer niet.
 Definitief ontwerp blijft ter beoordeling. Heartbeat blijft voor vervolgwerk actief.
+
+Browsercontrole: animatieklok onafhankelijk gemaakt van PlayCanvas' begrensde
+frame-delta, zodat een traag apparaat de 19,2 s handeling niet extreem vertraagt.
+Stilstaande scènes renderen alleen na bediening of formaatwijziging. Hoes- en
+vinylposities gebruiken dezelfde eerder getoetste routes.

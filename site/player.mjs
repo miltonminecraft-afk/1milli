@@ -2,11 +2,11 @@ import * as pc from './vendor/playcanvas.mjs';
 import {stackPose,browseAngles,ease} from './record-stack-motion.mjs';
 import {recordTimeline,sampleRecordTimeline} from './record-motion.mjs';
 const $=id=>document.getElementById(id),duration=19.2,reduced=matchMedia('(prefers-reduced-motion: reduce)').matches;
-let app,root,cameras={},cameraKey='overview',time=0,playing=false,ready=false,records=[],entities=[],angles=[],browse=null,selected=0,vinyl,motion,layout;
+let app,root,cameras={},cameraKey='overview',time=0,playing=false,playStarted=0,playFrom=0,ready=false,records=[],entities=[],angles=[],browse=null,selected=0,vinyl,motion,layout;
 const controls=[...document.querySelectorAll('button,select,input')];
 function load(name,type,url){return new Promise((resolve,reject)=>{const a=new pc.Asset(name,type,{url});app.assets.add(a);a.once('load',()=>resolve(a));a.once('error',reject);app.assets.load(a);});}
 function pose(entity,p){entity.setPosition(p.x,p.y,p.z);const y=new pc.Quat().setFromAxisAngle(pc.Vec3.UP,p.ry||0),x=new pc.Quat().setFromAxisAngle(pc.Vec3.RIGHT,p.rx||0);entity.setRotation(new pc.Quat().mul2(y,x));entity.setLocalScale(p.scale,p.scale,p.scale);}
-function camera(key){cameraKey=key;for(const [id,e] of Object.entries(cameras))e.camera.enabled=id===key;$('camera').value=key;}
+function camera(key){cameraKey=key;for(const [id,e] of Object.entries(cameras))e.camera.enabled=id===key;$('camera').value=key;app.renderNextFrame=true;}
 function route(){const home=stackPose(records[selected],angles[selected]),d=layout.motion;motion=recordTimeline({shelf:home,sleeveAtDeck:d.sleeveAtDeck,platter:d.platter,waypoints:{pulled:{...home,x:home.x+.55,y:home.y+.012,z:home.z-.055},held:d.held,inside:d.inside,extracted:d.extracted,above:d.above}});
 const cover=entities[selected].findByName('LP front / '+records[selected].title)?.render?.meshInstances[0]?.material;
 if(cover)for(const render of vinyl.findComponents('render'))for(const mesh of render.meshInstances)if(mesh.material.name.startsWith('Cover /'))mesh.material=cover;
@@ -24,6 +24,7 @@ function updateScene(){
   const t=time<=9.6?time/1.5:(19.2-time)/1.5;let k=0;while(k<keys.length-2&&t>=keys[k+1][0])k++;
   const a=keys[k],b=keys[k+1],u=ease((t-a[0])/(b[0]-a[0])),mix=i=>a[i].map((v,j)=>v+(b[i][j]-v)*u);
   cameras.action.setPosition(...mix(1));cameras.action.lookAt(...mix(2));
+  app.renderNextFrame=true;
 }
 function display(){
   $('time').textContent=`${time.toFixed(1).replace('.',',')} / 19,2 s`;$('timeline').value=String(time);$('play').textContent=playing?'Pauzeren':'Pakken en terugzetten';
@@ -36,10 +37,10 @@ function display(){
 }
 function seek(value){time=Math.max(0,Math.min(duration,value));updateScene();display();}
 function stop(){playing=false;if(ready)display();}
-function choose(index){if(!ready||playing||(time>0&&time<duration))return;time=0;selected=(index+records.length)%records.length;camera('browse');browse={from:[...angles],to:browseAngles(records,selected),elapsed:0};if(reduced){angles=browse.to;browse=null;route();updateScene();}display();}
+function choose(index){if(!ready||playing||(time>0&&time<duration))return;time=0;selected=(index+records.length)%records.length;camera('browse');browse={from:[...angles],to:browseAngles(records,selected),started:performance.now()};if(reduced){angles=browse.to;browse=null;route();updateScene();}display();}
 $('previous').addEventListener('click',()=>choose(selected-1));$('next').addEventListener('click',()=>choose(selected+1));$('start-browse').addEventListener('click',()=>choose(selected));$('record').addEventListener('change',()=>choose(Number($('record').value)));
 document.addEventListener('keydown',e=>{if(e.target.matches('input,select'))return;if(e.key==='ArrowRight'||e.key==='ArrowLeft'){e.preventDefault();choose(selected+(e.key==='ArrowRight'?1:-1));}});
-$('play').addEventListener('click',()=>{if(!ready||browse)return;if(playing){stop();return;}if(time>=duration-.001){time=0;route();}camera('action');playing=true;display();});
+$('play').addEventListener('click',()=>{if(!ready||browse)return;if(playing){stop();return;}if(time>=duration-.001){time=0;route();}camera('action');playStarted=performance.now();playFrom=time;playing=true;display();});
 $('reset').addEventListener('click',()=>{playing=false;browse=null;angles=records.map(r=>r.angle);route();camera('overview');seek(0);});
 $('camera').addEventListener('change',()=>{camera($('camera').value);display();});$('timeline').addEventListener('input',()=>{stop();browse=null;seek(Number($('timeline').value));});
 for(const b of document.querySelectorAll('[data-time]'))b.addEventListener('click',()=>{stop();browse=null;camera('action');seek(Number(b.dataset.time));});
@@ -56,7 +57,8 @@ try{
   const sun=new pc.Entity('Daylight');sun.addComponent('light',{type:'directional',intensity:1.25,color:new pc.Color(.94,.97,1),castShadows:true,shadowResolution:2048,shadowDistance:20,shadowType:pc.SHADOW_PCF5});sun.setEulerAngles(35,-130,0);app.root.addChild(sun);
   for(const [name,pos,intensity,color] of [['Ceiling fill',[-1.4,3.25,-4.2],.8,[1,.94,.85]],['Rear fill',[-1.4,3.2,-8.2],.5,[1,.95,.88]],['Cabinet key',[-1.6,2.4,-2.4],.4,[1,.78,.56]]]){const e=new pc.Entity(name);e.addComponent('light',{type:'omni',intensity,color:new pc.Color(...color),range:8,castShadows:false});e.setPosition(...pos);app.root.addChild(e);}
   for(const [i,r] of records.entries()){const option=document.createElement('option');option.value=String(i);option.textContent=r.title;$('record').append(option);}
-  const resize=()=>app.resizeCanvas(canvas.parentElement.clientWidth,canvas.parentElement.clientHeight);new ResizeObserver(resize).observe(canvas.parentElement);resize();
-  app.on('update',dt=>{if(browse){browse.elapsed+=Math.min(dt,.1);const t=ease(browse.elapsed/.8);angles=browse.from.map((a,i)=>a+(browse.to[i]-a)*t);if(t>=1){browse=null;route();}updateScene();display();}else if(playing){seek(time+Math.min(dt,.1));if(time>=duration)stop();}});
+  const resize=()=>{app.resizeCanvas(canvas.parentElement.clientWidth,canvas.parentElement.clientHeight);app.renderNextFrame=true;};new ResizeObserver(resize).observe(canvas.parentElement);resize();
+  app.autoRender=false;
+  app.on('update',()=>{if(browse){const t=ease((performance.now()-browse.started)/800);angles=browse.from.map((a,i)=>a+(browse.to[i]-a)*t);if(t>=1){browse=null;route();}updateScene();display();}else if(playing){seek(playFrom+(performance.now()-playStarted)/1000);if(time>=duration)stop();}});
   app.start();ready=true;route();camera('overview');seek(0);$('loading').hidden=true;for(const c of controls)c.disabled=false;if(location.hash==='#browse')choose(0);
 }catch(error){$('loading').textContent='De 3D-preview kon niet laden. De ruimtebeelden blijven beschikbaar.';$('status').textContent=String(error?.message||error);console.error(error);}
