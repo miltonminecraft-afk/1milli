@@ -5,12 +5,27 @@ const tangent=Math.tan(FRAME.fov*Math.PI/360);
 export function photoPoint(x,y,depth){return [(x/FRAME.width-.5)*2*tangent*FRAME.width/FRAME.height*depth,(.5-y/FRAME.height)*2*tangent*depth,-depth];}
 export function projectPoint([x,y,z]){return [FRAME.width/2+x/(-z)/(2*tangent)*FRAME.height,FRAME.height/2-y/(-z)/(2*tangent)*FRAME.height];}
 export function shelfDepth(x){return 2.45+(x-120)*.0026;}
-export function recordAnchor(slot){
-  const column=slot%5,row=Math.floor(slot/5),px=[156,200,244,288,366][column];
-  const baseline=row===0?454+(px-125)*.041:629-(px-125)*.085;
-  const depth=shelfDepth(px)-.07,[x,y,z]=photoPoint(px,baseline,depth);
-  const size=.315;
-  return {x,y:y+size/2,z,ry:0,rz:0,scale:size};
+export const SLEEVE_HALF_DEPTH=.011;
+export function recordStack(slot){
+  const column=slot%5,row=Math.floor(slot/5),group=column<3?0:1,rank=column<3?column:column-3;
+  return {group:row*2+group,rank,row,px:group===0?210:350,angle:group===0?-10:-8};
+}
+export function recordBrowseAngle(slot,activeSlot=-1){
+  const r=recordStack(slot),a=activeSlot<0?null:recordStack(activeSlot);
+  return !a||a.group!==r.group||r.rank>a.rank?r.angle:r.rank===a.rank?10:40+7*(a.rank-r.rank);
+}
+export function rotateRecordVector([x,y,z],rx=0,ry=0,rz=0){
+  const [a,b,c]=[rx,ry,rz].map(v=>v*Math.PI/180);
+  [y,z]=[y*Math.cos(a)-z*Math.sin(a),y*Math.sin(a)+z*Math.cos(a)];
+  [x,z]=[x*Math.cos(b)+z*Math.sin(b),-x*Math.sin(b)+z*Math.cos(b)];
+  return [x*Math.cos(c)-y*Math.sin(c),x*Math.sin(c)+y*Math.cos(c),z];
+}
+export function recordAnchor(slot,angle=recordStack(slot).angle){
+  const r=recordStack(slot),px=r.px-r.rank*2,baseline=r.row===0?454+(px-125)*.041:629-(px-125)*.085;
+  const depth=shelfDepth(r.px)-.16+r.rank*.016,bottom=photoPoint(px,baseline,depth),size=.315;
+  const ry=-8,rz=r.row===0?-2.35:4.86;
+  const offset=rotateRecordVector([0,size/2,0],angle,ry,rz);
+  return {x:bottom[0]+offset[0],y:bottom[1]+offset[1]+size*SLEEVE_HALF_DEPTH*Math.abs(Math.sin(angle*Math.PI/180)),z:bottom[2]+offset[2],rx:angle,ry,rz,scale:size};
 }
 export const OBJECT_HOTSPOTS={
   records:photoPoint(250,487,shelfDepth(250)),

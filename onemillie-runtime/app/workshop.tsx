@@ -3,6 +3,7 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import { ArrowDown, ArrowLeft, ArrowRight, ArrowUp, Check, ChevronLeft, ChevronRight, Disc3, GripVertical, Headphones, Loader2, Music2, Pause, Play, Plus, RotateCcw, Search, Settings2, X } from "lucide-react";
 import { moveRecord, normalizeOrder, recordLocations } from "../lib/collection.mjs";
+import { publicPath } from "../lib/public-path.mjs";
 import Room3D from "./room3d";
 import ObjectEditor from "./object-editor";
 
@@ -11,9 +12,9 @@ type Catalog = { releases: Release[]; [key: string]: any };
 type Panel = "records" | "projects" | null;
 type CollectionResponse = { order: string[]; revision: number; canEdit: boolean; error?: string };
 
-export default function Workshop({ catalog }: { catalog: Catalog }) {
+export default function Workshop({ catalog, published }: { catalog: Catalog; published?: {order:string[];objects:any[]} }) {
   const releases = catalog.releases;
-  const defaultOrder = releases.map(r => r.id);
+  const defaultOrder = normalizeOrder(published?.order || [], releases.map(r => r.id));
   const [order, setOrder] = useState<string[]>(defaultOrder);
   const [draft, setDraft] = useState<string[]>(defaultOrder);
   const [revision, setRevision] = useState(0);
@@ -31,7 +32,7 @@ export default function Workshop({ catalog }: { catalog: Catalog }) {
   const [recordPhase, setRecordPhase] = useState<string | null>(null);
   const [view, setView] = useState("overview");
   const [travelling, setTravelling] = useState(false);
-  const [objects, setObjects] = useState<any[]>([]);
+  const [objects, setObjects] = useState<any[]>(published?.objects || []);
   const [roomReady, setRoomReady] = useState(false);
   const [walking, setWalking] = useState(false);
   const [environmentPreview,setEnvironmentPreview] = useState(false);
@@ -51,6 +52,7 @@ export default function Workshop({ catalog }: { catalog: Catalog }) {
   useEffect(() => {
     if(new URLSearchParams(window.location.search).get('preview')==='omgeving'){setEnvironmentPreview(true);setWalking(true);}
     setMotion(!window.matchMedia("(prefers-reduced-motion: reduce)").matches);
+    if(published)return;
     fetch("/api/collection", { cache: "no-store" }).then(async res => {
       if (!res.ok) throw new Error();
       const data = await res.json() as CollectionResponse;
@@ -60,7 +62,7 @@ export default function Workshop({ catalog }: { catalog: Catalog }) {
     }).catch(() => setStatus("De standaardcollectie is geladen. Beheer is tijdelijk niet bereikbaar."));
   }, []);
 
-  useEffect(() => { fetch('/api/objects').then(r=>r.ok?r.json():null).then((data:any)=>{if(data?.objects)setObjects(data.objects);}).catch(()=>{}); }, []);
+  useEffect(() => { if(published)return; fetch('/api/objects').then(r=>r.ok?r.json():null).then((data:any)=>{if(data?.objects)setObjects(data.objects);}).catch(()=>{}); }, []);
 
   useEffect(() => {
     const el = dialog.current;
@@ -127,13 +129,13 @@ export default function Workshop({ catalog }: { catalog: Catalog }) {
     } catch (error: any) { setStatus(error.message || "Opslaan is niet gelukt. Probeer opnieuw."); }
     finally { setSaving(false); }
   }
-  const cover = (r: Release, className = "", priority = false) => <img className={className} src={r.coverUrl} alt={`Hoes van ${r.title}`} loading={priority ? "eager" : "lazy"} draggable={false} />;
+  const cover = (r: Release, className = "", priority = false) => <img className={className} src={publicPath(r.coverUrl)} alt={`Hoes van ${r.title}`} loading={priority ? "eager" : "lazy"} draggable={false} />;
 
   return <main className={`workshop ${view==="workbenches"?"is-workbench":""} ${environmentPreview?'environment-preview':''} ${panel ? "is-exploring" : ""} ${view !== "overview" ? "is-away" : ""} ${travelling ? "is-travelling" : ""} ${motion ? "has-motion" : ""}`}>
     <div className={`room ${roomReady?'has-3d':''}`}><div className="scene" ref={scene} aria-hidden="true">
-      <img className="room-image" src="/assets/workshop-empty-shelves.png" alt="" fetchPriority="high" />
+      <img className="room-image" src={publicPath('/assets/workshop-soldering-v3.png')} alt="" fetchPriority="high" />
       <div className="warm-light" />
-    </div><Room3D view={view} motion={motion} records={roomRecords} models={objects} navigation={walking&&!panel&&!recordPhase} onReady={setRoomReady} onError={setStatus} onTransition={recordTransition} onHotspots={positionHotspots} onRecord={id=>{goTo('records');setActive(id);}} /><div className="room-shade" /></div>
+    </div><Room3D view={view} motion={motion} records={roomRecords} selectedId={active} models={objects} navigation={walking&&!panel&&!recordPhase} onReady={setRoomReady} onError={setStatus} onTransition={recordTransition} onHotspots={positionHotspots} onRecord={id=>{goTo('records');setActive(id);}} /><div className="room-shade" /></div>
     {roomReady&&view==='overview'&&!panel&&!recordPhase&&<nav ref={targets} className="room-targets object-hotspots" aria-label="Objecten in de werkplaats">
       <button className="hotspot object-hotspot" data-target="records" onClick={()=>goTo('records')}><span className="target-dot"/><span>Platenkast</span></button>
       <button className="hotspot object-hotspot" data-target="turntable" onClick={()=>goTo('turntable')}><span className="target-dot"/><span>Draaitafel</span></button>
@@ -191,9 +193,9 @@ export default function Workshop({ catalog }: { catalog: Catalog }) {
       </div>
     </dialog>
     {canEdit && !panel && !travelling && !recordPhase && <ObjectEditor objects={objects} onChange={setObjects} onExplore={()=>goTo('workbenches')} />}
-    {!canEdit && <a className="owner-signin" href="/signin-with-chatgpt?return_to=/" target="_top">Beheer</a>}
+    {!canEdit && !published && <a className="owner-signin" href="/signin-with-chatgpt?return_to=/" target="_top">Beheer</a>}
     {!roomReady && <div className="room-loading" role="status"><Loader2 size={18} className="spin" /> 3D-ruimte laden…</div>}
-    {roomReady && <div className="scene-credits"><a href="/assets/credits.html" target="_blank" rel="noopener noreferrer">Modellen & licenties</a></div>}
+    {roomReady && <div className="scene-credits"><a href={publicPath('/assets/credits.html')} target="_blank" rel="noopener noreferrer">Modellen & licenties</a></div>}
     <div className="sr-only" aria-live="polite">{status}</div>
   </main>;
 }

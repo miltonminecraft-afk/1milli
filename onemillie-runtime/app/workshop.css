@@ -35,3 +35,4 @@
 @media(max-width:700px){.object-hotspot{padding:10px 8px;gap:6px;min-height:42px}.object-hotspot>span:nth-child(2){font-size:8px;letter-spacing:.5px}.object-hotspot svg{display:none}.object-hotspot .target-dot{width:7px;height:7px;outline-offset:1px}.object-view-back{top:82px;left:18px;padding:10px 12px;font-size:9px}}
 .object-hotspot{padding:7px 9px;gap:7px;min-height:30px}.object-hotspot>span:nth-child(2){font-size:9px;letter-spacing:.7px}.object-hotspot .target-dot{width:6px;height:6px;outline-width:1px;outline-offset:2px}.object-hotspot:hover{transform:translate(-50%,-50%)}.object-view-back{padding:8px 10px;font-size:9px}
 @media(max-width:700px){.object-hotspot{padding:6px 7px;gap:6px;min-height:29px}.object-hotspot>span:nth-child(2){font-size:8px;letter-spacing:.4px}.object-view-back{padding:8px 10px;font-size:9px}}
+.room-canvas.records-enabled{pointer-events:auto;cursor:pointer}

@@ -1,89 +1,33 @@
 # onemillie
 
-Werkbestanden voor de interactieve werkplaats, de assetkeuze-site en de eenvoudige desktopeditor.
+[Open de website](https://miltonminecraft-afk.github.io/1milli/)
 
-## Online werkversie
+De oorspronkelijke werkplaats met de platenkast, draaitafel en werkbank. De site
+zoomt naar het gekozen onderwerp. Platen staan in schuine groepen; bij bladeren
+kantelen de hoezen mee. Een gekozen LP wordt uit de hoes gehaald, op de draaitafel
+gelegd en kan weer worden teruggezet. De schilderijlijsten zijn hersteld en de
+werkbank heeft een soldeerbout met temperatuurdisplay.
 
-[Open de website](https://miltonminecraft-afk.github.io/1milli/).
-Deze GitHub Pages-versie toont de huidige Blender-ruimtebeelden, de conceptvergelijking,
-een eerdere interactieve LP-proef en de ruimte-/assetcatalogus. Het is een werkversie,
-geen definitieve omgeving of Unreal-publicatie. De eerdere LP-proef heeft nog de
-eenvoudigere inrichting. Assetkeuzes en aantallen worden in de browser bewaard;
-met **Kopieer keuzes** kunnen ze in de chat worden doorgegeven.
+De GitHub Pages-site toont de gepubliceerde eigenaarvolgorde. Bezoekers kunnen
+vrij bladeren en muziek openen. Beheer van de startvolgorde en eigen GLB-objecten
+blijft beschikbaar in de lokale website op http://127.0.0.1:4270/; publiceren neemt
+de gekozen inrichting en volgorde over. GitHub Pages heeft geen beheerbackend.
 
-De publicatie komt uitsluitend uit `site/`, de twee openbare catalogusmappen en de
-bestaande PlayCanvas-renderer. `node scripts/build-github-pages.mjs` maakt `_site/`.
-`node scripts/publish-github-pages.mjs` publiceert een vastgelegde bronversie naar
-de branch `gh-pages`; GitHub Pages toont die branch. Serverbeheer, lokale inrichtingen en Blender-projectbestanden zitten niet
-in de Pages-site. Zie [modelcontrole](docs/online-model-verification.json).
+[Ruimtes bekijken](https://miltonminecraft-afk.github.io/1milli/room-options/)
+· [Assets kiezen](https://miltonminecraft-afk.github.io/1milli/asset-options/)
 
-**Status op 27 oktober 2026: er is nog geen ruimte in Unreal gebouwd.** Het Unreal-project bevat alleen instellingen, referenties en een importlijst. Er staat nog geen `.umap`-scène in deze repository. De afbeeldingen hieronder zijn van de websitepreview, geen Unreal-renders.
+De gebruiker heeft het Blender-/Unreal-traject beëindigd. De oorspronkelijke
+website wordt verder ontwikkeld; eerdere projectbestanden blijven als historie
+bewaard. [Werkplan](docs/werkplan.txt).
 
-De gewenste eindversie is een echte 3D-kopie van de referentieruimte: dezelfde geometrie, verhoudingen, plaatsing, materialen, licht en camera. De eerdere assetselectie mag niet leiden tot een andere, willekeurig ingerichte ruimte. Eerst volgt een visuele vergelijking vanuit dezelfde camerahoek.
+## Bouwen
 
-De actuele taken, alle gekozen modellen en aantallen, vaststaande ontwerpkeuzes en controlepunten staan in het [werkplan](docs/werkplan.txt). De [bestandscontrole](docs/progress-evidence.json) vermeldt afzonderlijk wat daadwerkelijk aanwezig is. Een Heartbeat in de bijbehorende Codex-chat hervat het werk iedere 30 minuten; dit is geen GitHub Actions-taak.
+De websitebron staat in `onemillie-runtime/`. Installeer daar de dependencies.
+`node scripts/build-github-pages.mjs` bouwt de website en openbare keuzecatalogi
+naar `H:/CodexData/Builds/onemillie/website`. `node scripts/publish-github-pages.mjs`
+publiceert een schone, vastgelegde bronversie op de bestaande `gh-pages`-branch.
+Nieuwe uitvoer, tijdelijke bestanden en caches staan op H:.
 
-## Projecten
-
-| Map | Inhoud | Status |
-| --- | --- | --- |
-| `onemillie-runtime` | Website met platenkast, LP-animatie, werkbankaanzicht en GLB-objectbeheer | Werkende tussenpreview; foto met beperkte diepte en echte 3D-objecten |
-| `onemillie-keuzes` | Assetcatalogus met aantallen en opgeslagen keuzes | Broncode van de bestaande keuzecatalogus |
-| `onemillie-studio` | Electron-editor voor plaatsen, verwijderen, draaien, schalen en groeperen | Broncode, 54 ruimteopties en 24 objectopties |
-| `onemillie-unreal` | Unreal-projectinstellingen, oorspronkelijke referentie en gekozen modellen | Alleen voorbereiding; nog geen gebouwde omgeving |
-
-## Preview
-
-![Website-overzicht met kleine objectknoppen — geen Unreal-render](previews/object-hotspots.png)
-
-De hoezen staan met de voorkant naar de camera. De knoppen zitten bij de kast, draaitafel en werkbank; muisbeweging verplaatst of vervormt het beeld niet. Zie ook de [platenkastpreview](previews/front-facing-records.png) en [controle van deze wijziging](docs/ui-verification.json).
-
-![Werkbankaanzicht — websitepreview, geen Unreal-render](previews/workbench.png)
-
-## Lokaal starten
-
-Gebruik Node.js 22.13 of nieuwer.
-
-Website:
-
-```sh
-cd onemillie-runtime
-npm ci
-npm run dev -- --hostname 127.0.0.1 --port 4270
-```
-
-Keuzecatalogus:
-
-```sh
-cd onemillie-keuzes
-npm ci
-npm run dev -- --hostname 127.0.0.1 --port 4271
-```
-
-Desktopeditor:
-
-```sh
-cd onemillie-studio/desktop
-npm ci
-npm start
-```
-
-De gekozen objectmodellen zijn meegeleverd. Extra ruimtebestanden worden vanuit de catalogus gedownload wanneer een directe download beschikbaar is. Niet-meegeleverde modellen staan in `onemillie-studio/research/optional-model-downloads.json`. Persoonlijke inrichtingen, browserprofielen en programma-installaties zitten niet in Git.
-
-De optionele splatmaker is een afzonderlijke lokale dienst. Stel `ONEMILLIE_SPLAT_SERVICE` in op het pad naar die Python-dienst en eventueel `ONEMILLIE_PYTHON` op de Python-executable. De gewone 3D-editor werkt zonder deze dienst.
-
-## Unreal
-
-Open `onemillie-unreal/Onemillie.uproject` met Unreal Engine 5.8. De officiële Epic-plug-ins Unreal MCP en All Toolsets zijn geselecteerd. Lumen en hardware-raytracing zijn voorbereid, maar nog niet in de editor gevalideerd. De lokale MCP-server wordt niet automatisch gestart.
-
-`Reference/requirements.txt` bevat de actuele bouwopdracht. `Import/chosen-assets.json` verwijst relatief aan dat bestand naar de meegeleverde modellen. Er is nog geen import uitgevoerd in Unreal en geen scène opgeslagen.
-
-## Controle en licenties
-
-De laatste lokale websitebuild en TypeScript-controle zijn geslaagd. De website heeft 11 geslaagde tests; de editor heeft 11 geslaagde tests. De mobiele preview is nog niet geverifieerd.
-
-Modellen blijven onder de licentie van hun makers. Zie `onemillie-runtime/public/assets/credits.html`, de catalogusbestanden en `onemillie-studio/research/included-models.json` voor bron, maker en licentie. Muziekhoezen vallen niet onder de licenties van de 3D-modellen. Imagegen-prompts voor de websitebeelden staan in `onemillie-runtime/docs/concept-image-prompts.txt`.
-
-De volledige `onemillie-runtime` gebruikt een server voor gebruikersbeheer en opgeslagen
-keuzes. De afzonderlijke Pages-werkversie in `site/` werkt statisch en publiceert via
-de branch `gh-pages`; een broncodepush naar `main` publiceert niet automatisch opnieuw.
+De geautomatiseerde controles voor collectie, uitlijning, vrije ruimte bij
+bladeren en LP-beweging staan in `onemillie-runtime/tests/`. Licenties van gebruikte
+modellen en de renderer staan bij de openbare assets.

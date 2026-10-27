@@ -1,7 +1,26 @@
 ONEMILLIE — WERKPLAN EN BESLUITEN
 Bijgewerkt: 27 oktober 2026. Dit bestand is de werklijst voor deze chat en de Heartbeat.
 
-EINDDOEL
+ACTUELE OPDRACHT — 27 OKTOBER, AVOND (VERVANGT HET UNREAL-TRAJECT HIERONDER)
+- Gebruiker: nieuwe platenanimatie op http://127.0.0.1:4270/, geen Unreal en Blender meer.
+- Behoud de oorspronkelijke site. Snapshot met broncode, assets en collectie/objecten
+  staat op H:/CodexData/Projects/onemillie/saved-versions/onemillie-original-2026-10-27.
+  De oorspronkelijke 329 bestanden (527.634.170 bytes) zijn met SHA256 gecontroleerd.
+- GitHub Pages moet dezelfde bezoekbare website tonen, zonder proces-/proefschermen.
+- Schilderij in beide aanzichten: enkelvoudige, kloppende lijst. Overzicht opnieuw
+  gecorrigeerd in workshop-soldering-v3.png; werkbank in workbench-soldering-v2.png.
+  Kastje onder lamp heeft aangesloten soldeerbout met houder en digitale 320°C-meter.
+- LP's: twee schuine groepen per plank, zichtbare dikte, bladeren door hoezen in de
+  kast. Pakken/uit hoes/op draaitafel/terug gebruikt dezelfde fysieke beginpositie.
+  13 tests voor collectie, uitlijning, vrije ruimte bij bladeren en animatie geslaagd.
+- Browsercontrole geslaagd: beide beelden, bladeren, pakken/opleggen/terugzetten en beweging uit. GitHub-publicatie van deze oorspronkelijke site wordt uitgevoerd.
+- Heartbeat is aangepast: geen Blender/Unreal bouwen, installeren of exporteren.
+- Alle nieuwe grote bestanden naar H:. Afbeeldingen en bewaarde versie zijn met
+  geverifieerde kopie en compatibiliteitsjunction omgeleid. Volledige eigen werkmap
+  moet naar H:/CodexData/Projects/OneMillie-20261026 met behoud van previewroutes.
+
+HISTORISCH WERKPLAN — ONDERSTAAND UNREAL-DOEL IS VERVALLEN
+VOORMALIG EINDDOEL
 Een echte, bewerkbare 3D-kopie van de oorspronkelijke werkplaats in Unreal.
 De zichtbare geometrie, verhoudingen, inrichting, camera, materialen en verlichting
 moeten overeenkomen met onemillie-unreal/Reference/original-workshop.png.
@@ -659,3 +678,4 @@ plek. Animatietijd is onafhankelijk van trage frames; stilstaand beeld rendert a
 na een wijziging. Browserbewijs en screenshots vastgelegd in deployment-rapport.
 Volgende stappen: LP-steunen en preciezere conceptverhoudingen/sfeer, actuele
 omgeving naar eenvoudige editor, Unreal-installatie en daadwerkelijke levelbouw.
+

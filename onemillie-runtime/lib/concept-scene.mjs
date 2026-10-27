@@ -1,5 +1,6 @@
-import {FRAME,photoPoint,shelfDepth,recordAnchor,PLATTER,SLEEVE_AT_DECK,CONCEPT_VIEWS,OBJECT_HOTSPOTS} from './concept-layout.mjs';
+import {FRAME,photoPoint,shelfDepth,recordAnchor,recordBrowseAngle,SLEEVE_HALF_DEPTH,PLATTER,SLEEVE_AT_DECK,CONCEPT_VIEWS,OBJECT_HOTSPOTS} from './concept-layout.mjs';
 import {recordTimeline,sampleRecordTimeline,RECORD_DURATION} from './record-motion.mjs';
+import {publicPath} from './public-path.mjs';
 
 // Reuse PlayCanvas and the existing Depth Anything map. The photo surface is a
 // bounded-view stage, not a generated 360° scan. Records and imported GLBs are 3D.
@@ -14,16 +15,16 @@ export async function createRoom(canvas,options={}){
   const fill=new pc.Entity('Cool ceiling light');fill.addComponent('light',{type:'directional',color:new pc.Color(.8,.9,1),intensity:.5});fill.setEulerAngles(15,160,0);app.root.addChild(fill);
   const textures=new Map(),containers=new Map(),records=new Map(),models=new Map();
   let alive=true,motion=true,currentDeck=null,recordItems=[],pending=null,processing=false,animation=null,wantedModels=new Set();
-  let view='overview',pressed=null,desired=CONCEPT_VIEWS.overview,stage,benchStage;
+  let view='overview',pressed=null,desired=CONCEPT_VIEWS.overview,stage,benchStage,activeRecord=null,browsing=null;
   const position=new pc.Vec3(...desired.position),look=new pc.Vec3(...photoPoint(...desired.pixel,desired.depth));let fov=desired.fov;
-  function load(name,type,url,filename){return new Promise((resolve,reject)=>{const a=new pc.Asset(name,type,{url,filename});app.assets.add(a);a.once('load',()=>resolve(a));a.once('error',reject);app.assets.load(a);});}
+  function load(name,type,url,filename){return new Promise((resolve,reject)=>{const a=new pc.Asset(name,type,{url:publicPath(url),filename});app.assets.add(a);a.once('load',()=>resolve(a));a.once('error',reject);app.assets.load(a);});}
   function texture(url){if(!textures.has(url))textures.set(url,load(url,'texture',url).then(a=>a.resource));return textures.get(url);}
   function container(url){if(!containers.has(url))containers.set(url,load(url,'container',url,'model.glb'));return containers.get(url);}
   function transform(e,t){e.setPosition(t.x??0,t.y??0,t.z??0);e.setEulerAngles(t.rx??0,t.ry??0,t.rz??0);const s=t.scale??1;e.setLocalScale(s,s,s);}
   function material(map,color=[1,1,1],unlit=false){const m=new pc.StandardMaterial();m.diffuse=new pc.Color(...color);m.diffuseMap=map;m.useMetalness=true;m.metalness=0;m.gloss=8;m.cull=pc.CULLFACE_NONE;if(unlit){m.useLighting=false;m.diffuseMap=null;m.diffuse.set(0,0,0);m.emissiveMap=map;m.emissive.set(...color);}m.update();return m;}
   function face(points,normal,mat){const mesh=new pc.Mesh(device);mesh.setPositions(points);mesh.setNormals([...normal,...normal,...normal,...normal]);mesh.setUvs(0,[0,1,1,1,1,0,0,0]);mesh.setIndices([0,1,2,0,2,3]);mesh.update(pc.PRIMITIVE_TRIANGLES);return new pc.MeshInstance(mesh,mat);}
   try{
-    const [photo,depth,benchPhoto]=await Promise.all([texture('/assets/workshop-empty-shelves.png'),fetch('/assets/workshop-depth.json').then(r=>r.json()),texture('/assets/workbench-concept.png')]);
+    const [photo,depth,benchPhoto]=await Promise.all([texture('/assets/workshop-soldering-v3.png'),fetch(publicPath('/assets/workshop-depth.json')).then(r=>r.json()),texture('/assets/workbench-soldering-v2.png')]);
     if(!alive)return;
     function distance(x,y){
       if(x<438)return shelfDepth(x)+.09;
@@ -58,7 +59,7 @@ export async function createRoom(canvas,options={}){
   function makeSleeve(item,cover){
     const front=material(cover,[.66,.62,.56]),edge=material(null,[.18,.15,.11]);
     const label=document.createElement('canvas');label.width=128;label.height=2048;const ctx=label.getContext('2d');ctx.fillStyle='#d8ceb2';ctx.fillRect(0,0,128,2048);ctx.translate(64,1024);ctx.rotate(-Math.PI/2);ctx.textAlign='center';ctx.textBaseline='middle';ctx.fillStyle='#25251f';ctx.font='700 84px Arial';ctx.fillText(item.title,0,0,1800);
-    const spineTexture=new pc.Texture(device,{mipmaps:true});spineTexture.setSource(label);const spine=material(spineTexture,[.8,.77,.7]),d=.026;
+    const spineTexture=new pc.Texture(device,{mipmaps:true});spineTexture.setSource(label);const spine=material(spineTexture,[.8,.77,.7]),d=SLEEVE_HALF_DEPTH;
     const e=new pc.Entity(item.title);e.addComponent('render',{meshInstances:[
       face([-.5,-.5,d,.5,-.5,d,.5,.5,d,-.5,.5,d],[0,0,1],front),face([.5,-.5,-d,-.5,-.5,-d,-.5,.5,-d,.5,.5,-d],[0,0,-1],front),
       face([-.5,-.5,-d,-.5,-.5,d,-.5,.5,d,-.5,.5,-d],[-1,0,0],spine),face([-.5,.5,d,.5,.5,d,.5,.5,-d,-.5,.5,-d],[0,1,0],edge),
@@ -68,12 +69,19 @@ export async function createRoom(canvas,options={}){
   const vinylAsset=await container('/assets/models/vinyl-record-ready.glb');
   const vinyl=new pc.Entity('Playable vinyl');vinyl.addChild(vinylAsset.resource.instantiateRenderEntity());app.root.addChild(vinyl);vinyl.enabled=false;
   const atBench=()=>view==='workbenches'||view==='projects';
-  function setView(name){const before=atBench();view=name in CONCEPT_VIEWS?name:'overview';desired=CONCEPT_VIEWS[view];stage.enabled=!atBench();benchStage.enabled=atBench();for(const e of records.values())e.enabled=!atBench();vinyl.enabled=!!currentDeck&&!atBench();if(before!==atBench()){position.set(...desired.position);look.set(...photoPoint(...desired.pixel,desired.depth));fov=desired.fov;}}
-  function placeRecords(items){for(const item of items){const e=records.get(item.id);e.enabled=!atBench();transform(e,item.id===currentDeck?SLEEVE_AT_DECK:recordAnchor(item.slot));}vinyl.enabled=!!currentDeck&&!atBench();transform(vinyl,PLATTER);}
+  function sleeveHome(item){const selected=recordItems.find(r=>r.id===activeRecord);return recordAnchor(item.slot,recordBrowseAngle(item.slot,view==='records'?selected?.slot??-1:-1));}
+  function readPose(e){const p=e.getPosition(),r=e.getEulerAngles();return {x:p.x,y:p.y,z:p.z,rx:r.x,ry:r.y,rz:r.z,scale:e.getLocalScale().x};}
+  function browseToSelection(){if(animation||processing)return;const poses=recordItems.filter(r=>r.id!==currentDeck).map(r=>({entity:records.get(r.id),from:readPose(records.get(r.id)),to:sleeveHome(r)}));if(!motion){for(const p of poses)transform(p.entity,p.to);browsing=null;}else browsing={started:performance.now(),poses};}
+  function setActiveRecord(id){if(activeRecord===id)return;activeRecord=id;if(view==='records')browseToSelection();}
+  function setView(name){const before=atBench();view=name in CONCEPT_VIEWS?name:'overview';desired=CONCEPT_VIEWS[view];stage.enabled=!atBench();benchStage.enabled=atBench();for(const e of records.values())e.enabled=!atBench();vinyl.enabled=!!currentDeck&&!atBench();if(before!==atBench()){position.set(...desired.position);look.set(...photoPoint(...desired.pixel,desired.depth));fov=desired.fov;}if(view!=='recordAction')browseToSelection();}
+  function placeRecords(items){for(const item of items){const e=records.get(item.id);e.enabled=!atBench();transform(e,item.id===currentDeck?SLEEVE_AT_DECK:sleeveHome(item));}vinyl.enabled=!!currentDeck&&!atBench();transform(vinyl,PLATTER);}
   async function updateLabel(item){const tex=await texture(item.coverUrl);for(const c of vinyl.findComponents('render'))for(const mesh of c.meshInstances)if(mesh.material.name==='Release label'){mesh.material.diffuseMap=tex;mesh.material.update();}}
   function animateRecord(item,returning){
-    const frames=recordTimeline({shelf:recordAnchor(item.slot),sleeveAtDeck:SLEEVE_AT_DECK,platter:PLATTER});setView('recordAction');
-    if(!motion)return Promise.resolve();return new Promise(resolve=>{animation={frames,item,returning,time:0,resolve,phase:''};});
+    if(browsing){for(const p of browsing.poses)transform(p.entity,p.to);browsing=null;}
+    const home=returning?recordAnchor(item.slot,recordBrowseAngle(item.slot,recordItems.find(r=>r.id===activeRecord)?.slot??-1)):readPose(records.get(item.id));
+    const pulled={...home,y:home.y+.045,z:home.z+.36,rx:0,ry:-5,rz:0};
+    const frames=recordTimeline({shelf:home,sleeveAtDeck:SLEEVE_AT_DECK,platter:PLATTER,waypoints:{pulled}});setView('recordAction');
+    if(!motion)return Promise.resolve();return new Promise(resolve=>{animation={frames,item,returning,time:0,started:performance.now(),resolve,phase:''};});
   }
   async function setRecords(items){
     pending=items;if(processing)return;processing=true;
@@ -85,7 +93,7 @@ export async function createRoom(canvas,options={}){
         const selected=next.find(i=>i.id===wanted);if(selected){await updateLabel(selected);await animateRecord(selected,false);if(!alive)return;currentDeck=selected.id;}
         placeRecords(next);setView(wanted?'turntable':'records');options.onTransition?.(null);
       }else placeRecords(next);recordItems=next;
-    }}finally{processing=false;}
+    }}finally{processing=false;browseToSelection();}
   }
   async function addModel(item){
     if(models.has(item.id)){const m=models.get(item.id);m.item=item;if(m.entity)transform(m.entity,item.transform);return;}
@@ -109,7 +117,8 @@ export async function createRoom(canvas,options={}){
   const resize=()=>{const r=canvas.parentElement.getBoundingClientRect();app.resizeCanvas(r.width,r.height);};const observer=new ResizeObserver(resize);observer.observe(canvas.parentElement);resize();
   app.on('update',delta=>{
     const dt=Math.min(delta,.05),blend=motion?1-Math.exp(-dt*4):1;
-    if(animation){const a=animation;a.time=motion?a.time+dt:RECORD_DURATION;const frame=sampleRecordTimeline(a.frames,a.time,a.returning);transform(records.get(a.item.id),frame.sleeve);transform(vinyl,frame.vinyl);vinyl.enabled=frame.visible;if(a.phase!==frame.phase){a.phase=frame.phase;options.onTransition?.(frame.phase);}if(a.time>=RECORD_DURATION){animation=null;a.resolve();}}
+    if(browsing&&!animation){const b=browsing,u=motion?Math.min(1,(performance.now()-b.started)/750):1,t=u*u*(3-2*u);for(const p of b.poses){const pose={};for(const key of Object.keys(p.to)){let delta=p.to[key]-p.from[key];if(key[0]==='r')delta=((delta+540)%360)-180;pose[key]=p.from[key]+delta*t;}transform(p.entity,pose);}if(u>=1)browsing=null;}
+    if(animation){const a=animation;a.time=motion?(performance.now()-a.started)/1000:RECORD_DURATION;const frame=sampleRecordTimeline(a.frames,a.time,a.returning);transform(records.get(a.item.id),frame.sleeve);transform(vinyl,frame.vinyl);vinyl.enabled=frame.visible;if(a.phase!==frame.phase){a.phase=frame.phase;options.onTransition?.(frame.phase);}if(a.time>=RECORD_DURATION){animation=null;a.resolve();}}
     position.lerp(position,new pc.Vec3(...desired.position),blend);look.lerp(look,new pc.Vec3(...photoPoint(...desired.pixel,desired.depth)),blend);fov+=(desired.fov-fov)*blend;
     camera.setPosition(position.x,position.y,position.z);camera.lookAt(look);
     // On portrait screens retain the horizontal composition of each calibrated view.
@@ -123,5 +132,5 @@ export async function createRoom(canvas,options={}){
       options.onHotspots(points);
     }
   });app.start();
-  return {setView,setRecords,setModels,setMotion(v){motion=v;},setNavigation(){},destroy(){alive=false;animation?.resolve();animation=null;observer.disconnect();canvas.removeEventListener('pointerdown',down);canvas.removeEventListener('pointerup',up);app.destroy();}};
+  return {setView,setRecords,setModels,setActiveRecord,setMotion(v){motion=v;},setNavigation(){},destroy(){alive=false;animation?.resolve();animation=null;browsing=null;observer.disconnect();canvas.removeEventListener('pointerdown',down);canvas.removeEventListener('pointerup',up);app.destroy();}};
 }

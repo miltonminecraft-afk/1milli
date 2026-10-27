@@ -1,10 +1,12 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import {photoPoint,projectPoint,recordAnchor,PLATTER,SLEEVE_AT_DECK} from '../lib/concept-layout.mjs';
+import {photoPoint,projectPoint,recordAnchor,rotateRecordVector,SLEEVE_HALF_DEPTH,PLATTER,SLEEVE_AT_DECK} from '../lib/concept-layout.mjs';
 import {recordTimeline,sampleRecordTimeline,RECORD_DURATION} from '../lib/record-motion.mjs';
 test('every record rests on the corresponding photographed shelf baseline',()=>{
   for(let i=0;i<10;i++){
-    const a=recordAnchor(i),[x,y]=projectPoint([a.x,a.y-a.scale/2,a.z]);
+    const a=recordAnchor(i),offset=rotateRecordVector([0,a.scale/2,0],a.rx,a.ry,a.rz);
+    const lift=a.scale*SLEEVE_HALF_DEPTH*Math.abs(Math.sin(a.rx*Math.PI/180));
+    const [x,y]=projectPoint([a.x-offset[0],a.y-offset[1]-lift,a.z-offset[2]]);
     const line=i<5?454+(x-125)*.041:629-(x-125)*.085;
     assert.ok(x>125&&x<420);assert.ok(Math.abs(y-line)<.001);
   }
