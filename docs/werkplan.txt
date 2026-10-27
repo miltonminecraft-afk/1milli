@@ -100,7 +100,13 @@ HUIDIGE STAND
   De rechterwand loopt in deze proef naar buiten om W1 te laten passen. Dat is
   een expliciete aanname; de plafondrand wijkt daar circa 18 pixels af. W1 en B1
   verschillen qua details van de referentie. De proef is dus geen exacte kopie.
-- Laatste eerdere controles: websitebuild en TypeScript geslaagd, 11 websitetests
+- De LP-vervolgproef bevat 682 meshes en vier camera's. Tien hoezen met bestaande
+  covers en getitelde ruggen staan op de twee middelste kastplanken, naar de camera.
+  De eerste plaat heeft een heen-en-teruganimatie van 19,2 seconden; alle tien
+  hebben gemeten routes. Hoes, vinyl en bewegende camera zitten in één glTF-clip.
+  Export/herimport en 69.360 steekproefsgewijze botsingscontroles zijn geslaagd.
+  De eigenaarvolgorde (revisie 0) is alleen uitgelezen. Nieuwe scène blijft lokaal.
+- Laatste controles: websitebuild en TypeScript geslaagd, 13 websitetests
   en 11 editortests geslaagd. Mobiele weergave nog niet geverifieerd.
 - Het werkbankbeeld op de WEBSITE is nog een gegenereerde interpretatie. Lokaal
   bestaat nu een geometrisch juist werkbankaanzicht op de echte proefscène;
@@ -147,9 +153,18 @@ inspect_workbenches.py, fit_reference_workbench.py, place_reference_workbench.py
 inspect_motorcycle.py, place_reference_motorcycle.py en render_layout_views.py.
 Alle eerdere proefbestanden blijven behouden. De rechterwandaanname en verschillen
 van de gekozen modellen staan bij de vergelijking en in de plaatsingsrapporten.
-Volgende concrete stap: kast-/tafel-silhouetten en zichtbare LP-inhoud afpassen,
-de bestaande plateninteractie aan echte ankers in de proef koppelen en de
-materiaal-/lichtreferentie voorbereiden. Controleer de rechterwandaanname visueel.
+LP-vervolg: Review/reference-records.blend en .glb, reference-records.png,
+records-shelf.png, records-extraction.png, records-platter.png en record-verification.json.
+Reproduceerbaar via Source/export_record_order.mjs, inspect_record_geometry.py,
+build_record_preview_data.mjs, build_reference_records.py, render_record_views.py
+en verify_record_preview.py. Deze scripts en proefgeometrie blijven lokaal.
+De gedeelde webmodule lib/record-motion.mjs accepteert nu gemeten routepunten;
+de bestaande website houdt haar oude beweging tot de nieuwe omgeving is beoordeeld.
+Volgende concrete stap: materiaal-/lichtreferentie voorbereiden en de kast-/tafel-
+silhouetten verder afpassen. Controleer de rechterwandaanname visueel. Maak de
+lokale animatie met de bestaande renderer afspeelbaar voor beoordeling; vervang
+de website niet automatisch. De toonarmbeweging en vinylbotsingen met andere
+audio-onderdelen zijn nog niet getest; de uitgevoerde botsingscontrole betreft hoezen.
 De referentiecamera blijft staan. Proefgeometrie blijft voorlopig lokaal voor beoordeling.
 
 03. MATERIALEN, LICHT EN REFLECTIES — OPEN
@@ -271,3 +286,21 @@ W1 staat circa 1,65 cm vrij van de wand; B1 minimaal 3 cm van de achterwand.
 Werkbankcamera blijft binnen 0,00035 pixel van de oorspronkelijke proefprojectie.
 Referentiecamera en eerdere audio-objecten blijven behouden. Beeldvergelijking
 blijft lokaal; deze stap vervangt of publiceert de website niet.
+2026-10-27 Heartbeat 11:00 UTC: tien aparte hoezen met bestaande covers en leesbare
+rugtekst in de geometrische kast geplaatst. De LP-maat is uit de werkelijke
+draaiplateaumetingen afgeleid; de aanvankelijk gebruikte D2-roottransformatie bleek
+geen betrouwbare maat voor de plaat. Na correctie blijven alle tien routes vrij
+van andere hoezen, plankranden, staanders en tafelblad in 289 samples per route.
+De LP ligt gecentreerd 0,3 mm boven de mat; de hoes keert exact naar zijn beginplek.
+De bestaande webanimatiemodule ondersteunt nu instelbare routepunten. Blender
+gebruikt dezelfde samples voor één gezamenlijke hoes/vinyl/cameraclip, 577 frames.
+glTF opnieuw ingelezen: 682 meshes, vier camera's, 577 animatiesamples behouden;
+maximale posematrixafwijking 0,00000060, vaste-camera-afwijking 0,00015 pixel.
+De actiecamera verplaatst daadwerkelijk 4,40 scene-eenheden; geen hoverbeweging.
+Vier nieuwe beelden visueel bekeken; de lokale vergelijking is bijgewerkt.
+13 tests, TypeScript en websitebuild geslaagd. Owner-API alleen gelezen, revisie 0;
+geen wijziging van bezoekersvolgorde of eigenaarinstellingen. GitHub krijgt alleen
+gedeelde animatiecode, tests, verificatie en voortgang. Geen Unreal-level of
+goedgekeurde eindomgeving geclaimd. Enginecatalogus nog onbeschikbaar; geen extra
+installer gestart. Licht/materialen, toonarm, volledige editorcontrole en live
+integratie blijven open. Bewijs: docs/record-preview-verification.json.

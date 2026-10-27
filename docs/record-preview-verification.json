@@ -1,0 +1,90 @@
+{
+  "scope": "Local Blender/glTF LP geometry and sampled-motion verification; not Unreal or visual approval",
+  "passed": true,
+  "records": 10,
+  "meshObjects": 682,
+  "cameras": 4,
+  "ownerOrderWritten": false,
+  "ownerOrderPreserved": true,
+  "spineTitlesPreserved": true,
+  "supports": [
+    {
+      "slot": 0,
+      "supportGap": 6.682836439786399e-08,
+      "cameraFacingDot": 0.9956104457378387,
+      "topClearance": 0.09944474625603039
+    },
+    {
+      "slot": 1,
+      "supportGap": 6.682836439786399e-08,
+      "cameraFacingDot": 0.9981012344360352,
+      "topClearance": 0.09944474625603039
+    },
+    {
+      "slot": 2,
+      "supportGap": 6.682836439786399e-08,
+      "cameraFacingDot": 0.9989075064659119,
+      "topClearance": 0.09944474625603039
+    },
+    {
+      "slot": 3,
+      "supportGap": 6.682836439786399e-08,
+      "cameraFacingDot": 0.9983941316604614,
+      "topClearance": 0.09944474625603039
+    },
+    {
+      "slot": 4,
+      "supportGap": 6.682836439786399e-08,
+      "cameraFacingDot": 0.9968591630458832,
+      "topClearance": 0.09944474625603039
+    },
+    {
+      "slot": 5,
+      "supportGap": -5.945865733103517e-08,
+      "cameraFacingDot": 0.9954912662506104,
+      "topClearance": 0.05208816044366915
+    },
+    {
+      "slot": 6,
+      "supportGap": -5.945865733103517e-08,
+      "cameraFacingDot": 0.9979914128780365,
+      "topClearance": 0.05208816044366915
+    },
+    {
+      "slot": 7,
+      "supportGap": -5.945865733103517e-08,
+      "cameraFacingDot": 0.9988064467906952,
+      "topClearance": 0.05208816044366915
+    },
+    {
+      "slot": 8,
+      "supportGap": -5.945865733103517e-08,
+      "cameraFacingDot": 0.9983013272285461,
+      "topClearance": 0.05208816044366915
+    },
+    {
+      "slot": 9,
+      "supportGap": -5.945865733103517e-08,
+      "cameraFacingDot": 0.9967738091945648,
+      "topClearance": 0.05208816044366915
+    }
+  ],
+  "sleeveCollisionChecks": 69360,
+  "sleeveCollisions": 0,
+  "samplesPerRoute": 289,
+  "animationSamplesRoundTripped": 577,
+  "combinedAnimationClips": 1,
+  "actionCameraTravel": 4.401420162974812,
+  "maxPoseMatrixDifference": 5.960464477539062e-07,
+  "maxProjectionDifferencePixels": 0.00014917751126938895,
+  "recordRadius": 0.17911265969432363,
+  "outerPlatterRadius": 0.2109092474,
+  "platterGap": 0.00030040740966796875,
+  "returnPositionError": 0.0,
+  "vinylHiddenAtRest": true,
+  "limits": [
+    "Swept tests sample each route at 45 Hz; not a continuous collision proof.",
+    "Collision tests cover sleeves, other sleeves, shelf and tabletop; tonearm operation is not modelled.",
+    "Room scale and final materials remain unapproved."
+  ]
+}

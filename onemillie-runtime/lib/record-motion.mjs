@@ -1,13 +1,15 @@
 // World-space poses shared by the renderer and motion checks. All dimensions are metres.
 export const RECORD_DURATION = 6.4;
 const pose = t => ({x:t.x,y:t.y,z:t.z,rx:t.rx||0,ry:t.ry||0,rz:t.rz||0,scale:t.scale??1});
-export function recordTimeline({shelf,sleeveAtDeck,platter}) {
+export function recordTimeline({shelf,sleeveAtDeck,platter,waypoints={}}) {
   const home=pose(shelf),rest=pose(sleeveAtDeck),deck=pose(platter);
-  const pulled={...home,z:home.z+.43};
-  const held={...home,x:deck.x-.12,y:deck.y+.36,z:deck.z+.43,rx:0,ry:0,rz:0};
-  const inside={...deck,x:held.x,y:held.y,z:held.z,rx:90};
-  const extracted={...inside,x:inside.x+.325};
-  const above={...deck,y:deck.y+.22};
+  // Measured rooms supply complete route poses. Existing scenes retain their path.
+  // Canonical home/deck endpoints remain authoritative even with custom waypoints.
+  const pulled=pose({...home,z:home.z+.43,...waypoints.pulled});
+  const held=pose({...home,x:deck.x-.12,y:deck.y+.36,z:deck.z+.43,rx:0,ry:0,rz:0,...waypoints.held});
+  const inside=pose({...deck,x:held.x,y:held.y,z:held.z,rx:90,...waypoints.inside});
+  const extracted=pose({...inside,x:inside.x+.325,...waypoints.extracted});
+  const above=pose({...deck,y:deck.y+.22,...waypoints.above});
   return [
     {time:0,sleeve:home,vinyl:inside,visible:false,phase:'Naar de platenkast'},
     {time:.8,sleeve:home,vinyl:inside,visible:false,phase:'Hoes pakken'},
