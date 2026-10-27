@@ -1,0 +1,217 @@
+[
+  {
+    "role": "tower",
+    "sourceFile": "desktop-tower.glb",
+    "sourceParts": [
+      "Object_141",
+      "Object_129",
+      "Object_132",
+      "Object_127",
+      "Object_144",
+      "Object_138",
+      "Object_130",
+      "Object_133",
+      "Object_128",
+      "Object_134",
+      "Object_142",
+      "Object_135",
+      "Object_139",
+      "Object_131",
+      "Object_137",
+      "Object_140",
+      "Object_136"
+    ],
+    "objects": [
+      "Detail / computer / tower / Object_141",
+      "Detail / computer / tower / Object_129",
+      "Detail / computer / tower / Object_132",
+      "Detail / computer / tower / Object_127",
+      "Detail / computer / tower / Object_144",
+      "Detail / computer / tower / Object_138",
+      "Detail / computer / tower / Object_130",
+      "Detail / computer / tower / Object_133",
+      "Detail / computer / tower / Object_128",
+      "Detail / computer / tower / Object_134",
+      "Detail / computer / tower / Object_142",
+      "Detail / computer / tower / Object_135",
+      "Detail / computer / tower / Object_139",
+      "Detail / computer / tower / Object_131",
+      "Detail / computer / tower / Object_137",
+      "Detail / computer / tower / Object_140",
+      "Detail / computer / tower / Object_136"
+    ],
+    "uniformScale": 0.3021307657906054,
+    "supportZ": 0.1778,
+    "bounds": [
+      [
+        -3.1469812393188477,
+        5.056541919708252,
+        0.1777999997138977
+      ],
+      [
+        -2.8330185413360596,
+        5.683457851409912,
+        0.6478000283241272
+      ]
+    ]
+  },
+  {
+    "role": "black flatscreen on foot",
+    "sourceFile": "desktop-computer.glb",
+    "sourceParts": [
+      "defaultMaterial.003",
+      "defaultMaterial.002",
+      "defaultMaterial.004"
+    ],
+    "objects": [
+      "Detail / computer / black flatscreen on foot / defaultMaterial.",
+      "Detail / computer / black flatscreen on foot / defaultMaterial",
+      "Detail / computer / black flatscreen on foot / defaultMateria"
+    ],
+    "uniformScale": 0.6350543590955992,
+    "supportZ": 0.89771,
+    "bounds": [
+      [
+        -2.853079319000244,
+        5.897542476654053,
+        0.8977100253105164
+      ],
+      [
+        -2.4112727642059326,
+        6.163602828979492,
+        1.3131808042526245
+      ]
+    ]
+  },
+  {
+    "role": "left speaker to turntable",
+    "object": "Detail / audio cable / left speaker to turntable",
+    "path": [
+      [
+        -3.225,
+        5.29,
+        1.04
+      ],
+      [
+        -3.19,
+        5.41,
+        0.92
+      ],
+      [
+        -3.05,
+        5.49,
+        0.902
+      ],
+      [
+        -2.85,
+        5.58,
+        0.902
+      ],
+      [
+        -2.61,
+        5.53,
+        0.902
+      ],
+      [
+        -2.48,
+        5.47,
+        0.912
+      ],
+      [
+        -2.43,
+        5.441,
+        0.95
+      ]
+    ],
+    "radius": 0.0032
+  },
+  {
+    "role": "right speaker to turntable",
+    "object": "Detail / audio cable / right speaker to turntable",
+    "path": [
+      [
+        -2.07,
+        6.16,
+        1.04
+      ],
+      [
+        -2.15,
+        6.24,
+        0.925
+      ],
+      [
+        -2.31,
+        6.21,
+        0.902
+      ],
+      [
+        -2.34,
+        5.95,
+        0.902
+      ],
+      [
+        -2.19,
+        5.72,
+        0.902
+      ],
+      [
+        -2.13,
+        5.57,
+        0.902
+      ],
+      [
+        -2.19,
+        5.47,
+        0.915
+      ],
+      [
+        -2.2,
+        5.441,
+        0.95
+      ]
+    ],
+    "radius": 0.0032
+  },
+  {
+    "role": "monitor to PC",
+    "object": "Detail / audio cable / monitor to PC",
+    "path": [
+      [
+        -2.65,
+        6.1,
+        1.1
+      ],
+      [
+        -2.82,
+        6.27,
+        0.94
+      ],
+      [
+        -2.95,
+        6.31,
+        0.89
+      ],
+      [
+        -3.05,
+        6.33,
+        0.72
+      ],
+      [
+        -3.13,
+        6.22,
+        0.48
+      ],
+      [
+        -3.08,
+        5.85,
+        0.39
+      ],
+      [
+        -2.98,
+        5.68,
+        0.4
+      ]
+    ],
+    "radius": 0.0032
+  }
+]

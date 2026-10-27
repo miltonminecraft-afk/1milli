@@ -1,0 +1,20 @@
+{
+  "id": "5e3a9e0d0a7c4a7f9db5dfafc6f8d182",
+  "title": "Full Desktop Customizable",
+  "author": "Vivien Deroche",
+  "source": "https://sketchfab.com/3d-models/full-desktop-customizable-5e3a9e0d0a7c4a7f9db5dfafc6f8d182",
+  "license": {
+    "uri": "https://api.sketchfab.com/v3/licenses/322a749bcfa841b29dff1e8a1bb74b0b",
+    "label": "CC Attribution",
+    "fullName": "Creative Commons Attribution",
+    "requirements": "Author must be credited. Commercial use is allowed.",
+    "url": "http://creativecommons.org/licenses/by/4.0/",
+    "slug": "by"
+  },
+  "url": "https://huggingface.co/datasets/allenai/objaverse/resolve/main/glbs/000-014/5e3a9e0d0a7c4a7f9db5dfafc6f8d182.glb",
+  "file": "desktop-tower.glb",
+  "bytes": 109736860,
+  "sha256": "5d8cedc34405171775bd7e814f1da410fee7008db99f40ba69c074faf907a1e1",
+  "status": "Candidate for matching the reference, pending visual approval",
+  "usage": "Traditional mesh import and rendering only; not used for generative AI or training."
+}

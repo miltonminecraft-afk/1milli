@@ -1,0 +1,38 @@
+{
+  "records": {
+    "markers": [
+      {
+        "display": "flex",
+        "hidden": false,
+        "name": "records",
+        "outside": false,
+        "width": 79.69792175292969
+      },
+      {
+        "display": "flex",
+        "hidden": false,
+        "name": "turntable",
+        "outside": true,
+        "width": 75.80208587646484
+      },
+      {
+        "display": "flex",
+        "hidden": false,
+        "name": "workbench",
+        "outside": true,
+        "width": 77.83854675292969
+      }
+    ],
+    "transform": "matrix(3.8, 0, 0, 3.8, -84.49, -975.571)",
+    "view": "records"
+  },
+  "turntable": {
+    "allMarkersRetained": true,
+    "otherMarkersOutside": true
+  },
+  "workbench": {
+    "allMarkersRetained": true,
+    "otherMarkersOutside": true
+  },
+  "escapeReturnsOverview": true
+}

@@ -1,0 +1,97 @@
+{
+  "checkedAt": "2026-10-27T19:10:37.651804+00:00",
+  "passed": true,
+  "scenes": [
+    {
+      "sourceScene": "reference-walls.blend",
+      "scene": "reference-cabinet-light.blend",
+      "passed": true,
+      "issues": [],
+      "originalObjects": 1634,
+      "sampledFrames": [
+        1,
+        109,
+        289,
+        577
+      ],
+      "maximumOriginalMatrixChange": 0,
+      "meshGeometryTopologyUVNormalSha256": "35bbdf1eae2127f867a170f66f9d092503f3c827ed62fc0a5e0d5ca981250f4f",
+      "originalMaterialsLightsCamerasWorldExposureRetained": true,
+      "newObject": "Detail / cabinet warm key",
+      "targetDirectionDot": 0.9999999701976776,
+      "emitterCorners": [
+        [
+          -1.6972509622573853,
+          1.5698466300964355,
+          1.6245083808898926
+        ],
+        [
+          -2.3990070819854736,
+          2.1546437740325928,
+          3.17549204826355
+        ],
+        [
+          -0.8009928464889526,
+          2.6453564167022705,
+          1.6245081424713135
+        ],
+        [
+          -1.5027490854263306,
+          3.2301535606384277,
+          3.1754918098449707
+        ]
+      ],
+      "priorRecordRouteEvidence": "junction-record-clearance.json",
+      "priorRouteEvidenceApplies": "No mesh, visibility, or sampled original transform changed; the only addition is a light with no collision geometry."
+    },
+    {
+      "sourceScene": "reference-hanging-plant.blend",
+      "scene": "reference-hanging-light.blend",
+      "passed": true,
+      "issues": [],
+      "originalObjects": 1640,
+      "sampledFrames": [
+        1,
+        109,
+        289,
+        577
+      ],
+      "maximumOriginalMatrixChange": 0,
+      "meshGeometryTopologyUVNormalSha256": "3d5495ee992fcc8dc76a942bd4eeb2fd045d1f8b3f2f14dd0c2e3c2d2fdda853",
+      "originalMaterialsLightsCamerasWorldExposureRetained": true,
+      "newObject": "Detail / cabinet warm key",
+      "targetDirectionDot": 0.9999999701976776,
+      "emitterCorners": [
+        [
+          -1.6972509622573853,
+          1.5698466300964355,
+          1.6245083808898926
+        ],
+        [
+          -2.3990070819854736,
+          2.1546437740325928,
+          3.17549204826355
+        ],
+        [
+          -0.8009928464889526,
+          2.6453564167022705,
+          1.6245081424713135
+        ],
+        [
+          -1.5027490854263306,
+          3.2301535606384277,
+          3.1754918098449707
+        ]
+      ],
+      "priorRecordRouteEvidence": "hanging-plant-record-clearance.json",
+      "priorRouteEvidenceApplies": "No mesh, visibility, or sampled original transform changed; the only addition is a light with no collision geometry."
+    }
+  ],
+  "unrealSceneBuilt": false,
+  "finalSceneApproved": false,
+  "limits": [
+    "Visual brightness and atmosphere checked using rendered images.",
+    "Four original animation samples; not a continuous collision proof.",
+    "Light settings have not been validated in Unreal."
+  ]
+}

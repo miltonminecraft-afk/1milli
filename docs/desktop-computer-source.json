@@ -1,0 +1,20 @@
+{
+  "id": "561abc2fc95941609fc7bc6f232895c2",
+  "title": "Desktop Computer",
+  "author": "Tytan",
+  "source": "https://sketchfab.com/3d-models/desktop-computer-561abc2fc95941609fc7bc6f232895c2",
+  "license": {
+    "uri": "https://api.sketchfab.com/v3/licenses/322a749bcfa841b29dff1e8a1bb74b0b",
+    "label": "CC Attribution",
+    "fullName": "Creative Commons Attribution",
+    "requirements": "Author must be credited. Commercial use is allowed.",
+    "url": "http://creativecommons.org/licenses/by/4.0/",
+    "slug": "by"
+  },
+  "url": "https://huggingface.co/datasets/allenai/objaverse/resolve/main/glbs/000-111/561abc2fc95941609fc7bc6f232895c2.glb",
+  "file": "desktop-computer.glb",
+  "bytes": 1987520,
+  "sha256": "b527c47dbdbe5fc22729958c6e8c61942aa373445be68edae9a0768d1f6dfcea",
+  "status": "Candidate for matching the reference, pending visual approval",
+  "usage": "Traditional mesh import and rendering only; not used for generative AI or training."
+}

@@ -1,0 +1,510 @@
+{
+  "builtAt": "2026-10-27T19:20:28.142418+00:00",
+  "sourceScene": "reference-hanging-light.blend",
+  "scene": "reference-room-revision.blend",
+  "wallSource": {
+    "downloadedAt": "2026-10-27T19:12:50.351Z",
+    "id": "rough_concrete",
+    "name": "Rough Concrete",
+    "source": "https://polyhaven.com/a/rough_concrete",
+    "authors": {
+      "Dimitrios Savva": "All"
+    },
+    "license": "CC0-1.0",
+    "licenseUrl": "https://polyhaven.com/license",
+    "maps": {
+      "diff": {
+        "file": "rough_concrete_diff_4k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/4k/rough_concrete/rough_concrete_diff_4k.jpg",
+        "md5": "6d6785930feea9c73c6629b4192ea0e4",
+        "bytes": 16923275
+      },
+      "normal": {
+        "file": "rough_concrete_nor_gl_4k.png",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/4k/rough_concrete/rough_concrete_nor_gl_4k.png",
+        "md5": "3c2e5ca80f2280cf5c97c53332f85c6a",
+        "bytes": 93274495
+      },
+      "rough": {
+        "file": "rough_concrete_rough_4k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/4k/rough_concrete/rough_concrete_rough_4k.jpg",
+        "md5": "8e32b7d4cdabfdd42c1630bd1461316a",
+        "bytes": 8573031
+      }
+    },
+    "status": "Unapproved wall candidate"
+  },
+  "floorSource": {
+    "downloadedAt": "2026-10-27T19:15:25.764Z",
+    "id": "cracked_concrete",
+    "name": "Cracked Concrete",
+    "source": "https://polyhaven.com/a/cracked_concrete",
+    "authors": {
+      "Dimitrios Savva": "All"
+    },
+    "license": "CC0-1.0",
+    "licenseUrl": "https://polyhaven.com/license",
+    "physicalDimensions": [
+      2000,
+      2000
+    ],
+    "maps": {
+      "diff": {
+        "file": "cracked_concrete_diff_2k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/cracked_concrete/cracked_concrete_diff_2k.jpg",
+        "md5": "aa2c554bf607fb64b033e39978eb1ab4",
+        "bytes": 3496468
+      },
+      "normal": {
+        "file": "cracked_concrete_nor_gl_2k.png",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/2k/cracked_concrete/cracked_concrete_nor_gl_2k.png",
+        "md5": "53de86ce491d3afefab43ce065ea6077",
+        "bytes": 21718874
+      },
+      "rough": {
+        "file": "cracked_concrete_rough_2k.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/cracked_concrete/cracked_concrete_rough_2k.jpg",
+        "md5": "bab67241159f9abc8d81547d4b64706f",
+        "bytes": 2509728
+      }
+    },
+    "status": "Unapproved material candidate"
+  },
+  "changedWallObjects": [
+    "Architecture / left wall",
+    "Architecture / right wall",
+    "Detail / doorway left jamb",
+    "Detail / doorway right jamb",
+    "Detail / doorway lintel",
+    "Detail / correction / projecting art wall",
+    "Detail / correction / stepped wall casing 1",
+    "Detail / correction / stepped wall casing 2",
+    "Detail / correction / stepped wall casing 3",
+    "Architecture / ceiling"
+  ],
+  "added": [
+    {
+      "role": "under table back case",
+      "objects": [
+        "Detail / room revision / under table back case / 1",
+        "Detail / room revision / under table back case / 2",
+        "Detail / room revision / under table back case / 3",
+        "Detail / room revision / under table back case / 4"
+      ],
+      "sourceObjects": [
+        "Detail / correction / varied storage 3 / Temporary / old_milita",
+        "Detail / correction / varied storage 3 / Temporary / old_milit",
+        "Detail / correction / varied storage 3 / Temporary / old_mili",
+        "Detail / correction / varied storage 3 / Temporary / old_mil"
+      ],
+      "uniformScale": 1.3802816159808942,
+      "yaw": 7,
+      "bounds": [
+        [
+          -2.7789151668548584,
+          5.664003849029541,
+          0.1777999997138977
+        ],
+        [
+          -2.262840509414673,
+          6.154881477355957,
+          0.49526476860046387
+        ]
+      ],
+      "supportZ": 0.1778
+    },
+    {
+      "role": "under table open case",
+      "objects": [
+        "Detail / room revision / under table open case / 1",
+        "Detail / room revision / under table open case / 2",
+        "Detail / room revision / under table open case / 3",
+        "Detail / room revision / under table open case / 4"
+      ],
+      "sourceObjects": [
+        "Detail / correction / varied storage 7 / Temporary / old_milita",
+        "Detail / correction / varied storage 7 / Temporary / old_milit",
+        "Detail / correction / varied storage 7 / Temporary / old_mili",
+        "Detail / correction / varied storage 7 / Temporary / old_mil"
+      ],
+      "uniformScale": 1.0789477204353022,
+      "yaw": -8,
+      "bounds": [
+        [
+          -2.1587624549865723,
+          5.61538553237915,
+          0.17780005931854248
+        ],
+        [
+          -1.787964105606079,
+          6.061115264892578,
+          0.5014843940734863
+        ]
+      ],
+      "supportZ": 0.1778
+    },
+    {
+      "role": "crate beside workbench",
+      "objects": [
+        "Detail / room revision / crate beside workbench / 1",
+        "Detail / room revision / crate beside workbench / 2",
+        "Detail / room revision / crate beside workbench / 3",
+        "Detail / room revision / crate beside workbench / 4"
+      ],
+      "sourceObjects": [
+        "Detail / correction / varied storage 8 / Temporary / old_milita",
+        "Detail / correction / varied storage 8 / Temporary / old_milit",
+        "Detail / correction / varied storage 8 / Temporary / old_mili",
+        "Detail / correction / varied storage 8 / Temporary / old_mil"
+      ],
+      "uniformScale": 1.3170721291227483,
+      "yaw": 5,
+      "bounds": [
+        [
+          0.18490839004516602,
+          3.24129581451416,
+          0.0002999305725097656
+        ],
+        [
+          0.6747483015060425,
+          3.7979438304901123,
+          0.39542174339294434
+        ]
+      ],
+      "supportZ": 0.0003
+    },
+    {
+      "role": "left foreground case 1",
+      "objects": [
+        "Detail / room revision / left foreground case 1 / 1",
+        "Detail / room revision / left foreground case 1 / 2",
+        "Detail / room revision / left foreground case 1 / 3",
+        "Detail / room revision / left foreground case 1 / 4"
+      ],
+      "sourceObjects": [
+        "Detail / correction / varied storage 9 / Temporary / old_milita",
+        "Detail / correction / varied storage 9 / Temporary / old_milit",
+        "Detail / correction / varied storage 9 / Temporary / old_mili",
+        "Detail / correction / varied storage 9 / Temporary / old_mil"
+      ],
+      "uniformScale": 0.9487176935270596,
+      "yaw": -4,
+      "bounds": [
+        [
+          -3.304445743560791,
+          2.3712568283081055,
+          0.0002999305725097656
+        ],
+        [
+          -2.955510377883911,
+          2.7491817474365234,
+          0.2944025993347168
+        ]
+      ],
+      "supportZ": 0.0003
+    },
+    {
+      "role": "left foreground case 2",
+      "objects": [
+        "Detail / room revision / left foreground case 2 / 1",
+        "Detail / room revision / left foreground case 2 / 2",
+        "Detail / room revision / left foreground case 2 / 3",
+        "Detail / room revision / left foreground case 2 / 4"
+      ],
+      "sourceObjects": [
+        "Detail / correction / varied storage 9 / Temporary / old_milita",
+        "Detail / correction / varied storage 9 / Temporary / old_milit",
+        "Detail / correction / varied storage 9 / Temporary / old_mili",
+        "Detail / correction / varied storage 9 / Temporary / old_mil"
+      ],
+      "uniformScale": 0.9487176935270596,
+      "yaw": 5,
+      "bounds": [
+        [
+          -3.2908339500427246,
+          2.368380546569824,
+          0.29540252685546875
+        ],
+        [
+          -2.9391191005706787,
+          2.7510716915130615,
+          0.5895051956176758
+        ]
+      ],
+      "supportZ": 0.2954025993347168
+    },
+    {
+      "role": "left foreground case 3",
+      "objects": [
+        "Detail / room revision / left foreground case 3 / 1",
+        "Detail / room revision / left foreground case 3 / 2",
+        "Detail / room revision / left foreground case 3 / 3",
+        "Detail / room revision / left foreground case 3 / 4"
+      ],
+      "sourceObjects": [
+        "Detail / correction / varied storage 10 / Temporary / old_milit",
+        "Detail / correction / varied storage 10 / Temporary / old_mili",
+        "Detail / correction / varied storage 10 / Temporary / old_mil",
+        "Detail / correction / varied storage 10 / Temporary / old_mi"
+      ],
+      "uniformScale": 0.860465459787641,
+      "yaw": -3,
+      "bounds": [
+        [
+          -3.294926881790161,
+          2.371843099594116,
+          0.5905051231384277
+        ],
+        [
+          -2.9948477745056152,
+          2.7481815814971924,
+          0.8314354419708252
+        ]
+      ],
+      "supportZ": 0.5905051956176758
+    },
+    {
+      "role": "music table pen cup",
+      "objects": [
+        "Detail / room revision / music table pen cup / 1",
+        "Detail / room revision / music table pen cup / 2",
+        "Detail / room revision / music table pen cup / 3"
+      ],
+      "sourceObjects": [
+        "Detail / workbench pencil cup / Object_4.003",
+        "Detail / workbench pencil cup / Object_5.003",
+        "Detail / workbench pencil cup / Object_6.003"
+      ],
+      "uniformScale": 1.1282421599975674,
+      "yaw": -10,
+      "bounds": [
+        [
+          -2.893718719482422,
+          5.428170204162598,
+          0.8977100253105164
+        ],
+        [
+          -2.7212581634521484,
+          5.557249069213867,
+          1.1277101039886475
+        ]
+      ],
+      "supportZ": 0.89771
+    },
+    {
+      "role": "music table paper",
+      "objects": [
+        "Detail / room revision / music table paper / 1"
+      ],
+      "sourceObjects": [
+        "Detail / folded newspaper / NewspaperFolded_Newspaper_0"
+      ],
+      "uniformScale": 1.0597278616458399,
+      "yaw": 13,
+      "bounds": [
+        [
+          -2.835038423538208,
+          5.6715545654296875,
+          0.8977100253105164
+        ],
+        [
+          -2.5248260498046875,
+          5.92761754989624,
+          0.9215559363365173
+        ]
+      ],
+      "supportZ": 0.89771
+    },
+    {
+      "role": "music table tape",
+      "objects": [
+        "Detail / room revision / music table tape / 1"
+      ],
+      "sourceObjects": [
+        "Detail / arranged bench prop / Duct_Tape_low_Mat_Tools_0"
+      ],
+      "uniformScale": 0.5584046635968913,
+      "yaw": -15,
+      "bounds": [
+        [
+          -2.8265540599823,
+          5.642436504364014,
+          0.8977100253105164
+        ],
+        [
+          -2.7541847229003906,
+          5.718738555908203,
+          0.9270674586296082
+        ]
+      ],
+      "supportZ": 0.89771
+    },
+    {
+      "role": "paper on rear case",
+      "objects": [
+        "Detail / room revision / paper on rear case / 1"
+      ],
+      "sourceObjects": [
+        "Detail / folded newspaper / NewspaperFolded_Newspaper_0"
+      ],
+      "uniformScale": 0.8326433198645884,
+      "yaw": -12,
+      "bounds": [
+        [
+          -2.603996515274048,
+          5.832696914672852,
+          0.496264785528183
+        ],
+        [
+          -2.3765764236450195,
+          6.007433891296387,
+          0.5150008201599121
+        ]
+      ],
+      "supportZ": 0.4962647887323944
+    },
+    {
+      "role": "foreground vine",
+      "objects": [
+        "Detail / room revision / foreground vine front 1"
+      ],
+      "sourceObject": "Detail / rear hanging vine / long 1",
+      "uniformScale": 0.9,
+      "stemRoot": [
+        -3.0999999046325684,
+        2.819999933242798,
+        2.5999999046325684
+      ],
+      "stemTip": [
+        -3.045762538909912,
+        2.627167224884033,
+        2.224386692047119
+      ]
+    },
+    {
+      "role": "foreground vine",
+      "objects": [
+        "Detail / room revision / foreground vine front 2"
+      ],
+      "sourceObject": "Detail / rear hanging vine / long 1",
+      "uniformScale": 0.9,
+      "stemRoot": [
+        -3.045762538909912,
+        2.627167224884033,
+        2.224386692047119
+      ],
+      "stemTip": [
+        -3.0999999046325684,
+        2.819999933242798,
+        1.8487733602523804
+      ]
+    },
+    {
+      "role": "foreground vine",
+      "objects": [
+        "Detail / room revision / foreground vine front 3"
+      ],
+      "sourceObject": "Detail / rear hanging vine / long 1",
+      "uniformScale": 0.85,
+      "stemRoot": [
+        -3.0999999046325684,
+        2.819999933242798,
+        1.8487733602523804
+      ],
+      "stemTip": [
+        -3.0487756729125977,
+        2.6378800868988037,
+        1.4940274953842163
+      ]
+    },
+    {
+      "role": "foreground vine",
+      "objects": [
+        "Detail / room revision / foreground vine front 4"
+      ],
+      "sourceObject": "Detail / rear hanging vine / long 1",
+      "uniformScale": 0.7,
+      "stemRoot": [
+        -3.0487756729125977,
+        2.6378800868988037,
+        1.4940274953842163
+      ],
+      "stemTip": [
+        -3.0909602642059326,
+        2.787860870361328,
+        1.2018837928771973
+      ]
+    },
+    {
+      "role": "foreground vine",
+      "objects": [
+        "Detail / room revision / foreground vine edge 1"
+      ],
+      "sourceObject": "Detail / rear hanging vine / long 1",
+      "uniformScale": 0.65,
+      "stemRoot": [
+        -3.2300000190734863,
+        2.8399999141693115,
+        2.630000114440918
+      ],
+      "stemTip": [
+        -3.2156074047088623,
+        2.6960456371307373,
+        2.3587236404418945
+      ]
+    },
+    {
+      "role": "foreground vine",
+      "objects": [
+        "Detail / room revision / foreground vine edge 2"
+      ],
+      "sourceObject": "Detail / rear hanging vine / long 1",
+      "uniformScale": 0.65,
+      "stemRoot": [
+        -3.2156074047088623,
+        2.6960456371307373,
+        2.3587236404418945
+      ],
+      "stemTip": [
+        -3.266767740249634,
+        2.8313698768615723,
+        2.08744740486145
+      ]
+    },
+    {
+      "role": "foreground vine",
+      "objects": [
+        "Detail / room revision / foreground vine edge 3"
+      ],
+      "sourceObject": "Detail / rear hanging vine / long 1",
+      "uniformScale": 0.6,
+      "stemRoot": [
+        -3.266767740249634,
+        2.8313698768615723,
+        2.08744740486145
+      ],
+      "stemTip": [
+        -3.2419514656066895,
+        2.7001523971557617,
+        1.837038516998291
+      ]
+    }
+  ],
+  "hiddenOriginalFoliage": [
+    "Detail / foreground trailing extension 1",
+    "Detail / foreground trailing extension 2",
+    "Detail / foreground trailing extension 3",
+    "Detail / foreground trailing extension 4",
+    "Detail / foreground trailing filler 1",
+    "Detail / foreground trailing filler 2",
+    "Detail / foreground trailing filler 3",
+    "Detail / foreground trailing filler 4"
+  ],
+  "unrealSceneBuilt": false,
+  "finalDesignApproved": false,
+  "pending": [
+    "Computer, monitor and connecting cables.",
+    "LP clearance and placement review.",
+    "Visual comparison and website update."
+  ]
+}

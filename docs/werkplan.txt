@@ -12,9 +12,17 @@ een eenvoudig apart desktopprogramma beschikbaar voor zelf inrichten.
 VASTSTAANDE KEUZES
 - Opdracht 27 oktober: "Online op git op site". De huidige werkversie mag op
   GitHub Pages worden gepubliceerd, inclusief ruimtebeelden, conceptvergelijking,
-  eerdere LP-proef en catalogi. Dit is geen goedkeuring van het definitieve ontwerp.
-- Nieuwste gebruikersopdracht: een betere muurtextuur zoals in het concept.
-  Visuele interpretatie voor de lokale proef: fijn vezelig, mat en grijsbeige.
+  actuele LP-proef en catalogi. Dit is geen goedkeuring van het definitieve ontwerp.
+- Nieuwste gebruikersopdrachten: LP's realistisch schuin achter elkaar zoals het
+  concept, met een bladeranimatie. Twee groepen per plank, zichtbare hoesdikte en
+  titels. Alle tien echte releases blijven beschikbaar; geen verzonnen extra albums.
+- Zwart flatscreen op een voet gekozen door gebruiker. PC links onder de muziektafel,
+  speakerkabels naar de draaitafel, kleine tafelspullen en extra kisten eronder.
+  Krat direct naast de werkbank. Werkvlak moet vrij blijven.
+- Donkerdere minerale/stenen muur: vezelige MDF-achtige afwerking afgewezen.
+  Vloer met donkere vlekken en barsten en glans. Extra licht naar de platenkast.
+- Onderwerpzoom zoals eerste concept; andere bolletjes behouden hun plek buiten
+  beeld. Geen hovergestuurde beweging. Knoppen klein en bij de objecten.
 - Nieuwste gebruikerscorrecties: de linkerwand met de kunst steekt naar binnen
   en moet echte dikte krijgen. Kunst/lijsten op dezelfde plaatsen als het concept,
   vlak tegen het juiste wandvlak. Onder de linker lamp naast de garage horen
@@ -630,3 +638,16 @@ Bewijs: docs/hanging-plant-*.json. Scene/renders lokaal; controlecode en voortga
 naar GitHub. Openbare muurproef/LP-demo en desktopeditor niet aangepast.
 Epic-proces/log ongewijzigd; geen nieuwe installer of cache-reset. Volgende
 uitvoerbare taak: voorste hangplant verdichten met intacte broncomponenten.
+
+2026-10-27 Gebruikerscorrecties van kastlicht tot LP-bladeren verwerkt.
+Werkversie reference-room-stacks.blend: donkere minerale wanden, gebarsten vloer,
+extra kastlicht, kisten/kleine spullen, intacte hangranken, PC, zwart scherm op voet
+zoals gekozen en audiokabels. Tien releases in vier schuine groepen. Webpreview
+gebruikt nu dezelfde actuele geometrie, met realtime verlichting. Bladeranimatie
+houdt de onderranden gesteund; alle tien LP's pakken/uit hoes/op plateau/terug.
+Eigenaarvolgorde behouden. 110 bladerovergangen en tien LP-routes geometrisch
+gecontroleerd. PC/scherm staan op hun draagvlakken zonder tafeldoorsnijding.
+Websitezoom houdt alle bolletjes in dezelfde ruimte; alleen buiten beeld geclipt.
+Renders vóór publicatie in de chat getoond. Zie docs/room-stacks-progress.txt voor
+bewijs en concrete resterende afwijkingen. Unreal nog niet gebouwd; geen definitieve
+ontwerpgoedkeuring. Nieuwe sitepublicatie en live controle volgen in deze beurt.

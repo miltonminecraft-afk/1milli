@@ -5,7 +5,7 @@ import {fileURLToPath} from 'node:url';
 const directory=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'../Materials/floor-candidates');
 fs.mkdirSync(directory,{recursive:true});
 const ids=process.argv.slice(2),mapsOnly=ids[0]==='--maps';if(mapsOnly)ids.shift();
-if(!ids.length||ids.some(id=>!['scuffed_cement','hangar_concrete_floor','smooth_concrete_floor'].includes(id)))throw Error('Specify a documented floor candidate');
+if(!ids.length||ids.some(id=>!['scuffed_cement','hangar_concrete_floor','smooth_concrete_floor','cracked_concrete'].includes(id)))throw Error('Specify a documented floor candidate');
 const get=async url=>{const r=await fetch(url,{signal:AbortSignal.timeout(45000)});if(!r.ok)throw Error(`${r.status}: ${url}`);return r;};
 for(const id of ids){
  const [info,files]=await Promise.all([get(`https://api.polyhaven.com/info/${id}`).then(r=>r.json()),get(`https://api.polyhaven.com/files/${id}`).then(r=>r.json())]);

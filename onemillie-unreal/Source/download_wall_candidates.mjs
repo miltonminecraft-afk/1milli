@@ -1,7 +1,7 @@
 import fs from 'node:fs';import path from 'node:path';import crypto from 'node:crypto';import {fileURLToPath} from 'node:url';
 const directory=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'../Materials/wall-candidates');fs.mkdirSync(directory,{recursive:true});
 const args=process.argv.slice(2),maps=args[0]==='--maps';if(maps)args.shift();const ids=args;
-if(!ids.length||ids.some(id=>!['wood_textured_concrete','oriented_strand_board'].includes(id)))throw Error('Specify a documented wall candidate');
+if(!ids.length||ids.some(id=>!['wood_textured_concrete','oriented_strand_board','rock_embedded_concrete','rough_concrete'].includes(id)))throw Error('Specify a documented wall candidate');
 const get=async url=>{const r=await fetch(url,{signal:AbortSignal.timeout(90000)});if(!r.ok)throw Error(`${r.status}: ${url}`);return r;};
 for(const id of ids){
  const [info,files]=await Promise.all([get(`https://api.polyhaven.com/info/${id}`).then(r=>r.json()),get(`https://api.polyhaven.com/files/${id}`).then(r=>r.json())]);

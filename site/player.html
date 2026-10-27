@@ -1,21 +1,21 @@
 <!doctype html>
 <html lang="nl"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Onemillie · eerdere LP-proef</title>
+<title>Onemillie · LP’s bladeren</title>
 <style>
 *{box-sizing:border-box}body{margin:0;background:#171a1b;color:#f1eadf;font:15px/1.5 system-ui,sans-serif}main{max-width:1440px;margin:auto;padding:20px}header{display:flex;align-items:baseline;justify-content:space-between;gap:12px;flex-wrap:wrap}h1{font-size:21px;margin:0}p{color:#b8bbb6;margin:8px 0 16px}a{color:#dfbd85}a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible{outline:2px solid #e6bd7a;outline-offset:3px}.stage{position:relative;aspect-ratio:1672/941;background:#232829;border:1px solid #414844;border-radius:8px;overflow:hidden}canvas{width:100%;height:100%;display:block}.loading{position:absolute;inset:0;display:grid;place-items:center;background:#222727;color:#e7d4ae}.loading[hidden]{display:none}.controls{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin:12px 0}button,select{background:#303736;border:1px solid #58615b;border-radius:6px;color:#f1eadf;padding:7px 12px;font:inherit;cursor:pointer}button:hover{background:#414b46}button:disabled,select:disabled{opacity:.45;cursor:wait}button.primary{background:#d3b17d;color:#181e1b;border-color:#d3b17d}label{font-size:13px;color:#c0c4bd}input[type=range]{min-width:120px;flex:1;accent-color:#dfbd85}output{font-variant-numeric:tabular-nums;min-width:91px;text-align:right;font-size:13px}.status{font-size:14px;min-height:22px;color:#dac8aa}.steps{margin-top:4px}.steps button{padding:4px 9px;font-size:13px}.notes{font-size:13px;max-width:95ch}details{margin-top:14px;color:#aeb9b0;font-size:12px}pre{white-space:pre-wrap;font:12px/1.5 monospace}summary{cursor:pointer}@media(max-width:600px){main{padding:12px}header{gap:3px}h1{font-size:18px}.controls{gap:6px}.controls button,select{font-size:13px;padding:6px 9px}.timeline{flex-basis:100%;display:flex;gap:8px;align-items:center}p{font-size:13px}.stage{border-radius:5px}}
 </style>
 <style>.stage{width:min(100%,calc((100svh - 285px)*1672/941));min-width:min(100%,400px);margin-inline:auto}@media(max-width:600px){.stage{width:100%;min-width:0}}</style>
 <main>
-<header><h1>Onemillie · eerdere LP-proef</h1><a href="./">Terug naar de werkplaats</a></header>
-<p>Eerdere Blender-proef van de LP-animatie. De huidige aankleding en muurtextuur staan op de werkplaatspagina; dit is nog geen Unreal-scène.</p>
-<div class="stage"><canvas id="scene" aria-label="Eerdere werkplaats als interactieve 3D-preview"></canvas><div class="loading" id="loading" role="status">3D-scène laden…</div></div>
-<div class="controls">
+<header><h1>Onemillie · LP’s bladeren</h1><a href="./">Terug naar de werkplaats</a></header>
+<p>Blader door de hoezen en kies een plaat. De camera beweegt alleen na jouw bediening.</p>
+<div class="stage"><canvas id="scene" aria-label="Werkplaats met bladerbare LP’s in vier groepen"></canvas><div class="loading" id="loading" role="status">3D-scène laden…</div></div>
+<div class="controls" aria-label="Door de platen bladeren"><button id="start-browse" disabled>Bladeren</button><button id="previous" disabled>← Vorige hoes</button><button id="next" disabled>Volgende hoes →</button><label for="record">Plaat</label><select id="record" disabled></select><span id="selection"></span></div><div class="controls">
   <button class="primary" id="play" disabled>Afspelen</button><button id="reset" disabled>Opnieuw</button>
-  <label for="camera">Camera</label><select id="camera" disabled><option value="overview">Overzicht</option><option value="action">Meebewegen</option><option value="workbench">Werkbank</option><option value="depth">Zijaanzicht</option></select>
+  <label for="camera">Camera</label><select id="camera" disabled><option value="overview">Overzicht</option><option value="browse">Platenkast</option><option value="action">Meebewegen</option><option value="workbench">Werkbank</option><option value="depth">Zijaanzicht</option></select>
   <label for="timeline">Tijdlijn</label><input id="timeline" type="range" min="0" max="19.2" step="0.01" value="0" disabled><output id="time" for="timeline">0,0 / 19,2 s</output>
 </div>
 <div class="controls steps" aria-label="Stappen bekijken"><button data-time="1.2" disabled>Naar de kast</button><button data-time="5.55" disabled>LP uit hoes</button><button data-time="9.6" disabled>Op draaitafel</button><button data-time="19.2" disabled>Teruggezet</button></div>
 <div class="status" id="status" role="status" aria-live="polite">Wacht op de 3D-scène</div>
-<p class="notes">De eerste plaat toont de hele handeling. De vaste eigenaarvolgorde wordt niet gewijzigd. Het beeld beweegt alleen na jouw bediening. De getoonde verlichting is een tijdelijke realtime instelling; de stilstaande Blender-renders staan bij de vergelijking.</p>
+<p class="notes">Alle tien platen kunnen gepakt en teruggezet worden. Bladeren verandert de eigenaarvolgorde niet. De browser toont de huidige Blender-geometrie met realtime licht; de ruimtebeelden hebben de gerenderde belichting. Nog geen Unreal-scène.</p>
 <details><summary>Technische controle</summary><pre id="diagnostics">Nog niet geladen</pre></details>
-<p class="notes"><a href="vergelijking.html">Huidige ruimte naast het concept</a> · <a href="credits.html">Makers en licenties</a></p></main><script type="module" src="player.mjs"></script></html>
+<p class="notes"><a href="vergelijking.html">Huidige ruimte naast het concept</a> · <a href="credits.html">Makers en licenties</a></p></main><script type="module" src="player.mjs?v=stacks-1"></script></html>

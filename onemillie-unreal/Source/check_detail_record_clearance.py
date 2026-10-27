@@ -13,13 +13,13 @@ R=Path(__file__).resolve().parents[1];O=R/'Review'
 args=sys.argv[sys.argv.index('--')+1:] if '--' in sys.argv else []
 scene_name=args[0] if args else 'reference-atmosphere.blend'
 output_name=args[1] if len(args)>1 else 'detail-record-clearance.json'
-routes=json.loads((O/'record-route-check-samples.json').read_text())
+routes=json.loads((O/(args[2] if len(args)>2 else 'record-route-check-samples.json')).read_text())
 data=json.loads((O/'record-preview-data.json').read_text())
 bpy.ops.wm.open_mainfile(filepath=str(O/scene_name))
 scene=bpy.context.scene;scene.frame_set(1);bpy.context.view_layer.update()
 depsgraph=bpy.context.evaluated_depsgraph_get();obstacles=[]
 for ob in scene.objects:
- if ob.type!='MESH' or not ob.name.startswith('Detail / ') or ob.hide_render:continue
+ if ob.type not in ('MESH','CURVE') or not ob.name.startswith('Detail / ') or ob.hide_render:continue
  evaluated=ob.evaluated_get(depsgraph);mesh=evaluated.to_mesh();mesh.calc_loop_triangles()
  vertices=[evaluated.matrix_world@v.co for v in mesh.vertices]
  triangles=[tuple(t.vertices) for t in mesh.loop_triangles]

@@ -1,0 +1,37 @@
+27 oktober 2026 — actuele werkversie, nog geen definitieve ontwerpgoedkeuring.
+
+Gebouwd in Blender, lokaal opgeslagen als Review/reference-room-stacks.blend.
+Donkere gescande Rough Concrete-wanden en Cracked Concrete-vloer. Extra 28 W
+oppervlaktelicht op de kast. Bestaande complete plantdelen en kisten hergebruikt.
+Meer inhoud onder de muziektafel, krat naast werkbank, pennenbak/krant/tape.
+PC links op het onderste tafelblad; gekozen zwart flatscreen op een voet erboven.
+Twee audiokabels van speakers naar de draaitafel en een kabel van scherm naar PC.
+De huidige geometrie staat ook in de web-GLB; niet langer de eerdere kale LP-scène.
+
+Tien echte releases in vier schuin staande groepen, twee per plank. Bezoekers
+bladeren met vorige/volgende, toetsen of plaatkeuze. Hoezen draaien rond de onderrand,
+met compensatie voor hoesdikte. De eerder gekozen hoezen klappen verder naar voren.
+Pakken, vinyl uit de hoes, op het gemeten plateau leggen en terugzetten voor alle
+tien releases; de eigenaarvolgorde wordt nergens geschreven. Geen automatische loop
+of muis-/hovergestuurde beweging. Afzonderlijke camera volgt expliciete LP-acties.
+
+Website: vloeiende onderwerpzoom; beeld en bolletjes delen dezelfde transformatie.
+Andere bolletjes blijven bestaan en raken buiten het zicht, zonder display:none.
+Kleine knoplabels behouden hun schermgrootte. Overzicht/Escape zet de zoom terug.
+
+Bewijs: 110 bladerschakelingen, 21 samples elk, 103950 hoes-paarcontroles zonder
+overlap en minimaal 0,00037 scene-eenheid vrij van plank. Tien LP-routes, 289 samples
+elk tegen 301 meshes/curves, 1195931 driehoeken: nul botsingssamples. Computer en
+monitor staan op hun draagvlak zonder tafeldoorsnijding. Dit zijn gerichte sampled
+controles, geen volledige fysicasimulatie of bewijs van exacte conceptovereenkomst.
+Webcompressie behoudt geometrie/camera/animatiedata; textures WebP 88, maximaal 1024.
+Webmodel circa 96 MB, alleen op aanvraag geladen. Realtime licht en sommige
+materiaalinstellingen verschillen van de Cycles-ruimtebeelden. Hoogwaardige lokale
+brontextures blijven behouden. De LP-export had eerst een nulgeschaalde subboom;
+export met een inverteerbare vinyl-root herstelt dit, runtime verbergt de LP tot pakken.
+
+Open: precieze conceptverhoudingen, plafond/garage/tafel/plantverschillen en sfeer
+verder afstemmen; fysieke steun/boekensteunen voor de kleine LP-groepen; meer
+bibliotheekkeuzes; volledige eenvoudige objecteditor met actuele omgeving.
+Unreal is nog niet geïnstalleerd/gebouwd. Deze turn wijzigt de installer niet.
+Definitief ontwerp blijft ter beoordeling. Heartbeat blijft voor vervolgwerk actief.

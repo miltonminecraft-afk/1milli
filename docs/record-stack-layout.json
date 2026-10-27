@@ -1,0 +1,180 @@
+{
+  "records": [
+    {
+      "id": "7mIaDeCbSxt3w1vNnxGvdL",
+      "title": "I Dont Want to Calm Down",
+      "node": "LP 01 / I Dont Want to Calm Down",
+      "slot": 0,
+      "group": 0,
+      "rank": 0,
+      "bottomBlender": [
+        -3.0899999141693115,
+        3.2699999809265137,
+        1.3394174575805664
+      ],
+      "yaw": 75,
+      "angle": -8,
+      "scale": 0.3761318564414978
+    },
+    {
+      "id": "4IMPKeI0X4ro6hxomnyVwE",
+      "title": "Siting Alone Again",
+      "node": "LP 02 / Siting Alone Again",
+      "slot": 1,
+      "group": 0,
+      "rank": 1,
+      "bottomBlender": [
+        -3.103523015975952,
+        3.282623529434204,
+        1.3394174575805664
+      ],
+      "yaw": 75,
+      "angle": -8,
+      "scale": 0.3761318564414978
+    },
+    {
+      "id": "61vipIlEN9ZKxU6JKd1sWR",
+      "title": "Free Fall",
+      "node": "LP 03 / Free Fall",
+      "slot": 2,
+      "group": 0,
+      "rank": 2,
+      "bottomBlender": [
+        -3.1170458793640137,
+        3.2952468395233154,
+        1.3394174575805664
+      ],
+      "yaw": 75,
+      "angle": -8,
+      "scale": 0.3761318564414978
+    },
+    {
+      "id": "0ZjRYK6GnHpxbu7DVY9y7y",
+      "title": "Can We Do Better",
+      "node": "LP 04 / Can We Do Better",
+      "slot": 3,
+      "group": 1,
+      "rank": 0,
+      "bottomBlender": [
+        -3.0899999141693115,
+        3.9800000190734863,
+        1.3394174575805664
+      ],
+      "yaw": 75,
+      "angle": -8,
+      "scale": 0.3761318564414978
+    },
+    {
+      "id": "5JujPl7KL3wQwdbuxT55b5",
+      "title": "Me Gustas",
+      "node": "LP 05 / Me Gustas",
+      "slot": 4,
+      "group": 1,
+      "rank": 1,
+      "bottomBlender": [
+        -3.103523015975952,
+        3.9926235675811768,
+        1.3394174575805664
+      ],
+      "yaw": 75,
+      "angle": -8,
+      "scale": 0.3761318564414978
+    },
+    {
+      "id": "65Jluwq3nWaSFET27wrFbY",
+      "title": "All I Need",
+      "node": "LP 06 / All I Need",
+      "slot": 5,
+      "group": 2,
+      "rank": 0,
+      "bottomBlender": [
+        -3.0899999141693115,
+        3.2699999809265137,
+        0.8761975169181824
+      ],
+      "yaw": 75,
+      "angle": -8,
+      "scale": 0.3761318564414978
+    },
+    {
+      "id": "1zizXaxfjawxEwl0SqlmmV",
+      "title": "Mediterranean",
+      "node": "LP 07 / Mediterranean",
+      "slot": 6,
+      "group": 2,
+      "rank": 1,
+      "bottomBlender": [
+        -3.103523015975952,
+        3.282623529434204,
+        0.8761975169181824
+      ],
+      "yaw": 75,
+      "angle": -8,
+      "scale": 0.3761318564414978
+    },
+    {
+      "id": "75bime2u7c3goWks6vI5NY",
+      "title": "Afterparty",
+      "node": "LP 08 / Afterparty",
+      "slot": 7,
+      "group": 2,
+      "rank": 2,
+      "bottomBlender": [
+        -3.1170458793640137,
+        3.2952468395233154,
+        0.8761975169181824
+      ],
+      "yaw": 75,
+      "angle": -8,
+      "scale": 0.3761318564414978
+    },
+    {
+      "id": "5TD1wB1zNqPrMFk5GuZZbd",
+      "title": "Free",
+      "node": "LP 09 / Free",
+      "slot": 8,
+      "group": 3,
+      "rank": 0,
+      "bottomBlender": [
+        -3.0899999141693115,
+        3.9800000190734863,
+        0.8761975169181824
+      ],
+      "yaw": 75,
+      "angle": -8,
+      "scale": 0.3761318564414978
+    },
+    {
+      "id": "1GPVB3uv8DcXRw5a4tZQ5m",
+      "title": "Coffee Cold",
+      "node": "LP 10 / Coffee Cold",
+      "slot": 9,
+      "group": 3,
+      "rank": 1,
+      "bottomBlender": [
+        -3.103523015975952,
+        3.9926235675811768,
+        0.8761975169181824
+      ],
+      "yaw": 75,
+      "angle": -8,
+      "scale": 0.3761318564414978
+    }
+  ],
+  "ownerOrder": [
+    "7mIaDeCbSxt3w1vNnxGvdL",
+    "4IMPKeI0X4ro6hxomnyVwE",
+    "61vipIlEN9ZKxU6JKd1sWR",
+    "0ZjRYK6GnHpxbu7DVY9y7y",
+    "5JujPl7KL3wQwdbuxT55b5",
+    "65Jluwq3nWaSFET27wrFbY",
+    "1zizXaxfjawxEwl0SqlmmV",
+    "75bime2u7c3goWks6vI5NY",
+    "5TD1wB1zNqPrMFk5GuZZbd",
+    "1GPVB3uv8DcXRw5a4tZQ5m"
+  ],
+  "ownerOrderWritten": false,
+  "groups": 4,
+  "scope": "Ten actual releases, four leaning stacks. No invented extra catalogue items.",
+  "sleeveThickness": 0.009027164554595948
+}

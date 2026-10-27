@@ -1,0 +1,39 @@
+{
+  "checkedAt": "2026-10-27T19:43:35.277138+00:00",
+  "passed": true,
+  "scene": "reference-room-stacks.blend",
+  "checks": [
+    {
+      "role": "tower",
+      "supportError": -2.861023085110048e-10,
+      "tableIntersections": [],
+      "min": [
+        -3.1469812393188477,
+        5.056541919708252,
+        0.1777999997138977
+      ],
+      "max": [
+        -2.8330185413360596,
+        5.683457851409912,
+        0.6478000283241272
+      ]
+    },
+    {
+      "role": "black flatscreen on foot",
+      "supportError": 2.5310516349463796e-08,
+      "tableIntersections": [],
+      "min": [
+        -2.853079319000244,
+        5.897542476654053,
+        0.8977100253105164
+      ],
+      "max": [
+        -2.4112727642059326,
+        6.163602828979492,
+        1.3131808042526245
+      ]
+    }
+  ],
+  "issues": [],
+  "scope": "Computer and monitor support and triangle intersections against music-table structure. Audio curves visually reviewed; endpoint insertion is intentional."
+}
