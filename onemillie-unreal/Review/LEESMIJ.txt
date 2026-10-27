@@ -27,3 +27,9 @@ Plantvormen, kast, kleed, krukken, aankleding en lichtafwerking blijven open.
 De gehele ruimte, details, materialen en verlichting zijn nog niet goedgekeurd.
 Unreal-installatie en een echte .umap blijven eveneens open.
 Gebruik de verificatierapporten voor de geteste onderdelen en hun beperkingen.
+
+Vervolgwerkbestand: reference-foliage-clearance.blend (lokaal). De hangende ranken
+zijn buiten de LP-vakken geplaatst. De eerder getoonde atmosphere-proef had
+doorsnijdingen met twee hoezen; alle tien routes zijn in het vervolg gecontroleerd.
+check_detail_record_clearance.py gebruikt Blender-BVH en driehoek/volume-controles.
+Deze herstelproef en zijn twee renderbeelden zijn nog geen nieuwe websiteversie.

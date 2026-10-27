@@ -1,0 +1,27 @@
+{
+  "checkedAt": "2026-10-27T12:38:05.121064+00:00",
+  "passed": true,
+  "scene": "reference-foliage-clearance.blend",
+  "scope": "All ten saved LP routes vs new plants, tables, lamp fixtures and supports only; old shelf/LP checks are separate.",
+  "method": "Evaluated triangle meshes, Blender BVH broad phase, triangle-oriented-box SAT narrow phase",
+  "records": 10,
+  "samplesPerRoute": 289,
+  "motionSeconds": 6.4,
+  "obstacleMeshes": 27,
+  "obstacleTriangles": 203386,
+  "coarseChecks": 126900,
+  "bvhQueries": 730,
+  "triangleChecks": 353320,
+  "collisionSamples": 0,
+  "collisionsByObject": [],
+  "firstCollisions": [],
+  "elapsedSeconds": 1.7883314000064274,
+  "ownerOrderWritten": false,
+  "unrealSceneBuilt": false,
+  "limits": [
+    "45Hz logical samples, not continuous collision detection.",
+    "Vinyl square envelope can overestimate collisions at its corners.",
+    "Checks the new detail meshes, not a complete rigid-body simulation.",
+    "Exact reference appearance and final scene approval remain open."
+  ]
+}

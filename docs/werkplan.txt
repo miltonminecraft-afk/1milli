@@ -56,6 +56,12 @@ referentieruimte alleen modellen die qua vorm en afwerking passen. Forceer niet
 alle gekozen objecten in beeld wanneer dat de referentie-indeling verandert.
 
 HUIDIGE STAND
+- Laatste lokale WERKBESTAND voor vervolgwerk:
+  onemillie-unreal/Review/reference-foliage-clearance.blend (709 meshes).
+  Dit bouwt voort op reference-atmosphere.blend en herstelt de hangende planten.
+  De laatst aan de gebruiker getoonde vergelijkingspagina toont nog de eerdere
+  atmosphere-proef; deze aanvullende herstelstap blijft lokaal tot een volgende
+  inhoudelijke visuele beoordeling. Geen Unreal-scène of goedgekeurde eindomgeving.
 - GitHub-broncode staat in https://github.com/miltonminecraft-afk/1milli.
   Eerste upload: commit 3aec88c2f02903668f545d2f1e1d5302d05e6280.
 - Websitepreview bestaat: foto met beperkte diepte, echte 3D-platen en GLB-objecten.
@@ -247,6 +253,27 @@ BEWIJS EN BELANGRIJKE BESTANDEN
 - previews/: bestaande website- en assetpreviews, nadrukkelijk geen Unreal-renders.
 
 WERKLOG
+2026-10-27 Heartbeat 12:32 UTC: nieuwe planten/tafels/armaturen op LP-doorkruising
+gecontroleerd. De oorspronkelijke detailproef had 127 overlappende steekproeven:
+rankdelen door de eerste en zesde hoes, ook al bij hun beginstand. Vier rankdelen
+naar de buitenste zijkant van de kast verplaatst en vier bestaande bladfragmenten
+als extra instanties gebruikt voor een vollere hangplant. Bronbladvormen en alle
+LP-routes bleven behouden. Nieuwe herstelproef met 709 meshes apart opgeslagen.
+Alle tien routes opnieuw gecontroleerd met Blender-BVH en driehoek/hoes-volume:
+289 momenten per route, 27 detailmeshes met 203.386 driehoeken, 126.900 grove
+controles en 353.320 driehoekcontroles; nul overlappende steekproeven. Vinyl is
+conservatief als een dun vierkant rond de werkelijke plaat gecontroleerd. De
+terugweg volgt dezelfde route achterstevoren. Dit is geen continue botsingssimulatie.
+1238 eerder aanwezige objecten op vier animatieframes behouden met matrixverschil 0;
+tafelhoogte, vloerplant en ondersteuning van de potten opnieuw goedgekeurd door
+de geometriecontrole. Beide nieuwe beelden gerenderd en visueel bekeken: ranken
+nu langs de buitenrand, maar totale sfeer en aankleding blijven onvoltooid.
+Bewijs: docs/detail-record-clearance-before.json, docs/foliage-record-clearance.json,
+docs/foliage-verification.json en docs/foliage-visual-review.json. Controlecode en
+voortgang naar GitHub; scène/renders lokaal. Geen nieuwe installer, publicatie,
+eigenaarvolgordewijziging of gebruikersactie nodig. Volgende stap blijft het
+concept visueel afstemmen vanuit het nieuwe werkbestand, niet de oudere herstel-
+loze atmosphere-proef opnieuw als uitgangspunt gebruiken.
 2026-10-27 Heartbeat 11:33 UTC, vervolg tot 12:30 UTC: lokale afspeelbare vergelijking
 gebouwd op 127.0.0.1:4282 met de bestaande PlayCanvas-renderer. Afspelen, pauzeren,
 vier camera's, LP op plateau, terugzetten en reset via de browser gecontroleerd.

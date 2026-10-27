@@ -1,0 +1,112 @@
+{
+  "checkedAt": "2026-10-27T12:39:10.556614+00:00",
+  "passed": true,
+  "unrealSceneBuilt": false,
+  "scene": "reference-foliage-clearance.blend",
+  "comparedObjectCount": 1238,
+  "sampledFrames": [
+    1,
+    109,
+    289,
+    577
+  ],
+  "maximumUnchangedObjectMatrixError": 0,
+  "temporarilyEnabledForPoseEvaluation": [
+    "Calibration / music table top",
+    "Calibration / music table leg",
+    "Calibration / music table leg.001",
+    "Calibration / music table leg.002",
+    "Calibration / music table leg.003",
+    "Light_Fixture_low",
+    "Light_Fixture_Base_low",
+    "Light_Fixture_Base_low_Mat_Light_Fixture_0",
+    "Light_Fixture_Plate_low",
+    "Light_Fixture_Plate_low_Mat_Light_Fixture_0",
+    "Light_Fixture_Bulbs_low",
+    "Light_Fixture_Bulbs_low_Mat_Light_Fixture_0",
+    "Light_Fixture_Fittings_low",
+    "Light_Fixture_Fittings_low_Mat_Light_Fixture_0",
+    "Light_Fixture_Ends_low",
+    "Light_Fixture_Ends_low_Mat_Light_Fixture_0",
+    "Light_Fixture_Cord_low",
+    "Light_Fixture_Cord_low_Mat_Light_Fixture_0",
+    "Workbench_Group_1_low",
+    "Workbench_Group_1_low_Mat_Workbench_0",
+    "Workbench_Group_2_low",
+    "Workbench_Group_2_low_Mat_Workbench_0",
+    "Workbench_Group_3_low",
+    "Workbench_Group_3_low_Mat_Workbench_0",
+    "Workbench_Group_4_low",
+    "Workbench_Group_4_low_Mat_Workbench_0",
+    "Workbench_Group_5_low",
+    "Workbench_Group_5_low_Mat_Workbench_0"
+  ],
+  "musicTableBounds": [
+    [
+      -3.2848262786865234,
+      4.886816501617432,
+      0.0
+    ],
+    [
+      -1.600000262260437,
+      6.314988136291504,
+      0.89741051197052
+    ]
+  ],
+  "musicTableTopMatchesExistingTurntableSupport": true,
+  "floorPlantBounds": [
+    [
+      -2.396608829498291,
+      8.191078186035156,
+      0.0
+    ],
+    [
+      -1.410310983657837,
+      9.109057426452637,
+      1.4386792182922363
+    ]
+  ],
+  "floorPlantOnFloorAndInFrontOfBackWall": true,
+  "shelfPlantSupports": [
+    {
+      "plant": "foreground pothos",
+      "potBounds": [
+        [
+          -3.3584072589874268,
+          2.991764783859253,
+          2.327355146408081
+        ],
+        [
+          -3.041592836380005,
+          3.308579206466675,
+          2.6981663703918457
+        ]
+      ],
+      "supportGap": 0.0004943316991701252
+    },
+    {
+      "plant": "shelf pothos",
+      "potBounds": [
+        [
+          -3.218613624572754,
+          3.236558437347412,
+          1.8494917154312134
+        ],
+        [
+          -3.0813863277435303,
+          3.3737857341766357,
+          2.0039963722229004
+        ]
+      ],
+      "supportGap": 0.0004976661203732746
+    }
+  ],
+  "packedImages": 128,
+  "visualApproval": false,
+  "detailRouteClearanceReport": "foliage-record-clearance.json",
+  "limits": [
+    "Verification proves retained poses and support, not an identical appearance.",
+    "New detail mesh routes passed a separate sampled triangle check.",
+    "Unreal engine lighting still requires validation."
+  ]
+}

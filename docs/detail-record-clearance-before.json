@@ -1,0 +1,233 @@
+{
+  "checkedAt": "2026-10-27T12:35:46.571781+00:00",
+  "passed": false,
+  "scene": "reference-atmosphere.blend",
+  "scope": "All ten saved LP routes vs new plants, tables, lamp fixtures and supports only; old shelf/LP checks are separate.",
+  "method": "Evaluated triangle meshes, Blender BVH broad phase, triangle-oriented-box SAT narrow phase",
+  "records": 10,
+  "samplesPerRoute": 289,
+  "motionSeconds": 6.4,
+  "obstacleMeshes": 23,
+  "obstacleTriangles": 184314,
+  "coarseChecks": 108100,
+  "bvhQueries": 911,
+  "triangleChecks": 374210,
+  "collisionSamples": 127,
+  "collisionsByObject": [
+    {
+      "slot": 0,
+      "kind": "sleeve",
+      "object": "Detail / foreground trailing extension 3",
+      "samples": 60,
+      "firstTime": 0,
+      "lastTime": 1.3111111111111111
+    },
+    {
+      "slot": 0,
+      "kind": "sleeve",
+      "object": "Detail / foreground trailing extension 4",
+      "samples": 58,
+      "firstTime": 0,
+      "lastTime": 1.2666666666666666
+    },
+    {
+      "slot": 5,
+      "kind": "sleeve",
+      "object": "Detail / foreground trailing extension 4",
+      "samples": 9,
+      "firstTime": 1.0666666666666669,
+      "lastTime": 1.2666666666666666
+    }
+  ],
+  "firstCollisions": [
+    {
+      "slot": 0,
+      "id": "7mIaDeCbSxt3w1vNnxGvdL",
+      "time": 0,
+      "kind": "sleeve",
+      "phase": "Naar de platenkast",
+      "object": "Detail / foreground trailing extension 3",
+      "triangle": 22
+    },
+    {
+      "slot": 0,
+      "id": "7mIaDeCbSxt3w1vNnxGvdL",
+      "time": 0,
+      "kind": "sleeve",
+      "phase": "Naar de platenkast",
+      "object": "Detail / foreground trailing extension 4",
+      "triangle": 19
+    },
+    {
+      "slot": 0,
+      "id": "7mIaDeCbSxt3w1vNnxGvdL",
+      "time": 0.022222222222222223,
+      "kind": "sleeve",
+      "phase": "Naar de platenkast",
+      "object": "Detail / foreground trailing extension 3",
+      "triangle": 22
+    },
+    {
+      "slot": 0,
+      "id": "7mIaDeCbSxt3w1vNnxGvdL",
+      "time": 0.022222222222222223,
+      "kind": "sleeve",
+      "phase": "Naar de platenkast",
+      "object": "Detail / foreground trailing extension 4",
+      "triangle": 19
+    },
+    {
+      "slot": 0,
+      "id": "7mIaDeCbSxt3w1vNnxGvdL",
+      "time": 0.044444444444444446,
+      "kind": "sleeve",
+      "phase": "Naar de platenkast",
+      "object": "Detail / foreground trailing extension 3",
+      "triangle": 22
+    },
+    {
+      "slot": 0,
+      "id": "7mIaDeCbSxt3w1vNnxGvdL",
+      "time": 0.044444444444444446,
+      "kind": "sleeve",
+      "phase": "Naar de platenkast",
+      "object": "Detail / foreground trailing extension 4",
+      "triangle": 19
+    },
+    {
+      "slot": 0,
+      "id": "7mIaDeCbSxt3w1vNnxGvdL",
+      "time": 0.06666666666666668,
+      "kind": "sleeve",
+      "phase": "Naar de platenkast",
+      "object": "Detail / foreground trailing extension 3",
+      "triangle": 22
+    },
+    {
+      "slot": 0,
+      "id": "7mIaDeCbSxt3w1vNnxGvdL",
+      "time": 0.06666666666666668,
+      "kind": "sleeve",
+      "phase": "Naar de platenkast",
+      "object": "Detail / foreground trailing extension 4",
+      "triangle": 19
+    },
+    {
+      "slot": 0,
+      "id": "7mIaDeCbSxt3w1vNnxGvdL",
+      "time": 0.08888888888888889,
+      "kind": "sleeve",
+      "phase": "Naar de platenkast",
+      "object": "Detail / foreground trailing extension 3",
+      "triangle": 22
+    },
+    {
+      "slot": 0,
+      "id": "7mIaDeCbSxt3w1vNnxGvdL",
+      "time": 0.08888888888888889,
+      "kind": "sleeve",
+      "phase": "Naar de platenkast",
+      "object": "Detail / foreground trailing extension 4",
+      "triangle": 19
+    },
+    {
+      "slot": 0,
+      "id": "7mIaDeCbSxt3w1vNnxGvdL",
+      "time": 0.1111111111111111,
+      "kind": "sleeve",
+      "phase": "Naar de platenkast",
+      "object": "Detail / foreground trailing extension 3",
+      "triangle": 22
+    },
+    {
+      "slot": 0,
+      "id": "7mIaDeCbSxt3w1vNnxGvdL",
+      "time": 0.1111111111111111,
+      "kind": "sleeve",
+      "phase": "Naar de platenkast",
+      "object": "Detail / foreground trailing extension 4",
+      "triangle": 19
+    },
+    {
+      "slot": 0,
+      "id": "7mIaDeCbSxt3w1vNnxGvdL",
+      "time": 0.13333333333333336,
+      "kind": "sleeve",
+      "phase": "Naar de platenkast",
+      "object": "Detail / foreground trailing extension 3",
+      "triangle": 22
+    },
+    {
+      "slot": 0,
+      "id": "7mIaDeCbSxt3w1vNnxGvdL",
+      "time": 0.13333333333333336,
+      "kind": "sleeve",
+      "phase": "Naar de platenkast",
+      "object": "Detail / foreground trailing extension 4",
+      "triangle": 19
+    },
+    {
+      "slot": 0,
+      "id": "7mIaDeCbSxt3w1vNnxGvdL",
+      "time": 0.15555555555555556,
+      "kind": "sleeve",
+      "phase": "Naar de platenkast",
+      "object": "Detail / foreground trailing extension 3",
+      "triangle": 22
+    },
+    {
+      "slot": 0,
+      "id": "7mIaDeCbSxt3w1vNnxGvdL",
+      "time": 0.15555555555555556,
+      "kind": "sleeve",
+      "phase": "Naar de platenkast",
+      "object": "Detail / foreground trailing extension 4",
+      "triangle": 19
+    },
+    {
+      "slot": 0,
+      "id": "7mIaDeCbSxt3w1vNnxGvdL",
+      "time": 0.17777777777777778,
+      "kind": "sleeve",
+      "phase": "Naar de platenkast",
+      "object": "Detail / foreground trailing extension 3",
+      "triangle": 22
+    },
+    {
+      "slot": 0,
+      "id": "7mIaDeCbSxt3w1vNnxGvdL",
+      "time": 0.17777777777777778,
+      "kind": "sleeve",
+      "phase": "Naar de platenkast",
+      "object": "Detail / foreground trailing extension 4",
+      "triangle": 19
+    },
+    {
+      "slot": 0,
+      "id": "7mIaDeCbSxt3w1vNnxGvdL",
+      "time": 0.2,
+      "kind": "sleeve",
+      "phase": "Naar de platenkast",
+      "object": "Detail / foreground trailing extension 3",
+      "triangle": 22
+    },
+    {
+      "slot": 0,
+      "id": "7mIaDeCbSxt3w1vNnxGvdL",
+      "time": 0.2,
+      "kind": "sleeve",
+      "phase": "Naar de platenkast",
+      "object": "Detail / foreground trailing extension 4",
+      "triangle": 19
+    }
+  ],
+  "elapsedSeconds": 1.8300644000119064,
+  "ownerOrderWritten": false,
+  "unrealSceneBuilt": false,
+  "limits": [
+    "45Hz logical samples, not continuous collision detection.",
+    "Vinyl square envelope can overestimate collisions at its corners.",
+    "Checks the new detail meshes, not a complete rigid-body simulation.",
+    "Exact reference appearance and final scene approval remain open."
+  ]
+}

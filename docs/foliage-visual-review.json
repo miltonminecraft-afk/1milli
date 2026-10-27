@@ -1,0 +1,18 @@
+{
+  "checkedAt": "2026-10-27T12:43:15.402Z",
+  "reviewedBy": "assistant",
+  "scene": "reference-foliage-clearance.blend",
+  "userApproved": false,
+  "exactConceptMatch": false,
+  "renderedViews": [
+    "reference-foliage-clearance.png",
+    "foliage-workbench.png"
+  ],
+  "observations": [
+    "Trailing foliage now follows the near outside border of the cabinet.",
+    "Extra licensed leaf instances increase density without changing leaf shapes in the repair step.",
+    "Workbench view retains the prior arrangement.",
+    "Floor plant species, cabinet detail, full dressing and lighting finish still differ from the concept."
+  ],
+  "sceneSha256": "49e9fbb4b3e0e1e03d58d1cb86bb674b316434f6449f2c63bb7492c587314439"
+}
