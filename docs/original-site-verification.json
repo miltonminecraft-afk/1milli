@@ -1,0 +1,25 @@
+{
+  "localHttpChecks": {
+    "home": 200,
+    "overviewImage": 200,
+    "objects": 200,
+    "collection": 200
+  },
+  "unrealAndBlenderWorkStopped": true,
+  "originalDesignRestored": true,
+  "verifiedAt": "2026-10-27T21:26:06.0694776Z",
+  "site": "https://miltonminecraft-afk.github.io/1milli/",
+  "testsPassed": 13,
+  "publicationCommit": "3eb2d29e826ffb458eb85253fea56ec2e66d5496",
+  "sourceCommit": "ba18ad7897dc173c466b34e543be8f7a38c842e0",
+  "browserChecks": [
+    "overview has a single continuous painting frame",
+    "workbench has consistent frame, connected soldering iron and temperature display",
+    "next record tilts preceding sleeve",
+    "record extracted and placed on platter",
+    "record returned to its catalogue slot",
+    "motion-disabled action completes immediately"
+  ],
+  "workbenchPaintingAndSolderingStation": "workbench-soldering-v2.png",
+  "overviewPainting": "workshop-soldering-v3.png"
+}

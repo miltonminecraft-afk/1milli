@@ -13,10 +13,10 @@ ACTUELE OPDRACHT — 27 OKTOBER, AVOND (VERVANGT HET UNREAL-TRAJECT HIERONDER)
 - LP's: twee schuine groepen per plank, zichtbare dikte, bladeren door hoezen in de
   kast. Pakken/uit hoes/op draaitafel/terug gebruikt dezelfde fysieke beginpositie.
   13 tests voor collectie, uitlijning, vrije ruimte bij bladeren en animatie geslaagd.
-- Browsercontrole geslaagd: beide beelden, bladeren, pakken/opleggen/terugzetten en beweging uit. GitHub-publicatie van deze oorspronkelijke site wordt uitgevoerd.
+- Browsercontrole geslaagd: beide beelden, bladeren, pakken/opleggen/terugzetten en beweging uit. GitHub Pages is gebouwd en visueel gecontroleerd: bron ba18ad7, publicatie 3eb2d29. De openbare homepage toont de oorspronkelijke site.
 - Heartbeat is aangepast: geen Blender/Unreal bouwen, installeren of exporteren.
 - Alle nieuwe grote bestanden naar H:. Afbeeldingen en bewaarde versie zijn met
-  geverifieerde kopie en compatibiliteitsjunction omgeleid. Volledige eigen werkmap
+  geverifieerde kopie en compatibiliteitsjunction omgeleid. Kopie van alle 122.582 bestanden (29.737.951.813 bytes) is met SHA256 geverifieerd. Website, broncode, builds, bibliotheken en reservekopie staan op H: met werkende oude paden. De volledige eigen werkmap
   moet naar H:/CodexData/Projects/OneMillie-20261026 met behoud van previewroutes.
 
 HISTORISCH WERKPLAN — ONDERSTAAND UNREAL-DOEL IS VERVALLEN
@@ -679,3 +679,16 @@ na een wijziging. Browserbewijs en screenshots vastgelegd in deployment-rapport.
 Volgende stappen: LP-steunen en preciezere conceptverhoudingen/sfeer, actuele
 omgeving naar eenvoudige editor, Unreal-installatie en daadwerkelijke levelbouw.
 
+
+OPSLAG EN VERIFICATIE — 27 OKTOBER AVOND
+- Nieuwe primaire locatie: H:/CodexData/Projects/OneMillie-20261026.
+- H:-build: H:/CodexData/Builds/onemillie/website; TEMP/TMP op H:/CodexData/Temp.
+- Behoud oude C:-paden via junctions. Website 4270 geeft 200 op homepage,
+  collectie, objecten en het nieuwe overzicht. Desktop main.cjs/state.cjs syntax geldig.
+- De bovenste werkmap en desktop-mapomhulsel zijn vergrendeld en blijven als
+  kleine compatibiliteitsmappen staan. onemillie-unreal/Import en
+  onemillie-studio/source hebben nog een Windows-vergrendeling: H:-kopie is
+  gecontroleerd, maar de oude mappen blijven staan. Geen processen forceren.
+- Interne overdrachtsbewijzen: H:/CodexData/Projects/onemillie/verification/.
+- De oorspronkelijke site is afzonderlijk bewaard; nooit vervangen door de
+  verlaten Blender-proef. Geen nieuwe Unreal- of Blender-werkzaamheden.
