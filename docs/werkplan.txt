@@ -97,7 +97,17 @@ HUIDIGE STAND
   De eerdere LP-routecontroles blijven toepasbaar; geen botsingsgeometrie gewijzigd.
   Drie renders en de lokale vergelijking zijn bekeken. Bewijs: docs/walls-*.json,
   docs/wall-material-source.json. Nog ter beoordeling; geen definitieve scène.
-- Nieuwste INTERNE WERKPROEF: onemillie-unreal/Review/reference-plant-pose.blend.
+- Nieuwste INTERNE WERKPROEF: onemillie-unreal/Review/reference-hanging-plant.blend.
+  Bouwt voort op reference-plant-pose. Twee hangende achterste ranken bestaan uit
+  vier instanties van 36 volledige brononderdelen (AllQuad pothos, CC BY 4.0).
+  Geen bladeren doorgesneden of uitgerekt; bron-UV's, materiaal en hoeknormalen
+  behouden. De stengels sluiten aan; de eerste plaatsing raakte pot/plank en is
+  vóór oplevering naar voren gecorrigeerd met behoud van het beeldanker.
+  De oorspronkelijke 1636 objecten, vier animatieposes, materialen, licht en
+  camera's zijn onveranderd. Pot/plank/wandcontacten en tien LP-routes gecontroleerd.
+  Bewijs: docs/hanging-plant-*.json. Interne proef, nog niet aan gebruiker getoond;
+  de openbare muurproef en de eerdere interactieve LP-proef blijven ongewijzigd.
+- Voorgaande INTERNE WERKPROEF: onemillie-unreal/Review/reference-plant-pose.blend.
   Gebaseerd op reference-walls; de vloerplant staat hoger en minder breed door 145
   volledige bronblad-/stengeldelen op hun basis te draaien en uniform 30% te vergroten.
   Geen afgesneden of uitgerekte bladeren; bronnormalen draaien met de onderdelen mee.
@@ -121,12 +131,14 @@ HUIDIGE STAND
   en vrije bovenroutes. Chroom plantenvat, vrij werkbankmidden en B1-afwerking behouden.
 - Nog open: exacte sfeer, vloerpatroon/reflectievorm, plantvorm en hoeveelheid blad,
   verdere tafel-/kastdetails, elektra-afwerking, kleed en krukverhoudingen. Volgende
-  uitvoerbare beeldtaak: de ontbrekende achterste hangranken en voorste bladdichtheid
-  afstemmen; daarna vatpositie/potverhoudingen beoordelen zonder de achterwand of
-  LP-vrije ruimte te doorkruisen. Gebruik reference-plant-pose als laatste werkproef.
+  uitvoerbare beeldtaak: voorste bladdichtheid afstemmen met volledige bronblaadjes;
+  vervang de oude via hoogte afgesneden rankfragmenten door intacte componenten.
+  Daarna vatpositie/potverhoudingen en zichtbare potgrond beoordelen zonder de
+  achterwand of LP-vrije ruimte te doorkruisen. Gebruik reference-hanging-plant.
   Dit is nog geen exacte of goedgekeurde kopie. Unreal-installatie en een echte
   bewerkbare .umap blijven open. Ongekeurde scène, renders en bouwscript blijven lokaal;
-  controlecode/licenties/voortgang staan op GitHub. Hoofdwebsite/editor niet gewijzigd.
+  controlecode/licenties/voortgang staan op GitHub. De online werkversie toont nog
+  reference-walls; de nieuwe hangplantproef is niet gepubliceerd. Editor niet gewijzigd.
 - GitHub-broncode staat in https://github.com/miltonminecraft-afk/1milli.
   Eerste upload: commit 3aec88c2f02903668f545d2f1e1d5302d05e6280.
 - Websitepreview bestaat: foto met beperkte diepte, echte 3D-platen en GLB-objecten.
@@ -184,9 +196,9 @@ HUIDIGE STAND
   De eigenaarvolgorde (revisie 0) is alleen uitgelezen. Nieuwe scène blijft lokaal.
 - Laatste controles: websitebuild en TypeScript geslaagd, 13 websitetests
   en 11 editortests geslaagd. Mobiele weergave nog niet geverifieerd.
-- Het werkbankbeeld op de WEBSITE is nog een gegenereerde interpretatie. Lokaal
-  bestaat nu een geometrisch juist werkbankaanzicht op de echte proefscène;
-  dit is nog niet naar de website overgezet of als definitief ontwerp beoordeeld.
+- De oudere website op poort 4270 heeft nog het gegenereerde werkbankbeeld.
+  De nieuwe openbare GitHub Pages-werkversie toont het geometrisch juiste
+  werkbankaanzicht van reference-walls. Definitieve ontwerpbeoordeling blijft open.
 
 WERKVOLGORDE EN ACCEPTATIE
 
@@ -603,3 +615,18 @@ Kast/werkbank/terug, LP op plateau en terugzetten, keuzes 13 exemplaren en
 hoeveelheid opslaan na herladen lokaal gecontroleerd. Publieke pagina en beeld geladen.
 OAuth-aanmelding heeft geen workflow-scope: bestaande rechten gebruikt met gh-pages,
 geen extra toegang gevraagd. Geen definitieve ontwerpgoedkeuring of Unreal-level.
+
+2026-10-27 Heartbeat 18:36 UTC: achterste hangplant aangevuld in lokale werkproef.
+Twee ranken met vier instanties van een bestaande AllQuad-pothostak. 36 volledige
+brononderdelen per instantie; 1479 vertices, ongewijzigde UV's/materialen en
+behouden hoeknormalen. Niets doorgeknipt of niet-uniform uitgerekt. Eerste proef
+raakte pot (135 driehoekparen) en plank (24); lange rank naar voren geplaatst met
+behoud van beeldanker. Na herstel geen ongewenste doorsnijdingen; stengelaansluitingen
+zonder meetbare opening. 1636 oorspronkelijke objecten op vier frames onverplaatst,
+materialen/licht/camera's behouden. Tien LP-routes vrij: 249 detailmeshes, 990716
+driehoeken en 289 samples per route. Hoofdbeeld en detail bekeken; herhaling in
+bronbladeren en potvorm blijven zichtbaar. Geen exacte of goedgekeurde kopie.
+Bewijs: docs/hanging-plant-*.json. Scene/renders lokaal; controlecode en voortgang
+naar GitHub. Openbare muurproef/LP-demo en desktopeditor niet aangepast.
+Epic-proces/log ongewijzigd; geen nieuwe installer of cache-reset. Volgende
+uitvoerbare taak: voorste hangplant verdichten met intacte broncomponenten.

@@ -1,0 +1,59 @@
+{
+  "checkedAt": "2026-10-27T18:47:45.652Z",
+  "scene": "reference-hanging-plant.blend",
+  "sourceScene": "reference-plant-pose.blend",
+  "sceneSha256": "c96fd4947636b99e3b533e00dcae0529d4a894ccf5c30a54fd4c95feea7e0cc2",
+  "images": [
+    {
+      "file": "reference-hanging-plant.png",
+      "sha256": "6d5a4b3db2b60c7e866a9b7c2351e09be71d5a817c4c11433690ec77c575fa80"
+    },
+    {
+      "file": "hanging-plant-closeup.png",
+      "sha256": "652914bd058cc084cae261755798047963c777d8c89eea5a8eead3a5bee429d5"
+    }
+  ],
+  "userApproved": false,
+  "unrealSceneBuilt": false,
+  "exactConceptMatch": false,
+  "comparisonPageChanged": false,
+  "publicWebsiteChanged": false,
+  "editorChanged": false,
+  "inspection": "Final whole-room render and rear-plant close-up inspected. Two hanging vines now descend beside the existing rear shelf. Existing plants, wall, lighting, furnishings and camera remain. Leaves and authored shading are intact; the close-up still shows obvious repeated branch shapes. Internal candidate, not shown as the new public room.",
+  "preservation": "36 complete source leaf/petiole/stem components, 1479 vertices per branch, four rigid uniformly scaled instances. Source UV/materials preserved, corner-normal vector error under 0.000361. All 1636 original objects at four sampled frames unchanged. Pot/board contact repaired before acceptance of the internal candidate.",
+  "placementChecks": {
+    "initialPotIntersections": 135,
+    "initialBoardIntersections": 24,
+    "finalUnintendedIntersections": 0,
+    "sourceCanopyOverlapExpected": true,
+    "stemJoinGap": 0,
+    "allTenRecordRoutesClear": true,
+    "samplesPerRecord": 289
+  },
+  "source": {
+    "url": "https://sketchfab.com/3d-models/free-pothos-potted-plant-money-plant-e9832f38484f4f85b3f9081b51fa3799",
+    "author": "AllQuad",
+    "license": "CC-BY-4.0",
+    "sha256": "767b94deb73cc0fb48e84a32fd8cb52d58fa41e6f93270ce8a060db8709e93c5",
+    "sourceGLBChanged": false
+  },
+  "knownDifferences": [
+    "This is a visual approximation; exact plant variety and individual branching do not match the concept.",
+    "Foreground leaf density and older cropped branch fragments still need improvement.",
+    "Floor-plant drum position and soil insert remain open.",
+    "Existing source pot has decorative legs unlike the concept.",
+    "Material gloss, lighting and remaining furniture details still differ.",
+    "No Unreal level is built."
+  ],
+  "epic": {
+    "checkedAt": "2026-10-27T18:37:10Z",
+    "process": "EpicGamesLauncher",
+    "pid": 14116,
+    "startedLocal": "2026-10-27T11:06:06+01:00",
+    "latestLog": "EpicGamesLauncher.log",
+    "unchangedWarning": "LauncherUsingEOSH query error 2",
+    "engineProcessPresent": false,
+    "installerStarted": false,
+    "cacheReset": false
+  }
+}

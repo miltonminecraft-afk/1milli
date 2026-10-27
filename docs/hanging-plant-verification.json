@@ -1,0 +1,72 @@
+{
+  "checkedAt": "2026-10-27T18:45:29.516517+00:00",
+  "scene": "reference-hanging-plant.blend",
+  "passed": true,
+  "issues": [],
+  "originalObjects": 1636,
+  "originalStateRetained": true,
+  "maximumOriginalMatrixChange": 0,
+  "sampledFrames": [
+    1,
+    109,
+    289,
+    577
+  ],
+  "sourceComponents": 36,
+  "verticesPerInstance": 1479,
+  "sourceVertexError": 0.0,
+  "sourceUVError": 0.0,
+  "sourceCornerNormalError": 0.00036007240648875646,
+  "completeSourceComponents": true,
+  "bounds": [
+    [
+      -2.760361909866333,
+      6.768970012664795,
+      1.6597070693969727
+    ],
+    [
+      -2.466506242752075,
+      7.328906059265137,
+      2.3600575923919678
+    ]
+  ],
+  "contacts": [
+    {
+      "object": "Detail / correction / raised wall plant / POTHOS_POTHOS_Mat_0",
+      "intersections": 12,
+      "expectedCanopyOverlap": true
+    },
+    {
+      "object": "Detail / correction / raised wall plant / rear plant shelf supp",
+      "intersections": 0,
+      "expectedCanopyOverlap": false
+    }
+  ],
+  "roots": [
+    {
+      "object": "Detail / rear hanging vine / long 1",
+      "distanceToSourceCanopy": 0.07749787718057632
+    },
+    {
+      "object": "Detail / rear hanging vine / short 1",
+      "distanceToSourceCanopy": 0.08271292597055435
+    }
+  ],
+  "stemJoins": [
+    {
+      "object": "Detail / rear hanging vine / long 2",
+      "stemJoinGap": 0.0
+    },
+    {
+      "object": "Detail / rear hanging vine / short 2",
+      "stemJoinGap": 0.0
+    }
+  ],
+  "unrealSceneBuilt": false,
+  "userApproved": false,
+  "limits": [
+    "No exact visual-match claim.",
+    "Existing canopy overlap is expected at the vine roots.",
+    "LP routes checked separately."
+  ]
+}
