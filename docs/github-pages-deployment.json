@@ -1,62 +1,100 @@
 {
-  "publishedAt": "2026-10-27T18:31:11.452Z",
-  "sourceCommit": "77da31115556648f28beed1c2d87638e2747b708",
-  "publicationCommit": "fb7e18bea8e4785b9c6f67d81ea95d0a8edba75e",
+  "publishedAt": "2026-10-27T19:56:55.272Z",
+  "sourceCommit": "4d7f9ec666c158584d26db86083de2c7adefbfc2",
+  "publicationCommit": "883b8a8c41e6e4594597bd4b38ca2d47a9ed5185",
   "sourceBranch": "main",
   "publicationBranch": "gh-pages",
   "site": "https://miltonminecraft-afk.github.io/1milli/",
   "awaitingGitHubPagesBuild": false,
   "unrealSceneBuilt": false,
-  "verifiedAt": "2026-10-27T18:36:19.373Z",
+  "verifiedAt": "2026-10-27T20:01:15.176Z",
   "passed": true,
+  "renderScene": "reference-room-stacks.blend",
+  "interactiveScene": "room-stacks.glb",
+  "projectFilesPublished": false,
   "publicBrowser": {
-    "checkedAt": "2026-10-27T18:36:12.563Z",
+    "checkedAt": "2026-10-27T20:00:41.723Z",
+    "site": "https://miltonminecraft-afk.github.io/1milli/",
+    "playerUrl": "https://miltonminecraft-afk.github.io/1milli/player.html?v=stacks-2#browse",
     "passed": true,
-    "url": "https://miltonminecraft-afk.github.io/1milli/",
-    "images": [
-      {
-        "height": 564,
-        "loaded": true,
-        "src": "assets/workshop.png",
-        "width": 1003
-      }
-    ],
-    "title": "onemillie · De werkplaats"
+    "room": {
+      "images": [
+        {
+          "height": 941,
+          "loaded": true,
+          "src": "assets/workshop.png?v=stone-room-1",
+          "width": 1672
+        }
+      ],
+      "markerCount": 3,
+      "title": "onemillie · De werkplaats",
+      "view": "overview"
+    },
+    "player": {
+      "renderer": "PlayCanvas",
+      "scene": "Current Blender geometry, realtime lighting",
+      "meshObjects": 929,
+      "playing": false,
+      "time": 19.2,
+      "camera": "action",
+      "selected": "7mIaDeCbSxt3w1vNnxGvdL",
+      "browsing": false,
+      "angles": [
+        18,
+        -8,
+        -8,
+        -8,
+        -8,
+        -8,
+        -8,
+        -8,
+        -8,
+        -8
+      ],
+      "sleevePosition": "[-3.0338644981384277, 1.519045352935791, -3.2549586296081543]",
+      "vinylPosition": "[-2.4788198471069336, 1.4784765243530273, -4.572381973266602]",
+      "vinylVisible": false,
+      "ownerOrder": [
+        "7mIaDeCbSxt3w1vNnxGvdL",
+        "4IMPKeI0X4ro6hxomnyVwE",
+        "61vipIlEN9ZKxU6JKd1sWR",
+        "0ZjRYK6GnHpxbu7DVY9y7y",
+        "5JujPl7KL3wQwdbuxT55b5",
+        "65Jluwq3nWaSFET27wrFbY",
+        "1zizXaxfjawxEwl0SqlmmV",
+        "75bime2u7c3goWks6vI5NY",
+        "5TD1wB1zNqPrMFk5GuZZbd",
+        "1GPVB3uv8DcXRw5a4tZQ5m"
+      ],
+      "ownerOrderWritten": false
+    },
+    "script": "player.mjs?v=stacks-2",
+    "fullPlaybackCompleted": true
   },
-  "publicScreenshot": {
-    "file": "online-public-proof.png",
-    "sha256": "fffff85897ab40050583ada149f46ad4d62ab1ec15cf6544d82706e77a497dec"
-  },
-  "localBrowserChecks": {
-    "objectButtons": [
-      "Platenkast",
-      "Werkbank",
-      "Overzicht"
-    ],
-    "threeD": [
-      "WebP model loaded",
-      "LP on turntable at 9.6 seconds",
-      "LP back on shelf at 19.2 seconds"
-    ],
-    "catalogue": {
-      "defaultSelectedModels": 12,
-      "defaultSelectedQuantity": 13,
-      "availableObjectCards": 21,
-      "quantityChangedAndRestored": true,
-      "reloadPreservedChoice": true,
-      "search": "KRK returned matching S3",
-      "roomsDefault": 22,
-      "roomScanFilter": 8
+  "screenshots": [
+    {
+      "file": "room-stacks-live-site.png",
+      "sha256": "8502f304980d6f52e0effa819a59ab2f9dbbdaacfc959e5740033c7b61eb62e0"
+    },
+    {
+      "file": "record-stacks-live-browse.png",
+      "sha256": "1cdb0e318bef11d43349302d8f3c2d6ccaf5b10d7f6449e2a83cffc3fba4dd8f"
     }
+  ],
+  "checks": {
+    "geometry": "docs/online-model-verification.json",
+    "browsing": "docs/stack-browse-verification.json",
+    "routes": "docs/stack-route-clearance.json",
+    "computer": "docs/computer-placement-verification.json",
+    "zoom": "docs/room-zoom-check.json"
   },
   "mobileViewportTested": false,
-  "publicationMethod": "GitHub Pages from gh-pages branch; explicit build requested after initial branch configuration.",
-  "renderScene": "reference-walls.blend",
-  "interactiveScene": "reference-records.glb",
-  "projectFilesPublished": false,
+  "publicationMethod": "Existing GitHub Pages gh-pages branch; automatic build after publication push.",
   "limitations": [
-    "Current room views are Blender renders; the playable LP demo uses the earlier simpler scene.",
-    "The Unreal level is not built.",
-    "Catalogue choices remain in the browser and can be copied into chat; no server owner editor is exposed."
+    "Cycles images and realtime browser lighting differ.",
+    "Full geometry model is approximately 96 MB and loads on demand.",
+    "Exact concept matching and final design approval remain open.",
+    "Unreal scene is not built.",
+    "Catalogue choices remain local to the browser; the separate desktop editor is unchanged."
   ]
 }

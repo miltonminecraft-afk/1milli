@@ -1,10 +1,11 @@
 {
-  "publishedAt": "2026-10-27T19:49:29.624Z",
-  "sourceCommit": "cc6b18d5950c556e2177e3bcaf87375fbc0ff742",
-  "publicationCommit": "af0eb516f5fe269c0cbe58cf63f0d7be61e4746c",
+  "publishedAt": "2026-10-27T19:56:55.272Z",
+  "sourceCommit": "4d7f9ec666c158584d26db86083de2c7adefbfc2",
+  "publicationCommit": "883b8a8c41e6e4594597bd4b38ca2d47a9ed5185",
   "sourceBranch": "main",
   "publicationBranch": "gh-pages",
   "site": "https://miltonminecraft-afk.github.io/1milli/",
-  "awaitingGitHubPagesBuild": true,
-  "unrealSceneBuilt": false
+  "awaitingGitHubPagesBuild": false,
+  "unrealSceneBuilt": false,
+  "verifiedAt": "2026-10-27T20:01:15.176Z"
 }

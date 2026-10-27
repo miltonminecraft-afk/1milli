@@ -651,3 +651,11 @@ Websitezoom houdt alle bolletjes in dezelfde ruimte; alleen buiten beeld geclipt
 Renders vóór publicatie in de chat getoond. Zie docs/room-stacks-progress.txt voor
 bewijs en concrete resterende afwijkingen. Unreal nog niet gebouwd; geen definitieve
 ontwerpgoedkeuring. Nieuwe sitepublicatie en live controle volgen in deze beurt.
+
+2026-10-27 Publicatie room-stacks afgerond en live gecontroleerd.
+Broncode en openbare geometrie actueel op GitHub; huidige ruimtebeelden en LP-
+bladeren bereikbaar. Volledige 19,2 s animatie eindigt vanzelf op de oorspronkelijke
+plek. Animatietijd is onafhankelijk van trage frames; stilstaand beeld rendert alleen
+na een wijziging. Browserbewijs en screenshots vastgelegd in deployment-rapport.
+Volgende stappen: LP-steunen en preciezere conceptverhoudingen/sfeer, actuele
+omgeving naar eenvoudige editor, Unreal-installatie en daadwerkelijke levelbouw.
